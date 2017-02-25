@@ -20,473 +20,472 @@
 	"." PUNCT @punct #10->6
 
 "<“>"
-	"*“"
+	"“" PUNCT @punct #1->3
 "<Oma>"
-	"*Oma"
+	"*Oma" ADJ @amod #2->3
 "<Mua>"
-	"*Mua"
+	"*Mua" NOUN @nsubj #3->7
 "<”>"
-	"*”"
+	"”" PUNCT @punct #4->3
 "<tämän>"
-	"*tämän"
+	"*tämän" PRON @dep #5->6
 "<hyväkse>"
-	"*hyväkse"
+	"*hyväkse" ADJ @dep #6->7
 "<ilmoitti>"
-	"*ilmoitti"
+	"*ilmoitti" VERB @root #7->0
 "<kilvan>"
-	"*kilvan"
+	"*kilvan" NOUN @obj #8->7
 "<lugijoih>"
-	"*lugijoih"
+	"*lugijoih" NOUN @nmod #9->8
 "<niškoi>"
-	"*niškoi"
+	"*niškoi" ADP @case #10->9
 "<.>"
-	"*."
+	"*." PUNCT @punct #11->7
 
 "<Kilbuniekoil>"
-	"*Kilbuniekoil"
+	"*Kilbuniekoil" NOUN @obl:subj #1->3
 "<pidi>"
-	"*pidi"
+	"*pidi" AUX @aux #2->3
 "<vastatat>"
-	"*vastatat"
+	"*vastatat" VERB @root #3->0
 "<10>"
-	"*10"
+	"10" NUM @nummod #4->5
 "<kyzymykseh>"
-	"*kyzymykseh"
+	"*kyzymykseh" NOUN @obj #5->3
 "<,>"
-	"*,"
+	"," PUNCT @punct #6->9
 "<net>"
-	"*net"
+	"*net" PRON @nsubj #7->9
 "<oldih>"
-	"*oldih"
+	"*oldih" AUX @cop #8->9
 "<vienakse>"
-	"*vienakse"
+	"*vienakse" NOUN @parataxis #9->3
 "<da>"
-	"*da"
+	"*da" CCONJ @cc #10->11
 "<livvikse>"
-	"*livvikse"
+	"*livvikse" NOUN @conj #11->9
 "<da>"
-	"*da"
+	"*da" CCONJ @cc #12->14
 "<vähäzel>"
-	"*vähäzel"
+	"*vähäzel" ADV @advmod #13->14
 "<erottih>"
-	"*erottih"
+	"*erottih" VERB @conj #14->9
 "<.>"
-	"*."
+	"." PUNCT @punct #15->3
 
 "<Kilbah>"
-	"*Kilbah"
+	"*Kilbah" NOUN @obl #1->2
 "<saimmo>"
-	"*saimmo"
+	"*saimmo" VERB @root #2->0
 "<18>"
-	"*18"
+	"18" NUM @nummod #3->4
 "<vastavustu>"
-	"*vastavustu"
+	"*vastavustu" NOUN @obj #4->2
 "<.>"
-	"*."
+	"." PUNCT @punct #5->2
 
 "<Kilbuniekoin>"
-	"*Kilbuniekoin"
+	"*Kilbuniekoin" NOUN @root #1->0
 "<keskes>"
-	"*keskes"
+	"*keskes" ADP @case #2->1
 "<oli>"
-	"*oli"
+	"*oli" AUX @cop #3->1
 "<nuorembua>"
-	"*nuorembua"
+	"*nuorembua" ADJ @amod #4->7
 "<dai>"
-	"*dai"
+	"*dai" CCONJ @cc #5->6
 "<vahnembua>"
-	"*vahnembua"
+	"*vahnembua" ADJ @conj #6->4
 "<rahvastu>"
-	"*rahvastu"
+	"*rahvastu" NOUN @nsubj #7->1
 "<,>"
-	"*,"
+	"," PUNCT @punct #8->9
 "<linnalastu>"
-	"*linnalastu"
+	"*linnalastu" NOUN @conj #9->7
 "<dai>"
-	"*dai"
+	"*dai" CCONJ @cc #10->12
 "<kylis>"
-	"*kylis"
+	"*kylis" NOUN @nmod #11->12
 "<eläjiä>"
-	"*eläjiä"
+	"*eläjiä" NOUN @conj #12->9
 "<.>"
-	"*."
+	"." PUNCT @punct #13->1
 
 "<”>"
-	"*”"
+	"”" PUNCT @punct #1->3
 "<Oma>"
-	"*Oma"
+	"*Oma" @amod #2->3
 "<Mua>"
-	"*Mua"
+	"*Mua" @nsubj #3->5
 "<”>"
-	"*”"
+	"”" PUNCT @punct #4->3
 "<valličči>"
-	"*valličči"
+	"*valličči" VERB @root #5->
 "<kolme>"
-	"*kolme"
+	"*kolme" NUM @nummod #6->8
 "<parastu>"
-	"*parastu"
+	"*parastu" ADJ @amod #7->8
 "<kilburuaduo>"
-	"*kilburuaduo"
+	"*kilburuaduo" NOUN @obj #8->5
 "<.>"
-	"*."
+	"." PUNCT @punct #9->5
 
 "<Nikudai>"
-	"*Nikudai"
+	"*Nikudai" X @dep #1->3
 "<kolmes>"
-	"*kolmes"
+	"*kolmes" NUM @amod #2->3
 "<voittajas>"
-	"*voittajas"
+	"*voittajas" NOUN @obl #3->6
 "<ei>"
-	"*ei"
+	"*ei" AUX @aux:neg #4->6
 "<voinnuh>"
-	"*voinnuh"
+	"*voinnuh" AUX @aux #5->6
 "<vastata>"
-	"*vastata"
+	"*vastata" VERB @root #6->0
 "<kaikkih>"
-	"*kaikkih"
+	"*kaikkih" ADJ @dep #7->
 "<kyzymyksih>"
-	"*kyzymyksih"
+	"*kyzymyksih" NOUN @dep #8->
 "<oigieh>"
-	"*oigieh"
+	"*oigieh" ADV @dep #9->
 "<,>"
-	"*,"
+	"." PUNCT @punct #10->
 "<kudual>"
-	"*kudual"
+	"*kudual" X @dep #11->
 "<kuduasgi>"
-	"*kuduasgi"
+	"*kuduasgi" X @dep #12->
 "<kyzymykses>"
-	"*kyzymykses"
+	"*kyzymykses" NOUN @dep #13->
 "<rodih>"
-	"*rodih"
+	"*rodih" X @dep #14->
 "<vaigevustu>"
-	"*vaigevustu"
+	"*vaigevustu" X @dep #15->
 "<.>"
-	"*."
+	"." PUNCT @punct #16->6
 
 "<Enzimäzeh>"
-	"*Enzimäzeh"
+	"*Enzimäzeh" ADJ @amod #1->2
 "<kyzymykseh>"
-	"*kyzymykseh"
+	"*kyzymykseh" NOUN @nsubj #2->6
 "<kilbuniekat>"
-	"*kilbuniekat"
+	"*kilbuniekat" NOUN @dep #3->4
 "<vastattih>"
-	"*vastattih"
+	"*vastattih" VERB @acl:relcl #4->2
 "<kahteh>"
-	"*kahteh"
+	"*kahteh" NUM @nummod #5->6
 "<luaduh>"
-	"*luaduh"
+	"*luaduh" NOUN @root #6->0
 "<:>"
-	"*:"
+	":" PUNCT @punct #7->6
 "<yhtet>"
-	"*yhtet"
+	"*yhtet" NUM @nsubj #8->9
 "<kirjutettih>"
-	"*kirjutettih"
+	"*kirjutettih" VERB @dep #9->
 "<,>"
-	"*,"
+	"," PUNCT @punct #10->
 "<ku>"
-	"*ku"
+	"*ku" SCONJ @dep #11->
 "<karjalan>"
-	"*karjalan"
+	"*karjalan" NOUN @dep #12->13
 "<kirjaimikko>"
-	"*kirjaimikko"
+	"*kirjaimikko" NOUN @dep #13->
 "<on>"
-	"*on"
+	"*on" AUX @aux #14->15
 "<hyväksytty>"
-	"*hyväksytty"
+	"*hyväksytty" VERB @dep #15->
 "<vuvvennu>"
-	"*vuvvennu"
+	"*vuvvennu" NOUN @dep #16->
 "<1989>"
-	"*1989"
+	"*1989" NUM @dep #17->
 "<,>"
-	"*,"
+	"," PUNCT @punct #18->
 "<toizet>"
-	"*toizet"
+	"*toizet" X @dep #19->
 "<,>"
-	"*,"
+	"," PUNCT @punct #20->
 "<ku>"
-	"*ku"
+	"*ku" SCONJ @dep #21->
 "<vuvvennu>"
-	"*vuvvennu"
+	"*vuvvennu" NOUN @dep #22->
 "<2007>"
-	"*2007"
+	"*2007" NUM @dep #23->
 "<.>"
-	"*."
+	"." PUNCT @punct #24->
 
 "<Mollembat>"
-	"*Mollembat"
+	"*Mollembat" PRON @det #1->2
 "<vastavukset>"
-	"*vastavukset"
+	"*vastavukset" NOUN @dep #2->3
 "<otimmo>"
-	"*otimmo"
+	"*otimmo" VERB @dep #3->0
 "<vastah>"
-	"*vastah"
+	"*vastah" ADV @dep #4->3
 "<oigieloinnu>"
-	"*oigieloinnu"
+	"*oigieloinnu" NOUN @dep #5->3
 "<.>"
-	"*."
+	"." PUNCT @punct #6->3
 
 "<Vuvvennu>"
-	"*Vuvvennu"
+	"*Vuvvennu" NOUN @obl #1->4
 "<1989>"
-	"*1989"
+	"*1989" NUM @nummod:appos #2->1
 "<oldih>"
-	"*oldih"
+	"*oldih" AUX @aux:pass #3->4
 "<hyväksytty>"
-	"*hyväksytty"
+	"*hyväksytty" VERB @root #4->0
 "<eri>"
-	"*eri"
+	"*eri" ADJ @amod #5->6
 "<kirjaimikot>"
-	"*kirjaimikot"
+	"*kirjaimikot" NOUN @nsubj:pass #6->4
 "<–>"
-	"*–"
+	"–" PUNCT @punct #7->11
 "<liygiläzeil>"
-	"*liygiläzeil"
+	"*liygiläzeil" NOUN @conj #8->11
 "<da>"
-	"*da"
+	"*da" CCONJ @cc #9->10
 "<vienalazil>"
-	"*vienalazil"
+	"*vienalazil" NOUN @nmod #10->8
 "<omat>"
-	"*omat"
+	"*omat" ADJ @appos #11->6
 "<.>"
-	"*."
+	"." PUNCT @punct #12->4
 
 "<Vuvvennu>"
-	"*Vuvvennu"
+	"*Vuvvennu" NOUN @obl #1->4
 "<2007>"
-	"*2007"
+	"2007" NUM @nummod:appos #2->1
 "<oli>"
-	"*oli"
+	"*oli" AUX @aux:pass #3->4
 "<hyväksytty>"
-	"*hyväksytty"
+	"*hyväksytty" VERB @root #4->0
 "<karjalan>"
-	"*karjalan"
+	"*karjalan" NOUN @compound #5->6
 "<kielen>"
-	"*kielen"
+	"*kielen" NOUN @nmod:poss #6->8
 "<yhtehine>"
-	"*yhtehine"
+	"*yhtehine" ADJ @amod #7->8
 "<kirjaimikko>"
-	"*kirjaimikko"
+	"*kirjaimikko" NOUN @nsubj:pass #8->4
 "<.>"
-	"*."
+	"." PUNCT @punct #9->4
 
 
 "<Kaikis>"
-	"*Kaikis"
+	"*Kaikis" X @dep #1->
 "<vaigevin>"
-	"*vaigevin"
+	"*vaigevin" X @dep #2->
 "<kyzymys>"
-	"*kyzymys"
+	"*kyzymys" X @dep #3->
 "<oli>"
-	"*oli"
+	"*oli" X @dep #4->
 "<jälgimäine>"
-	"*jälgimäine"
+	"*jälgimäine" X @dep #5->
 "<:>"
-	"*:"
+	"." PUNCT @punct #6->
 "<reboi>"
-	"*reboi"
+	"*reboi" X @dep #7->
 "<juoksou>"
-	"*juoksou"
+	"*juoksou" X @dep #8->
 "<muadu>"
-	"*muadu"
+	"*muadu" X @dep #9->
 "<myöte>"
-	"*myöte"
+	"*myöte" X @dep #10->
 "<,>"
-	"*,"
+	"." PUNCT @punct #11->
 "<jänöi>"
-	"*jänöi"
+	"*jänöi" X @dep #12->
 "<juoksou>"
-	"*juoksou"
+	"*juoksou" X @dep #13->
 "<suodu>"
-	"*suodu"
+	"*suodu" X @dep #14->
 "<myöte>"
-	"*myöte"
+	"*myöte" X @dep #15->
 "<,>"
-	"*,"
+	"." PUNCT @punct #16->
 "<hlop>"
-	"*hlop"
+	"*hlop" VERB @dep #17->
 "<–>"
-	"*–"
+	"." PUNCT @punct #18->
 "<očat>"
-	"*očat"
+	"*očat" X @dep #19->
 "<yhteh>"
-	"*yhteh"
+	"*yhteh" X @dep #20->
 "<.>"
-	"*."
+	"." PUNCT @punct #21->
 
 "<Arbaitustu>"
-	"*Arbaitustu"
+	"*Arbaitustu" NOUN @nsubj #1->3
 "<oli>"
-	"*oli"
+	"*oli" AUX @cop #2->3
 "<eriluadustu>"
-	"*eriluadustu"
+	"*eriluadustu" ADJ @root #3->0
 "<,>"
-	"*,"
+	"," PUNCT @punct #4->8
 "<ga>"
-	"*ga"
+	"*ga" X @dep #5->8
 "<kai>"
-	"*kai"
+	"*kai" ADV @dep #6->8
 "<oldih>"
-	"*oldih"
+	"*oldih" AUX @cop #7->8
 "<viärät>"
-	"*viärät"
+	"*viärät" ADJ @parataxis #8->3
 "<.>"
-	"*."
+	"." PUNCT @punct #9->3
 
 "<Erähät>"
-	"*Erähät"
+	"*Erähät" X @dep #1->
 "<”>"
-	"*”"
+	"." PUNCT @punct #2->
 "<sinnepäi>"
-	"*sinnepäi"
+	"*sinnepäi" X @dep #3->
 "<olijat>"
-	"*olijat"
+	"*olijat" X @dep #4->
 "<”>"
-	"*”"
+	"." PUNCT @punct #5->
 "<vastavukset>"
-	"*vastavukset"
+	"*vastavukset" X @dep #6->
 "<oldih>"
-	"*oldih"
+	"*oldih" X @dep #7->
 "<moizet>"
-	"*moizet"
+	"*moizet" X @dep #8->
 "<:>"
-	"*:"
+	"." PUNCT @punct #9->
 "<eräs>"
-	"*eräs"
+	"*eräs" X @dep #10->
 "<kilbuniekku>"
-	"*kilbuniekku"
+	"*kilbuniekku" X @dep #11->
 "<arbai>"
-	"*arbai"
+	"*arbai" X @dep #12->
 "<,>"
-	"*,"
+	"." PUNCT @punct #13->
 "<ku>"
-	"*ku"
+	"*ku" X @dep #14->
 "<pagin>"
-	"*pagin"
+	"*pagin" X @dep #15->
 "<on>"
-	"*on"
+	"*on" X @dep #16->
 "<kirvehes>"
-	"*kirvehes"
+	"*kirvehes" X @dep #17->
 "<da>"
-	"*da"
+	"*da" X @dep #18->
 "<puus>"
-	"*puus"
+	"*puus" X @dep #19->
 "<,>"
-	"*,"
+	"." PUNCT @punct #20->
 "<toine>"
-	"*toine"
+	"*toine" X @dep #21->
 "<duumaičči>"
-	"*duumaičči"
+	"*duumaičči" X @dep #22->
 "<,>"
-	"*,"
+	"." PUNCT @punct #23->
 "<ku>"
-	"*ku"
+	"*ku" X @dep #24->
 "<se>"
-	"*se"
+	"*se" X @dep #25->
 "<on>"
-	"*on"
+	"*on" X @dep #26->
 "<järveh>"
-	"*järveh"
+	"*järveh" X @dep #27->
 "<virdai>"
-	"*virdai"
+	"*virdai" X @dep #28->
 "<jogi>"
-	"*jogi"
+	"*jogi" X @dep #29->
 "<.>"
-	"*."
+	"." PUNCT @punct #30->
 
 "<Oligi>"
-	"*Oligi"
+	"*Oligi" X @dep #1->
 "<mostu>"
-	"*mostu"
+	"*mostu" X @dep #2->
 "<,>"
-	"*,"
+	"." PUNCT @punct #3->
 "<kuduat>"
-	"*kuduat"
+	"*kuduat" X @dep #4->
 "<arvattih>"
-	"*arvattih"
+	"*arvattih" X @dep #5->
 "<,>"
-	"*,"
+	"." PUNCT @punct #6->
 "<ku>"
-	"*ku"
+	"*ku" X @dep #7->
 "<se>"
-	"*se"
+	"*se" PRON @dep #8->
 "<on>"
-	"*on"
+	"*on" X @dep #9->
 "<pyhäil’l’an>"
-	"*pyhäil’l’an"
+	"*pyhäil’l’an" X @dep #10->
 "<jyry>"
-	"*jyry"
+	"*jyry" X @dep #11->
 "<da>"
-	"*da"
+	"*da" X @dep #12->
 "<tuleniškut>"
-	"*tuleniškut"
+	"*tuleniškut" X @dep #13->
 "<.>"
-	"*."
+	"." PUNCT @punct #14->
 
 "<Eräs>"
-	"*Eräs"
+	"*Eräs" X @dep #1->
 "<vastai>"
-	"*vastai"
+	"*vastai" NOUN @dep #2->
 "<,>"
-	"*,"
+	"," PUNCT @punct #3->
 "<ku>"
-	"*ku"
+	"*ku" X @dep #4->
 "<se>"
-	"*se"
+	"*se" PRON @dep #5->
 "<on>"
-	"*on"
+	"*on" AUX @dep #6->
 "<čuasun>"
-	"*čuasun"
+	"*čuasun" X @dep #7->
 "<da>"
-	"*da"
+	"*da" CCONJ @dep #8->
 "<minuutan>"
-	"*minuutan"
+	"*minuutan" NOUN @dep #9->
 "<viizarit>"
-	"*viizarit"
+	"*viizarit" X @dep #10->
 "<čuassulois>"
-	"*čuassulois"
+	"*čuassulois" X @dep #11->
 "<.>"
-	"*."
+	"." PUNCT @punct #12->
 
 "<Muite>"
-	"*Muite"
+	"*Muite" X @dep #1->
 "<oigei>"
-	"*oigei"
+	"*oigei" X @dep #2->
 "<vastavus>"
-	"*vastavus"
+	"*vastavus" X @dep #3->
 "<sih>"
-	"*sih"
+	"*sih" X @dep #4->
 "<arbaistukseh>"
-	"*arbaistukseh"
+	"*arbaistukseh" NOUN @dep #5->
 "<on>"
-	"*on"
+	"*on" AUX @dep #6->
 "<kangaspuut>"
-	"*kangaspuut"
+	"*kangaspuut" X @dep #7->
 "<–>"
-	"*–"
+	"–" PUNCT @punct #8->
 "<niidyhäi>"
-	"*niidyhäi"
+	"*niidyhäi" X @dep #9->
 "<loškutetah>"
-	"*loškutetah"
+	"*loškutetah" X @dep #10->
 "<toine>"
-	"*toine"
+	"*toine" X @dep #11->
 "<tostu>"
-	"*tostu"
+	"*tostu" X @dep #12->
 "<vastah>"
-	"*vastah"
+	"*vastah" X @dep #13->
 "<.>"
-	"*."
+	"." PUNCT @punct #14->
 
 "<Votttajien>"
-	"*Votttajien"
+	"*Votttajien" X @dep #1->
 "<nimet>"
-	"*nimet"
+	"*nimet" X @dep #2->
 "<kaččokkua>"
-	"*kaččokkua"
+	"*kaččokkua" X @dep #3->
 "<verekses>"
-	"*verekses"
+	"*verekses" X @dep #4->
 "<bumuagulehtes>"
-	"*bumuagulehtes"
+	"*bumuagulehtes" X @dep #5->
 "<.>"
-	"*."
-
+	"." PUNCT @punct #6->
 

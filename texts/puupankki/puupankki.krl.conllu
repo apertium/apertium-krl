@@ -1,0 +1,118 @@
+# sent_id = omamua1:1:0
+# text = Talvel 21. tuhukuudu kogo muailmas pietäh kanzoinvälisty Muamankielen päiviä.
+1	Talvel	*Talvel	_	NOUN	_	6	obl	_	_
+2	21.	21.	_	NUM	_	3	amod	_	_
+3	tuhukuudu	*tuhukuudu	_	NOUN	_	6	obl	_	_
+4	kogo	kogo	_	PRON	_	5	det	_	_
+5	muailmas	*muailmas	_	NOUN	_	6	obl	_	_
+6	pietäh	*pietäh	_	VERB	_	0	root	_	_
+7	kanzoinvälisty	*kanzoinvälisty	_	ADJ	_	9	amod	_	_
+8	Muamankielen	*Muamankielen	_	NOUN	_	9	nmod:poss	_	_
+9	päiviä	*päiviä	_	NOUN	_	6	obj	_	_
+10	.	.	_	PUNCT	_	6	punct	_	_
+
+# sent_id = omamua1:2:20
+# text = “Oma Mua” tämän hyväkse ilmoitti kilvan lugijoih niškoi.
+1	“	“	_	PUNCT	_	3	punct	_	_
+2	Oma	*Oma	_	ADJ	_	3	amod	_	_
+3	Mua	*Mua	_	NOUN	_	7	nsubj	_	_
+4	”	”	_	PUNCT	_	3	punct	_	_
+5	tämän	*tämän	_	PRON	_	6	dep	_	_
+6	hyväkse	*hyväkse	_	ADJ	_	7	dep	_	_
+7	ilmoitti	*ilmoitti	_	VERB	_	0	root	_	_
+8	kilvan	*kilvan	_	NOUN	_	7	obj	_	_
+9	lugijoih	*lugijoih	_	NOUN	_	8	nmod	_	_
+10	niškoi	*niškoi	_	ADP	_	9	case	_	_
+11	.	*.	_	PUNCT	_	7	punct	_	_
+
+# sent_id = omamua1:3:43
+# text = Kilbuniekoil pidi vastatat 10 kyzymykseh, net oldih vienakse da livvikse da vähäzel erottih.
+1	Kilbuniekoil	*Kilbuniekoil	_	NOUN	_	3	obl:subj	_	_
+2	pidi	*pidi	_	AUX	_	3	aux	_	_
+3	vastatat	*vastatat	_	VERB	_	0	root	_	_
+4	10	10	_	NUM	_	5	nummod	_	_
+5	kyzymykseh	*kyzymykseh	_	NOUN	_	3	obj	_	_
+6	,	,	_	PUNCT	_	9	punct	_	_
+7	net	*net	_	PRON	_	9	nsubj	_	_
+8	oldih	*oldih	_	AUX	_	9	cop	_	_
+9	vienakse	*vienakse	_	NOUN	_	3	parataxis	_	_
+10	da	*da	_	CCONJ	_	11	cc	_	_
+11	livvikse	*livvikse	_	NOUN	_	9	conj	_	_
+12	da	*da	_	CCONJ	_	14	cc	_	_
+13	vähäzel	*vähäzel	_	ADV	_	14	advmod	_	_
+14	erottih	*erottih	_	VERB	_	9	conj	_	_
+15	.	.	_	PUNCT	_	3	punct	_	_
+
+# sent_id = omamua1:4:74
+# text = Kilbah saimmo 18 vastavustu.
+1	Kilbah	*Kilbah	_	NOUN	_	2	obl	_	_
+2	saimmo	*saimmo	_	VERB	_	0	root	_	_
+3	18	18	_	NUM	_	4	nummod	_	_
+4	vastavustu	*vastavustu	_	NOUN	_	2	obj	_	_
+5	.	.	_	PUNCT	_	2	punct	_	_
+
+# sent_id = omamua1:5:85
+# text = Kilbuniekoin keskes oli nuorembua dai vahnembua rahvastu, linnalastu dai kylis eläjiä.
+1	Kilbuniekoin	*Kilbuniekoin	_	NOUN	_	0	root	_	_
+2	keskes	*keskes	_	ADP	_	1	case	_	_
+3	oli	*oli	_	AUX	_	1	cop	_	_
+4	nuorembua	*nuorembua	_	ADJ	_	7	amod	_	_
+5	dai	*dai	_	CCONJ	_	6	cc	_	_
+6	vahnembua	*vahnembua	_	ADJ	_	4	conj	_	_
+7	rahvastu	*rahvastu	_	NOUN	_	1	nsubj	_	_
+8	,	,	_	PUNCT	_	9	punct	_	_
+9	linnalastu	*linnalastu	_	NOUN	_	7	conj	_	_
+10	dai	*dai	_	CCONJ	_	12	cc	_	_
+11	kylis	*kylis	_	NOUN	_	12	nmod	_	_
+12	eläjiä	*eläjiä	_	NOUN	_	9	conj	_	_
+13	.	.	_	PUNCT	_	1	punct	_	_
+
+# sent_id = omamua1:6:112
+# text = Mollembat vastavukset otimmo vastah oigieloinnu.
+1	Mollembat	*Mollembat	_	PRON	_	2	det	_	_
+2	vastavukset	*vastavukset	_	NOUN	_	3	dep	_	_
+3	otimmo	*otimmo	_	VERB	_	0	dep	_	_
+4	vastah	*vastah	_	ADV	_	3	dep	_	_
+5	oigieloinnu	*oigieloinnu	_	NOUN	_	3	dep	_	_
+6	.	.	_	PUNCT	_	3	punct	_	_
+
+# sent_id = omamua1:7:125
+# text = Vuvvennu 1989 oldih hyväksytty eri kirjaimikot – liygiläzeil da vienalazil omat.
+1	Vuvvennu	*Vuvvennu	_	NOUN	_	4	obl	_	_
+2	1989	*1989	_	NUM	_	1	nummod:appos	_	_
+3	oldih	*oldih	_	AUX	_	4	aux:pass	_	_
+4	hyväksytty	*hyväksytty	_	VERB	_	0	root	_	_
+5	eri	*eri	_	ADJ	_	6	amod	_	_
+6	kirjaimikot	*kirjaimikot	_	NOUN	_	4	nsubj:pass	_	_
+7	–	–	_	PUNCT	_	11	punct	_	_
+8	liygiläzeil	*liygiläzeil	_	NOUN	_	11	conj	_	_
+9	da	*da	_	CCONJ	_	10	cc	_	_
+10	vienalazil	*vienalazil	_	NOUN	_	8	nmod	_	_
+11	omat	*omat	_	ADJ	_	6	appos	_	_
+12	.	.	_	PUNCT	_	4	punct	_	_
+
+# sent_id = omamua1:8:150
+# text = Vuvvennu 2007 oli hyväksytty karjalan kielen yhtehine kirjaimikko.
+1	Vuvvennu	*Vuvvennu	_	NOUN	_	4	obl	_	_
+2	2007	2007	_	NUM	_	1	nummod:appos	_	_
+3	oli	*oli	_	AUX	_	4	aux:pass	_	_
+4	hyväksytty	*hyväksytty	_	VERB	_	0	root	_	_
+5	karjalan	*karjalan	_	NOUN	_	6	compound	_	_
+6	kielen	*kielen	_	NOUN	_	8	nmod:poss	_	_
+7	yhtehine	*yhtehine	_	ADJ	_	8	amod	_	_
+8	kirjaimikko	*kirjaimikko	_	NOUN	_	4	nsubj:pass	_	_
+9	.	.	_	PUNCT	_	4	punct	_	_
+
+# sent_id = omamua1:9:169
+# text = Arbaitustu oli eriluadustu, ga kai oldih viärät.
+1	Arbaitustu	*Arbaitustu	_	NOUN	_	3	nsubj	_	_
+2	oli	*oli	_	AUX	_	3	cop	_	_
+3	eriluadustu	*eriluadustu	_	ADJ	_	0	root	_	_
+4	,	,	_	PUNCT	_	8	punct	_	_
+5	ga	*ga	_	X	_	8	dep	_	_
+6	kai	*kai	_	ADV	_	8	dep	_	_
+7	oldih	*oldih	_	AUX	_	8	cop	_	_
+8	viärät	*viärät	_	ADJ	_	3	parataxis	_	_
+9	.	.	_	PUNCT	_	3	punct	_	_
+
+
