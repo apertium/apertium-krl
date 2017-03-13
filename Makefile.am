@@ -1,5 +1,5 @@
 ###############################################################################
-## Makefile for apertium-{{languageCode}}
+## Makefile for apertium-krl
 ###############################################################################
 
 RELEASE=0.1
@@ -60,13 +60,13 @@ EXTRA_DIST=$(BASENAME).$(LANG1).dix		\
 ## Installation stuff
 ###############################################################################
 #
-#   apertium_{{languageCode}}_dir: This is where the compiled binaries go
-#   apertium_{{languageCode}}_srcdir: This is where the source files go
+#   apertium_krl_dir: This is where the compiled binaries go
+#   apertium_krl_srcdir: This is where the source files go
 
-apertium_{{languageCode}}dir=$(prefix)/share/apertium/$(BASENAME)/
-apertium_{{languageCode}}_srcdir=$(prefix)/share/apertium/$(BASENAME)/
+apertium_krldir=$(prefix)/share/apertium/$(BASENAME)/
+apertium_krl_srcdir=$(prefix)/share/apertium/$(BASENAME)/
 
-apertium_{{languageCode}}_DATA=$(TARGETS_COMMON) $(LANG1).prob
+apertium_krl_DATA=$(TARGETS_COMMON) $(LANG1).prob
 
 pkgconfigdir = $(prefix)/share/pkgconfig
 pkgconfig_DATA = $(BASENAME).pc
@@ -80,10 +80,10 @@ modes/$(LANG1)-morph.mode: modes.xml
 noinst_DATA=modes/$(LANG1)-morph.mode
 
 install-data-local: install-modes
-	test -d $(DESTDIR)$(apertium_{{languageCode}}_srcdir) || mkdir -p $(DESTDIR)$(apertium_{{languageCode}}_srcdir)
-	$(INSTALL_DATA) $(BASENAME).$(LANG1).dix $(DESTDIR)$(apertium_{{languageCode}}_srcdir)
-	$(INSTALL_DATA) $(BASENAME).$(LANG1).rlx $(DESTDIR)$(apertium_{{languageCode}}_srcdir)
-	$(INSTALL_DATA) $(BASENAME).post-$(LANG1).dix $(DESTDIR)$(apertium_{{languageCode}}_srcdir)
+	test -d $(DESTDIR)$(apertium_krl_srcdir) || mkdir -p $(DESTDIR)$(apertium_krl_srcdir)
+	$(INSTALL_DATA) $(BASENAME).$(LANG1).dix $(DESTDIR)$(apertium_krl_srcdir)
+	$(INSTALL_DATA) $(BASENAME).$(LANG1).rlx $(DESTDIR)$(apertium_krl_srcdir)
+	$(INSTALL_DATA) $(BASENAME).post-$(LANG1).dix $(DESTDIR)$(apertium_krl_srcdir)
 
 CLEANFILES = $(TARGETS_COMMON)
 clean-local:
@@ -94,7 +94,7 @@ clean-local:
 ###############################################################################
 
 test: all
-	echo "TODO test sentence" | apertium -d . {{languageCode}}-morph | tee .test-mt
+	echo "TODO test sentence" | apertium -d . krl-morph | tee .test-mt
 	@echo "TODO test analysis results" > .test-ref
 	@diff .test-ref .test-mt
 	@rm .test-ref .test-mt

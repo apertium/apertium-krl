@@ -1,6 +1,10 @@
 * text=auto !eol
 /AUTHORS -text
+/COPYING -text
+/ChangeLog -text
 /Makefile.am -text
+/NEWS -text
+/README -text
 /README.markdown -text
 /apertium-krl.krl.acx -text
 /apertium-krl.krl.dix -text
@@ -100,6 +104,7 @@ dev/kks6/19_vuos.xml -text
 dev/kks6/20_yl.xml -text
 dev/lueminut.txt -text
 /krl.prob -text svneol=unset#unset
+/modes.xml -text
 texts/omamua1.txt -text
 texts/omamua1.vislcg.txt -text
 texts/puupankki/puupankki.krl.conllu -text
