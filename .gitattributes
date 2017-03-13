@@ -1,4 +1,13 @@
 * text=auto !eol
+/AUTHORS -text
+/Makefile.am -text
+/README.markdown -text
+/apertium-krl.krl.acx -text
+/apertium-krl.krl.dix -text
+/apertium-krl.krl.rlx -text
+/apertium-krl.pc.in -text
+/apertium-krl.post-krl.dix -text
+/autogen.sh -text
 dev/kks1/01_a.xml -text
 dev/kks1/02_alu.xml -text
 dev/kks1/03_eh.xml -text
@@ -90,6 +99,7 @@ dev/kks6/18_vo.xml -text
 dev/kks6/19_vuos.xml -text
 dev/kks6/20_yl.xml -text
 dev/lueminut.txt -text
+/krl.prob -text svneol=unset#unset
 texts/omamua1.txt -text
 texts/omamua1.vislcg.txt -text
 texts/puupankki/puupankki.krl.conllu -text

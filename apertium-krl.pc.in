@@ -1,0 +1,8 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+srcdir=@datarootdir@/apertium/apertium-krl
+
+Name: apertium-krl
+Description: Finite-state morphological transducer and constraint grammar for Karelian
+Version: @VERSION@
+
