@@ -13,6 +13,7 @@
 /apertium-krl.post-krl.dix -text
 /autogen.sh -text
 dev/foo.py -text
+dev/kks.wordlist -text
 dev/kks1/01_a.xml -text
 dev/kks1/02_alu.xml -text
 dev/kks1/03_eh.xml -text
