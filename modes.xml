@@ -3,24 +3,24 @@
 
   <mode name="krl-morph" install="yes">
     <pipeline>
-      <program name="lt-proc -w">
-        <file name="krl.automorf.bin"/>
+      <program name="hfst-proc -e -w">
+        <file name="krl.automorf.hfst"/>
       </program>
     </pipeline>
   </mode>
 
   <mode name="krl-gener" install="yes">
     <pipeline>
-      <program name="lt-proc -g">
-        <file name="krl.autogen.bin"/>
+      <program name="hfst-proc -g">
+        <file name="krl.autogen.hfst"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="krl-tagger" install="yes">
+  <mode name="krl-disam" install="yes">
     <pipeline>
-      <program name="lt-proc -w">
-        <file name="krl.automorf.bin"/>
+      <program name="hfst-proc -e -w">
+        <file name="krl.automorf.hfst"/>
       </program>
       <program name="cg-proc -w">
         <file name="krl.rlx.bin"/>
@@ -28,10 +28,10 @@
     </pipeline>
   </mode>
 
-  <mode name="krl-disam" install="yes">
+  <mode name="krl-disam-debug" install="yes">
     <pipeline>
-      <program name="lt-proc -w">
-        <file name="krl.automorf.bin"/>
+      <program name="hfst-proc -e -w">
+        <file name="krl.automorf.hfst"/>
       </program>
       <program name="cg-conv -a -l" />
       <program name="vislcg3 --trace -g">
@@ -40,5 +40,5 @@
     </pipeline>
   </mode>
 
-</modes>
 
+</modes>
