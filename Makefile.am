@@ -46,10 +46,6 @@ apertium_krl_DATA=$(TARGETS_COMMON)
 pkgconfigdir = $(prefix)/share/pkgconfig
 pkgconfig_DATA = $(BASENAME).pc
 
-modes/$(LANG1)-morph.mode: modes.xml
-	apertium-validate-modes modes.xml
-	apertium-gen-modes modes.xml
-
 noinst_DATA=modes/$(LANG1)-morph.mode
 
 install-data-local: install-modes
