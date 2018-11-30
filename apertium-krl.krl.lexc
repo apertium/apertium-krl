@@ -541,12 +541,14 @@ ne%<prn%>%<dem%>:n  PRON_N/E ;
 
 iče%<prn%>%<refl%>:ič   PRON_IČ/E ;
 kaikki%<prn%>%<indef%>:kai  PRON_KAI/KKI ;
-joka%<prn%>%<indef%>:joka   PRON_JOKA ;
 kumpaine%<prn%>%<itg%>:kumpa  PRON_KUMPA/INE ;
 kumpaine%<prn%>%<rel%>:kumpa  PRON_KUMPA/INE ;
 kumpaine%<prn%>%<indef%>:kumpa  PRON_KUMPA/INE ;
 moni%<prn%>%<indef%>:mon  PRON_MON/I ;
 muu%<prn%>%<indef%>:mu  PRON_MU/U ;
+
+joka%<prn%>%<indef%>:joka   PRON_JOKA ;
+koko%<prn%>%<indef%>:koko  PRON_JOKA ;
 
 kudai%<prn%>%<interr%>:ku PRON_KU/DAI ;
 ken%<prn%>%<interr%>:ke PRON_KE/N ;
@@ -555,47 +557,59 @@ ku%<prn%>%<interr%>:ku PRON_KU ;
 
 LEXICON PROPN
 
+Aleksejeva%<np%>%<cog%>:Aleksejeva PROPN_KARJALA ;
 Elias%<np%>%<ant%>%<m%>:Elias PROPN_PETROSKOI ;
-Lönnrot%<np%>%<cog%>:Lönnrot PROPN_PETROSKOI ;
+Eli%<np%>%<top%>:Eli PROPN_PETROSKOI ;
+Fedosova%<np%>%<cog%>:Fedosova PROPN_KARJALA ;
+Helena%<np%>%<ant%>%<f%>:Helena PROPN_KARJALA ;
+Hotejeva%<np%>%<cog%>:Hotejeva PROPN_KARJALA ;
+Irina%<np%>%<ant%>%<f%>:Irina PROPN_KARJALA ;
+Jakutija%<np%>%<top%>:Jakutij  PROPN_MORDOUVI/A ;
+Jyškyjärvi%<np%>%<top%>:Jyškyjärv PROPN_JYŠKYJÄRV/I ;
+Kalevala%<np%>%<al%>:Kalevala PROPN_KARJALA ;
+Karjala%<np%>%<top%>:Karjala PROPN_KARJALA ;
+Komi%<np%>%<top%>:Komi PROPN_PETROSKOI ;
+Konstantin%<np%>%<al%>:Konstantin PROPN_KONSTANTIN ;
+Krasnodar%<np%>%<top%>:Krasnodar PROPN_KONSTANTIN ;
+Loginova%<np%>%<cog%>:Loginova PROPN_KARJALA ;
+Lumikello%<np%>%<al%>:Lumikello PROPN_LUMIKELLO ;
+Lönnrot%<np%>%<cog%>:Lönnrot PROPN_LÖNNROT ;
 Maikki%<np%>%<ant%>%<f%>:Maikki PROPN_PETROSKOI ;
+Maksim%<np%>%<ant%>%<m%>:Maksim PROPN_KONSTANTIN ;
+Mari%<np%>%<top%>:Mari PROPN_PETROSKOI ;
+Melentjeva%<np%>%<cog%>:Melentjeva PROPN_KARJALA ;
+Mirja%<np%>%<ant%>%<f%>:Mirja PROPN_KARJALA ;
+Mordouvia%<np%>%<top%>:Mordouvi  PROPN_MORDOUVI/A ;
+Moškova%<np%>%<top%>:Moškova PROPN_KARJALA ;
+Nina%<np%>%<ant%>%<f%>:Nina PROPN_KARJALA ;
+Olga%<np%>%<ant%>%<f%>:Olga PROPN_KARJALA ;
+Palmgren%<np%>%<cog%>:Palmgren PROPN_KONSTANTIN ;
 Petroskoi%<np%>%<top%>:Petroskoi PROPN_PETROSKOI ;
 Piiteri%<np%>%<top%>:Piiteri PROPN_PETROSKOI ;
-Vuokkiniemi%<np%>%<top%>:Vuokkiniem PROPN_JYŠKYJÄRV/I ;
-Jyškyjärvi%<np%>%<top%>:Jyškyjärv PROPN_JYŠKYJÄRV/I ;
-Spitsina%<np%>%<cog%>:Spitsina PROPN_KARJALA ;
-Viena%<np%>%<top%>:Viena PROPN_KARJALA ;
-Karjala%<np%>%<top%>:Karjala PROPN_KARJALA ;
-Taimira%<np%>%<top%>:Taimira PROPN_KARJALA ;
-Udmurtia%<np%>%<top%>:Udmurti  PROPN_MORDOUVI/A ;
-Mordouvia%<np%>%<top%>:Mordouvi  PROPN_MORDOUVI/A ;
-Olga%<np%>%<ant%>%<f%>:Olga PROPN_KARJALA ;
-Nina%<np%>%<ant%>%<f%>:Nina PROPN_KARJALA ;
-Irina%<np%>%<ant%>%<f%>:Irina PROPN_KARJALA ;
-Helena%<np%>%<ant%>%<f%>:Helena PROPN_KARJALA ;
-Tat’t’ana%<np%>%<ant%>%<f%>:Tat’t’ana PROPN_KARJALA ;
-Kalevala%<np%>%<al%>:Kalevala PROPN_KARJALA ;
-Melentjeva%<np%>%<cog%>:Melentjeva PROPN_KARJALA ;
-Uljana%<np%>%<cog%>:Uljana PROPN_KARJALA ;
-Aleksejeva%<np%>%<cog%>:Aleksejeva PROPN_KARJALA ;
-Loginova%<np%>%<cog%>:Loginova PROPN_KARJALA ;
-Torvinen%<np%>%<cog%>:Torvi PROPN_TORVI/NEN ;
-Mirja%<np%>%<ant%>%<f%>:Mirja PROPN_KARJALA ;
-Hotejeva%<np%>%<cog%>:Hotejeva PROPN_KARJALA ;
-Voločanka%<np%>%<top%>:Voločanka PROPN_KARJALA ;
+Polenov%<np%>%<cog%>:Polenov PROPN_KONSTANTIN ;
+Potapovo%<np%>%<top%>:Potapovo PROPN_LUMIKELLO ;
+Raisa%<np%>%<ant%>%<f%>:Raisa PROPN_KARJALA ;
 Remšujeva%<np%>%<top%>:Remšujeva PROPN_KARJALA ;
 Santra%<np%>%<ant%>%<f%>:Santra PROPN_KARJALA ;
-Raisa%<np%>%<ant%>%<f%>:Raisa PROPN_KARJALA ;
-Suomi%<np%>%<top%>:Suomi PROPN_PETROSKOI ;
-Lumikello%<np%>%<al%>:Lumikello PROPN_LUMIKELLO ;
-Potapovo%<np%>%<top%>:Potapovo PROPN_LUMIKELLO ;
-Konstantin%<np%>%<al%>:Konstantin PROPN_KONSTANTIN ;
-Maksim%<np%>%<ant%>%<m%>:Maksim PROPN_KONSTANTIN ;
-Zubanov%<np%>%<cog%>:Zubanov PROPN_KONSTANTIN ;
+Spitsina%<np%>%<cog%>:Spitsina PROPN_KARJALA ;
 Stankevičus%<np%>%<cog%>:Stankevičus PROPN_KONSTANTIN ;
+Suomi%<np%>%<top%>:Suomi PROPN_PETROSKOI ;
+Taimira%<np%>%<top%>:Taimira PROPN_KARJALA ;
+Tat’t’ana%<np%>%<ant%>%<f%>:Tat’t’ana PROPN_KARJALA ;
 Tikkanen%<np%>%<cog%>:Tikkanen PROPN_KONSTANTIN ;
-Palmgren%<np%>%<cog%>:Palmgren PROPN_KONSTANTIN ;
-Ust’-Avam%<np%>%<top%>:Ust’-Avam PROPN_KONSTANTIN ;
+Torvinen%<np%>%<cog%>:Torvi PROPN_TORVI/NEN ;
+Tula%<np%>%<top%>:Tula PROPN_KARJALA ;
+Tver%<np%>%<top%>:Tver PROPN_KONSTANTIN ;
+Udmurtia%<np%>%<top%>:Udmurti  PROPN_MORDOUVI/A ;
+Udmurtija%<np%>%<top%>:Udmurtij  PROPN_MORDOUVI/A ;
+Uljana%<np%>%<cog%>:Uljana PROPN_KARJALA ;
 Ust’-Avam%<np%>%<top%>%<use_nonstandard%>:Us’t-Avam PROPN_KONSTANTIN ;
+Ust’-Avam%<np%>%<top%>:Ust’-Avam PROPN_KONSTANTIN ;
+Venäjä%<np%>%<top%>:Venäjä PROPN_VENÄJÄ ;
+Viena%<np%>%<top%>:Viena PROPN_KARJALA ;
+Voločanka%<np%>%<top%>:Voločanka PROPN_KARJALA ;
+Vuokkiniemi%<np%>%<top%>:Vuokkiniem PROPN_JYŠKYJÄRV/I ;
+Zubanov%<np%>%<cog%>:Zubanov PROPN_KONSTANTIN ;
 
 
 LEXICON PUNCT
@@ -1117,10 +1131,20 @@ LEXICON PROPN_PETROSKOI
 0 PROPN_SGNOM_0 ;
 0 PROPN_CASES_BACK ;
 
+LEXICON PROPN_LÖNNROT
+
+0 PROPN_SGNOM_0 ;
+0:i PROPN_CASES_FRONT ;
+
 LEXICON PROPN_JYŠKYJÄRV/I
 
 0:i PROPN_SGNOM_0 ;
 0:e PROPN_CASES_FRONT ;
+
+LEXICON PROPN_VENÄJÄ
+
+0 PROPN_SGNOM_0 ;
+0 PROPN_CASES_FRONT ;
 
 LEXICON PROPN_KARJALA
 
@@ -1900,6 +1924,8 @@ LEXICON PROPN_CASES_BACK
 %<sg%>%<ill%>:h # ;
 %<sg%>%<ine%>:s # ;
 %<sg%>%<ine%>:šša # ;
+%<sg%>%<ela%>:šta # ;
+%<sg%>%<ade%>:lla # ;
 %<pl%>%<nom%>:t # ;
 %<sg%>%<all%>:le # ;
 
@@ -1909,6 +1935,8 @@ LEXICON PROPN_CASES_FRONT
 %<sg%>%<ill%>:h # ;
 %<sg%>%<ine%>:s # ;
 %<sg%>%<ine%>:ššä # ;
+%<sg%>%<ela%>:štä # ;
+%<sg%>%<ade%>:llä # ;
 %<pl%>%<nom%>:t # ;
 %<sg%>%<all%>:le # ;
 
