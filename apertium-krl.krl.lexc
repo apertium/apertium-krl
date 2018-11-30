@@ -131,6 +131,9 @@ LEXICON Root
 LEXICON ADJ
 
 
+valtijollini%<adj%>:valtijolli ADJ_KARJALAI/NI ;
+kanšallini%<adj%>:kanšalli ADJ_KARJALAI/NI ;
+eeppini%<adj%>:eeppi ADJ_EEPPI/NI ;
 aito%<adj%>:ai  ADJ_AI/TO ;
 tunnettu%<adj%>:tunnet  ADJ_TUNNET/TU ;
 kaiken#moine%<adj%>:kaiken0moi ADJ_KIELI/NE ;
@@ -294,6 +297,7 @@ libo%<cnjcoo%>:libo #  ;
 šekä%<cnjcoo%>:šekä #  ;
 ta%<cnjcoo%>:ta #  ;
 tai%<cnjcoo%>:tai #  ;
+tahi%<cnjcoo%>:tahi #  ;
 vai%<cnjcoo%>:vai #  ;
 vaikka%<cnjcoo%>:vaikka #  ;
 vain%<cnjcoo%>:vain #  ;
@@ -376,6 +380,8 @@ kenttä%<n%>:kent NOUN_KENT/TÄ ;
 kerho%<n%>:kerho NOUN_NUMERO ;
 kertoja%<n%>:kertoj NOUN_KAŠVATTAJ/A ;
 kertomuš%<n%>:kertomu NOUN_MIELIKUVITU/Š ;
+tarkotuš%<n%>:tarkotu NOUN_MIELIKUVITU/Š ;
+keškuš%<n%>:kešku NOUN_MIELIKUVITU/Š ;
 tuloš%<n%>:tulo NOUN_MIELIKUVITU/Š ;
 kešä#loma%<n%>:kesä0lom NOUN_PAKIN/A ;
 raja%<n%>:raj NOUN_PAKIN/A  ;
@@ -483,6 +489,7 @@ ni%<n%>:šijahi NOUN_ŠIJAHI/NI ;
 šoitin%<n%>:šoit NOUN_ŠOIT/IN ;
 šoittu%<n%>:šoit  NOUN_ŠOIT/TU ;
 etno#illačču%<n%>:etno0illač  NOUN_ILLAČ/ČU ;
+kučču%<n%>:kuč  NOUN_ILLAČ/ČU ;
 starina#kirja%<n%>:starina0kirj NOUN_PAKIN/A ;
 starina#muajilma%<n%>:starina0muajilm NOUN_PAKIN/A ;
 starinan#kertoja%<n%>:starinan0kertoj NOUN_KAŠVATTAJ/A ;
@@ -592,13 +599,14 @@ Kalevala%<np%>%<al%>:Kalevala PROPN_KARJALA ;
 Karjala%<np%>%<top%>:Karjala PROPN_KARJALA ;
 Komi%<np%>%<top%>:Komi PROPN_PETROSKOI ;
 Kondratjev%<np%>%<cog%>:Kondratjev PROPN_KONSTANTIN ;
+Lenin%<np%>%<cog%>:Lenin PROPN_KONSTANTIN ;
 Konstantin%<np%>%<al%>:Konstantin PROPN_KONSTANTIN ;
 Krasnodar%<np%>%<top%>:Krasnodar PROPN_KONSTANTIN ;
 Loginova%<np%>%<cog%>:Loginova PROPN_KARJALA ;
 Lumikello%<np%>%<al%>:Lumikello PROPN_LUMIKELLO ;
 Lönnrot%<np%>%<cog%>:Lönnrot PROPN_LÖNNROT ;
-Lönnrot%<np%>%<cog%>:Lönnrot PROPN_PETROSKOI ;
 Maikki%<np%>%<ant%>%<f%>:Maikki PROPN_PETROSKOI ;
+Arhankeli%<np%>%<top%>:Arhankeli PROPN_PETROSKOI ;
 Maksim%<np%>%<ant%>%<m%>:Maksim PROPN_KONSTANTIN ;
 Mari%<np%>%<top%>:Mari PROPN_PETROSKOI ;
 Melentjeva%<np%>%<cog%>:Melentjeva PROPN_KARJALA ;
@@ -619,9 +627,15 @@ Santra%<np%>%<ant%>%<f%>:Santra PROPN_KARJALA ;
 Sergei%<np%>%<ant%>%<m%>:Sergei PROPN_PETROSKOI ;
 Spitsina%<np%>%<cog%>:Spitsina PROPN_KARJALA ;
 Stankevičus%<np%>%<cog%>:Stankevičus PROPN_KONSTANTIN ;
+Murmanšk%<np%>%<top%>:Murmanšk PROPN_KONSTANTIN ;
+Orlov%<np%>%<top%>:Orlov PROPN_KONSTANTIN ;
 Suomi%<np%>%<top%>:Suomi PROPN_PETROSKOI ;
 Taimira%<np%>%<top%>:Taimira PROPN_KARJALA ;
 Tat’t’ana%<np%>%<ant%>%<f%>:Tat’t’ana PROPN_KARJALA ;
+Tatjana%<np%>%<ant%>%<f%>:Tatjana PROPN_KARJALA ;
+Ledn’ova%<np%>%<ant%>%<f%>:Ledn’ova PROPN_KARJALA ;
+Vologda%<np%>%<top%>:Vologda PROPN_KARJALA ;
+Saha%<np%>%<top%>:Saha PROPN_KARJALA ;
 Tikkanen%<np%>%<cog%>:Tikkanen PROPN_KONSTANTIN ;
 Torvinen%<np%>%<cog%>:Torvi PROPN_TORVI/NEN ;
 Tula%<np%>%<top%>:Tula PROPN_KARJALA ;
@@ -913,6 +927,7 @@ LEXICON VERB_KÄ/YVÄ
 LEXICON VERB_SUA/HA
 
 0:h VERB_INF_A ;
+0:ha VERB_PASSIVE_H ;
 0  VERB_PRES_WEAK_BACK ;
 0  VERB_3SG_U ;
 0:ti VERB_PASSIVE_H ;
@@ -924,6 +939,7 @@ LEXICON VERB_LÄ/HTIE
 
 LEXICON VERB_TU/LLA
 
+0:ll  VERB_INF_A ;
 0:lla   VERB_PASSIVE_H ;
 0:le    VERB_PRES_WEAK_BACK ;
 0:le    VERB_IMPV ;
@@ -1078,6 +1094,7 @@ LEXICON VERB_KUČ/ČUO
 
 0:ču  VERB_INF_O ;
 0:ču  VERB_3SG_U ;
+0:čuta  VERB_PASSIVE_H ;
 0:u  VERB_PRES_WEAK_BACK ;
 
 LEXICON VERB_KERÄ/TÄ
@@ -1165,10 +1182,11 @@ LEXICON ADJ_KAUNIS
 
 LEXICON ADJ_OM/A
 
-0   ADJ_CASES_PL ;
-0:a ADJ_CASES_SG_BACK ;
-0:u  ADJ_SGPAR_A ;
 0:a ADJ_SGNOM_0 ;
+0:a ADJ_CASES_SG_BACK ;
+0   ADJ_CASES_PL ;
+0:u  ADJ_SGPAR_A ;
+0    ADJ_PLPAR_IE ;
 
 LEXICON ADJ_YŠTÄVÄLLI/NI
 
@@ -1184,6 +1202,14 @@ LEXICON ADJ_KARJALAI/NI
 0:se ADJ_CASES_SG_BACK ;
 0:s  ADJ_CASES_PL ;
 0:s  ADJ_SGPAR_TA ;
+0:s  ADJ_PLPAR_IE ;
+
+LEXICON ADJ_EEPPI/NI
+
+0:ni ADJ_SGNOM_0 ;
+0:se ADJ_CASES_SG_FRONT ;
+0:s  ADJ_CASES_PL ;
+0:s  ADJ_SGPAR_TÄ ;
 0:s  ADJ_PLPAR_IE ;
 
 LEXICON ADJ_KIELI/NE
@@ -1606,6 +1632,7 @@ LEXICON NOUN_ILLAČ/ČU
 
 0:ču NOUN_SGNOM_0 ;
 0:ču NOUN_SGPAR_O ;
+0:ču NOUN_SGILL_H ;
 0:u NOUN_CASES_SG_WEAK_BACK ;
 
 LEXICON NOUN_JOUK/KO
@@ -2252,6 +2279,10 @@ LEXICON NOUN_SGPAR_O
 LEXICON NOUN_SGPAR_TU
 
 %<sg%>%<par%>:tu # ;
+
+LEXICON NOUN_SGILL_H
+
+%<sg%>%<ill%>:h # ;
 
 LEXICON NOUN_PLGEN_IEN
 
