@@ -360,5 +360,28 @@
         </barrier>
       </context>
     </evidence>
+    <evidence name="Adjective agreement">
+      <target>
+        <match>
+          <upos>ADJ</upos>
+          <ufeats>
+            <ufeat name="Number"/>
+            <ufeat name="Case"/>
+          </ufeats>
+        </match>
+      </target>
+      <likelihood>usually</likelihood>
+      <depname>amod</depname>
+      <context>
+        <location>+1</location>
+        <match>
+          <upos>NOUN</upos>
+          <ufeats>
+            <ufeat name="Number"/>
+            <ufeat name="Case"/>
+          </ufeats>
+        </match>
+      </context>
+    </evidence>
   </evidences>
 </disamparsulations>
