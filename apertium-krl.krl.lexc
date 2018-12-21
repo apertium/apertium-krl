@@ -125,7 +125,9 @@ LEXICON Root
     0   AUX    ;
     0   DET    ;
     0   X    ;
-   0    SUFFIX ;
+    0    SUFFIX ;
+
+-  NOUN ;
 
 
 LEXICON ADJ
@@ -315,16 +317,26 @@ vain%<cnjcoo%>:vain #  ;
 
 LEXICON DIGITS
 
-%0%<num%>:%0 # ;
-1%<num%>:1 # ;
-2%<num%>:2 # ;
-3%<num%>:3 # ;
-4%<num%>:4 # ;
-5%<num%>:5 # ;
-6%<num%>:6 # ;
-7%<num%>:7 # ;
-8%<num%>:8 # ;
-9%<num%>:9 # ;
+%0%<num%>%<card%>%<sg%>%<nom%>:%0 # ;
+1%<num%>%<card%>%<sg%>%<nom%>:1 # ;
+2%<num%>%<card%>%<sg%>%<nom%>:2 # ;
+3%<num%>%<card%>%<sg%>%<nom%>:3 # ;
+4%<num%>%<card%>%<sg%>%<nom%>:4 # ;
+5%<num%>%<card%>%<sg%>%<nom%>:5 # ;
+6%<num%>%<card%>%<sg%>%<nom%>:6 # ;
+7%<num%>%<card%>%<sg%>%<nom%>:7 # ;
+8%<num%>%<card%>%<sg%>%<nom%>:8 # ;
+9%<num%>%<card%>%<sg%>%<nom%>:9 # ;
+%0.%<adj%>%<ord%>%<sg%>%<nom%>:%0. # ;
+1.%<adj%>%<ord%>%<sg%>%<nom%>:1. # ;
+2.%<adj%>%<ord%>%<sg%>%<nom%>:2. # ;
+3.%<adj%>%<ord%>%<sg%>%<nom%>:3. # ;
+4.%<adj%>%<ord%>%<sg%>%<nom%>:4. # ;
+5.%<adj%>%<ord%>%<sg%>%<nom%>:5. # ;
+6.%<adj%>%<ord%>%<sg%>%<nom%>:6. # ;
+7.%<adj%>%<ord%>%<sg%>%<nom%>:7. # ;
+8.%<adj%>%<ord%>%<sg%>%<nom%>:8. # ;
+9.%<adj%>%<ord%>%<sg%>%<nom%>:9. # ;
 %0:%0 DIGITS ;
 1 DIGITS ;
 2 DIGITS ;
