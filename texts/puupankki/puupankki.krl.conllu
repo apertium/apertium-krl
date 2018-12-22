@@ -9,13 +9,8 @@
 
 # sent-id: vepkar-1774.2
 # text: Koko Venäjän eeppisien kulttuurien kilpailufestivali on ilmotettu Karjalašša..
-<<<<<<< HEAD
-1	Koko	koko	PRON	PRON	Case=Nom|Number=Sing|PronType=Ind	amod	5	_	Weight=500.0
-2	Venäjän	Venäjä	PROPN	PROPN	Case=Gen|Number=Sing	nmod:poss	5	_	PropnType=Top|Weight=500.0
-=======
 1	Koko	koko	PRON	PRON	Case=Nom|Number=Sing|PronType=Ind	5	amod	_	Weight=500.0
 2	Venäjän	Venäjä	PROPN	PROPN	Case=Gen|Number=Sing	4	nmod:poss	_	PropnType=Top|Weight=500.0
->>>>>>> b2222f6dfd138d48c87a79a21e46cc09ad06be78
 3	eeppisien	eeppini	ADJ	ADJ	Case=Gen|Number=Plur	4	amod	_	Weight=0.01
 4	kulttuurien	kulttuuri	NOUN	NOUN	Case=Gen|Number=Plur	5	nmod:poss	_	Weight=500.0
 5	kilpailufestivali	kilpailu#festivali	NOUN	NOUN	Case=Nom|Number=Sing	7	obj	_	Weight=501.0
@@ -63,33 +58,33 @@
 
 # sent-id: vepkar-1774.4
 # text: Šen tarkotukšena on Venäjän kanšojen eeppisen perinnön šäilyttämini, elvyttämini, kehittämini ta popularisointi..
-1	Šen	še	PRON	PRON	Case=Gen|Number=Sing|PronType=Dem	_	_	_	Weight=500.0
-2	tarkotukšena	tarkotuš	NOUN	NOUN	Case=Ess|Number=Sing	_	_	_	Weight=500.0
-3	on	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act	_	_	_	Weight=500.0
-4	Venäjän	Venäjä	PROPN	PROPN	Case=Gen|Number=Sing	_	_	_	PropnType=Top|Weight=500.0
-5	kanšojen	kanša	NOUN	NOUN	Case=Gen|Number=Plur	_	_	_	Weight=500.0
+1	Šen	še	PRON	PRON	Case=Gen|Number=Sing|PronType=Dem	2	nmod:poss	_	Weight=500.0
+2	tarkotukšena	tarkotuš	NOUN	NOUN	Case=Ess|Number=Sing	0	root	_	Weight=500.0
+3	on	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act	cop	2	_	Weight=500.0
+4	Venäjän	Venäjä	PROPN	PROPN	Case=Gen|Number=Sing	5	nmod:poss	_	PropnType=Top|Weight=500.0
+5	kanšojen	kanša	NOUN	NOUN	Case=Gen|Number=Plur	7	nmod:poss	_	Weight=500.0
 6	eeppisen	eeppini	ADJ	ADJ	Case=Gen|Number=Sing	7	amod	_	Weight=0.01
-7	perinnön	perintö	NOUN	NOUN	Case=Gen|Number=Sing	_	_	_	Weight=500.0
-8	šäilyttämini	šäilyttämini	NOUN	NOUN	Case=Nom|Number=Sing	_	_	_	Weight=500.0
-9	,	,	PUNCT	PUNCT	_	_	_	_	Weight=500.0
-10	elvyttämini	elvyttämini	NOUN	NOUN	Case=Nom|Number=Sing	_	_	_	Weight=500.0
-11	,	,	PUNCT	PUNCT	_	_	_	_	Weight=500.0
-12	kehittämini	kehittämini	NOUN	NOUN	Case=Nom|Number=Sing	_	_	_	Weight=500.0
+7	perinnön	perintö	NOUN	NOUN	Case=Gen|Number=Sing	14	xcomp	_	Weight=500.0
+8	šäilyttämini	šäilyttämini	NOUN	NOUN	Case=Nom|Number=Sing	14	conj	_	Weight=500.0
+9	,	,	PUNCT	PUNCT	_	14	cc	_	Weight=500.0
+10	elvyttämini	elvyttämini	NOUN	NOUN	Case=Nom|Number=Sing	14	conj	_	Weight=500.0
+11	,	,	PUNCT	PUNCT	_	13	cc	_	Weight=500.0
+12	kehittämini	kehittämini	NOUN	NOUN	Case=Nom|Number=Sing	_	14	conj	Weight=500.0
 13	ta	ta	CCONJ	CCONJ	_	14	cc	_	Weight=0.01
-14	popularisointi	popularisointi	NOUN	NOUN	Case=Nom|Number=Sing	_	_	_	Weight=500.0
+14	popularisointi	popularisointi	NOUN	NOUN	Case=Nom|Number=Sing	obj	2	_	Weight=500.0
 15	..	..	PUNCT	PUNCT	_	_	_	_	Weight=500.0
 
 # sent-id: vepkar-1774.5
 # text: Toimehpivon järještäjät – Venäjän valtijollini Polenovilla nimetty rahvahanluomistyön talo ta Karjalan kanšallisien kulttuurien keškuš – kučutah festivalih rahvahan- ta folkloriteatterija, tanšši-, laulu- ta musiikkikollektiivija šekä yksityisesiintyjie.
-1	Toimehpivon	toimeh#pito	NOUN	NOUN	Case=Gen|Number=Sing	_	_	_	Weight=501.0
-2	järještäjät	järještäjä	NOUN	NOUN	Case=Nom|Number=Plur	16	nsubj	_	Weight=0.014000000000000002
+1	Toimehpivon	toimeh#pito	NOUN	NOUN	Case=Gen|Number=Sing	2	nmod	_	Weight=501.0
+2	järještäjät	järještäjä	NOUN	NOUN	Case=Nom|Number=Plur	16	obj	_	Weight=0.014000000000000002
 3	–	–	PUNCT	PUNCT	_	16	punct	_	Weight=0.01625
-4	Venäjän	Venäjä	PROPN	PROPN	Case=Gen|Number=Sing	_	_	_	PropnType=Top|Weight=500.0
-5	valtijollini	valtijollini	ADJ	ADJ	Case=Nom|Number=Sing	_	_	_	Weight=500.0
-6	Polenovilla	Polenov	PROPN	PROPN	Case=Ade|Number=Sing	_	_	_	PropnType=Cog|Weight=500.0
-7	nimetty	nimetä	ADP	ADP	Number=Sing|Voice=Pass	_	_	_	Weight=500.0
-8	rahvahanluomistyön	rahvahan#luomis#työ	NOUN	NOUN	Case=Gen|Number=Sing	_	_	_	Weight=502.0
-9	talo	talo	NOUN	NOUN	Case=Nom|Number=Sing	_	_	_	Weight=500.0
+4	Venäjän	Venäjä	PROPN	PROPN	Case=Gen|Number=Sing	9	nmod:poss	_	PropnType=Top|Weight=500.0
+5	valtijollini	valtijollini	ADJ	ADJ	Case=Nom|Number=Sing	9	amod	_	Weight=500.0
+6	Polenovilla	Polenov	PROPN	PROPN	Case=Ade|Number=Sing	7	obl	_	PropnType=Cog|Weight=500.0
+7	nimetty	nimetä	ADP	ADP	Number=Sing|Voice=Pass	9	amod	_	Weight=500.0
+8	rahvahanluomistyön	rahvahan#luomis#työ	NOUN	NOUN	Case=Gen|Number=Sing	9	nmod:poss	_	Weight=502.0
+9	talo	talo	NOUN	NOUN	Case=Nom|Number=Sing	2	parataxis	_	Weight=500.0
 10	ta	ta	CCONJ	CCONJ	_	11	cc	_	Weight=0.01
 11	Karjalan	Karjala	PROPN	PROPN	Case=Gen|Number=Sing	_	_	_	PropnType=Top|Weight=500.0
 12	kanšallisien	kanšallini	ADJ	ADJ	Case=Gen|Number=Plur	13	amod	_	Weight=0.01
@@ -118,7 +113,7 @@
 # text: Omatoimiset artistat Moskovašta, Murmanskista ta Tulašta, Tverin, Orlovin, Vologdan ta Arhankelin alovehilta, Sahan (Jakutija), Mari Elin, Udmurtijan ta Komin tašavalloista, Krasnodarin šeuvulta jo ilmotettih meininkistä tulla Karjalah..
 1	Omatoimiset	omatoimini	ADJ	ADJ	Case=Nom|Number=Plur	2	amod	_	Weight=0.01
 2	artistat	artišta	NOUN	NOUN	Case=Nom|Number=Plur	34	nsubj	_	Weight=0.16
-3	Moskovašta	Moškova	PROPN	PROPN	Case=Ela|Number=Sing	_	_	_	PropnType=Top|Weight=500.0
+3	Moskovašta	Moškova	PROPN	PROPN	Case=Ela|Number=Sing	conj	_	_	PropnType=Top|Weight=500.0
 4	,	,	SYM	SYM	_	_	_	_	Weight=549.0666666666666
 5	Murmanskista	Murmanšk	PROPN	PROPN	Case=Ela|Number=Sing	_	_	_	PropnType=Top|Weight=500.0
 6	ta	ta	CCONJ	CCONJ	_	7	cc	_	Weight=0.01
