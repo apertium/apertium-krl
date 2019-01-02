@@ -251,6 +251,23 @@ ympäri%<post%>:ympäri # ;
 LEXICON ADV
 
 
+suorah%<adv%>:suorah # ;
+ahkerašti%<adv%>:ahkerašti # ;
+šejašša%<adv%>:šejašša # ;
+mielelläh%<adv%>:mielelläh  # ;
+ruttoh%<adv%>:ruttoh  # ;
+rutompah%<adv%>:rutompah  # ;
+täyšin%<adv%>:täyšin  # ;
+vähäšen%<adv%>:vähäšen  # ;
+tuaš%<adv%>:tuaš  # ;
+šeki%<adv%>:šeki  # ;
+kakšin%<adv%>:kakšin  # ;
+käsin%<adv%>:käsin  # ;
+lujah%<adv%>:lujah  # ;
+päih%<adv%>:päih  # ;
+päissä%<adv%>:päissä  # ;
+kerran%<adv%>:kerran  # ;
+kerralla%<adv%>:kerralla  # ;
 vet%<adv%>:vet # ;
 harvoin%<adv%>:harvoin # ;
 aina%<adv%>:aina # ;
@@ -617,6 +634,7 @@ tuohi#kesseli%<n%>:tuohi0kessel NOUN_FOLKLORIST/I ;
 tuloš%<n%>:tulo NOUN_MIELIKUVITU/Š ;
 tulovaisuš%<n%>:tulovaisu NOUN_VIISAHU/Š ;
 tunti%<n%>:tun NOUN_TUN/TI ;
+käynti%<n%>:käyn NOUN_KÄYN/TI ;
 tutuštumini%<n%>:tutuštumi NOUN_ŠIJAHI/NI ;
 tuuvvittamini%<n%>:tuuvvittami NOUN_ŠIJAHI/NI ;
 työ%<n%>:t NOUN_T/YÖ ;
@@ -916,12 +934,14 @@ M€%<sym%>:M€	SYM_.	;
 
 LEXICON VERB
 
+ommella%<vblex%>:om  VERB_OM/MELLA ;
 alkoa%<vblex%>:al  VERB_AL/KOA ;
 antoa%<vblex%>:an  VERB_AN/TOA ;
 ativoija%<vblex%>:ativoi  VERB_STARINOI/JA ;
 avata%<vblex%>:ava VERB_AVA/TA ;
 eleä%<vblex%>:el   VERB_EL/EÄ ;
 esitteä%<vblex%>:esit VERB_PIÄT/TEÄ ;
+heitteä%<vblex%>:heit VERB_PIÄT/TEÄ ;
 hyreytyä%<vblex%>:hyreyty VERB_HYREYTY/Ä ;
 istuo%<vblex%>:ist  VERB_KUUL/UO ;
 jiähä%<vblex%>:jiä VERB_JIÄ/HÄ ;
@@ -1424,6 +1444,18 @@ LEXICON VERB_HYREYTY/Ä
 0      VERB_PRES_WEAK_BACK ;
 0:ö      VERB_3SG_Y ;
 
+LEXICON VERB_OM/MELLA
+
+0:mell  VERB_INF_A ;
+0:peli  VERB_PAST_3SG_0 ;
+0:pele  VERB_PRES_WEAK_BACK ;
+0:pele  VERB_IMPV ;
+0:melti VERB_PAST_PASSIVE_H ;
+0:pele VERB_PASSIVE_H ;
+0:mel  VERB_PCP_TU ;
+0:mellu  VERB_PCP_N ;
+
+
 LEXICON ADJ_ERI
 !! maybe like fin: eri, no infl.
 
@@ -1846,6 +1878,14 @@ LEXICON NOUN_TUN/TI
 0:ti  NOUN_SGPAR_E ;
 0:ne  NOUN_CASES_PL_BACK ;
 0:te  NOUN_PLPAR_JA ;
+
+LEXICON NOUN_KÄYN/TI
+
+0:ti NOUN_SGNOM_0 ;
+0:ni NOUN_CASES_SG_FRONT ;
+0:ti  NOUN_SGPAR_E ;
+0:ne  NOUN_CASES_PL_FRONT ;
+0:te  NOUN_PLPAR_JÄ ;
 
 LEXICON NOUN_KÄ/SI
 
