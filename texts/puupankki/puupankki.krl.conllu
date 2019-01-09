@@ -292,3 +292,754 @@
 16	ošašto	ošašto	NOUN	NOUN	Case=Nom|Number=Sing	1	nmod	_	Weight=500.0
 17	.	.	PUNCT	PUNCT	_	1	punct	_	Weight=500.0
 
+# sent-id: vepkar-1427.1
+# text: Hilluo keryämäššä.
+1	Hilluo	hillo	NOUN	NOUN	Case=Par|Number=Sing	2	obj	_	Weight=500.0
+2	keryämäššä	keritä	VERB	VERB	VerbForm=Inf	0	root	_	Weight=500.0
+3	.	.	PUNCT	PUNCT	_	2	punct	_	Weight=0.005
+
+# sent-id: vepkar-1427.2
+# text: Iltasin myö istuma kiukualla ta miun tuatto Kirilä kerto meilä, omilla lapšillah, mitä hiän ruato pienenä olleššah.
+1	Iltasin	iltasin	ADV	ADV	_	3	advmod	_	Weight=0.02
+2	myö	myö	PRON	PRON	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	Weight=0.002
+3	istuma	istuo	VERB	VERB	Mood=Ind|Number=Plur|Person=1|Tense=Present|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.0106
+4	kiukualla	kiukua	NOUN	NOUN	Case=Ade|Number=Sing	3	obl	_	Weight=0.01
+5	ta	ta	CCONJ	CCONJ	_	6	cc	_	Weight=0.01
+6	miun	mie	PRON	PRON	Case=Gen|Number=Sing|Person=1|PronType=Prs	7	nmod:poss	_	Weight=0.01
+7	tuatto	tuatto	NOUN	NOUN	Case=Nom|Number=Sing	9	nsubj	_	Weight=0.004
+8	Kirilä	Kirilä	PROPN	PROPN	Case=Nom|Number=Sing	7	appos	_	PropnType=Cog|Weight=0.01
+9	kerto	kertuo	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	Weight=0.06
+10	meilä	myö	PRON	PRON	Case=Ade|Number=Plur|Person=1|PronType=Prs	9	obl	_	Weight=500.0
+11	,	,	PUNCT	PUNCT	_	9	punct	_	Weight=0.005
+12	omilla	oma	ADJ	ADJ	Case=Ade|Number=Plur	13	amod	_	Weight=0.01
+13	lapšillah	lapši	NOUN	NOUN	Case=Ade|Number=Plur|Person[psor]=3	10	appos	_	Weight=0.04
+14	,	,	PUNCT	PUNCT	_	9	punct	_	Weight=0.016666666666666666
+15	mitä	mi	PRON	PRON	Case=Par|Number=Sing	17	mark	_	PronType=Interr|Weight=500.0
+16	hiän	hiän	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	Weight=500.0
+17	ruato	ruado	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	ccomp	_	Weight=500.0
+18	pienenä	pieni	ADJ	ADJ	Case=Ess|Number=Sing	17	acl	_	Weight=500.0
+19	olleššah	olla	AUX	AUX	Case=Ine|Person[psor]=3|VerbForm=Inf	18	cop	_	Weight=500.0
+20	.	.	PUNCT	PUNCT	_	3	punct	_	Weight=0.055
+
+# sent-id: vepkar-1427.3
+# text: Nyt mielelläni muistelen niitä tuaton kertomukšija..
+1	Nyt	nyt	ADV	ADV	_	3	advmod	_	Weight=0.02
+2	mielelläni	mielelläni	ADV	ADV	_	3	advmod	_	Weight=0.01
+3	muistelen	muistelehtoa	VERB	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Present|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
+4	niitä	ne	PRON	PRON	Case=Par|Number=Plur|PronType=Dem	6	det	_	Weight=500.0
+5	tuaton	tuatto	NOUN	NOUN	Case=Gen|Number=Sing	6	nmod:poss	_	Weight=0.01
+6	kertomukšija	kertomuš	NOUN	NOUN	Case=Par|Number=Plur	3	obj	_	Weight=0.015
+7	..	..	PUNCT	PUNCT	_	3	punct	_	Weight=0.02
+
+# sent-id: vepkar-1427.4
+# text: Eryähänä huomenekšena Iro-muamo läksi hilloh ta otti pojan kerallah.
+1	Eryähänä	eryäs	ADJ	ADJ	Case=Ess|Number=Sing	2	amod	_	Weight=0.01
+2	huomenekšena	huomeneš	NOUN	NOUN	Case=Ess|Number=Sing	5	obl	_	Weight=500.0
+3	Iro	Iro	PROPN	PROPN	Case=Nom|Number=Sing	4	goeswith	_	PropnType=Ant|Gender=Female|Weight=0.006666666666666667
+4	-muamo	-muamo	NOUN	NOUN	Case=Nom|Number=Sing	5	nsubj	_	Weight=0.0033333333333333335
+5	läksi	lähtie	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.0103
+6	hilloh	hillo	NOUN	NOUN	Case=Ill|Number=Sing	5	obl	_	Weight=500.0
+7	ta	ta	CCONJ	CCONJ	_	8	cc	_	Weight=0.01
+8	otti	ottoa	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	Weight=0.03
+9	pojan	poika	NOUN	NOUN	Case=Gen|Number=Sing	8	obj	_	Weight=0.0033333333333333335
+10	kerallah	kerallah	ADV	ADV	_	8	advmod	_	Weight=500.0
+11	.	.	PUNCT	PUNCT	_	8	punct	_	Weight=0.015
+
+# sent-id: vepkar-1427.5
+# text: Kirilällä oli šiih aikah nellä vuotta..
+1	Kirilällä	Kirilä	PROPN	PROPN	Case=Ade|Number=Sing	2	nmod:own	PropnType=Cog|Weight=500.0
+2	oli	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=500.0
+3	šiih	še	PRON	PRON	Case=Ill|Number=Sing|PronType=Dem	4	det	_	Weight=500.0
+4	aikah	aika	NOUN	NOUN	Case=Ill|Number=Sing	2	obl	_	Weight=500.0
+5	nellä	n’el’l’ä	NUM	NUM	Case=Nom|Number=Sing	6	nummod	_	Weight=500.0
+6	vuotta	vuosi	NOUN	NOUN	Case=Par|Number=Sing	2	obj	_	Weight=500.0
+7	..	..	PUNCT	PUNCT	_	_	_	_	Weight=500.0
+
+# sent-id: vepkar-1427.6
+# text: Oli kirkaš huomeneš.
+1	Oli	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=500.0
+2	kirkaš	kirkaš	ADJ	ADJ	Case=Nom|Number=Sing	3	amod	_	Weight=0.01
+3	huomeneš	huomeneš	NOUN	NOUN	Case=Nom|Number=Sing	1	obj	_	Weight=500.0
+4	.	.	PUNCT	PUNCT	_	_	_	_	Weight=500.0
+
+# sent-id: vepkar-1427.7
+# text: Lämpimäšti paisto päivyä, linnut vičerrettih..
+1	Lämpimäšti	lämpimäšti	ADV	ADV	_	2	advmod	_	Weight=0.01
+2	paisto	paistoa	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.010799999999999999
+3	päivyä	päivä	NOUN	NOUN	Case=Par|Number=Sing	2	obj	_	Weight=0.0033333333333333335
+4	,	,	PUNCT	PUNCT	_	2	punct	_	Weight=0.006666666666666667
+5	linnut	lintu	NOUN	NOUN	Case=Nom|Number=Plur	2	nsubj	_	Weight=0.015
+6	vičerrettih	vičerteä	VERB	VERB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	2	conj	_	Weight=0.21160000000000007
+7	..	..	PUNCT	PUNCT	_	6	punct	_	Weight=0.0025
+
+# sent-id: vepkar-1427.8
+# text: Muamo noššatti pojan.
+1	Muamo	muamo	NOUN	NOUN	Case=Nom|Number=Sing	2	nsubj	_	Weight=0.005
+2	noššatti	noššattoa	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
+3	pojan	poika	NOUN	NOUN	Case=Gen|Number=Sing	2	obj	_	Weight=0.005
+4	.	.	PUNCT	PUNCT	_	2	punct	_	Weight=0.01
+
+# sent-id: vepkar-1427.9
+# text: Hyö šyötih, pantih evähät pikkaraiseh tuohikesselih, otettih tuohiset ropehet, muamo šuuremman, a poika kopran kokosen.
+1	Hyö	hyö	PRON	PRON	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	Weight=500.0
+2	šyötih	šyyvä	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.013600000000000001
+3	,	,	PUNCT	PUNCT	_	2	punct	_	Weight=0.0016666666666666668
+4	pantih	panna	VERB	VERB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	2	conj	_	Weight=0.2144000000000001
+5	evähät	eväš	NOUN	NOUN	Case=Nom|Number=Plur	4	obj	_	Weight=0.0011111111111111111
+6	pikkaraiseh	pikkaraini	ADJ	ADJ	Case=Ill|Number=Sing	7	amod	_	Weight=0.01
+7	tuohikesselih	tuohi#kesseli	NOUN	NOUN	Case=Ill|Number=Sing	4	obl	_	Weight=501.0
+8	,	,	PUNCT	PUNCT	_	9	punct	_	Weight=0.00125
+9	otettih	ottoa	VERB	VERB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	2	conj	_	Weight=0.2244000000000001
+10	tuohiset	tuohini	ADJ	ADJ	Case=Nom|Number=Plur	11	amod	_	Weight=0.01
+11	ropehet	roveh	NOUN	NOUN	Case=Nom|Number=Plur	9	obj	_	Weight=0.0018181818181818182
+12	,	,	PUNCT	PUNCT	_	9	punct	_	Weight=0.003
+13	muamo	muamo	NOUN	NOUN	Case=Nom|Number=Sing	13	orphan:nsubj	_	Weight=500.0
+14	šuuremman	šuuri	ADJ	ADJ	Case=Gen|Cmp=Cmp|Number=Sing	8	conj	_	Weight=500.0
+15	,	,	PUNCT	PUNCT	_	9	punct	_	Weight=0.006666666666666666
+16	a	a	CCONJ	CCONJ	_	17	cc	_	Weight=0.01
+17	poika	poika	NOUN	NOUN	Case=Nom|Number=Sing	19	orphan:nsubj	_	Weight=500.0
+18	kopran	kopra	NOUN	NOUN	Case=Gen|Number=Sing	19	nmod	_	Weight=0.01125
+19	kokosen	kokoni	ADJ	ADJ	Case=Gen|Number=Sing	9	conj	_	Weight=500.0
+20	.	.	PUNCT	PUNCT	_	9	punct	_	Weight=0.01375
+
+# sent-id: vepkar-1427.10
+# text: Pojan tuatto hyreyty nakruh ta virkko:
+1	Pojan	poika	NOUN	NOUN	Case=Gen|Number=Sing	2	nmod:poss	_	Weight=0.01
+2	tuatto	tuatto	NOUN	NOUN	Case=Nom|Number=Sing	3	nsubj	_	Weight=0.0033333333333333335
+3	hyreyty	hyreytyä	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.0103
+4	nakruh	nakru	NOUN	NOUN	Case=Ill|Number=Sing	3	obl	_	Weight=500.0
+5	ta	ta	CCONJ	CCONJ	_	6	cc	_	Weight=0.01
+6	virkko	virkkoa	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	Weight=0.03
+7	:	:	PUNCT	PUNCT	_	6	punct	_	Weight=0.005
+
+# sent-id: vepkar-1427.11
+# text: – Ottakkua puukko varalta, jošpa šitä tarviččou..
+1	–	–	PUNCT	PUNCT	_	2	punct	_	Weight=0.0025
+2	Ottakkua	ottoa	VERB	VERB	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.0106
+3	puukko	puukko	NOUN	NOUN	Case=Nom|Number=Sing	8	obj	_	Weight=0.0125
+4	varalta	varalta	ADV	ADV	_	2	advmod	_	Weight=0.02
+5	,	,	PUNCT	PUNCT	_	2	punct	_	Weight=0.006
+6	jošpa	jošpa	SCONJ	SCONJ	_	8	mark	_	Weight=0.0033333333333333335
+7	šitä	še	PRON	PRON	Case=Par|Number=Sing|PronType=Dem	8	obj	_	Weight=500.0
+8	tarviččou	tarvita	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act	2	conj	_	Weight=0.06
+9	..	..	PUNCT	PUNCT	_	8	punct	_	Weight=0.0016666666666666668
+
+# sent-id: vepkar-1427.12
+# text: Poika vaštasi:
+1	Poika	poika	NOUN	NOUN	Case=Nom|Number=Sing	2	nsubj	_	Weight=0.005
+2	vaštasi	vaštata	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
+3	:	:	PUNCT	PUNCT	_	2	punct	_	Weight=0.005
+
+# sent-id: vepkar-1427.13
+# text: – Myö emmä mäne kalalla, kun hilloh šuolla..
+1	–	–	PUNCT	PUNCT	_	4	punct	_	Weight=0.0075
+2	Myö	myö	PRON	PRON	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	Weight=500.0
+3	emmä	ei	AUX	AUX	Mood=Ind|Number=Plur|Person=1|Tense=Present|VerbForm=Fin|Voice=Act	4	aux	_	Weight=500.0
+4	mäne	männä	VERB	VERB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
+5	kalalla	kala	NOUN	NOUN	Case=Ade|Number=Sing	4	obl	_	Weight=0.01
+6	,	,	PUNCT	PUNCT	_	4	punct	_	Weight=0.005
+7	kun	ku	PRON	PRON	Case=Gen|Number=Sing	8	mark	_	PronType=Interr|Weight=0.01
+8	hilloh	hillo	NOUN	NOUN	Case=Ill|Number=Sing	5	conj	_	Weight=500.0
+9	šuolla	šuo	NOUN	NOUN	Case=Ade|Number=Sing	4	obl	_	Weight=0.05
+10	..	..	PUNCT	PUNCT	_	4	punct	_	Weight=0.02
+
+# sent-id: vepkar-1427.14
+# text: Muamo kuiteski pani kesselih veičet ta hyö lähettih matkah.
+1	Muamo	muamo	NOUN	NOUN	Case=Nom|Number=Sing	3	nsubj	_	Weight=0.006666666666666667
+2	kuiteski	kuiteški	ADV	ADV	_	3	advmod	_	Weight=0.01
+3	pani	panna	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.011000000000000001
+4	kesselih	kesseli	NOUN	NOUN	Case=Ill|Number=Sing	3	obl	_	Weight=500.0
+5	veičet	veiči	NOUN	NOUN	Case=Nom|Number=Plur	3	obj	_	Weight=0.006666666666666667
+6	ta	ta	CCONJ	CCONJ	_	7	cc	_	Weight=0.01
+7	hyö	hyö	PRON	PRON	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	Weight=500.0
+8	lähettih	lähtie	VERB	VERB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	3	conj	_	Weight=0.21200000000000002
+9	matkah	matka	NOUN	NOUN	Case=Ill|Number=Sing	8	obl	_	Weight=500.0
+10	.	.	PUNCT	PUNCT	_	8	punct	_	Weight=0.01
+
+# sent-id: vepkar-1427.15
+# text: Molommilla jaloissa oli kippuran’okkaset piekšut.
+1	Molommilla	molompi	PRON	PRON	Case=Ade|Number=Plur	3	obl	_	Weight=500.0
+2	jaloissa	jalka	NOUN	NOUN	Case=Ine|Number=Plur	3	obl	_	Weight=500.0
+3	oli	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=500.0
+4	kippuran’okkaset	kippura#nokkani	ADJ	ADJ	Case=Nom|Number=Plur	5	amod	_	Weight=1.01
+5	piekšut	piekšu	NOUN	NOUN	Case=Nom|Number=Plur	3	obj	_	Weight=500.0
+6	.	.	PUNCT	PUNCT	_	3	punct	_	Weight=500.0
+
+# sent-id: vepkar-1427.16
+# text: Pojan tuatto oli ne ommellun..
+1	Pojan	poika	NOUN	NOUN	Case=Gen|Number=Sing	2	nmod:poss	_	Weight=0.01
+2	tuatto	tuatto	NOUN	NOUN	Case=Nom|Number=Sing	5	nsubj	_	Weight=500.0
+3	oli	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	aux	_	Weight=500.0
+4	ne	ne	PRON	PRON	Case=Nom|Number=Plur|PronType=Dem	5	obj	_	Weight=500.0
+5	ommellun	ommella	ADP	ADP	Voice=Act	0	root	_	Weight=500.0
+6	..	..	PUNCT	PUNCT	5	punct	5	punct	Weight=500.0
+
+# sent-id: vepkar-1427.17
+# text: Šuo oli puolen virššan piäššä koista.
+1	Šuo	šuo	NOUN	NOUN	Case=Nom|Number=Sing	2	nsubj	_	Weight=500.0
+2	oli	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=500.0
+3	puolen	puoli	NOUN	NOUN	Case=Gen|Number=Sing	4	nummod	_	Weight=0.01
+4	virššan	viršša	NOUN	NOUN	Case=Gen|Number=Sing	2	obl	_	Weight=0.01
+5	piäššä	piäššä	ADP	ADP	_	4	case	_	Weight=500.0
+6	koista	koti	NOUN	NOUN	Case=Ine|Number=Sing	4	nmod	_	Weight=500.0
+7	.	.	PUNCT	PUNCT	_	2	punct	_	Weight=500.0
+
+# sent-id: vepkar-1427.18
+# text: Šinne vei kaitani meččätie.
+1	Šinne	še	PRON	PRON	Case=Ill|Number=Sing|PronType=Dem	2	obl	_	Weight=500.0
+2	vei	viijä	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
+3	kaitani	kaitani	ADJ	ADJ	Case=Nom|Number=Sing	4	amod	_	Weight=0.01
+4	meččätie	meččä#tie	NOUN	NOUN	Case=Nom|Number=Sing	2	nsubj	_	Weight=501.0
+5	.	.	PUNCT	PUNCT	_	2	punct	_	Weight=0.015
+
+# sent-id: vepkar-1427.19
+# text: Harvoin vet šinne oli käyntie, vain hillon aikah..
+1	Harvoin	harvoin	ADV	ADV	_	4	advmod	_	Weight=500.0
+2	vet	vet	ADV	ADV	_	4	advmod	_	Weight=500.0
+3	šinne	še	PRON	PRON	Case=Ill|Number=Sing|PronType=Dem	4	obl	_	Weight=500.0
+4	oli	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=500.0
+5	käyntie	käynti	NOUN	NOUN	Case=Par|Number=Sing	4	obl	_	Weight=500.0z
+6	,	,	PUNCT	PUNCT	_	4	punct	_	Weight=500.0
+7	vain	vain	CCONJ	CCONJ	_	8	cc	_	Weight=0.01
+8	hillon	hillo	NOUN	NOUN	Case=Gen|Number=Sing	9	nmod:poss	_	Weight=0.01
+9	aikah	aika	NOUN	NOUN	Case=Ill|Number=Sing	4	advmod	_	Weight=500.0
+10	..	..	PUNCT	PUNCT	_	4	punct	_	Weizght=500.0
+
+# sent-id: vepkar-1427.20
+# text: Hyö tultih šuon laitah, heitettih kesseli tiellä.
+1	Hyö	hyö	PRON	PRON	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	Weight=500.0
+2	tultih	tulla	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.011599999999999997
+3	šuon	šuo	NOUN	NOUN	Case=Gen|Number=Sing	4	nmod:poss	_	Weight=0.01
+4	laitah	laita	NOUN	NOUN	Case=Ill|Number=Sing	2	obl	_	Weight=500.0
+5	,	,	PUNCT	PUNCT	_	6	punct	_	Weight=0.0033333333333333335
+6	heitettih	heitteä	VERB	VERB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	3	conj	_	Weight=0.2132000000000001
+7	kesseli	kesseli	NOUN	NOUN	Case=Nom|Number=Sing	6	obj	_	Weight=500.0
+8	tiellä	tie	NOUN	NOUN	Case=Ade|Number=Sing	6	obl	_	Weight=0.02
+9	.	.	PUNCT	PUNCT	_	6	punct	_	Weight=0.0075
+
+# sent-id: vepkar-1427.21
+# text: Muamo šito okšah valkien paikan, jotta rutompah löytyä tie.
+1	Muamo	muamo	NOUN	NOUN	Case=Nom|Number=Sing	2	nsubj	_	Weight=0.0025
+2	šito	šituo	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
+3	okšah	okša	NOUN	NOUN	Case=Ill|Number=Sing	2	obl	_	Weight=500.0
+4	valkien	valkie	ADJ	ADJ	Case=Gen|Number=Sing	5	amod	_	Weight=0.01
+5	paikan	paikka	NOUN	NOUN	Case=Gen|Number=Sing	2	obj	_	Weight=0.0075
+6	,	,	PUNCT	PUNCT	_	9	punct	_	Weight=0.01
+7	jotta	jotta	SCONJ	SCONJ	_	9	mark	_	Weight=0.005
+8	rutompah	rutompah	ADV	ADV	_	9	advmod	_	Weight=0.01
+9	löytyä	löytyä	VERB	VERB	VerbForm=Inf	2	acl	_	Weight=500.0
+10	tie	tie	NOUN	NOUN	Case=Nom|Number=Sing	9	obj	_	Weight=500.0
+11	.	.	PUNCT	PUNCT	_	9	punct	_	Weight=0.005
+
+# sent-id: vepkar-1427.22
+# text: Hyö otettih ropehet ta lähettih šuolla..
+1	Hyö	hyö	PRON	PRON	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	Weight=500.0
+2	otettih	ottoa	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.0112
+3	ropehet	roveh	NOUN	NOUN	Case=Nom|Number=Plur	2	obj	_	Weight=0.0033333333333333335
+4	ta	ta	CCONJ	CCONJ	_	5	cc	_	Weight=0.01
+5	lähettih	lähtie	VERB	VERB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	2	conj	_	Weight=0.21239999999999998
+6	šuolla	šuo	NOUN	NOUN	Case=Ade|Number=Sing	5	obl	_	Weight=0.01
+7	..	..	PUNCT	PUNCT	_	5	punct	_	Weight=0.01
+
+# sent-id: vepkar-1427.23
+# text: Hilluo šai poimie šuorah šuon laijašta, ne oli melko šuurie ta mehövie, melkein kaikki keltasie, kypšie.
+1	Hilluo	hillo	NOUN	NOUN	Case=Par|Number=Sing	3	obj	_	Weight=500.0
+2	šai	suaha	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	aux	_	Weight=0.01
+3	poimie	poimie	VERB	VERB	VerbForm=Inf	0	root	_	Weight=500.0
+4	šuorah	suorah	ADV	ADV	_	3	advmod	_	Weight=0.01
+5	šuon	šuo	NOUN	NOUN	Case=Gen|Number=Sing	6	nmod:poss	_	Weight=0.01
+6	laijašta	laita	NOUN	NOUN	Case=Ine|Number=Sing	3	obl	_	Weight=500.0
+7	,	,	PUNCT	PUNCT	_	3	punct	_	Weight=0.008
+8	ne	ne	PRON	PRON	Case=Nom|Number=Plur|PronType=Dem	9	subj	_	Weight=500.0
+9	oli	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	13	cop	_	Weight=500.0
+10	melko	melko	ADV	ADV	_	13	advmod	_	Weight=0.07
+11	šuurie	šuuri	ADJ	ADJ	Case=Par|Number=Sing	13	conj	_	Weight=500.0
+12	ta	ta	CCONJ	CCONJ	_	13	cc	_	Weight=0.01
+13	mehövie	mehövä	ADJ	ADJ	Case=Par|Number=Sing	conj	2	_	Weight=500.0
+14	,	,	PUNCT	PUNCT	_	3	punct	_	Weight=0.0275
+15	melkein	melkein	ADV	ADV	_	16	advmod	_	Weight=0.12
+16	kaikki	kaikki	PRON	PRON	Case=Nom|Number=Sing|PronType=Ind	19	det	_	Weight=500.0
+17	keltasie	keltani	ADJ	ADJ	Case=Par|Number=Sing	19	conj	_	Weight=500.0
+18	,	,	PUNCT	PUNCT	_	3	punct	_	Weight=0.049999999999999996
+19	kypšie	kypšä	ADJ	ADJ	Case=Par|Number=Sing	13	conj	_	Weight=500.0
+20	.	.	PUNCT	PUNCT	_	3	punct	_	Weight=0.085
+
+# sent-id: vepkar-1427.24
+# text: Šejašša šattu vielä ei täyšin kypšie, rušappoja, niitä poika mielelläh pureškeli..
+1	Šejašša	šejašša	ADV	ADV	_	2	advmod	_	Weight=0.01
+2	šattu	sattuo	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.0111
+3	vielä	vielä	ADV	ADV	_	2	advmod	_	Weight=0.01
+4	ei	ei	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act	6	advmod	_	Weight=500.0
+5	täyšin	täyšin	ADV	ADV	_	2	advmod	_	Weight=0.03
+6	kypšie	kypšä	ADJ	ADJ	Case=Par|Number=Sing	2	nsubj	_	Weight=500.0
+7	,	,	PUNCT	PUNCT	_	8	punct	_	Weight=0.0125
+8	rušappoja	rušappo	ADJ	ADJ	Case=Par|Number=Sing	6	appos	_	Weight=500.0
+9	,	,	PUNCT	PUNCT	_	8	punct	_	Weight=0.008
+10	niitä	ne	PRON	PRON	Case=Par|Number=Plur|PronType=Dem	13	obj	_	Weight=500.0
+11	poika	poika	NOUN	NOUN	Case=Nom|Number=Sing	13	nsubj	_	Weight=0.0033333333333333335
+12	mielelläh	mielelläh	ADV	ADV	_	13	advmod	_	Weight=0.01
+13	pureškeli	pureškella	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	parataxis	_	Weight=0.11
+14	..	..	PUNCT	PUNCT	_	13	punct	_	Weight=0.0016666666666666668
+
+# sent-id: vepkar-1427.25
+# text: Hyö kerättih ahkerašti ta ruttoh aštiet oltih täyvet.
+1	Hyö	hyö	PRON	PRON	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	Weight=500.0
+2	kerättih	kerätä	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
+3	ahkerašti	ahkerašti	ADV	ADV	_	5	conj	_	Weight=0.01
+4	ta	ta	CCONJ	CCONJ	_	5	cc	_	Weight=0.01
+5	ruttoh	ruttoh	ADV	ADV	_	2	advmod	_	Weight=0.03
+6	aštiet	aštie	NOUN	NOUN	Case=Nom|Number=Plur	8	nsubj:cop	_	Weight=0.02
+7	oltih	olla	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	cop	_	Weight=500.0
+8	täyvet	täyši	ADJ	ADJ	Case=Nom|Number=Plur	2	parataxis	_	Weight=500.0
+9	.	.	PUNCT	PUNCT	_	2	punct	_	Weight=0.035
+
+# sent-id: vepkar-1427.26
+# text: Hyö tultih šuon laitah, nouštih tiellä, missä oli kesseli, ta ruvettih šyömäh.
+1	Hyö	hyö	PRON	PRON	Case=Nom|Number=Plur|Person=3|PronType=Prs	_	_	_	Weight=500.0
+2	tultih	tulla	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.016399999999999998
+3	šuon	šuo	NOUN	NOUN	Case=Gen|Number=Sing	4	nmod:poss	_	Weight=0.01
+4	laitah	laita	NOUN	NOUN	Case=Ill|Number=Sing	_	_	_	Weight=500.0
+5	,	,	PUNCT	PUNCT	_	6	punct	_	Weight=0.002
+6	nouštih	noušša	VERB	VERB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	Weight=0.21800000000000014
+7	tiellä	tie	NOUN	NOUN	Case=Ade|Number=Sing	6	obl	_	Weight=0.01
+8	,	,	PUNCT	PUNCT	_	6	punct	_	Weight=0.0025
+9	missä	mi	PRON	PRON	Case=Ine|Number=Sing	_	_	_	PronType=Interr|Weight=500.0
+10	oli	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	_	_	_	Weight=500.0
+11	kesseli	kesseli	NOUN	NOUN	Case=Nom|Number=Sing	_	_	_	Weight=500.0
+12	,	,	PUNCT	PUNCT	_	14	punct	_	Weight=0.0018181818181818182
+13	ta	ta	CCONJ	CCONJ	_	14	cc	_	Weight=0.01
+14	ruvettih	ruveta	VERB	VERB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	Weight=0.23400000000000004
+15	šyömäh	šyyvä	VERB	VERB	Case=Ill|VerbForm=Inf	_	_	_	Weight=500.0
+16	.	.	PUNCT	PUNCT	_	15	punct	_	Weight=0.0007142857142857143
+
+# sent-id: vepkar-1427.27
+# text: Šiitä hyö vähäsen leväheltih.
+1	Šiitä	še	PRON	PRON	Case=Ela|Number=Sing|PronType=Dem	_	_	_	Weight=500.0
+2	hyö	hyö	PRON	PRON	Case=Nom|Number=Plur|Person=3|PronType=Prs	_	_	_	Weight=500.0
+3	vähäsen	vähäšen	ADV	ADV	_	4	advmod	_	Weight=0.01
+4	leväheltih	levähellä	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
+5	.	.	PUNCT	PUNCT	_	4	punct	_	Weight=0.005
+
+# sent-id: vepkar-1427.28
+# text: Šyönnin jälkeh muamo kisko tuohta ta luati vielä kakši rovehta, ičelläh ta pojalla.
+1	Šyönnin	šyönti	NOUN	NOUN	Case=Gen|Number=Sing	_	_	_	Weight=500.0
+2	jälkeh	jälkeh	ADP	ADP	_	_	_	_	Weight=500.0
+3	muamo	muamo	NOUN	NOUN	Case=Nom|Number=Sing	4	nsubj	_	Weight=0.002
+4	kisko	kiskoa	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.0103
+5	tuohta	tuohi	NOUN	NOUN	Case=Par|Number=Sing	4	obj	_	Weight=0.002
+6	ta	ta	CCONJ	CCONJ	_	7	cc	_	Weight=0.01
+7	luati	luatie	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	Weight=0.03
+8	vielä	vielä	ADV	ADV	_	7	advmod	_	Weight=0.01
+9	kakši	kakši	NUM	NUM	Case=Nom|Number=Sing	_	_	_	Weight=500.0
+10	rovehta	roveh	NOUN	NOUN	Case=Par|Number=Sing	7	obj	_	Weight=0.006
+11	,	,	PUNCT	PUNCT	_	7	punct	_	Weight=0.013333333333333334
+12	ičelläh	iče	PRON	PRON	Case=Ade|Number=Sing|Person[psor]=3|Reflex=Yes	_	_	_	Weight=500.0
+13	ta	ta	CCONJ	CCONJ	_	14	cc	_	Weight=0.01
+14	pojalla	poika	NOUN	NOUN	Case=Ade|Number=Sing	7	obl	_	Weight=0.07
+15	.	.	PUNCT	PUNCT	_	7	punct	_	Weight=0.04
+
+# sent-id: vepkar-1427.29
+# text: Hiän luati niihi pankat koivun vičašta.
+1	Hiän	hiän	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	Weight=500.0
+2	luati	luatie	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
+3	niihi	ne	PRON	PRON	Case=Ill|Number=Plur|PronType=Dem	_	_	_	Weight=500.0
+4	pankat	pankka	NOUN	NOUN	Case=Nom|Number=Plur	2	obj	_	Weight=0.01
+5	koivun	koivu	NOUN	NOUN	Case=Gen|Number=Sing	6	nmod:poss	_	Weight=0.01
+6	vičašta	vičča	NOUN	NOUN	Case=Ine|Number=Sing	_	_	_	Weight=500.0
+7	.	.	PUNCT	PUNCT	_	2	punct	_	Weight=0.025
+
+# sent-id: vepkar-1427.30
+# text: Šiitä hyö tuaš lähettih hilluo poimimah.
+1	Šiitä	še	PRON	PRON	Case=Ela|Number=Sing|PronType=Dem	_	_	_	Weight=500.0
+2	hyö	hyö	PRON	PRON	Case=Nom|Number=Plur|Person=3|PronType=Prs	_	_	_	Weight=500.0
+3	tuaš	tuaš	ADV	ADV	_	4	advmod	_	Weight=0.01
+4	lähettih	lähtie	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
+5	hilluo	hillo	NOUN	NOUN	Case=Par|Number=Sing	4	obj	_	Weight=0.005
+6	poimimah	poimie	VERB	VERB	VerbForm=Inf	_	_	_	Weight=500.0
+7	.	.	PUNCT	PUNCT	_	6	punct	_	Weight=0.005
+
+# sent-id: vepkar-1427.31
+# text: Hyö mäntih loitommakši šuolla, a šielä marjua niin kun ois valettu.
+1	Hyö	hyö	PRON	PRON	Case=Nom|Number=Plur|Person=3|PronType=Prs	_	_	_	Weight=500.0
+2	mäntih	männä	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
+3	loitommakši	loitommakši	ADV	ADV	_	2	advmod	_	Weight=0.01
+4	šuolla	šuo	NOUN	NOUN	Case=Ade|Number=Sing	2	obl	_	Weight=0.02
+5	,	,	PUNCT	PUNCT	_	2	punct	_	Weight=0.01
+6	a	a	CCONJ	CCONJ	_	7	cc	_	Weight=0.01
+7	šielä	šielä	ADV	ADV	_	2	advmod	_	Weight=0.05
+8	marjua	marju	NOUN	NOUN	Case=Par|Number=Sing	2	obj	_	Weight=0.02
+9	niin	niin	ADV	ADV	_	2	advmod	_	Weight=0.07
+10	kun	kun	SCONJ	SCONJ	_	_	_	_	Weight=500.0
+11	ois	olla	AUX	AUX	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	_	_	_	Weight=500.0
+12	valettu	valettu	ADJ	ADJ	Case=Nom|Number=Sing	_	_	_	Weight=500.0
+13	.	.	PUNCT	PUNCT	_	2	punct	_	Weight=0.055
+
+# sent-id: vepkar-1427.32
+# text: Ropehet terväseh täytyttih.
+1	Ropehet	roveh	NOUN	NOUN	Case=Nom|Number=Plur	3	nsubj	_	Weight=0.01
+2	terväseh	terväni	ADJ	ADJ	Case=Ill|Number=Sing	_	_	_	Weight=500.0
+3	täytyttih	täyttyä	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
+4	.	.	PUNCT	PUNCT	_	3	punct	_	Weight=0.005
+
+# sent-id: vepkar-1427.33
+# text: Hyö tuaš vietih ne kesselin luo..
+1	Hyö	hyö	PRON	PRON	Case=Nom|Number=Plur|Person=3|PronType=Prs	_	_	_	Weight=500.0
+2	tuaš	tuaš	ADV	ADV	_	3	advmod	_	Weight=0.01
+3	vietih	viijä	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
+4	ne	ne	PRON	PRON	Case=Nom|Number=Plur|PronType=Dem	_	_	_	Weight=500.0
+5	kesselin	kesseli	NOUN	NOUN	Case=Gen|Number=Sing	3	obj	_	Weight=0.01
+6	luo	luo	ADP	ADP	_	_	_	_	Weight=500.0
+7	..	..	PUNCT	PUNCT	_	3	punct	_	Weight=0.02
+
+# sent-id: vepkar-1427.34
+# text: Muamo jo ois ni kotih lähten, ka poika tahto kerätä lisyä, jotta ois mitä kertuo koissa..
+1	Muamo	muamo	NOUN	NOUN	Case=Nom|Number=Sing	10	nsubj	_	Weight=0.0225
+2	jo	jo	ADV	ADV	_	10	advmod	_	Weight=0.08
+3	ois	olla	AUX	AUX	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	_	_	_	Weight=500.0
+4	ni	ni	SCONJ	SCONJ	_	10	mark	_	Weight=0.02
+5	kotih	koti	NOUN	NOUN	Case=Ill|Number=Sing	_	_	_	Weight=500.0
+6	lähten	lähtie	ADP	ADP	Voice=Act	_	_	_	Weight=500.0
+7	,	,	PUNCT	PUNCT	_	10	punct	_	Weight=0.0075
+8	ka	ka	CCONJ	CCONJ	_	9	cc	_	Weight=0.01
+9	poika	poika	NOUN	NOUN	Case=Nom|Number=Sing	10	nsubj	_	Weight=0.0009090909090909091
+10	tahto	tahtoa	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
+11	kerätä	kerätä	VERB	VERB	VerbForm=Inf	_	_	_	Weight=500.0
+12	lisyä	lisyä	ADV	ADV	_	11	advmod	_	Weight=0.01
+13	,	,	PUNCT	PUNCT	_	11	punct	_	Weight=0.0033333333333333335
+14	jotta	jotta	SCONJ	SCONJ	_	17	mark	_	Weight=0.00375
+15	ois	olla	AUX	AUX	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	_	_	_	Weight=500.0
+16	mitä	mi	PRON	PRON	Case=Par|Number=Sing	_	_	_	PronType=Interr|Weight=500.0
+17	kertuo	kertuo	VERB	VERB	VerbForm=Inf	_	_	_	Weight=500.0
+18	koissa	koti	NOUN	NOUN	Case=Ine|Number=Sing	_	_	_	Weight=500.0
+19	..	..	PUNCT	PUNCT	_	17	punct	_	Weight=0.0025
+
+# sent-id: vepkar-1427.35
+# text: Muamo tuaš kisko tuohta ta luati nellä rovehta.
+1	Muamo	muamo	NOUN	NOUN	Case=Nom|Number=Sing	3	nsubj	_	Weight=0.006666666666666667
+2	tuaš	tuaš	ADV	ADV	_	3	advmod	_	Weight=0.01
+3	kisko	kiskoa	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.0103
+4	tuohta	tuohi	NOUN	NOUN	Case=Par|Number=Sing	3	obj	_	Weight=0.0033333333333333335
+5	ta	ta	CCONJ	CCONJ	_	6	cc	_	Weight=0.01
+6	luati	luatie	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	Weight=0.03
+7	nellä	n’el’l’ä	NUM	NUM	Case=Nom|Number=Sing	_	_	_	Weight=500.0
+8	rovehta	roveh	NOUN	NOUN	Case=Par|Number=Sing	6	obj	_	Weight=0.006666666666666667
+9	.	.	PUNCT	PUNCT	_	6	punct	_	Weight=0.015
+
+# sent-id: vepkar-1427.36
+# text: Hyö otettih matkahaš ne ta vähäsen eväštä.
+1	Hyö	hyö	PRON	PRON	Case=Nom|Number=Plur|Person=3|PronType=Prs	_	_	_	Weight=500.0
+2	otettih	ottoa	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
+3	matkahaš	matka	NOUN	NOUN	Case=Ill|Number=Sing|Number[psor]=Sing|Person[psor]=2	_	_	_	Weight=500.0
+4	ne	ne	PRON	PRON	Case=Nom|Number=Plur|PronType=Dem	_	_	_	Weight=500.0
+5	ta	ta	CCONJ	CCONJ	_	6	cc	_	Weight=0.01
+6	vähäsen	vähäšen	ADV	ADV	_	2	advmod	_	Weight=0.04
+7	eväštä	eväš	NOUN	NOUN	Case=Par|Number=Sing	2	obj	_	Weight=0.025
+8	.	.	PUNCT	PUNCT	_	2	punct	_	Weight=0.03
+
+# sent-id: vepkar-1427.37
+# text: Enšimmäiset ropehet täytyttih poikkoseh.
+1	Enšimmäiset	enšimmäini	ADJ	ADJ	Case=Nom|Number=Plur	2	amod	_	Weight=0.01
+2	ropehet	roveh	NOUN	NOUN	Case=Nom|Number=Plur	3	nsubj	_	Weight=0.005
+3	täytyttih	täyttyä	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
+4	poikkoseh	poikkoseh	ADV	ADV	_	3	advmod	_	Weight=0.01
+5	.	.	PUNCT	PUNCT	_	3	punct	_	Weight=0.01
+
+# sent-id: vepkar-1427.38
+# text: Hyö leväheltih mättähällä ta šyötih evähie.
+1	Hyö	hyö	PRON	PRON	Case=Nom|Number=Plur|Person=3|PronType=Prs	_	_	_	Weight=500.0
+2	leväheltih	levähellä	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.0112
+3	mättähällä	mätäš	NOUN	NOUN	Case=Ade|Number=Sing	2	obl	_	Weight=0.01
+4	ta	ta	CCONJ	CCONJ	_	5	cc	_	Weight=0.01
+5	šyötih	šyyvä	VERB	VERB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	Weight=0.21239999999999998
+6	evähie	eväš	NOUN	NOUN	Case=Par|Number=Plur	5	obj	_	Weight=0.0033333333333333335
+7	.	.	PUNCT	PUNCT	_	5	punct	_	Weight=0.01
+
+# sent-id: vepkar-1427.39
+# text: Poika oli kiinnoštun hillon poimentah, hiän otti viimesen ropehen ta šamašša alko kerätä.
+1	Poika	poika	NOUN	NOUN	Case=Nom|Number=Sing	8	nsubj	_	Weight=0.023333333333333334
+2	oli	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	_	_	_	Weight=500.0
+3	kiinnoštun	kiinnostuo	VERB	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Present|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.0115
+4	hillon	hillo	NOUN	NOUN	Case=Gen|Number=Sing	5	nmod:poss	_	Weight=0.01
+5	poimentah	poimenta	NOUN	NOUN	Case=Ill|Number=Sing	_	_	_	Weight=500.0
+6	,	,	PUNCT	PUNCT	_	8	punct	_	Weight=0.006666666666666667
+7	hiän	hiän	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	Weight=500.0
+8	otti	ottoa	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	Weight=0.05
+9	viimesen	viimeni	ADJ	ADJ	Case=Gen|Number=Sing	10	amod	_	Weight=0.01
+10	ropehen	roveh	NOUN	NOUN	Case=Gen|Number=Sing	8	obj	_	Weight=0.002857142857142857
+11	ta	ta	CCONJ	CCONJ	_	12	cc	_	Weight=0.01
+12	šamašša	šama	ADJ	ADJ	Case=Ine|Number=Sing	_	_	_	Weight=500.0
+13	alko	alkoa	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	Weight=0.05
+14	kerätä	kerätä	VERB	VERB	VerbForm=Inf	_	_	_	Weight=500.0
+15	.	.	PUNCT	PUNCT	_	14	punct	_	Weight=0.0016666666666666668
+
+# sent-id: vepkar-1427.40
+# text: Muamo oli jo vaipun, ka kuitenki hiän nousi pistyh ta mäni pojalla jälkeh.
+1	Muamo	muamo	NOUN	NOUN	Case=Nom|Number=Sing	9	nsubj	_	Weight=0.02666666666666667
+2	oli	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	_	_	_	Weight=500.0
+3	jo	jo	ADV	ADV	_	9	advmod	_	Weight=0.06
+4	vaipun	vaipuo	ADP	ADP	Voice=Act	_	_	_	Weight=500.0
+5	,	,	PUNCT	PUNCT	_	9	punct	_	Weight=0.013333333333333334
+6	ka	ka	CCONJ	CCONJ	_	7	cc	_	Weight=0.01
+7	kuitenki	kuitenki	ADV	ADV	_	9	advmod	_	Weight=0.02
+8	hiän	hiän	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	Weight=500.0
+9	nousi	noušša	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.0103
+10	pistyh	pistyh	ADV	ADV	_	9	advmod	_	Weight=0.01
+11	ta	ta	CCONJ	CCONJ	_	12	cc	_	Weight=0.01
+12	mäni	männä	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	_	Weight=0.03
+13	pojalla	poika	NOUN	NOUN	Case=Ade|Number=Sing	12	obl	_	Weight=0.01
+14	jälkeh	jälkeh	ADP	ADP	_	_	_	_	Weight=500.0
+15	.	.	PUNCT	PUNCT	_	12	punct	_	Weight=0.0075
+
+# sent-id: vepkar-1427.41
+# text: Viimesie ropehie hyö kerättih pitemmälti, šentäh kun oli jo vaivuttu..
+1	Viimesie	viimeni	ADJ	ADJ	Case=Par|Number=Sing	_	_	_	Weight=500.0
+2	ropehie	roveh	NOUN	NOUN	Case=Par|Number=Plur	_	_	_	Weight=500.0
+3	hyö	hyö	PRON	PRON	Case=Nom|Number=Plur|Person=3|PronType=Prs	_	_	_	Weight=500.0
+4	kerättih	kerätä	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
+5	pitemmälti	pitemmälti	ADV	ADV	_	4	advmod	_	Weight=0.01
+6	,	,	PUNCT	PUNCT	_	4	punct	_	Weight=0.006666666666666667
+7	šentäh	sentäh	ADV	ADV	_	4	advmod	_	Weight=0.03
+8	kun	kun	SCONJ	SCONJ	_	_	_	_	Weight=500.0
+9	oli	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	_	_	_	Weight=500.0
+10	jo	jo	ADV	ADV	_	4	advmod	_	Weight=0.06
+11	vaivuttu	vaipuo	ADP	ADP	Case=Nom|Number=Sing|Voice=Pass	_	_	_	Weight=500.0
+12	..	..	PUNCT	PUNCT	_	4	punct	_	Weight=0.04
+
+# sent-id: vepkar-1427.42
+# text: Poika täytti ropehen rutompah.
+1	Poika	poika	NOUN	NOUN	Case=Nom|Number=Sing	2	nsubj	_	Weight=0.005
+2	täytti	täyttyä	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
+3	ropehen	roveh	NOUN	NOUN	Case=Gen|Number=Sing	2	obj	_	Weight=0.005
+4	rutompah	rutompah	ADV	ADV	_	2	advmod	_	Weight=0.02
+5	.	.	PUNCT	PUNCT	_	2	punct	_	Weight=0.015
+
+# sent-id: vepkar-1427.43
+# text: Hiän keräsi vielä muamolla pari koprallista.
+1	Hiän	hiän	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	Weight=500.0
+2	keräsi	kerätä	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
+3	vielä	vielä	ADV	ADV	_	2	advmod	_	Weight=0.01
+4	muamolla	muamo	NOUN	NOUN	Case=Ade|Number=Sing	2	obl	_	Weight=0.02
+5	pari	pari	NUM	NUM	Case=Nom|Number=Sing	_	_	_	Weight=500.0
+6	koprallista	koprallini	ADJ	ADJ	Case=Par|Number=Sing	_	_	_	Weight=500.0
+7	.	.	PUNCT	PUNCT	_	2	punct	_	Weight=0.025
+
+# sent-id: vepkar-1427.44
+# text: Vaikka koprah šopi vain kakši hilluo, ka šeki oli apuo..
+1	Vaikka	vaikka	CCONJ	CCONJ	_	2	cc	_	Weight=0.01
+2	koprah	kopra	NOUN	NOUN	Case=Ill|Number=Sing	_	_	_	Weight=500.0
+3	šopi	šopie	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
+4	vain	vain	CCONJ	CCONJ	_	5	cc	_	Weight=0.01
+5	kakši	kakši	NUM	NUM	Case=Nom|Number=Sing	_	_	_	Weight=500.0
+6	hilluo	hillo	NOUN	NOUN	Case=Par|Number=Sing	3	obj	_	Weight=0.006
+7	,	,	PUNCT	PUNCT	_	3	punct	_	Weight=0.013333333333333334
+8	ka	ka	CCONJ	CCONJ	_	9	cc	_	Weight=0.01
+9	šeki	šeki	ADV	ADV	_	3	advmod	_	Weight=0.06
+10	oli	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	_	_	_	Weight=500.0
+11	apuo	apu	NOUN	NOUN	Case=Par|Number=Sing	3	obj	_	Weight=0.02666666666666667
+12	..	..	PUNCT	PUNCT	_	3	punct	_	Weight=0.045
+
+# sent-id: vepkar-1427.45
+# text: Šuolta molommat kannettih kakšin ropehellisin hilluo.
+1	Šuolta	šuo	NOUN	NOUN	Case=Abl|Number=Sing	_	_	_	Weight=500.0
+2	molommat	molompi	PRON	PRON	Case=Nom|Number=Plur	_	_	_	Weight=500.0
+3	kannettih	kantoa	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
+4	kakšin	kakšin	ADV	ADV	_	3	advmod	_	Weight=0.01
+5	ropehellisin	ropehelline	NOUN	NOUN	Case=Ins|Number=Plur	_	_	_	Weight=500.0
+6	hilluo	hillo	NOUN	NOUN	Case=Par|Number=Sing	3	obj	_	Weight=0.015
+7	.	.	PUNCT	PUNCT	_	3	punct	_	Weight=0.02
+
+# sent-id: vepkar-1427.46
+# text: Tiellä tultuoh hyö leväheltih ta šyötih loppuset evähät..
+1	Tiellä	tie	NOUN	NOUN	Case=Ade|Number=Sing	4	obl	_	Weight=0.03
+2	tultuoh	tulla	ADP	ADP	Case=Par|Number=Sing|Person[psor]=3|Voice=Pass	_	_	_	Weight=500.0
+3	hyö	hyö	PRON	PRON	Case=Nom|Number=Plur|Person=3|PronType=Prs	_	_	_	Weight=500.0
+4	leväheltih	levähellä	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.010800000000000002
+5	ta	ta	CCONJ	CCONJ	_	6	cc	_	Weight=0.01
+6	šyötih	šyyvä	VERB	VERB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	Weight=0.21160000000000007
+7	loppuset	loppuni	ADJ	ADJ	Case=Nom|Number=Plur	8	amod	_	Weight=0.01
+8	evähät	eväš	NOUN	NOUN	Case=Nom|Number=Plur	6	obj	_	Weight=0.006666666666666667
+9	..	..	PUNCT	PUNCT	_	6	punct	_	Weight=0.015
+
+# sent-id: vepkar-1427.47
+# text: Poika tuškistu, mitein hyö viijäh hillot kotih, kun heilä on vain kakšin käsin, a hillorovehta on kahekšan.
+1	Poika	poika	NOUN	NOUN	Case=Nom|Number=Sing	2	nsubj	_	Weight=0.00125
+2	tuškistu	tuškistuo	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.010799999999999999
+3	,	,	PUNCT	PUNCT	_	2	punct	_	Weight=0.002
+4	mitein	mitein	ADV	ADV	_	2	advmod	_	Weight=0.02
+5	hyö	hyö	PRON	PRON	Case=Nom|Number=Plur|Person=3|PronType=Prs	_	_	_	Weight=500.0
+6	viijäh	viijä	VERB	VERB	Mood=Ind|Tense=Present|VerbForm=Fin|Voice=Pass	0	root	_	Weight=0.21160000000000007
+7	hillot	hillo	NOUN	NOUN	Case=Nom|Number=Plur	6	obj	_	Weight=0.0011111111111111111
+8	kotih	koti	NOUN	NOUN	Case=Ill|Number=Sing	_	_	_	Weight=500.0
+9	,	,	PUNCT	PUNCT	_	6	punct	_	Weight=0.005
+10	kun	kun	SCONJ	SCONJ	_	_	_	_	Weight=500.0
+11	heilä	hyö	PRON	PRON	Case=Ade|Number=Plur|Person=3|PronType=Prs	_	_	_	Weight=500.0
+12	on	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act	_	_	_	Weight=500.0
+13	vain	vain	CCONJ	CCONJ	_	14	cc	_	Weight=0.01
+14	kakšin	kakšin	ADV	ADV	_	6	advmod	_	Weight=0.08
+15	käsin	käsin	ADV	ADV	_	6	advmod	_	Weight=0.09
+16	,	,	PUNCT	PUNCT	_	6	punct	_	Weight=0.02
+17	a	a	CCONJ	CCONJ	_	18	cc	_	Weight=0.01
+18	hillorovehta	hillo#roveh	NOUN	NOUN	Case=Par|Number=Sing	6	obj	_	Weight=1.03
+19	on	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act	_	_	_	Weight=500.0
+20	kahekšan	kahekšan	NUM	NUM	Case=Gen|Number=Sing	_	_	_	Weight=500.0
+21	.	.	PUNCT	PUNCT	_	6	punct	_	Weight=0.0375
+
+# sent-id: vepkar-1427.48
+# text: Muamo leikkasi koivušta nellä keppie ta kahekšan viččua.
+1	Muamo	muamo	NOUN	NOUN	Case=Nom|Number=Sing	2	nsubj	_	Weight=0.0033333333333333335
+2	leikkasi	leikata	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
+3	koivušta	koivu	NOUN	NOUN	Case=Ine|Number=Sing	_	_	_	Weight=500.0
+4	nellä	n’el’l’ä	NUM	NUM	Case=Nom|Number=Sing	_	_	_	Weight=500.0
+5	keppie	keppi	NOUN	NOUN	Case=Par|Number=Sing	2	obj	_	Weight=0.01
+6	ta	ta	CCONJ	CCONJ	_	7	cc	_	Weight=0.01
+7	kahekšan	kahekšan	NUM	NUM	Case=Gen|Number=Sing	_	_	_	Weight=500.0
+8	viččua	vičča	NOUN	NOUN	Case=Par|Number=Sing	2	obj	_	Weight=0.03
+9	.	.	PUNCT	PUNCT	_	2	punct	_	Weight=0.035
+
+# sent-id: vepkar-1427.49
+# text: Hiän vuoli kepit šiliekši, molompih päih heitti pienet koukut..
+1	Hiän	hiän	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	Weight=500.0
+2	vuoli	vuolla	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.0106
+3	kepit	keppi	NOUN	NOUN	Case=Nom|Number=Plur	2	obj	_	Weight=0.0033333333333333335
+4	šiliekši	šilie	ADJ	ADJ	Case=Tra|Number=Sing	_	_	_	Weight=500.0
+5	,	,	PUNCT	PUNCT	_	2	punct	_	Weight=0.01
+6	molompih	molompi	PRON	PRON	Case=Ill|Number=Plur	_	_	_	Weight=500.0
+7	päih	päih	ADV	ADV	_	8	advmod	_	Weight=0.01
+8	heitti	heitteä	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	Weight=0.06
+9	pienet	pieni	ADJ	ADJ	Case=Nom|Number=Plur	10	amod	_	Weight=0.01
+10	koukut	koukku	NOUN	NOUN	Case=Nom|Number=Plur	8	obj	_	Weight=0.005
+11	..	..	PUNCT	PUNCT	_	8	punct	_	Weight=0.0075
+
+# sent-id: vepkar-1427.50
+# text: Šiitä hyö kuoritettih hienot vičat ta lujah šivottih ropehet keppijen päih, niin jotta ne ei luiskahettais.
+1	Šiitä	še	PRON	PRON	Case=Ela|Number=Sing|PronType=Dem	_	_	_	Weight=500.0
+2	hyö	hyö	PRON	PRON	Case=Nom|Number=Plur|Person=3|PronType=Prs	_	_	_	Weight=500.0
+3	kuoritettih	kuorittoa	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.014800000000000002
+4	hienot	hieno	ADJ	ADJ	Case=Nom|Number=Plur	5	amod	_	Weight=0.01
+5	vičat	vičča	NOUN	NOUN	Case=Nom|Number=Plur	3	obj	_	Weight=0.004
+6	ta	ta	CCONJ	CCONJ	_	7	cc	_	Weight=0.01
+7	lujah	lujah	ADV	ADV	_	8	advmod	_	Weight=0.01
+8	šivottih	šituo	VERB	VERB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	Weight=0.21780000000000005
+9	ropehet	roveh	NOUN	NOUN	Case=Nom|Number=Plur	8	obj	_	Weight=0.002
+10	keppijen	keppi	NOUN	NOUN	Case=Gen|Number=Plur	11	nmod:poss	_	Weight=0.01
+11	päih	päih	ADV	ADV	_	8	advmod	_	Weight=0.03
+12	,	,	PUNCT	PUNCT	_	8	punct	_	Weight=0.013333333333333334
+13	niin	niin	ADV	ADV	_	17	advmod	_	Weight=0.04
+14	jotta	jotta	SCONJ	SCONJ	_	17	mark	_	Weight=0.006
+15	ne	ne	PRON	PRON	Case=Nom|Number=Plur|PronType=Dem	_	_	_	Weight=500.0
+16	ei	ei	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act	_	_	_	Weight=500.0
+17	luiskahettais	luiskahtoa	VERB	VERB	Mood=Cnd|VerbForm=Fin|Voice=Pass	8	conj	_	Weight=0.09
+18	.	.	PUNCT	PUNCT	_	17	punct	_	Weight=0.002
+
+# sent-id: vepkar-1427.51
+# text: Muamo nošti pienemmät niistä pojan olkapäillä.
+1	Muamo	muamo	NOUN	NOUN	Case=Nom|Number=Sing	2	nsubj	_	Weight=0.005
+2	nošti	noštoa	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
+3	pienemmät	pieni	ADJ	ADJ	Case=Nom|Cmp=Cmp|Number=Plur	_	_	_	Weight=500.0
+4	niistä	ne	PRON	PRON	Case=Ela|Number=Plur|PronType=Dem	_	_	_	Weight=500.0
+5	pojan	poika	NOUN	NOUN	Case=Gen|Number=Sing	6	nmod:poss	_	Weight=0.01
+6	olkapäillä	olka#piä	NOUN	NOUN	Case=Ade|Number=Plur	2	obl	_	Weight=1.04
+7	.	.	PUNCT	PUNCT	_	2	punct	_	Weight=0.025
+
+# sent-id: vepkar-1427.52
+# text: Keppijen alla hiän pani koivun lehtie, jotta ne ei painettais olka-päitä.
+1	Keppijen	keppi	NOUN	NOUN	Case=Gen|Number=Plur	_	_	_	Weight=500.0
+2	alla	alla	ADP	ADP	_	_	_	_	Weight=500.0
+3	hiän	hiän	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	Weight=500.0
+4	pani	panna	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.010700000000000001
+5	koivun	koivu	NOUN	NOUN	Case=Gen|Number=Sing	6	nmod:poss	_	Weight=0.01
+6	lehtie	lehti	NOUN	NOUN	Case=Par|Number=Sing	4	obj	_	Weight=0.005
+7	,	,	PUNCT	PUNCT	_	4	punct	_	Weight=0.01
+8	jotta	jotta	SCONJ	SCONJ	_	11	mark	_	Weight=0.0075
+9	ne	ne	PRON	PRON	Case=Nom|Number=Plur|PronType=Dem	_	_	_	Weight=500.0
+10	ei	ei	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act	_	_	_	Weight=500.0
+11	painettais	painoa	VERB	VERB	Mood=Cnd|VerbForm=Fin|Voice=Pass	4	conj	_	Weight=0.07
+12	olka-päitä	olka-piä	NOUN	NOUN	Case=Par|Number=Plur	11	obj	_	Weight=0.002
+13	.	.	PUNCT	PUNCT	_	11	punct	_	Weight=0.005
+
+# sent-id: vepkar-1427.53
+# text: Ropehet roikuttih keppijen päissä.
+1	Ropehet	roveh	NOUN	NOUN	Case=Nom|Number=Plur	2	nsubj	_	Weight=0.005
+2	roikuttih	roikkuo	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
+3	keppijen	keppi	NOUN	NOUN	Case=Gen|Number=Plur	4	nmod:poss	_	Weight=0.01
+4	päissä	päissä	ADV	ADV	_	2	advmod	_	Weight=0.02
+5	.	.	PUNCT	PUNCT	_	2	punct	_	Weight=0.015
+
+# sent-id: vepkar-1427.54
+# text: Šiitä muamo nošti omat ropehet olkapäilläh..
+1	Šiitä	še	PRON	PRON	Case=Ela|Number=Sing|PronType=Dem	_	_	_	Weight=500.0
+2	muamo	muamo	NOUN	NOUN	Case=Nom|Number=Sing	3	nsubj	_	Weight=0.005
+3	nošti	noštoa	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
+4	omat	oma	ADJ	ADJ	Case=Nom|Number=Plur	5	amod	_	Weight=0.01
+5	ropehet	roveh	NOUN	NOUN	Case=Nom|Number=Plur	3	obj	_	Weight=0.01
+6	olkapäilläh	olka#piä	NOUN	NOUN	Case=Ade|Number=Plur|Number[psor]=Sing|Person[psor]=3	3	obl	_	Weight=1.03
+7	..	..	PUNCT	PUNCT	_	3	punct	_	Weight=0.02
+
+# sent-id: vepkar-1427.55
+# text: Šiitä hyö kačahettih toisihis ta hyrähettih nakruh.
+1	Šiitä	še	PRON	PRON	Case=Ela|Number=Sing|PronType=Dem	_	_	_	Weight=500.0
+2	hyö	hyö	PRON	PRON	Case=Nom|Number=Plur|Person=3|PronType=Prs	_	_	_	Weight=500.0
+3	kačahettih	kačahtoa	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.0112
+4	toisihis	toisihis	ADV	ADV	_	3	advmod	_	Weight=0.01
+5	ta	ta	CCONJ	CCONJ	_	6	cc	_	Weight=0.01
+6	hyrähettih	hyrähteä	VERB	VERB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	Weight=0.21239999999999998
+7	nakruh	nakru	NOUN	NOUN	Case=Ill|Number=Sing	_	_	_	Weight=500.0
+8	.	.	PUNCT	PUNCT	_	6	punct	_	Weight=0.01
+
+# sent-id: vepkar-1427.56
+# text: Poika kummekši tätä, šentäh kun hiän enši kerran näki, mitein voit kantua nellä rovehta kerralla..
+1	Poika	poika	NOUN	NOUN	Case=Nom|Number=Sing	2	nsubj	_	Weight=0.002
+2	kummekši	kummekšie	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.0108
+3	tätä	tämä	PRON	PRON	Case=Par|Number=Sing|PronType=Dem	_	_	_	Weight=500.0
+4	,	,	PUNCT	PUNCT	_	2	punct	_	Weight=0.005
+5	šentäh	sentäh	ADV	ADV	_	2	advmod	_	Weight=0.03
+6	kun	kun	SCONJ	SCONJ	_	10	mark	_	Weight=0.006666666666666667
+7	hiän	hiän	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	Weight=500.0
+8	enši	enši	ADV	ADV	_	10	advmod	_	Weight=0.02
+9	kerran	kerran	ADV	ADV	_	10	advmod	_	Weight=0.01
+10	näki	nähä	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	Weight=0.08
+11	,	,	PUNCT	PUNCT	_	10	punct	_	Weight=0.0016666666666666668
+12	mitein	mitein	ADV	ADV	_	10	advmod	_	Weight=0.02
+13	voit	voija	AUX	AUX	Mood=Ind|Number=Sing|Person=2|Tense=Present|VerbForm=Fin|Voice=Act	_	_	_	Weight=500.0
+14	kantua	kantua	VERB	VERB	VerbForm=Inf	_	_	_	Weight=500.0
+15	nellä	n’el’l’ä	NUM	NUM	Case=Nom|Number=Sing	_	_	_	Weight=500.0
+16	rovehta	roveh	NOUN	NOUN	Case=Par|Number=Sing	10	obj	_	Weight=0.008571428571428572
+17	kerralla	kerralla	ADV	ADV	_	14	advmod	_	Weight=0.03
+18	..	..	PUNCT	PUNCT	_	14	punct	_	Weight=0.005
+
+# sent-id: vepkar-1427.57
+# text: Ei hyö keritty pitälti aštuo, kun tuatto jo tuli heitä eččimäh.
+1	Ei	ei	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Present|VerbForm=Fin|Voice=Act	_	_	_	Weight=500.0
+2	hyö	hyö	PRON	PRON	Case=Nom|Number=Plur|Person=3|PronType=Prs	_	_	_	Weight=500.0
+3	keritty	keritä	ADP	ADP	Case=Nom|Number=Sing|Voice=Pass	_	_	_	Weight=500.0
+4	pitälti	pitälti	ADV	ADV	_	5	advmod	_	Weight=0.01
+5	aštuo	aštuo	VERB	VERB	VerbForm=Inf	_	_	_	Weight=500.0
+6	,	,	PUNCT	PUNCT	_	5	punct	_	Weight=0.0033333333333333335
+7	kun	kun	SCONJ	SCONJ	_	10	mark	_	Weight=0.806
+8	tuatto	tuatto	NOUN	NOUN	Case=Nom|Number=Sing	10	nsubj	_	Weight=0.002857142857142857
+9	jo	jo	ADV	ADV	_	10	advmod	_	Weight=0.01
+10	tuli	tulla	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
+11	heitä	hyö	PRON	PRON	Case=Par|Number=Plur|Person=3|PronType=Prs	_	_	_	Weight=500.0
+12	eččimäh	eččie	VERB	VERB	VerbForm=Inf	_	_	_	Weight=500.0
+13	.	.	PUNCT	PUNCT	_	12	punct	_	Weight=0.002
+
+# sent-id: vepkar-1427.58
+# text: Tuatto otti kaikki hillot, muamolla kannettavakši jäi vain tyhjä kesseli..
+1	Tuatto	tuatto	NOUN	NOUN	Case=Nom|Number=Sing	2	nsubj	_	Weight=0.0025
+2	otti	ottoa	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.0106
+3	kaikki	kaikki	PRON	PRON	Case=Nom|Number=Sing|PronType=Ind	_	_	_	Weight=500.0
+4	hillot	hillo	NOUN	NOUN	Case=Nom|Number=Plur	2	obj	_	Weight=0.005
+5	,	,	PUNCT	PUNCT	_	2	punct	_	Weight=0.01
+6	muamolla	muamo	NOUN	NOUN	Case=Ade|Number=Sing	8	obl	_	Weight=0.02
+7	kannettavakši	kannettava	ADJ	ADJ	Case=Tra|Number=Sing	_	_	_	Weight=500.0
+8	jäi	jiähä	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	Weight=0.06
+9	vain	vain	CCONJ	CCONJ	_	10	cc	_	Weight=0.01
+10	tyhjä	tyhjä	ADJ	ADJ	Case=Nom|Number=Sing	11	amod	_	Weight=0.01
+11	kesseli	kesseli	NOUN	NOUN	Case=Nom|Number=Sing	_	_	_	Weight=500.0
+12	..	..	PUNCT	PUNCT	_	8	punct	_	Weight=0.01
+
+Tokens: 0 Sentences: 58
+Unknowns / OOV: 0 = 0 %
+CPU time: 1.0225639729999998 Real time: 1.1092318969313055
+Tokens per timeunit: 0.0
+Sentences per timeunit: 52.28843505173015
