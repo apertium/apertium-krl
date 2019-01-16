@@ -79,8 +79,8 @@ Multichar_Symbols
 %<punct%>
 %<pxpl1%>
 %<pxpl2%>
-%<pxsg1%>
-%<pxsg2%>
+%<px1sg%>
+%<px2sg%>
 %<pxsp3%>
 %<qst%>
 %<qu%>
@@ -3586,8 +3586,8 @@ LEXICON NUM_SGNOM_0
 
 LEXICON NOUN_POSS_BACK_OPT
 
-%<pxsg1%>:ni # ;
-%<pxsg2%>:si # ;
+%<px1sg%>:ni # ;
+%<px2sg%>:si # ;
 
 LEXICON NOUN_CLITS_BACK_OPT
 
