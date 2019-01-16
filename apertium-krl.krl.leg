@@ -54,6 +54,7 @@
         </barrier>
       </context>
     </evidence>
+    <!-- root -->
     <evidence name="finite verbs can be roots">
       <target>
         <match>
@@ -69,6 +70,7 @@
         <location>ROOT</location>
       </context>
     </evidence>
+    <!-- root of other clause -->
     <evidence name="verb conjs that can ve lifted when >1 roots">
       <target>
         <match>
@@ -90,6 +92,7 @@
         </match>
       </context>
     </evidence>
+    <!-- subjects -->
     <evidence name="1sg pronoung agrees with 1sg verb">
       <target>
         <match>
@@ -98,6 +101,7 @@
             <ufeat name="PronType">Prs</ufeat>
             <ufeat name="Number">Sing</ufeat>
             <ufeat name="Person">1</ufeat>
+            <ufeat name="Case">Nom</ufeat>
           </ufeats>
         </match>
       </target>
@@ -129,6 +133,7 @@
             <ufeat name="PronType">Prs</ufeat>
             <ufeat name="Number">Sing</ufeat>
             <ufeat name="Person">2</ufeat>
+            <ufeat name="Case">Nom</ufeat>
           </ufeats>
         </match>
       </target>
@@ -222,6 +227,7 @@
             <ufeat name="PronType">Prs</ufeat>
             <ufeat name="Number">Plur</ufeat>
             <ufeat name="Person">1</ufeat>
+            <ufeat name="Case">Nom</ufeat>
           </ufeats>
         </match>
       </target>
@@ -253,6 +259,7 @@
             <ufeat name="PronType">Prs</ufeat>
             <ufeat name="Number">Plur</ufeat>
             <ufeat name="Person">2</ufeat>
+            <ufeat name="Case">Nom</ufeat>
           </ufeats>
         </match>
       </target>
@@ -307,6 +314,97 @@
         </barrier>
       </context>
     </evidence>
+    <!-- objects -->
+    <evidence name="Partitives can be objects">
+      <target>
+        <match>
+          <upos>NOUN</upos>
+          <upos>PROPN</upos>
+          <ufeats>
+            <ufeat name="Case">Par</ufeat>
+          </ufeats>
+        </match>
+      </target>
+      <likelihood>possibly</likelihood>
+      <depname>obj</depname>
+      <context>
+        <location>left</location>
+        <match>
+          <upos>VERB</upos>
+          <ufeats>
+            <ufeat name="VerbForm">Fin</ufeat>
+          </ufeats>
+        </match>
+        <barrier>
+          <match>
+            <upos>PUNCT</upos>
+            <upos>SCONJ</upos>
+            <upos>CCONJ</upos>
+          </match>
+        </barrier>
+      </context>
+    </evidence>
+    <evidence name="genitives sg can be objects">
+      <target>
+        <match>
+          <upos>NOUN</upos>
+          <upos>PROPN</upos>
+          <ufeats>
+            <ufeat name="Case">Gen</ufeat>
+            <ufeat name="Number">Sing</ufeat>
+          </ufeats>
+        </match>
+      </target>
+      <likelihood>possibly</likelihood>
+      <depname>obj</depname>
+      <context>
+        <location>left</location>
+        <match>
+          <upos>VERB</upos>
+          <ufeats>
+            <ufeat name="VerbForm">Fin</ufeat>
+          </ufeats>
+        </match>
+        <barrier>
+          <match>
+            <upos>PUNCT</upos>
+            <upos>SCONJ</upos>
+            <upos>CCONJ</upos>
+          </match>
+        </barrier>
+      </context>
+    </evidence>
+    <evidence name="Nominatives pl can be objects">
+      <target>
+        <match>
+          <upos>NOUN</upos>
+          <upos>PROPN</upos>
+          <ufeats>
+            <ufeat name="Case">Nom</ufeat>
+            <ufeat name="Number">Plur</ufeat>
+          </ufeats>
+        </match>
+      </target>
+      <likelihood>possibly</likelihood>
+      <depname>obj</depname>
+      <context>
+        <location>left</location>
+        <match>
+          <upos>VERB</upos>
+          <ufeats>
+            <ufeat name="VerbForm">Fin</ufeat>
+          </ufeats>
+        </match>
+        <barrier>
+          <match>
+            <upos>PUNCT</upos>
+            <upos>SCONJ</upos>
+            <upos>CCONJ</upos>
+          </match>
+        </barrier>
+      </context>
+    </evidence>
+    <!-- flats -->
     <evidence name="doubled propns are flat names">
       <target>
         <match>
@@ -328,6 +426,31 @@
         </match>
       </context>
     </evidence>
+    <!-- appos -->
+    <evidence name="nouns sg noms must appos">
+      <target>
+        <match>
+          <upos>PROPN</upos>
+          <ufeats>
+            <ufeat name="Case">Nom</ufeat>
+            <ufeat name="Number">Sing</ufeat>
+          </ufeats>
+        </match>
+      </target>
+      <likelihood>probably</likelihood>
+      <depname>appos</depname>
+      <context>
+        <location>-1</location>
+        <match>
+          <upos>NOUN</upos>
+          <ufeats>
+            <ufeat name="Case">Nom</ufeat>
+            <ufeat name="Number">Sing</ufeat>
+          </ufeats>
+        </match>
+      </context>
+    </evidence>
+    <!-- conjunctiong -->
     <evidence name="cconj coordinates its +1 often">
       <target>
         <match>
@@ -360,6 +483,28 @@
         </barrier>
       </context>
     </evidence>
+    <!-- nmods -->
+    <evidence name="Adjective agreement">
+      <target>
+        <match>
+          <upos>NOUN</upos>
+          <upos>PROPN</upos>
+          <upos>PRON</upos>
+          <ufeats>
+            <ufeat name="Case">Gen</ufeat>
+          </ufeats>
+        </match>
+      </target>
+      <likelihood>probably</likelihood>
+      <depname>nmod:poss</depname>
+      <context>
+        <location>+1</location>
+        <match>
+          <upos>NOUN</upos>
+        </match>
+      </context>
+    </evidence>
+    <!-- amods -->
     <evidence name="Adjective agreement">
       <target>
         <match>
@@ -380,6 +525,44 @@
             <ufeat name="Number"/>
             <ufeat name="Case"/>
           </ufeats>
+        </match>
+      </context>
+    </evidence>
+    <!-- very generic rules for last resorting -->
+    <evidence name="Adverbs can be ad verbs">
+      <target>
+        <match>
+          <upos>ADV</upos>
+        </match>
+      </target>
+      <likelihood>meh</likelihood>
+      <depname>advmod</depname>
+      <context>
+        <location>any</location>
+        <match>
+          <upos>VERB</upos>
+        </match>
+      </context>
+    </evidence>
+    <evidence name="Semantic cases can obl verbs">
+      <target>
+        <match>
+          <upos>NOUN</upos>
+          <upos>PROPN</upos>
+          <ufeats>
+            <ufeat name="Case">Ade</ufeat>
+          </ufeats>
+          <ufeats>
+            <ufeat name="Case">All</ufeat>
+          </ufeats>
+        </match>
+      </target>
+      <likelihood>meh</likelihood>
+      <depname>obl</depname>
+      <context>
+        <location>any</location>
+        <match>
+          <upos>VERB</upos>
         </match>
       </context>
     </evidence>
