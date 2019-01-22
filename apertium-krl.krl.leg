@@ -544,7 +544,26 @@
         </match>
       </context>
     </evidence>
-    <evidence name="Semantic cases can obl verbs">
+    <evidence name="Real genitives own +1">
+      <target>
+        <match>
+          <upos>NOUN</upos>
+          <upos>PROPN</upos>
+          <ufeats>
+            <ufeat name="Case">Gen</ufeat>
+          </ufeats>
+        </match>
+      </target>
+      <likelihood>probably</likelihood>
+      <depname>nmod:poss</depname>
+      <context>
+        <location>+1</location>
+        <match>
+          <upos>NOUN</upos>
+        </match>
+      </context>
+    </evidence>
+    <evidence name="semantic cases can obl a verb">
       <target>
         <match>
           <upos>NOUN</upos>
@@ -555,15 +574,74 @@
           <ufeats>
             <ufeat name="Case">All</ufeat>
           </ufeats>
+          <ufeats>
+            <ufeat name="Case">Ine</ufeat>
+          </ufeats>
+          <ufeats>
+            <ufeat name="Case">Ela</ufeat>
+          </ufeats>
+          <ufeats>
+            <ufeat name="Case">Ill</ufeat>
+          </ufeats>
+          <ufeats>
+            <ufeat name="Case">Ess</ufeat>
+          </ufeats>
         </match>
       </target>
-      <likelihood>meh</likelihood>
+      <likelihood>probably</likelihood>
       <depname>obl</depname>
       <context>
         <location>any</location>
         <match>
           <upos>VERB</upos>
         </match>
+        <barrier>
+          <match>
+            <upos>PUNCT</upos>
+          </match>
+        </barrier>
+      </context>
+    </evidence>
+    <evidence name="aux can aux a verb">
+      <target>
+        <match>
+          <upos>AUX</upos>
+        </match>
+      </target>
+      <likelihood>meh</likelihood>
+      <depname>aux</depname>
+      <context>
+        <location>right</location>
+        <match>
+          <upos>VERB</upos>
+        </match>
+        <barrier>
+          <match>
+            <upos>PUNCT</upos>
+          </match>
+        </barrier>
+      </context>
+    </evidence>
+    <evidence name="adp is case of gen">
+      <target>
+        <match>
+          <upos>ADP</upos>
+        </match>
+      </target>
+      <likelihood>meh</likelihood>
+      <depname>case</depname>
+      <context>
+        <location>-1</location>
+        <match>
+          <ufeats>
+            <ufeat name="Case">Gen</ufeat>
+          </ufeats>
+        </match>
+        <barrier>
+          <match>
+            <upos>PUNCT</upos>
+          </match>
+        </barrier>
       </context>
     </evidence>
   </evidences>
