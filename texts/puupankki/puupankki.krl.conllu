@@ -1394,16 +1394,16 @@
 
 # sent-id: vepkar-1663.21
 # text: Kaikin pelattih ta vaiheltih omie vehkehie, a mie issuin ta kačoin pelie.
-1	Kaikin	kaikki	PRON	PRON	Case=Ins|Number=Plur|PronType=Ind	_	_	_	Weight=500.0
+1	Kaikin	kaikki	PRON	PRON	Case=Ins|Number=Plur|PronType=Ind	2	obl	_	Weight=500.0
 2	pelattih	pelata	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.014400000000000003
 3	ta	ta	CCONJ	CCONJ	_	4	cc	_	Weight=0.01
-4	vaiheltih	vaihella	VERB	VERB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	Weight=0.21600000000000008
-5	omie	oma	ADJ	ADJ	Case=Par|Number=Sing	_	_	_	Weight=500.0
+4	vaiheltih	vaihella	VERB	VERB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	2	conj	_	Weight=0.21600000000000008
+5	omie	oma	ADJ	ADJ	Case=Par|Number=Sing	6	det	_	Weight=500.0
 6	vehkehie	vehkeh	NOUN	NOUN	Case=Par|Number=Plur	4	obj	_	Weight=0.0033333333333333335
 7	,	,	PUNCT	PUNCT	_	4	punct	_	Weight=0.01
 8	a	a	CCONJ	CCONJ	_	9	cc	_	Weight=0.01
 9	mie	mie	PRON	PRON	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	Weight=0.0011111111111111111
-10	issuin	istuo	VERB	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	12	conj	_	Weight=0.02
+10	issuin	istuo	VERB	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	Weight=0.02
 11	ta	ta	CCONJ	CCONJ	_	12	cc	_	Weight=0.01
 12	kačoin	kaččoa	VERB	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	_	Weight=0.02
 13	pelie	peli	NOUN	NOUN	Case=Par|Number=Sing	12	obj	_	Weight=0.0011111111111111111
@@ -1411,37 +1411,37 @@
 
 # sent-id: vepkar-1663.22
 # text: Šiitä miut pelašti miun ”muamo” ta mie tuaš piäsin pelih.
-1	Šiitä	še	PRON	PRON	Case=Ela|Number=Sing|PronType=Dem	_	_	_	Weight=500.0
-2	miut	mie	PRON	PRON	Case=Nom|Number=Plur|Person=1|PronType=Prs	_	_	_	Weight=500.0
+1	Šiitä	še	PRON	PRON	Case=Ela|Number=Sing|PronType=Dem	3	obl	_	Weight=500.0
+2	miut	mie	PRON	PRON	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	Weight=500.0
 3	pelašti	pelaštoa	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.011600000000000001
-4	miun	mie	PRON	PRON	Case=Gen|Number=Sing|Person=1|PronType=Prs	_	_	_	Weight=500.0
-5	”	”	PUNCT	PUNCT	_	3	punct	_	Weight=0.005
-6	muamo	muamo	NOUN	NOUN	Case=Nom|Number=Sing	_	_	_	Weight=500.0
-7	”	”	PUNCT	PUNCT	_	11	punct	_	Weight=0.008
+4	miun	mie	PRON	PRON	Case=Gen|Number=Sing|Person=1|PronType=Prs	6	nmod:poss	_	Weight=500.0
+5	”	”	PUNCT	PUNCT	_	6	punct	_	Weight=0.005
+6	muamo	muamo	NOUN	NOUN	Case=Nom|Number=Sing	3	nsubj	_	Weight=500.0
+7	”	”	PUNCT	PUNCT	_	6	punct	_	Weight=0.008
 8	ta	ta	CCONJ	CCONJ	_	9	cc	_	Weight=0.01
 9	mie	mie	PRON	PRON	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	Weight=0.002857142857142857
 10	tuaš	tuaš	ADV	ADV	_	11	advmod	_	Weight=0.01
-11	piäsin	piäštä	VERB	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.2132
+11	piäsin	piäštä	VERB	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	Weight=0.2132
 12	pelih	peli	NOUN	NOUN	Case=Ill|Number=Sing	11	obl	_	Weight=0.0016666666666666668
 13	.	.	PUNCT	PUNCT	_	11	punct	_	Weight=0.0033333333333333335
 
 # sent-id: vepkar-1663.23
 # text: ”Kalevala” on melko melukaš peli, šentäh kun kaikki yritetäh šopie keškenäh vaihtuas’s’a.
-1	”	”	PUNCT	PUNCT	_	12	punct	_	Weight=0.03666666666666667
-2	Kalevala	Kalevala	PROPN	PROPN	Case=Nom|Number=Sing	_	_	_	PropnType=Al|Weight=500.0
-3	”	”	PUNCT	PUNCT	_	12	punct	_	Weight=0.015
-4	on	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	Weight=0.01
-5	melko	melko	ADV	ADV	_	12	advmod	_	Weight=0.07
+1	”	”	PUNCT	PUNCT	_	2	punct	_	Weight=0.03666666666666667
+2	Kalevala	Kalevala	PROPN	PROPN	Case=Nom|Number=Sing	6	nsubj:cop	_	PropnType=Al|Weight=500.0
+3	”	”	PUNCT	PUNCT	_	2	punct	_	Weight=0.015
+4	on	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	Weight=0.01
+5	melko	melko	ADV	ADV	_	6	advmod	_	Weight=0.07
 6	melukaš	melukaš	ADJ	ADJ	Case=Nom|Number=Sing	7	amod	_	Weight=0.01
-7	peli	peli	NOUN	NOUN	Case=Nom|Number=Sing	_	_	_	Weight=500.0
+7	peli	peli	NOUN	NOUN	Case=Nom|Number=Sing	0	root	_	Weight=500.0
 8	,	,	PUNCT	PUNCT	_	12	punct	_	Weight=0.0044444444444444444
 9	šentäh	sentäh	ADV	ADV	_	12	advmod	_	Weight=0.03
 10	kun	kun	SCONJ	SCONJ	_	12	mark	_	Weight=0.0018181818181818182
-11	kaikki	kaikki	PRON	PRON	Case=Nom|Number=Sing|PronType=Ind	_	_	_	Weight=500.0
-12	yritetäh	yritteä	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
-13	šopie	šopie	VERB	VERB	VerbForm=Inf	_	_	_	Weight=500.0
+11	kaikki	kaikki	PRON	PRON	Case=Nom|Number=Sing|PronType=Ind	12	nsubj	_	Weight=500.0
+12	yritetäh	yritteä	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	Weight=0.01
+13	šopie	šopie	VERB	VERB	VerbForm=Inf	12	xcomp	_	Weight=500.0
 14	keškenäh	keškenäh	ADV	ADV	_	13	advmod	_	Weight=0.01
-15	vaihtuas’s’a	vaihtua	VERB	VERB	Case=Ine|VerbForm=Ger	_	_	_	Weight=500.0
+15	vaihtuas’s’a	vaihtua	VERB	VERB	Case=Ine|VerbForm=Ger	13	obl	_	Weight=500.0
 16	.	.	PUNCT	PUNCT	_	15	punct	_	Weight=0.0009090909090909091
 
 # sent-id: vepkar-1663.24
@@ -1451,20 +1451,20 @@
 3	tapettih	tappoa	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.0114
 4	”	”	PUNCT	PUNCT	_	3	punct	_	Weight=0.0011111111111111111
 5	šamoin	šamoin	ADV	ADV	_	3	advmod	_	Weight=0.02
-6	Ilmarini	Ilmarini	PROPN	PROPN	Case=Nom|Number=Sing	10	nsubj	_	PropnType=Ant|Gender=Male|Weight=0.004
+6	Ilmarini	Ilmarini	PROPN	PROPN	Case=Nom|Number=Sing	3	obj	_	PropnType=Ant|Gender=Male|Weight=0.004
 7	,	,	PUNCT	PUNCT	_	10	punct	_	Weight=0.003
-8	šiitä	še	PRON	PRON	Case=Ela|Number=Sing|PronType=Dem	_	_	_	Weight=500.0
+8	šiitä	še	PRON	PRON	Case=Ela|Number=Sing|PronType=Dem	10	mark	_	Weight=500.0
 9	Manalah	Manala	PROPN	PROPN	Case=Ill|Number=Sing	10	obl	_	PropnType=Top|Weight=0.0009090909090909091
 10	joutu	joutuo	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	Weight=0.07
-11	Väinämöini	Väinämöini	PROPN	PROPN	Case=Nom|Number=Sing	_	_	_	PropnType=Ant|Gender=Male|Weight=500.0
+11	Väinämöini	Väinämöini	PROPN	PROPN	Case=Nom|Number=Sing	10	nsubj	_	PropnType=Ant|Gender=Male|Weight=500.0
 12	,	,	PUNCT	PUNCT	_	10	punct	_	Weight=0.0018181818181818182
 13	Pohjolan	Pohjola	PROPN	PROPN	Case=Gen|Number=Sing	14	nmod:poss	_	PropnType=Top|Weight=0.01
-14	neito	neito	NOUN	NOUN	Case=Nom|Number=Sing	_	_	_	Weight=500.0
+14	neito	neito	NOUN	NOUN	Case=Nom|Number=Sing	11	conj	_	Weight=500.0
 15	ta	ta	CCONJ	CCONJ	_	16	cc	_	Weight=0.01
-16	miun	mie	PRON	PRON	Case=Gen|Number=Sing|Person=1|PronType=Prs	_	_	_	Weight=500.0
-17	”	”	PUNCT	PUNCT	_	10	punct	_	Weight=0.007000000000000001
-18	muamo	muamo	NOUN	NOUN	Case=Nom|Number=Sing	_	_	_	Weight=500.0
-19	”	”	PUNCT	PUNCT	_	10	punct	_	Weight=0.01
+16	miun	mie	PRON	PRON	Case=Gen|Number=Sing|Person=1|PronType=Prs	18	nmod:poss	_	Weight=500.0
+17	”	”	PUNCT	PUNCT	_	18	punct	_	Weight=0.007000000000000001
+18	muamo	muamo	NOUN	NOUN	Case=Nom|Number=Sing	11	conj	_	Weight=500.0
+19	”	”	PUNCT	PUNCT	_	18	punct	_	Weight=0.01
 20	..	..	PUNCT	PUNCT	_	10	punct	_	Weight=0.0125
 
 # sent-id: vepkar-1663.25
@@ -1473,23 +1473,23 @@
 2	peli	peli	NOUN	NOUN	Case=Nom|Number=Sing	3	nsubj	_	Weight=0.002
 3	loppu	loppuo	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	Weight=0.18000000000000002
 4	,	,	PUNCT	PUNCT	_	3	punct	_	Weight=0.0025
-5	miula	mie	PRON	PRON	Case=Ade|Number=Sing|Person=1|PronType=Prs	_	_	_	Weight=500.0
+5	miula	mie	PRON	PRON	Case=Ade|Number=Sing|Person=1|PronType=Prs	6	obl	_	Weight=500.0
 6	jäi	jiähä	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.0125
 7	vain	vain	CCONJ	CCONJ	_	8	cc	_	Weight=0.01
-8	kakši	kakši	NUM	NUM	Case=Nom|Number=Sing	_	_	_	Weight=500.0
+8	kakši	kakši	NUM	NUM	Case=Nom|Number=Sing	9	nummod	_	Weight=500.0
 9	nauhua	nauha	NOUN	NOUN	Case=Par|Number=Sing	6	obj	_	Weight=0.004285714285714286
 10	,	,	PUNCT	PUNCT	_	6	punct	_	Weight=0.005714285714285714
 11	kumpasien	kumpaine	PRON	PRON	Case=Gen|Number=Plur|PronType=Ind	12	nmod:poss	_	Weight=0.01
 12	avulla	apu	NOUN	NOUN	Case=Ade|Number=Sing	14	obl	_	Weight=0.002
 13	mie	mie	PRON	PRON	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	Weight=0.0009090909090909091
-14	piäsin	piäštä	VERB	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.22139999999999993
+14	piäsin	piäštä	VERB	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	Weight=0.22139999999999993
 15	enšimmäisellä	enšimmäini	ADJ	ADJ	Case=Ade|Number=Sing	16	amod	_	Weight=0.01
 16	paikalla	paikka	NOUN	NOUN	Case=Ade|Number=Sing	14	obl	_	Weight=0.002
-17	Antilahien	Antilahien	X	X	_	_	_	_	_
+17	Antilahien	Antilaš	PROPN	X	Case=Gen|Number=Plur	18	nmod:poss	_	_
 18	kilpailušša	kilpailu	NOUN	NOUN	Case=Ine|Number=Sing	19	obl	_	Weight=0.001
-19	ajattelomatta	ajatella	VERB	VERB	Case=Abe|VerbForm=Inf	_	_	_	Weight=500.0
-20	tätä	tämä	PRON	PRON	Case=Par|Number=Sing|PronType=Dem	_	_	_	Weight=500.0
-21	:	:	PUNCT	PUNCT	_	19	punct	_	Weight=0.002
+19	ajattelomatta	ajatella	VERB	VERB	Case=Abe|VerbForm=Inf	14	advcl	_	Weight=500.0
+20	tätä	tämä	PRON	PRON	Case=Par|Number=Sing|PronType=Dem	19	obj	_	Weight=500.0
+21	:	:	PUNCT	PUNCT	_	14	punct	_	Weight=0.002
 
 # sent-id: vepkar-1663.26
 # text: Kyllikki mäni miehol’ah, a Pohjolan neito joutu Manalah..
@@ -1509,37 +1509,37 @@
 1	Lemminkäini	Lemminkäini	PROPN	PROPN	Case=Nom|Number=Sing	2	nsubj	_	PropnType=Ant|Gender=Male|Weight=0.005
 2	tuli	tulla	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
 3	parahakši	hyvä	ADJ	ADJ	Case=Tra|Cmp=Sup|Number=Sing	4	amod	_	Weight=0.01
-4	runonlaulajakši	runon#laulaja	NOUN	NOUN	Case=Tra|Number=Sing	_	_	_	Weight=501.0
+4	runonlaulajakši	runon#laulaja	NOUN	NOUN	Case=Tra|Number=Sing	2	obl	_	Weight=501.0
 5	.	.	PUNCT	PUNCT	_	2	punct	_	Weight=0.015
 
 # sent-id: vepkar-1663.28
 # text: Pelin aikana hiän vaihto vehkehie, ”tappo” toisie hahmoja ta rikko lupaukšen.
 1	Pelin	peli	NOUN	NOUN	Case=Gen|Number=Sing	2	nmod:poss	_	Weight=0.01
 2	aikana	aika	NOUN	NOUN	Case=Ess|Number=Sing	8	obl	_	Weight=0.02004
-3	hiän	hiän	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	Weight=500.0
-4	vaihto	vaihto	NOUN	NOUN	Case=Nom|Number=Sing	8	nsubj	_	Weight=0.01
-5	vehkehie	vehkeh	NOUN	NOUN	Case=Par|Number=Plur	_	_	_	Weight=500.0
+3	hiän	hiän	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	Weight=500.0
+4	vaihto	vaihtuo	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	Weight=0.01
+5	vehkehie	vehkeh	NOUN	NOUN	Case=Par|Number=Plur	4	obj	_	Weight=500.0
 6	,	,	PUNCT	PUNCT	_	8	punct	_	Weight=0.005
 7	”	”	PUNCT	PUNCT	_	8	punct	_	Weight=0.0016666666666666668
-8	tappo	tappo	NOUN	NOUN	Case=Nom|Number=Sing	13	nsubj	_	Weight=0.20883333333333334
+8	tappo	tappo	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past	4	conj	_	Weight=0.20883333333333334
 9	”	”	PUNCT	PUNCT	_	8	punct	_	Weight=0.0014285714285714286
 10	toisie	toini	ADJ	ADJ	Case=Par|Number=Plur	11	amod	_	Weight=0.01
 11	hahmoja	hahmo	NOUN	NOUN	Case=Par|Number=Plur	8	obj	_	Weight=0.004285714285714286
 12	ta	ta	CCONJ	CCONJ	_	13	cc	_	Weight=0.01
-13	rikko	rikkuo	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.011000000000000001
+13	rikko	rikkuo	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	Weight=0.011000000000000001
 14	lupaukšen	lupauš	NOUN	NOUN	Case=Gen|Number=Sing	13	obj	_	Weight=0.0011111111111111111
 15	.	.	PUNCT	PUNCT	_	13	punct	_	Weight=0.0025
 
 # sent-id: vepkar-1663.29
 # text: Ka kun šanotah: ”Voittajie ei tuomita!”
-1	Ka	ka	CCONJ	CCONJ	_	2	cc	_	Weight=0.01
+1	Ka	ka	CCONJ	CCONJ	_	3	advmod	_	Weight=0.01
 2	kun	kun	SCONJ	SCONJ	_	3	mark	_	Weight=0.002
 3	šanotah	šanuo	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
 4	:	:	PUNCT	PUNCT	_	3	punct	_	Weight=0.002
 5	”	”	PUNCT	PUNCT	_	3	punct	_	Weight=0.005
-6	Voittajie	voittaja	NOUN	NOUN	Case=Par|Number=Plur	3	obj	_	Weight=0.005
+6	Voittajie	voittaja	NOUN	NOUN	Case=Par|Number=Plur	8	obj	_	Weight=0.005
 7	ei	ei	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	Weight=0.0014285714285714286
-8	tuomita	tuomita	VERB	VERB	VerbForm=Inf	_	_	_	Weight=500.0
+8	tuomita	tuomita	VERB	VERB	VerbForm=Inf	3	parataxis	_	Weight=500.0
 9	!	!	PUNCT	PUNCT	_	8	punct	_	Weight=0.0014285714285714286
 10	”	”	PUNCT	PUNCT	_	8	punct	_	Weight=0.0033333333333333335
 
@@ -1550,115 +1550,116 @@
 3	Lemminkäini	Lemminkäini	PROPN	PROPN	Case=Nom|Number=Sing	4	nsubj	_	PropnType=Ant|Gender=Male|Weight=0.0025
 4	luki	lukie	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
 5	runon	runo	NOUN	NOUN	Case=Gen|Number=Sing	4	obj	_	Weight=0.0025
-6	”	”	PUNCT	PUNCT	_	4	punct	_	Weight=0.005
+6	”	”	PUNCT	PUNCT	_	7	punct	_	Weight=0.005
 7	Kalevalašta	Kalevala	PROPN	PROPN	Case=Ela|Number=Sing	4	obl	_	PropnType=Al|Weight=0.01
-8	”	”	PUNCT	PUNCT	_	4	punct	_	Weight=0.013333333333333334
+8	”	”	PUNCT	PUNCT	_	7	punct	_	Weight=0.013333333333333334
 9	karjalan	karjala	NOUN	NOUN	Case=Gen|Number=Sing	10	nmod:poss	_	Weight=0.01
 10	kielellä	kieli	NOUN	NOUN	Case=Ade|Number=Sing	4	obl	_	Weight=0.03
 11	..	..	PUNCT	PUNCT	_	4	punct	_	Weight=0.035
 
 # sent-id: vepkar-1663.31
 # text: Kalevala-pelin voittajakši piäsi Viipuni, šentäh kun Manala oli täyši henkie..
-1	Kalevala	Kalevala	PROPN	PROPN	Case=Nom|Number=Sing	4	nsubj	_	PropnType=Al|Weight=0.0075
+1	Kalevala	Kalevala	PROPN	PROPN	Case=Nom|Number=Sing	2	nmod	_	PropnType=Al|Weight=0.0075
 2	-pelin	-peli	NOUN	NOUN	Case=Gen|Number=Sing	3	nmod:poss	_	Weight=0.01
-3	voittajakši	voittaja	NOUN	NOUN	Case=Tra|Number=Sing	_	_	_	Weight=500.0
+3	voittajakši	voittaja	NOUN	NOUN	Case=Tra|Number=Sing	4	obl	_	Weight=500.0
 4	piäsi	piästä	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
-5	Viipuni	Viipuni	PROPN	PROPN	Case=Nom|Number=Sing	4	appos	_	PropnType=Ant|Gender=Male|Weight=0.01
+5	Viipuni	Viipuni	PROPN	PROPN	Case=Nom|Number=Sing	4	nsubj	_	PropnType=Ant|Gender=Male|Weight=0.01
 6	,	,	PUNCT	PUNCT	_	4	punct	_	Weight=0.006666666666666667
 7	šentäh	sentäh	ADV	ADV	_	4	advmod	_	Weight=0.03
-8	kun	kun	SCONJ	SCONJ	_	_	_	_	Weight=500.0
-9	Manala	Manala	PROPN	PROPN	Case=Nom|Number=Sing	_	_	_	PropnType=Top|Weight=500.0
-10	oli	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	_	_	_	Weight=500.0
-11	täyši	täyši	ADJ	ADJ	Case=Nom|Number=Sing	_	_	_	Weight=500.0
-12	henkie	henki	NOUN	NOUN	Case=Par|Number=Sing	4	obj	_	Weight=0.04
+8	kun	kun	SCONJ	SCONJ	_	12	mark	_	Weight=500.0
+9	Manala	Manala	PROPN	PROPN	Case=Nom|Number=Sing	12	nsubj:cop	_	PropnType=Top|Weight=500.0
+10	oli	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	cop	_	Weight=500.0
+11	täyši	täyši	ADJ	ADJ	Case=Nom|Number=Sing	12	amod	_	Weight=500.0
+12	henkie	henki	NOUN	NOUN	Case=Par|Number=Sing	4	conj	_	Weight=0.04
 13	..	..	PUNCT	PUNCT	_	4	punct	_	Weight=0.045
 
 # sent-id: vepkar-1663.32
 # text: Näin myö iče loima Kalevala-eepossan uuvven juonen.
 1	Näin	näin	ADV	ADV	_	4	advmod	_	Weight=0.03
 2	myö	myö	PRON	PRON	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	Weight=0.01
-3	iče	iče	PRON	PRON	Case=Nom|Number=Sing|Reflex=Yes	_	_	_	Weight=500.0
+3	iče	iče	PRON	PRON	Case=Nom|Number=Sing|Reflex=Yes	2	det	_	Weight=500.0
 4	loima	luuvva	VERB	VERB	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
-5	Kalevala	Kalevala	PROPN	PROPN	Case=Nom|Number=Sing	_	_	_	PropnType=Al|Weight=500.0
-6	-eepossan	-eepossa	NOUN	NOUN	Case=Gen|Number=Sing	4	obj	_	Weight=0.01
+5	Kalevala	Kalevala	PROPN	PROPN	Case=Nom|Number=Sing	6	flat:name	_	PropnType=Al|Weight=500.0
+6	-eepossan	-eepossa	NOUN	NOUN	Case=Gen|Number=Sing	8	nmod:poss	_	Weight=0.01
 7	uuvven	uuši	ADJ	ADJ	Case=Gen|Number=Sing	8	amod	_	Weight=0.01
 8	juonen	juoni	NOUN	NOUN	Case=Gen|Number=Sing	4	obj	_	Weight=0.02
 9	.	.	PUNCT	PUNCT	_	4	punct	_	Weight=0.025
 
 # sent-id: vepkar-1663.33
 # text: Irina Rinkevičin šanojen mukah, peli aina loppuu eri tavalla ta aina on mukava tiijuštua uuvven juonen..
-1	Irina	Irina	PROPN	PROPN	Case=Nom|Number=Sing	8	nsubj	_	PropnType=Ant|Gender=Female|Weight=0.023333333333333334
+1	Irina	Irina	PROPN	PROPN	Case=Nom|Number=Sing	2	flat:name	_	PropnType=Ant|Gender=Female|Weight=0.023333333333333334
 2	Rinkevičin	Rinkevič	PROPN	PROPN	Case=Gen|Number=Sing	3	nmod:poss	_	PropnType=Cog|Weight=0.01
-3	šanojen	šana	NOUN	NOUN	Case=Gen|Number=Plur	_	_	_	Weight=500.0
+3	šanojen	šana	NOUN	NOUN	Case=Gen|Number=Plur	8	advcl	_	Weight=500.0
 4	mukah	mukah	ADP	ADP	_	3	case	_	Weight=0.0033333333333333335
 5	,	,	PUNCT	PUNCT	_	8	punct	_	Weight=0.01
 6	peli	peli	NOUN	NOUN	Case=Nom|Number=Sing	8	nsubj	_	Weight=0.004
 7	aina	aina	ADV	ADV	_	8	advmod	_	Weight=0.01
 8	loppuu	loppuo	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
-9	eri	eri	ADV	ADV	_	8	advmod	_	Weight=0.01
+9	eri	eri	ADV	ADV	_	10	det	_	Weight=0.01
 10	tavalla	tapa	NOUN	NOUN	Case=Ade|Number=Sing	8	obl	_	Weight=0.005
 11	ta	ta	CCONJ	CCONJ	_	12	cc	_	Weight=0.01
 12	aina	aina	ADV	ADV	_	15	advmod	_	Weight=0.03
 13	on	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	aux	_	Weight=0.005
-14	mukava	mukava	ADJ	ADJ	Case=Nom|Number=Sing	_	_	_	Weight=500.0
-15	tiijuštua	tiijuštua	VERB	VERB	VerbForm=Inf	_	_	_	Weight=500.0
+14	mukava	mukava	ADJ	ADJ	Case=Nom|Number=Sing	13	compound:prt	_	Weight=500.0
+15	tiijuštua	tiijuštua	VERB	VERB	VerbForm=Inf	13	xcomp:ds	_	Weight=500.0
 16	uuvven	uuši	ADJ	ADJ	Case=Gen|Number=Sing	17	amod	_	Weight=0.01
-17	juonen	juoni	NOUN	NOUN	Case=Gen|Number=Sing	8	obj	_	Weight=0.0225
+17	juonen	juoni	NOUN	NOUN	Case=Gen|Number=Sing	15	obj	_	Weight=0.0225
 18	..	..	PUNCT	PUNCT	_	15	punct	_	Weight=0.0075
 
 # sent-id: vepkar-1663.34
 # text: Kalevala open -projektin tarkotukšena on kiinnoššuttua ihmisie karjalan kieleh ta kulttuurih, a šeikkailupeli yrittäy kiinnoššuttua ”Kalevalan” tekstih.
-1	Kalevala	Kalevala	PROPN	PROPN	Case=Nom|Number=Sing	15	nsubj	_	PropnType=Al|Weight=0.035
-2	open	open	X	X	_	_	_	_	Weight=500.0
+1	Kalevala	Kalevala	PROPN	PROPN	Case=Nom|Number=Sing	3	flat:name	_	PropnType=Al|Weight=0.035
+2	open	open	X	X	_	3	flat:name	_	Weight=500.0
 3	-projektin	-projektu	NOUN	NOUN	Case=Gen|Number=Sing	4	nmod:poss	_	Weight=0.01
 4	tarkotukšena	tarkotuš	NOUN	NOUN	Case=Ess|Number=Sing	6	obl	_	Weight=0.004
-5	on	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	Weight=0.002
-6	kiinnoššuttua	kiinnoššuttua	VERB	VERB	VerbForm=Inf	_	_	_	Weight=500.0
-7	ihmisie	ihmini	NOUN	NOUN	Case=Par|Number=Plur	_	_	_	Weight=500.0
+5	on	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.002
+6	kiinnoššuttua	kiinnoššuttua	VERB	VERB	VerbForm=Inf	5	xcomp	_	Weight=500.0
+7	ihmisie	ihmini	NOUN	NOUN	Case=Par|Number=Plur	6	obj	_	Weight=500.0
 8	karjalan	karjala	NOUN	NOUN	Case=Gen|Number=Sing	9	nmod:poss	_	Weight=0.01
 9	kieleh	kieli	NOUN	NOUN	Case=Ill|Number=Sing	6	obl	_	Weight=0.006
 10	ta	ta	CCONJ	CCONJ	_	11	cc	_	Weight=0.01
-11	kulttuurih	kulttuuri	NOUN	NOUN	Case=Ill|Number=Plur	6	obl	_	Weight=0.01
+11	kulttuurih	kulttuuri	NOUN	NOUN	Case=Ill|Number=Plur	9	conj	_	Weight=0.01
 12	,	,	PUNCT	PUNCT	_	15	punct	_	Weight=0.006
 13	a	a	CCONJ	CCONJ	_	14	cc	_	Weight=0.01
 14	šeikkailupeli	seikkailu#peli	NOUN	NOUN	Case=Nom|Number=Sing	15	nsubj	_	Weight=1.001111111111111
-15	yrittäy	yritteä	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
-16	kiinnoššuttua	kiinnoššuttua	VERB	VERB	VerbForm=Inf	_	_	_	Weight=500.0
-17	”	”	PUNCT	PUNCT	_	16	punct	_	Weight=0.0014285714285714286
-18	Kalevalan	Kalevala	PROPN	PROPN	Case=Gen|Number=Sing	15	obj	_	PropnType=Al|Weight=0.00375
-19	”	”	PUNCT	PUNCT	_	16	punct	_	Weight=0.005
+15	yrittäy	yritteä	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	Weight=0.01
+16	kiinnoššuttua	kiinnoššuttua	VERB	VERB	VerbForm=Inf	15	xcomp:ds	_	Weight=500.0
+17	”	”	PUNCT	PUNCT	_	18	punct	_	Weight=0.0014285714285714286
+18	Kalevalan	Kalevala	PROPN	PROPN	Case=Gen|Number=Sing	19	nmod:poss	_	PropnType=Al|Weight=0.00375
+19	”	”	PUNCT	PUNCT	_	18	punct	_	Weight=0.005
 20	tekstih	tekstii	NOUN	NOUN	Case=Ill|Number=Plur	16	obl	_	Weight=0.008
 21	.	.	PUNCT	PUNCT	_	16	punct	_	Weight=0.01
 
 # sent-id: vepkar-1663.35
 # text: Miušta še on paraš keino kiinnoššuttua nuorie ihmisie ta lapšie Kalevala-eepossah.
-1	Miušta	mie	PRON	PRON	Case=Ela|Number=Sing|Person=1|PronType=Prs	_	_	_	Weight=500.0
-2	še	še	PRON	PRON	Case=Nom|Number=Sing|PronType=Dem	_	_	_	Weight=500.0
-3	on	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	Weight=0.015
+1	Miušta	mie	PRON	PRON	Case=Ela|Number=Sing|Person=1|PronType=Prs	3	obl	_	Weight=500.0
+2	še	še	PRON	PRON	Case=Nom|Number=Sing|PronType=Dem	5	nsubj:cop	_	Weight=500.0
+3	on	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	Weight=0.015
 4	paraš	hyvä	ADJ	ADJ	Case=Nom|Cmp=Sup|Number=Sing	5	amod	_	Weight=0.01
-5	keino	keino	NOUN	NOUN	Case=Nom|Number=Sing	_	_	_	Weight=500.0
-6	kiinnoššuttua	kiinnoššuttua	VERB	VERB	VerbForm=Inf	_	_	_	Weight=500.0
-7	nuorie	nuori	ADJ	ADJ	Case=Par|Number=Sing	_	_	_	Weight=500.0
-8	ihmisie	ihmini	NOUN	NOUN	Case=Par|Number=Plur	_	_	_	Weight=500.0
+5	keino	keino	NOUN	NOUN	Case=Nom|Number=Sing	0	root	_	Weight=500.0
+6	kiinnoššuttua	kiinnoššuttua	VERB	VERB	VerbForm=Inf	5	xcomp	_	Weight=500.0
+7	nuorie	nuori	ADJ	ADJ	Case=Par|Number=Sing	8	amod	_	Weight=500.0
+8	ihmisie	ihmini	NOUN	NOUN	Case=Par|Number=Plur	6	obj	_	Weight=500.0
 9	ta	ta	CCONJ	CCONJ	_	10	cc	_	Weight=0.01
-10	lapšie	lapši	NOUN	NOUN	Case=Par|Number=Sing	_	_	_	Weight=500.0
-11	Kalevala	Kalevala	PROPN	PROPN	Case=Nom|Number=Sing	_	_	_	PropnType=Al|Weight=500.0
+10	lapšie	lapši	NOUN	NOUN	Case=Par|Number=Sing	8	conj	_	Weight=500.0
+11	Kalevala	Kalevala	PROPN	PROPN	Case=Nom|Number=Sing	12	flat:name	_	PropnType=Al|Weight=500.0
 12	-eepossah	-eepossa	NOUN	NOUN	Case=Ill|Number=Sing	6	obl	_	Weight=0.03
 13	.	.	PUNCT	PUNCT	_	6	punct	_	Weight=0.035
 
 # sent-id: vepkar-1663.36
 # text: Vet nyt on äijän erimoisie šeikkailupelijä, Petroskoissaki niitä on monta.
-1	Vet	vet	ADV	ADV	_	_	_	_	Weight=500.0
-2	nyt	nyt	ADV	ADV	_	_	_	_	Weight=500.0
-3	on	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	_	Weight=500.0
-4	äijän	äijän	ADV	ADV	_	_	_	_	Weight=500.0
-5	erimoisie	erimoini	ADJ	ADJ	Case=Par|Number=Sing	_	_	_	Weight=500.0
-6	šeikkailupelijä	seikkailu#peli	NOUN	NOUN	Case=Par|Number=Plur	_	_	_	Weight=501.0
-7	,	,	PUNCT	PUNCT	_	_	_	_	Weight=500.0
-8	Petroskoissaki	Petroskoi	PROPN	PROPN	Case=Ine|Clitic=Ki|Number=Sing	_	_	_	PropnType=Top|Weight=504.0
-9	niitä	ne	PRON	PRON	Case=Par|Number=Plur|PronType=Dem	_	_	_	Weight=500.0
-10	on	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	_	Weight=500.0
-11	monta	moni	PRON	PRON	Case=Par|Number=Sing|PronType=Ind	_	_	_	Weight=500.0
+# FIXME
+1	Vet	vet	ADV	ADV	_	6	advmod	_	Weight=500.0
+2	nyt	nyt	ADV	ADV	_	6	advmod	_	Weight=500.0
+3	on	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	Weight=500.0
+4	äijän	äijän	ADV	ADV	_	6	advmod	_	Weight=500.0
+5	erimoisie	erimoini	ADJ	ADJ	Case=Par|Number=Sing	6	amod	_	Weight=500.0
+6	šeikkailupelijä	seikkailu#peli	NOUN	NOUN	Case=Par|Number=Plur	0	root	_	Weight=501.0
+7	,	,	PUNCT	PUNCT	_	5	punct	_	Weight=500.0
+8	Petroskoissaki	Petroskoi	PROPN	PROPN	Case=Ine|Clitic=Ki|Number=Sing	9	obl	_	PropnType=Top|Weight=504.0
+9	niitä	ne	PRON	PRON	Case=Par|Number=Plur|PronType=Dem	6	conj	_	Weight=500.0
+10	on	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	Weight=500.0
+11	monta	moni	PRON	PRON	Case=Par|Number=Sing|PronType=Ind	6	conj	_	Weight=500.0
 12	.	.	PUNCT	PUNCT	_	_	_	_	Weight=500.0
 
 # sent-id: vepkar-1663.37
@@ -1675,43 +1676,43 @@
 
 # sent-id: vepkar-1663.38
 # text: Tämän pelin jälkeh lapšilla ilmeštyy halu lukie ”Kalevalan” ta tiijuštua enemmäh hahmošta, kenen roolissa hyö pelattih tätä šeikkailupelie..
-1	Tämän	tämä	PRON	PRON	Case=Gen|Number=Sing|PronType=Dem	2	nmod:poss	_	Weight=0.01
-2	pelin	peli	NOUN	NOUN	Case=Gen|Number=Sing	_	_	_	Weight=500.0
+1	Tämän	tämä	PRON	PRON	Case=Gen|Number=Sing|PronType=Dem	2	det	_	Weight=0.01
+2	pelin	peli	NOUN	NOUN	Case=Gen|Number=Sing	5	obl	_	Weight=500.0
 3	jälkeh	jälkeh	ADP	ADP	_	2	case	_	Weight=0.002
 4	lapšilla	lapši	NOUN	NOUN	Case=Ade|Number=Plur	5	obl	_	Weight=0.002
 5	ilmeštyy	ilmeštyö	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.0128
-6	halu	halu	NOUN	NOUN	Case=Nom|Number=Sing	_	_	_	Weight=500.0
-7	lukie	lukie	VERB	VERB	VerbForm=Inf	_	_	_	Weight=500.0
+6	halu	halu	NOUN	NOUN	Case=Nom|Number=Sing	5	obj	_	Weight=500.0
+7	lukie	lukie	VERB	VERB	VerbForm=Inf	6	acl	_	Weight=500.0
 8	”	”	PUNCT	PUNCT	_	7	punct	_	Weight=0.002
-9	Kalevalan	Kalevala	PROPN	PROPN	Case=Gen|Number=Sing	5	obj	_	PropnType=Al|Weight=0.008
+9	Kalevalan	Kalevala	PROPN	PROPN	Case=Gen|Number=Sing	7	obj	_	PropnType=Al|Weight=0.008
 10	”	”	PUNCT	PUNCT	_	12	punct	_	Weight=0.0025
 11	ta	ta	CCONJ	CCONJ	_	12	cc	_	Weight=0.01
-12	tiijuštua	tiijuštua	VERB	VERB	VerbForm=Inf	_	_	_	Weight=500.0
+12	tiijuštua	tiijuštua	VERB	VERB	VerbForm=Inf	7	conj	_	Weight=500.0
 13	enemmäh	enemmäh	ADV	ADV	_	12	advmod	_	Weight=0.01
 14	hahmošta	hahmo	NOUN	NOUN	Case=Ine|Number=Sing	12	obl	_	Weight=0.0018181818181818182
 15	,	,	PUNCT	PUNCT	_	12	punct	_	Weight=0.002727272727272727
 16	kenen	ken	PRON	PRON	Case=Gen|Number=Sing	17	nmod:poss	_	PronType=Interr|Weight=0.01
 17	roolissa	rooli	NOUN	NOUN	Case=Ine|Number=Sing	19	obl	_	Weight=0.0014285714285714286
-18	hyö	hyö	PRON	PRON	Case=Nom|Number=Plur|Person=3|PronType=Prs	_	_	_	Weight=500.0
-19	pelattih	pelata	VERB	VERB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	Weight=0.21560000000000007
-20	tätä	tämä	PRON	PRON	Case=Par|Number=Sing|PronType=Dem	_	_	_	Weight=500.0
+18	hyö	hyö	PRON	PRON	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	Weight=500.0
+19	pelattih	pelata	VERB	VERB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	5	conj	_	Weight=0.21560000000000007
+20	tätä	tämä	PRON	PRON	Case=Par|Number=Sing|PronType=Dem	21	det	_	Weight=500.0
 21	šeikkailupelie	seikkailu#peli	NOUN	NOUN	Case=Par|Number=Sing	19	obj	_	Weight=1.0013333333333334
 22	..	..	PUNCT	PUNCT	_	19	punct	_	Weight=0.002142857142857143
 
 # sent-id: vepkar-1663.39
 # text: Šeuruava peli järješšetäh 19. kevätkuuta Kalevalašša.
 1	Šeuruava	šeuruava	ADJ	ADJ	Case=Nom|Number=Sing	2	amod	_	Weight=0.01
-2	peli	peli	NOUN	NOUN	Case=Nom|Number=Sing	_	_	_	Weight=500.0
+2	peli	peli	NOUN	NOUN	Case=Nom|Number=Sing	3	obj	_	Weight=500.0
 3	järješšetäh	järješteä	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
-4	19.	19.	ADJ	ADJ	Case=Nom|Number=Sing|NumType=Ord	_	_	_	Weight=500.0
-5	kevätkuuta	kevät#kuu	NOUN	NOUN	Case=Par|Number=Sing	3	obj	_	Weight=1.01
+4	19.	19.	ADJ	ADJ	Case=Nom|Number=Sing|NumType=Ord	5	amod	_	Weight=500.0
+5	kevätkuuta	kevät#kuu	NOUN	NOUN	Case=Par|Number=Sing	3	obl	_	Weight=1.01
 6	Kalevalašša	Kalevala	PROPN	PROPN	Case=Ine|Number=Sing	3	obl	_	PropnType=Al|Weight=0.015
 7	.	.	PUNCT	PUNCT	_	3	punct	_	Weight=0.02
 
 # sent-id: vepkar-1663.40
 # text: Šen avulla muajilmah tuaš šyntyy ”Kalevalan” uuši istorija..
-1	Šen	še	PRON	PRON	Case=Gen|Number=Sing|PronType=Dem	2	nmod:poss	_	Weight=0.01
-2	avulla	apu	NOUN	NOUN	Case=Ade|Number=Sing	5	obl	_	Weight=0.0075
+1	Šen	še	PRON	PRON	Case=Gen|Number=Sing|PronType=Dem	5	obl	_	Weight=0.01
+2	avulla	apu	NOUN	NOUN	Case=Ade|Number=Sing	1	case	_	Weight=0.0075
 3	muajilmah	muajilma	NOUN	NOUN	Case=Ill|Number=Sing	5	obl	_	Weight=0.005
 4	tuaš	tuaš	ADV	ADV	_	5	advmod	_	Weight=0.01
 5	šyntyy	šyntyö	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
@@ -1719,5 +1720,5 @@
 7	Kalevalan	Kalevala	PROPN	PROPN	Case=Gen|Number=Sing	5	obj	_	PropnType=Al|Weight=0.006666666666666667
 8	”	”	PUNCT	PUNCT	_	5	punct	_	Weight=0.01
 9	uuši	uuši	ADJ	ADJ	Case=Nom|Number=Sing	10	amod	_	Weight=0.01
-10	istorija	istorija	NOUN	NOUN	Case=Nom|Number=Sing	_	_	_	Weight=500.0
+10	istorija	istorija	NOUN	NOUN	Case=Nom|Number=Sing	5	nsubj	_	Weight=500.0
 11	..	..	PUNCT	PUNCT	_	5	punct	_	Weight=0.03
