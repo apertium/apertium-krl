@@ -135,6 +135,7 @@ LEXICON ADJ
 
 aito%<adj%>:ai  ADJ_AI/TO ;
 eeppini%<adj%>:eeppi ADJ_EEPPI/NI ;
+perintehellini%<adj%>:perintehelli ADJ_EEPPI/NI ;
 enetsi#kieline%<adj%>:enetsi0kieli ADJ_KIELI/NE ;
 eri%<adj%>:eri ADJ_ERI ;
 eri-ikäne%<adj%>:eri-ikä ADJ_KIELI/NE ;
@@ -173,6 +174,7 @@ melukaš%<adj%>:meluk ADJ_KIRK/AŠ ;
 mukava%<adj%>:mukav ADJ_OM/A ;
 nuori%<adj%>:nuor ADJ_NUOR/I ;
 oikie%<adj%>:oikie ADJ_OIKIE ;
+makie%<adj%>:makie ADJ_OIKIE ;
 oma%<adj%>:om ADJ_OM/A ;
 omatoimini%<adj%>:omatoimi ADJ_KARJALAI/NI ;
 pedagogine%<adj%>:pedagogi ADJ_KARJALAI/NI ;
@@ -189,6 +191,8 @@ semmoni%<adj%>:semmo  ADJ_KARJALAI/NI ;
 šilie%<adj%>:šilie ADJ_OIKIE ;
 suomelane%<adj%>:suomela ADJ_KARJALAI/NI ;
 šuosittu%<adj%>:šuosit  ADJ_TUNNET/TU ;
+omissettu%<adj%>:omisset  ADJ_TUNNET/TU ;
+luajittu%<adj%>:luajit  ADJ_TUNNET/TU ;
 šuuri%<adj%>:šuur ADJ_NUOR/I ;
 tarvittava%<adj%>:tarvittav ADJ_OM/A ;
 terväni%<adj%>:tervä ADJ_EEPPI/NI ;
@@ -211,6 +215,7 @@ vanhan#aikane%<adj%>:vanhan0aika ADJ_KIELI/NE ;
 ven’ankieline%<adj%>:ven’ankieli ADJ_KIELI/NE ;
 viimeni%<adj%>:viime ADJ_KARJALAI/NI ;
 yštävällini%<adj%>:yštävälli ADJ_KARJALAI/NI ;
+venäläini%<adj%>:venäläi  ADJ_YŠTÄVÄLLI/NI ;
 
 LEXICON ADP
 
@@ -247,10 +252,12 @@ piäštä%<post%>:piäštä # ;
 poikki%<post%>:poikki # ;
 puittehis%<post%>:puittehis # ;
 puolella%<post%>:puolella # ;
+pohjalla%<post%>:pohjalla # ;
 päin%<post%>:päin # ;
 rinnalla%<post%>:rinnalla # ;
 rinnalta%<post%>:rinnalta # ;
 šiämeh%<post%>:šiämeh # ;
+šeurašša%<post%>:šeurašša  # ;
 šiämeššä%<post%>:šiämeššä # ;
 šiämeštä%<post%>:šiämeštä # ;
 šuaten%<post%>:šuaten # ;
@@ -274,6 +281,8 @@ ympäri%<post%>:ympäri # ;
 LEXICON ADV
 
 
+
+šilmin%<adv%>:šilmin  # ;
 ahkerašti%<adv%>:ahkerašti # ;
 aikasemmin%<adv%>:aikasemmin  # ;
 aina%<adv%>:aina # ;
@@ -421,6 +430,8 @@ LEXICON DET
 LEXICON INTJ
 
 spasibo%<ij%>:spasibo # ;
+passipo%<ij%>:passipo # ;
+
 
 LEXICON NOUN
 
@@ -433,8 +444,11 @@ ainehisto%<n%>:ainehisto NOUN_NUMERO ;
 alku%<n%>:al  NOUN_AL/KU ;
 aloveh%<n%>:aloveh NOUN_ALOVEH ;
 anomuš%<n%>:anomu NOUN_MIELIKUVITU/Š ;
+piiruššuš%<n%>:piiruššu NOUN_MIELIKUVITU/Š ;
+kiinnoššuš%<n%>:kiinnoššu NOUN_MIELIKUVITU/Š ;
 apu%<n%>:a NOUN_A/PU ;
 artišta%<n%>:artišt NOUN_KAŠVATTAJ/A ;
+šija%<n%>:šij NOUN_KAŠVATTAJ/A ;
 artteli%<n%>:arttel NOUN_PIIR/I ;
 aštie%<n%>:ašti  NOUN_ISTORI/E ;
 ativo%<n%>:ativo NOUN_NUMERO ;
@@ -445,7 +459,10 @@ elvyttämini%<n%>:elvyttämi NOUN_KEHITTÄMI/NI ;
 elämä%<n%>:eläm NOUN_PEŠ/Ä ;
 emäntä%<n%>:emän NOUN_EMÄN/TÄ ;
 esiintyjä%<n%>:esiintyj NOUN_JÄRJEŠTÄJ/Ä ;
+esityš%<n%>:esity NOUN_MIELIKUVITU/Š ;
+solo#esityš%<n%>:solo0esity NOUN_MIELIKUVITU/Š ;
 esityš#numero%<n%>:esityš0numero NOUN_NUMERO ;
+passipo%<n%>:passipo NOUN_NUMERO ;
 etno#illačču%<n%>:etno0illač  NOUN_ILLAČ/ČU ;
 etno#illačču%<n%>:etno0illač  NOUN_ILLAČ/ČU ;
 etno#tjuttora%<n%>:etno0tjuttor NOUN_KAŠVATTAJ/A ;
@@ -462,7 +479,10 @@ hahmo%<n%>:hahmo NOUN_NUMERO ;
 haltija%<n%>:haltij NOUN_KAŠVATTAJ/A ;
 halu%<n%>:halu NOUN_NUMERO ;
 henkilö#kilpailu%<n%>:henkilö0kilpailu NOUN_NUMERO ;
+piiruššuš#kilpailu%<n%>:piiruššuš0kilpailu NOUN_NUMERO ;
+luomis#kilpailu%<n%>:luomis0kilpailu NOUN_NUMERO ;
 henkilö%<n%>:henkilö NOUN_ÄMMÖ ;
+näyttely%<n%>:näyttely NOUN_NÄYTTELY ;
 henki%<n%>:henk NOUN_HENK/I ;
 henki%<n%>:henk NOUN_PIIR/I ;
 hiiren#poika%<n%>:hiiren0po NOUN_PO/IKA ;
@@ -470,6 +490,8 @@ hillo%<n%>:hill NOUN_HILL/O ;
 huomeneš%<n%>:huomene NOUN_MIELIKUVITU/Š ;
 huoneh%<n%>:huoneh NOUN_ALOVEH ;
 hävijä%<n%>:hävij NOUN_JÄRJEŠTÄJ/Ä ;
+päivän#kakkara#ryhmä%<n%>:päivän0kakkara0ryhm NOUN_JÄRJEŠTÄJ/Ä ;
+ryhmä%<n%>:ryhm NOUN_JÄRJEŠTÄJ/Ä ;
 ihmeh#muajilma%<n%>:ihmeh0muajilm NOUN_PAKIN/A ;
 ihmini%<n%>:ihmi NOUN_KEHITTÄMI/NI ;
 iisahuš%<n%>:viisahu NOUN_VIISAHU/Š ;
@@ -494,12 +516,15 @@ Kalevala#eepossa%<n%>:Kalevala0eeposs NOUN_PAKIN/A ;
 kansan#eepossa%<n%>:kansan0eeposs NOUN_PAKIN/A ;
 kanša%<n%>:kanš NOUN_PAKIN/A ;
 kanši%<n%>:kanš NOUN_KIEL/I ;
+mieli%<n%>:miel NOUN_KIEL/I ;
 karjalaine%<n%>:karjalai NOUN_ELAVUTTAMI/NE ;
 karjala%<n%>:karjal NOUN_KAŠVATTAJ/A ;
 kartta%<n%>:kart NOUN_KART/TA ;
 katu%<n%>:ka  NOUN_ŠEU/TU ;
 kehittämini%<n%>:kehittämi NOUN_KEHITTÄMI/NI ;
 keino%<n%>:keino NOUN_NUMERO ;
+laulu%<n%>:laulu  NOUN_NUMERO ;
+hiä#laulu%<n%>:hiä0laulu  NOUN_NUMERO ;
 kenttä%<n%>:kent NOUN_KENT/TÄ ;
 keppi%<n%>:kep NOUN_KEP/PI ;
 kerho%<n%>:kerho NOUN_NUMERO ;
@@ -536,6 +561,7 @@ kontien#poikane%<n%>:kontien0poika NOUN_ELAVUTTAMI/NE ;
 kopra%<n%>:kopr  NOUN_ŠKOL/A ;
 koris#sukši%<n%>:koris0sukš NOUN_PIIR/I ;
 kortti%<n%>:kort  NOUN_STUDENT/TI ;
+kašvatti%<n%>:kašvat  NOUN_STUDENT/TI ;
 kos’s’onta%<n%>:kos’s’on NOUN_KOS’S’ON/TA ;
 koti%<n%>:ko NOUN_KO/TI ;
 koukku%<n%>:kouk  NOUN_AL/KU ;
@@ -557,6 +583,7 @@ käsi#paikka%<n%>:käsi0paik NOUN_PAIK/KA ;
 käsi#työ%<n%>:käsi0t NOUN_T/YÖ ;
 käynti%<n%>:käyn NOUN_KÄYN/TI ;
 lahja%<n%>:lahj NOUN_ŠKOL/A ;
+luokka%<n%>:luok NOUN_PAIK/KA ;
 laita%<n%>:lai NOUN_LAI/TA ;
 lapsien#kazvattaja%<n%>:lapsien0kazvattaj NOUN_KAŠVATTAJ/A ;
 lapši%<n%>:lapš NOUN_LAPŠ/I ;
@@ -603,7 +630,8 @@ nero%<n%>:nero NOUN_NUMERO ;
 niekka%<n%>:niek NOUN_PAIK/KA ;
 niemi#mua%<n%>:niemi0mu NOUN_MU/A ;
 nimi%<n%>:nim NOUN_KIEL/I ;
-ni%<n%>:šijahi NOUN_ŠIJAHI/NI ;
+šijahini%<n%>:šijahi NOUN_ŠIJAHI/NI ;
+valmistamini%<n%>:valmistami NOUN_ŠIJAHI/NI ;
 numero%<n%>:numero NOUN_NUMERO ;
 ohjelma%<n%>:ohjelm NOUN_PAKIN/A ;
 okša%<n%>:okš NOUN_ŠKOL/A ;
@@ -617,6 +645,7 @@ oša%<n%>:oš NOUN_KAŠVATTAJ/A ;
 ošanottaja%<n%>:ošanottaj NOUN_KAŠVATTAJ/A ;
 ošašto%<n%>:ošašto NOUN_NUMERO ;
 paikka%<n%>:paik NOUN_PAIK/KA ;
+tehnikka%<n%>:tehnik NOUN_PAIK/KA ;
 paja%<n%>:paj NOUN_KAŠVATTAJ/A ;
 pajun#taimen%<n%>:pajun0taimen NOUN_TAIMEN ;
 pakenomini%<n%>:pakenomi NOUN_ŠIJAHI/NI ;
@@ -629,6 +658,9 @@ perinneh%<n%>:perin NOUN_PERIN/NEH ;
 perintö%<n%>:perin NOUN_PERIN/TÖ ;
 petoš%<n%>:peto NOUN_MIELIKUVITU/Š ;
 piekšu%<n%>:piekšu NOUN_NUMERO ;
+kirjašto%<n%>:kirjašto  NOUN_NUMERO ;
+kylä#kirjašto%<n%>:kylä0kirjašto  NOUN_NUMERO ;
+applikatijo%<n%>:applikatijo  NOUN_NUMERO ;
 piiri%<n%>:piir NOUN_PIIR/I ;
 piirua%<n%>:piiru  NOUN_ŠKOL/A ;
 pimie#kuu%<n%>:pimie0ku  NOUN_KU/U ;
@@ -641,14 +673,19 @@ poika%<n%>:po NOUN_PO/IKA ;
 poimenta%<n%>:poimen NOUN_KOS’S’ON/TA ;
 polvi%<n%>:polv NOUN_LAPŠ/I ;
 popularisointi%<n%>:popularisoin NOUN_SOIN/TI ;
+katkelma%<n%>:katkelm NOUN_KAŠVATTAJ/A ;
+teema%<n%>:teem NOUN_ŠKOL/A ;
 projekta%<n%>:projekt NOUN_ŠKOL/A ;
 projektu%<n%>:projekt NOUN_PROJEKT/U ;
+koulu%<n%>:koulu  NOUN_NUMERO ;
 pruas#niekka%<n%>:pruas0niek NOUN_PAIK/KA ;
 puoli%<n%>:puol NOUN_KIEL/I ;
 puukko%<n%>:puuk NOUN_JOUK/KO ;
+kokko%<n%>:kok NOUN_JOUK/KO ;
 päivä#koti%<n%>:päivä0ko NOUN_KO/TI ;
 päivä%<n%>:päiv NOUN_PEŠ/Ä ;
 rahvahan#luomis#työ%<n%>:rahvahan0luomis0t NOUN_T/YÖ ;
+luomis#työ%<n%>:luomis0t NOUN_T/YÖ ;
 rahvahan#tapa%<n%>:rahvahan0ta  NOUN_TA/PA ;
 rahvaš%<n%>:rahva NOUN_RAHVA/Š ;
 raja%<n%>:raj NOUN_PAKIN/A  ;
@@ -659,6 +696,7 @@ roveh%<n%>:ro NOUN_RO/VEH ;
 ruado%<n%>:rua NOUN_RUA/DO ;
 ruado%<n%>:rua NOUN_RUA/DO ;
 ruato%<n%>:rua NOUN_RUA/TO ;
+mieli#pito%<n%>:mieli0pi NOUN_RUA/TO ;
 ruato%<n%>:rua NOUN_RUA/TO ;
 runo#kylä%<n%>:runo0kyl NOUN_PEŠ/Ä ;
 runon#laulaja%<n%>:runon0laulaj NOUN_KAŠVATTAJ/A ;
@@ -708,6 +746,8 @@ tehtävä%<n%>:tehtäv NOUN_PEŠ/Ä ;
 tekstii%<n%>:tekst NOUN_PIIR/I ;
 tie%<n%>:t  NOUN_T/IE ;
 tieto%<n%>:tie NOUN_RUA/TO ;
+työ%<n%>:t  NOUN_T/YÖ ;
+luomis#työ%<n%>:luomis0t  NOUN_T/YÖ ;
 tietäjä%<n%>:tietäj NOUN_JÄRJEŠTÄJ/Ä ;
 tila%<n%>:til NOUN_ŠKOL/A ;
 toimeh#pito%<n%>:toimeh0pi NOUN_RUA/TO ;
@@ -730,7 +770,8 @@ ulko#vaihe%<n%>:ulko0vaih  NOUN_VAIH/E ;
 unkarilaine%<n%>:unkarilai NOUN_ELAVUTTAMI/NE ;
 uusi#vuosi%<n%>:uu  NOUN_UU/SIVUOSI ;
 vaihe%<n%>:vaih  NOUN_VAIH/E ;
-vaihto%<n%>:vaih NOUN_RUA/TO ;
+vaihto%<n%>:vaih NOUN_VOIT/TO ;
+johto%<n%>:joh NOUN_VOIT/TO ;
 valehuš%<n%>:valehu NOUN_VIISAHU/Š ;
 varajohtaja%<n%>:varajohtaj NOUN_KAŠVATTAJ/A ;
 vehkeh%<n%>:vehkeh NOUN_PEREH ;
@@ -753,6 +794,8 @@ yksityis#esiintyjä%<n%>:yksityis0esiintyj NOUN_JÄRJEŠTÄJ/Ä ;
 yli#opisto%<n%>:yli0opisto NOUN_NUMERO ;
 ämmölä%<n%>:ämmöl NOUN_JÄRJEŠTÄJ/Ä ;
 ämmö%<n%>:ämmö NOUN_ÄMMÖ ;
+šeura%<n%>:šeur  NOUN_PAKIN/A ;
+kulttuuri#šeura%<n%>:kulttuuri0šeur  NOUN_PAKIN/A ;
 
 LEXICON NUM
 
@@ -829,6 +872,7 @@ Arhankeli%<np%>%<top%>:Arhankeli PROPN_PETROSKOI ;
 Aunuš%<np%>%<top%>:Aunu PROPN_ANU/Š ;
 Elias%<np%>%<ant%>%<m%>:Elias PROPN_PETROSKOI ;
 Eli%<np%>%<top%>:Eli PROPN_PETROSKOI ;
+Kiestinki%<np%>%<top%>:Kiestinki PROPN_PETROSKOI ;
 Fedosova%<np%>%<cog%>:Fedosova PROPN_KARJALA ;
 Helena%<np%>%<ant%>%<f%>:Helena PROPN_KARJALA ;
 Hiisi%<np%>%<ant%>%<m%>:Hii   PROPN_HII/SI ;
@@ -855,6 +899,8 @@ Lenin%<np%>%<cog%>:Lenin PROPN_KONSTANTIN ;
 Loginova%<np%>%<cog%>:Loginova PROPN_KARJALA ;
 Louhi%<np%>%<ant%>:Louh PROPN_LOUH/I ;
 Lumikello%<np%>%<al%>:Lumikello PROPN_LUMIKELLO ;
+Šeina%<np%>%<cog%>:Šein  PROPN_VLASOV/A ;
+Vlasova%<np%>%<cog%>:Vlasov  PROPN_VLASOV/A ;
 Lönnrot%<np%>%<cog%>:Lönnrot PROPN_LÖNNROT ;
 Maikki%<np%>%<ant%>%<f%>:Maikki PROPN_PETROSKOI ;
 Maksim%<np%>%<ant%>%<m%>:Maksim PROPN_KONSTANTIN ;
@@ -875,19 +921,34 @@ Petroskoi%<np%>%<top%>:Petroskoi PROPN_PETROSKOI ;
 Piiteri%<np%>%<top%>:Piiteri PROPN_PETROSKOI ;
 Pohjola%<np%>%<top%>:Pohjola PROPN_KARJALA ;
 Polenov%<np%>%<cog%>:Polenov PROPN_KONSTANTIN ;
+Lobačov%<np%>%<cog%>:Lobačov PROPN_KONSTANTIN ;
+Glazkov%<np%>%<cog%>:Glazkov PROPN_KONSTANTIN ;
+Jegor%<np%>%<ant%>%<m%>:Jegor PROPN_KONSTANTIN ;
+Danil%<np%>%<ant%>%<m%>:Danil PROPN_KONSTANTIN ;
 Potapovo%<np%>%<top%>:Potapovo PROPN_LUMIKELLO ;
 Raisa%<np%>%<ant%>%<f%>:Raisa PROPN_KARJALA ;
 Remšujeva%<np%>%<top%>:Remšujeva PROPN_KARJALA ;
 Rinkevič%<np%>%<cog%>:Rinkevič  PROPN_KONSTANTIN ;
+Nikiforov%<np%>%<cog%>:Nikiforov  PROPN_KONSTANTIN ;
+Terentjev%<np%>%<cog%>:Terentjev  PROPN_KONSTANTIN ;
 Saha%<np%>%<top%>:Saha PROPN_KARJALA ;
 Šampo%<np%>%<al%>:Šampo PROPN_LUMIKELLO ;
 Santra%<np%>%<ant%>%<f%>:Santra PROPN_KARJALA ;
 Sergei%<np%>%<ant%>%<m%>:Sergei PROPN_PETROSKOI ;
+Matvei%<np%>%<ant%>%<m%>:Matvei PROPN_PETROSKOI ;
 Spitsina%<np%>%<cog%>:Spitsina PROPN_KARJALA ;
 Stankevičus%<np%>%<cog%>:Stankevičus PROPN_KONSTANTIN ;
 Suomi%<np%>%<top%>:Suomi PROPN_PETROSKOI ;
 Taimira%<np%>%<top%>:Taimira PROPN_KARJALA ;
+L’udmila%<np%>%<ant%>%<f%>:L’udmila PROPN_KARJALA ;
 Tatjana%<np%>%<ant%>%<f%>:Tatjana PROPN_KARJALA ;
+Kira%<np%>%<ant%>%<f%>:Kira PROPN_KARJALA ;
+Jekaterina%<np%>%<ant%>%<f%>:Jekaterina PROPN_KARJALA ;
+Koval’ova%<np%>%<cog%>:Koval’ova PROPN_KARJALA ;
+Sem’onova%<np%>%<cog%>:Sem’onova PROPN_KARJALA ;
+Vlasova%<np%>%<cog%>:Vlasova PROPN_KARJALA ;
+Jelagina%<np%>%<cog%>:Jelagina PROPN_KARJALA ;
+Galina%<np%>%<ant%>%<f%>:Galina PROPN_KARJALA ;
 Tat’t’ana%<np%>%<ant%>%<f%>:Tat’t’ana PROPN_KARJALA ;
 Tikkanen%<np%>%<cog%>:Tikkanen PROPN_KONSTANTIN ;
 Torvinen%<np%>%<cog%>:Torvi PROPN_TORVI/NEN ;
@@ -1067,6 +1128,7 @@ heitteä%<vblex%>:heit VERB_PIÄT/TEÄ ;
 hokšata%<vblex%>:hokša VERB_AVA/TA ;
 hukkuo%<vblex%>:huk  VERB_ROIK/KUO ;
 hyreytyä%<vblex%>:hyreyty VERB_HYREYTY/Ä ;
+šiirtyä%<vblex%>:šiirty VERB_HYREYTY/Ä ;
 hyrähteä%<vblex%>:hyräh VERB_PIÄT/TEÄ ;
 ilmeštyö%<vblex%>:ilmeš  VERB_ILMEŠ/TYÖ ;
 ilmottoa%<vblex%>:ilmot  VERB_SOIT/TOA ;
@@ -1082,6 +1144,7 @@ kantoa%<vblex%>:kan  VERB_AN/TOA ;
 kantua%<vblex%>:kant VERB_KANT/UA ;
 kašvoa%<vblex%>:kašv  VERB_KAŠV/OA ;
 kehitteä%<vblex%>:kehit VERB_PIÄT/TEÄ ;
+kiitteä%<vblex%>:kiit VERB_PIÄT/TEÄ ;
 kekšie%<vblex%>:kekši VERB_TANŠŠI/E ;
 kennie%<vblex%>:kenni VERB_TANŠŠI/E ;
 keritä%<vblex%>:ker VERB_KER/ITÄ ;
@@ -1094,7 +1157,7 @@ kiinnostuo%<vblex%>:kiinnost VERB_KUUL/UO ;
 kirjuttoa%<vblex%>:kirjut  VERB_SOIT/TOA ;
 kiskoa%<vblex%>:kis  VERB_AL/KOA ;
 kiänteä%<vblex%>:kiän VERB_PIÄT/TEÄ ;
-kiänteä%<vblex%>:kiän§ VERB_PIÄT/TEÄ ;
+lenteä%<vblex%>:len VERB_PIÄT/TEÄ ;
 koristoa%<vblex%>:koris VERB_VALMIS/TOA ;
 koristoa%<vblex%>:koris VERB_VALMIS/TOA ;
 koroštoa%<vblex%>:koroš VERB_KOROŠ/TOA ;
@@ -1132,7 +1195,7 @@ näyttyä%<vblex%>:näyt VERB_NÄYT/TYÄ ;
 omistoa%<vblex%>:omis VERB_VALMIS/TOA ;
 ommella%<vblex%>:om  VERB_OM/MELLA ;
 oppie%<vblex%>:op VERB_OP/PIE ;
-ošallistuo%<vblex%>:ošallist  VERB_KUUL/UO ;
+ošallistuo%<vblex%>:ošallis  VERB_IS/TUO ;
 ottoa%<vblex%>:ot VERB_OT/TOA ;
 painoa%<vblex%>:pain  VERB_KAŠV/OA ;
 paistoa%<vblex%>:pais VERB_PAIS/TOA ;
@@ -1152,6 +1215,7 @@ rikkuo%<vblex%>:rik  VERB_RIK/KUO ;
 roikkuo%<vblex%>:roik  VERB_ROIK/KUO ;
 ruveta%<vblex%>:ruve VERB_AVA/TA ;
 ryhtyö%<vblex%>:ryh  VERB_RYH/TYÖ ;
+yhtyö%<vblex%>:yh  VERB_RYH/TYÖ ;
 šanoa%<vblex%>:šan  VERB_ŠAN/OA ;
 šanuo%<vblex%>:šan  VERB_TOIV/UO ;
 šanuo%<vblex%>:šan  VERB_TOIV/UO ;
@@ -1162,6 +1226,7 @@ sattuo%<vblex%>:sat  VERB_SAT/TUO ;
 šoittoa%<vblex%>:šoit  VERB_SOIT/TOA ;
 šopie%<vblex%>:šo VERB_ŠO/PIE ;
 starinoija%<vblex%>:starinoi  VERB_STARINOI/JA ;
+staraija%<vblex%>:starai  VERB_STARINOI/JA ;
 suaha%<vblex%>:s VERB_S/UAHA ;
 šuaha%<vblex%>:š VERB_S/UAHA ;
 šuorittua%<vblex%>:šuoritt VERB_KANT/UA ;
@@ -1175,8 +1240,10 @@ tieteä%<vblex%>:ti VERB_TI/ETEÄ ;
 tietyä%<vblex%>:tie VERB_PI/TYÄ ;
 tiijuššella%<vblex%>:tiijušše  VERB_TU/LLA ;
 tiijuštua%<vblex%>:tiijušt VERB_KANT/UA ;
+opaštuo%<vblex%>:opaš  VERB_OPAŠ/TUO ;
 toivuo%<vblex%>:toiv  VERB_TOIV/UO ;
 tulla%<vblex%>:tu VERB_TU/LLA ;
+tuuvva%<vblex%>:t VERB_T/UUVVA ;
 tuomita%<vblex%>:tuomi VERB_TARVI/TA ;
 tuškistuo%<vblex%>:tuškist VERB_KUUL/UO ;
 tykytä%<vblex%>:tyk VERB_TYK/YTÄ ;
@@ -1315,6 +1382,7 @@ LEXICON VERB_KÄ/YVÄ
 0:y   VERB_PRES_BACK ;
 0   VERB_3SG_Y ;
 0:vi  VERB_PAST_3SG_0 ;
+0:yti  VERB_PAST_PASSIVE_H ;
 0:v  VERB_PAST_FRONT ;
 
 LEXICON VERB_S/UAHA
@@ -1335,6 +1403,17 @@ LEXICON VERB_LÄ/HTIE
 0:ks VERB_PAST_FRONT ;
 0:hetti  VERB_PAST_PASSIVE_H ;
 0:hte  VERB_PCP_N ;
+
+LEXICON VERB_T/UUVVA
+
+0:uuvv  VERB_INF_A ;
+0:uova   VERB_PASSIVE_H ;
+0:uu    VERB_PRES_BACK ;
+0:uu    VERB_IMPV ;
+0:oi    VERB_PAST_3SG_0 ;
+0:o    VERB_PAST_BACK ;
+0:uoti  VERB_PAST_PASSIVE_H ;
+0:uo  VERB_PCP_TU ;
 
 LEXICON VERB_TU/LLA
 
@@ -1457,6 +1536,7 @@ LEXICON VERB_PAIS/TOA
 LEXICON VERB_KAČ/ČOA
 
 0:čo  VERB_INF_A ;
+0:čo  VERB_INF_MA ;
 0:čo  VERB_PAST_3SG_0 ;
 0:o  VERB_PAST_BACK ;
 0:čotti VERB_PAST_PASSIVE_H ;
@@ -1577,6 +1657,7 @@ LEXICON VERB_TI/ETEÄ
 0:ijet  VERB_PCP_TY ;
 0:ijä  VERB_PRES_FRONT ;
 0:ijetä VERB_PASSIVE_H ;
+0:ijet  VERB_COND_PASSIVE_TÄIS ;
 
 LEXICON VERB_TÄYT/TYÄ
 
@@ -1604,6 +1685,7 @@ LEXICON VERB_VIČER/TEÄ
 LEXICON VERB_PIÄT/TEÄ
 
 0:te  VERB_INF_Ä ;
+0:ä  VERB_PRES_FRONT ;
 0:tä  VERB_3SG_Y ;
 0:ti  VERB_PAST_3SG_0 ;
 0:etti  VERB_PAST_PASSIVE_H ;
@@ -1646,6 +1728,14 @@ LEXICON VERB_EL/EÄ
 0:ä  VERB_3SG_Y ;
 0:ä  VERB_PRES_FRONT ;
 
+LEXICON VERB_OPAŠ/TUO
+
+0:tu  VERB_INF_O ;
+0:šo  VERB_PAST_3SG_0 ;
+0:to  VERB_3SG_U ;
+0:šuta  VERB_PASSIVE_H ;
+0:tu  VERB_PRES_BACK ;
+
 LEXICON VERB_TOIV/UO
 
 0:u  VERB_INF_O ;
@@ -1683,6 +1773,8 @@ LEXICON VERB_RYH/TYÖ
 0:ty  VERB_PAST_3SG_0 ;
 0:ty  VERB_3SG_Y ;
 0:ty  VERB_PRES_BACK ;
+0:ytti  VERB_PAST_PASSIVE_H ;
+0:yt  VERB_COND_PASSIVE_TÄIS ;
 
 LEXICON VERB_ILMEŠ/TYÖ
 
@@ -1699,6 +1791,7 @@ LEXICON VERB_IS/TUO
 0:su  VERB_PAST_BACK ;
 0:tu  VERB_3SG_U ;
 0:tu  VERB_PRES_BACK ;
+0:sutti  VERB_PAST_PASSIVE_H ;
 
 LEXICON VERB_RIK/KUO
 
@@ -1920,6 +2013,7 @@ LEXICON ADJ_NUOR/I
 LEXICON ADJ_HYV/Ä
 
 0:ä ADJ_SGNOM_0 ;
+0:y ADJ_SGPAR_Ä ;
 0:ä ADJ_CASES_SG_FRONT ;
 
 LEXICON ADJ_PAR/EMPI
@@ -1991,7 +2085,7 @@ LEXICON ADJ_TUNNET/TU
 
 0:tu ADJ_SGNOM_0 ;
 0:tu ADJ_PLPAR_JA ;
-0:tu ADJ_CASES_SG_BACK ;
+0:u ADJ_CASES_SG_BACK_WEAK ;
 
 LEXICON ADJ_AI/TO
 
@@ -2069,6 +2163,12 @@ LEXICON PROPN_KARJALA
 
 0 PROPN_SGNOM_0 ;
 0 PROPN_CASES_SG_BACK ;
+
+LEXICON PROPN_VLASOV/A
+
+0:a PROPN_SGNOM_0 ;
+0:a PROPN_CASES_SG_BACK ;
+0:u PROPN_SGPAR_A ;
 
 LEXICON PROPN_MORDOUVI/A
 
@@ -2148,11 +2248,13 @@ LEXICON PRON_TÄ/MÄ
 0  PRON_CASES_SG_FRONT ;
 0  PRON_SGPAR_TÄ ;
 0:mä PRON_SGGEN_N ;
+%<sg%>%<ill%>:hä  # ;
 
 LEXICON PRON_NÄ/MÄ
 
 0:mä PRON_PLNOM_0 ;
 0  PRON_CASES_PL_FRONT ;
+0  PRON_PLGEN_IJEN ;
 
 LEXICON PRON_T/UO
 
@@ -2224,6 +2326,7 @@ LEXICON PRON_KE/N
 
 0:n PRON_SGNOM_0 ;
 0:ne PRON_CASES_SG_FRONT ;
+0 PRON_CASES_SG_FRONT ;
 
 LEXICON PRON_MI
 
@@ -2492,6 +2595,9 @@ LEXICON NOUN_RUA/TO
 0:to NOUN_CASES_SG_BACK ;
 0:do NOUN_CASES_SG_BACK ;
 0:vo NOUN_CASES_SG_BACK ;
+0:to NOUN_PLPAR_JA ;
+0:to NOUN_PLGEN_JEN ;
+0:tolo NOUN_CASES_LO/I_PL_BACK ;
 
 LEXICON NOUN_RUA/DO
 
@@ -2501,6 +2607,14 @@ LEXICON NOUN_RUA/DO
 0:to NOUN_CASES_SG_BACK ;
 0:do NOUN_CASES_SG_BACK ;
 0:vo NOUN_CASES_SG_BACK ;
+
+LEXICON NOUN_T/YÖ
+
+0:yö NOUN_SGNOM_0 ;
+0:yö NOUN_CASES_SG_FRONT ;
+0:ö  NOUN_CASES_PL_FRONT ;
+0:ö  NOUN_PLPAR_ITÄ ;
+0:ö  NOUN_PLGEN_IJEN ;
 
 LEXICON NOUN_T/IE
 
@@ -2548,6 +2662,14 @@ LEXICON NOUN_PERIN/TÖ
 0:tö NOUN_PLPAR_JÄ ;
 0:nö NOUN_CASES_PL_FRONT ;
 0:tö NOUN_PLGEN_JEN ;
+
+LEXICON NOUN_NÄYTTELY
+
+0 NOUN_SGNOM_0 ;
+0 NOUN_CASES_SG_FRONT ;
+0 NOUN_SGPAR_Ö ;
+0 NOUN_PLPAR_JÄ ;
+0 NOUN_PLGEN_JEN ;
 
 LEXICON NOUN_ÄMMÖ
 
@@ -2912,12 +3034,6 @@ LEXICON NOUN_VU/OSI
 0:os   NOUN_CASES_PL_BACK ;
 0:uvve NOUN_CASES_SG_BACK ;
 
-LEXICON NOUN_T/YÖ
-
-0:yö   NOUN_SGNOM_0 ;
-0:yö   NOUN_CASES_SG_FRONT ;
-0:ö    NOUN_CASES_PL_FRONT ;
-
 LEXICON NOUN_PO/IKA
 
 0:ika  NOUN_SGNOM_0 ;
@@ -3126,8 +3242,8 @@ LEXICON VERB_PASSIVE_H
 
 LEXICON VERB_PAST_PASSIVE_H
 
-%<actv%>%<past%>%<p3%>%<pl%>:h # ;
-%<pasv%>%<past%>:h # ;
+%<actv%>%<past%>%<p3%>%<pl%>:h CLITS_KI_OPT ;
+%<pasv%>%<past%>:h CLITS_KI_OPT ;
 
 LEXICON VERB_IMPVPL_BACK
 
@@ -3249,9 +3365,17 @@ LEXICON VERB_COND_PASSIVE_TAIS
 
 %<pasv%>%<cni%>:tais # ;
 
+LEXICON VERB_COND_PASSIVE_TÄIS
+
+%<pasv%>%<cni%>:täis # ;
+
 LEXICON PROPN_SGNOM_0
 
 %<sg%>%<nom%>:0 # ;
+
+LEXICON PROPN_SGPAR_A
+
+%<sg%>%<par%>:a # ;
 
 LEXICON PROPN_SGPAR_E
 
@@ -3350,6 +3474,11 @@ LEXICON ADJ_SGPAR_A
 
 %<sg%>%<par%>:a  # ;
 
+LEXICON ADJ_SGPAR_Ä
+
+%<sg%>%<par%>:ä  # ;
+
+
 LEXICON ADJ_SGPAR_TA
 
 %<sg%>%<par%>:ta  # ;
@@ -3368,8 +3497,14 @@ LEXICON ADJ_SGPAR_TY
 
 LEXICON ADJ_CASES_SG_BACK
 
+0  ADJ_CASES_SG_BACK_WEAK ;
+!0  ADJ_CASES_SG_BACK_STRONG ;
+
+LEXICON ADJ_CASES_SG_BACK_WEAK
+
 %<sg%>%<ine%>:šša # ;
 %<sg%>%<ela%>:šta # ;
+%<sg%>%<ade%>:lla # ;
 %<sg%>%<gen%>:n # ;
 %<pl%>%<nom%>:t # ;
 %<sg%>%<ess%>:na # ;
@@ -3537,6 +3672,10 @@ LEXICON NOUN_SGPAR_O
 
 %<sg%>%<par%>:o # ;
 
+LEXICON NOUN_SGPAR_Ö
+
+%<sg%>%<par%>:ö # ;
+
 LEXICON NOUN_SGPAR_TY
 
 %<sg%>%<par%>:ty # ;
@@ -3552,6 +3691,10 @@ LEXICON NOUN_SGILL_H
 LEXICON NOUN_PLGEN_IEN
 
 %<pl%>%<gen%>:jen # ;
+
+LEXICON NOUN_PLGEN_IJEN
+
+%<pl%>%<gen%>:ijen # ;
 
 LEXICON NOUN_PLGEN_JEN
 
@@ -3656,6 +3799,10 @@ LEXICON PRON_PLNOM_0
 LEXICON PRON_PLPAR_IE
 
 %<pl%>%<par%>:ie # ;
+
+LEXICON PRON_PLGEN_IJEN
+
+%<pl%>%<gen%>:ijen # ;
 
 LEXICON PRON_PLGEN_IEN
 
@@ -3794,6 +3941,11 @@ LEXICON PRON_CASES_PL_FRONT_STRONG
 %<pl%>%<ess%>:inä # ;
 %<pl%>%<ill%>:ih # ;
 
+
+LEXICON CLITS_KI_OPT
+
+0 # ;
++ki%<enc%>%<adv%>:ki  # ;
 
 
 ! vim: set ft=xfst-lexc:
