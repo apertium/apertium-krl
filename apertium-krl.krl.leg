@@ -547,6 +547,27 @@
         </match>
       </context>
     </evidence>
+    <evidence name="Determiner agreement">
+      <target>
+        <match>
+          <lemma>kaikki</lemma>
+          <ufeats>
+            <ufeat name="Case"/>
+          </ufeats>
+        </match>
+      </target>
+      <likelihood>usually</likelihood>
+      <depname>det</depname>
+      <context>
+        <location>+1</location>
+        <match>
+          <upos>NOUN</upos>
+          <ufeats>
+            <ufeat name="Case"/>
+          </ufeats>
+        </match>
+      </context>
+    </evidence>
     <!-- nmod:own -->
     <evidence name="Adessive ownign">
       <target>
