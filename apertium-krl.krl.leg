@@ -409,9 +409,6 @@
       <target>
         <match>
           <upos>PROPN</upos>
-          <ufeats>
-            <ufeat name="Case"/>
-          </ufeats>
         </match>
       </target>
       <likelihood>usually</likelihood>
@@ -420,9 +417,6 @@
         <location>+1</location>
         <match>
           <upos>PROPN</upos>
-          <ufeats>
-            <ufeat name="Case"/>
-          </ufeats>
         </match>
       </context>
     </evidence>
@@ -483,27 +477,6 @@
         </barrier>
       </context>
     </evidence>
-    <!-- nmods -->
-    <evidence name="Adjective agreement">
-      <target>
-        <match>
-          <upos>NOUN</upos>
-          <upos>PROPN</upos>
-          <upos>PRON</upos>
-          <ufeats>
-            <ufeat name="Case">Gen</ufeat>
-          </ufeats>
-        </match>
-      </target>
-      <likelihood>probably</likelihood>
-      <depname>nmod:poss</depname>
-      <context>
-        <location>+1</location>
-        <match>
-          <upos>NOUN</upos>
-        </match>
-      </context>
-    </evidence>
     <!-- amods -->
     <evidence name="Adjective agreement">
       <target>
@@ -528,6 +501,76 @@
         </match>
       </context>
     </evidence>
+    <evidence name="Datelike struct">
+      <target>
+        <match>
+          <upos>ADJ</upos>
+          <ufeats>
+            <ufeat name="NumType">Ord</ufeat>
+          </ufeats>
+        </match>
+      </target>
+      <likelihood>usually</likelihood>
+      <depname>amod</depname>
+      <context>
+        <location>+1</location>
+        <match>
+          <upos>NOUN</upos>
+          <ufeats>
+            <ufeat name="Case">Par</ufeat>
+          </ufeats>
+        </match>
+      </context>
+    </evidence>
+    <!-- dets -->
+    <evidence name="Determiner agreement">
+      <target>
+        <match>
+          <upos>PRON</upos>
+          <ufeats>
+            <ufeat name="PronType">Dem</ufeat>
+            <ufeat name="Number"/>
+            <ufeat name="Case"/>
+          </ufeats>
+        </match>
+      </target>
+      <likelihood>usually</likelihood>
+      <depname>det</depname>
+      <context>
+        <location>+1</location>
+        <match>
+          <upos>NOUN</upos>
+          <ufeats>
+            <ufeat name="Number"/>
+            <ufeat name="Case"/>
+          </ufeats>
+        </match>
+      </context>
+    </evidence>
+    <!-- nmod:own -->
+    <evidence name="Adessive ownign">
+      <target>
+        <match>
+          <ufeats>
+            <ufeat name="Case">Ade</ufeat>
+          </ufeats>
+        </match>
+      </target>
+      <likelihood>usually</likelihood>
+      <depname>nmod:own</depname>
+      <context>
+        <location>+1</location>
+        <match>
+          <lemma>olla</lemma>
+          <upos>AUX</upos>
+          <ufeats>
+            <ufeat name="Number">Sing</ufeat>
+            <ufeat name="Person">3</ufeat>
+            <ufeat name="VerbForm">Fin</ufeat>
+          </ufeats>
+        </match>
+      </context>
+    </evidence>
     <!-- very generic rules for last resorting -->
     <evidence name="Adverbs can be ad verbs">
       <target>
@@ -544,11 +587,12 @@
         </match>
       </context>
     </evidence>
-    <evidence name="Real genitives own +1">
+    <evidence name="Real genitives">
       <target>
         <match>
           <upos>NOUN</upos>
           <upos>PROPN</upos>
+          <upos>PRON</upos>
           <ufeats>
             <ufeat name="Case">Gen</ufeat>
           </ufeats>

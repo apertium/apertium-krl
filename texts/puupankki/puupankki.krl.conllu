@@ -1834,7 +1834,7 @@
 2	luomistöijen	luomis#työ	NOUN	NOUN	Case=Gen|Number=Plur	3	nmod:poss	_	Weight=1.01
 3	näyttely	näyttely	NOUN	NOUN	Case=Nom|Number=Sing	5	obj	_	Weight=500.0
 4	oli	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	aux	_	Weight=0.0033333333333333335
-5	järješšetty	järješteä	VERB	VERB	Case=Nom|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	_	_	_	Weight=500.0
+5	järješšetty	järješteä	VERB	VERB	Case=Nom|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Weight=500.0
 6	Kiestinkin	Kiestinki	PROPN	PROPN	Case=Gen|Number=Sing	7	nmod:poss	_	PropnType=Top|Weight=0.01
 7	kyläkirjaštošša	kylä#kirjašto	NOUN	NOUN	Case=Ine|Number=Sing	5	obl	_	Weight=1.0066666666666666
 8	,	,	PUNCT	PUNCT	_	5	punct	_	Weight=0.01
@@ -1872,7 +1872,7 @@
 2	mielipitojen	mieli#pito	NOUN	NOUN	Case=Gen|Number=Plur	5	obl	_	Weight=501.0
 3	pohjalla	pohjalla	ADP	ADP	_	2	case	_	Weight=0.005
 4	šiitä	še	PRON	PRON	Case=Ela|Number=Sing|PronType=Dem	5	obl	_	Weight=500.0
-5	valittihki	valita	ADV	ADV	Clitic=Ki|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	_	_	_	Weight=504.0
+5	valittihki	valita	ADV	ADV	Clitic=Ki|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=504.0
 6	kilpailun	kilpailu	NOUN	NOUN	Case=Gen|Number=Sing	7	nmod:poss	_	Weight=0.01
 7	voittajat	voittaja	NOUN	NOUN	Case=Nom|Number=Plur	5	obj	_	Weight=500.0
 8	.	.	PUNCT	PUNCT	_	5	punct	_	Weight=500.0
