@@ -522,6 +522,30 @@
         </match>
       </context>
     </evidence>
+    <!-- numerals -->
+    <evidence name="Nummod agreement">
+      <target>
+        <match>
+          <upos>NUM</upos>
+          <ufeats>
+            <ufeat name="Number"/>
+            <ufeat name="Case"/>
+          </ufeats>
+        </match>
+      </target>
+      <likelihood>usually</likelihood>
+      <depname>nummod</depname>
+      <context>
+        <location>+1</location>
+        <match>
+          <upos>NOUN</upos>
+          <ufeats>
+            <ufeat name="Number"/>
+            <ufeat name="Case"/>
+          </ufeats>
+        </match>
+      </context>
+    </evidence>
     <!-- dets -->
     <evidence name="Determiner agreement">
       <target>
