@@ -414,7 +414,7 @@
       <likelihood>usually</likelihood>
       <depname>flat:name</depname>
       <context>
-        <location>+1</location>
+        <location>-1</location>
         <match>
           <upos>PROPN</upos>
         </match>
@@ -592,19 +592,9 @@
         </match>
       </context>
     </evidence>
-    <!-- nmod:own -->
+    <!-- cop -->
     <evidence name="Adessive ownign">
       <target>
-        <match>
-          <ufeats>
-            <ufeat name="Case">Ade</ufeat>
-          </ufeats>
-        </match>
-      </target>
-      <likelihood>usually</likelihood>
-      <depname>nmod:own</depname>
-      <context>
-        <location>+1</location>
         <match>
           <lemma>olla</lemma>
           <upos>AUX</upos>
@@ -612,6 +602,40 @@
             <ufeat name="Number">Sing</ufeat>
             <ufeat name="Person">3</ufeat>
             <ufeat name="VerbForm">Fin</ufeat>
+          </ufeats>
+        </match>
+      </target>
+      <likelihood>meh</likelihood>
+      <depname>cop</depname>
+      <context>
+        <location>right</location>
+        <match>
+          <upos>ADJ</upos>
+          <ufeats>
+            <ufeat name="Case">Nom</ufeat>
+          </ufeats>
+        </match>
+      </context>
+    </evidence>
+    <evidence name="Adessive ownign">
+      <target>
+        <match>
+          <lemma>olla</lemma>
+          <upos>AUX</upos>
+          <ufeats>
+            <ufeat name="Number">Sing</ufeat>
+            <ufeat name="Person">3</ufeat>
+            <ufeat name="VerbForm">Fin</ufeat>
+          </ufeats>
+        </match>
+      </target>
+      <likelihood>usually</likelihood>
+      <depname>cop:own</depname>
+      <context>
+        <location>-1</location>
+        <match>
+          <ufeats>
+            <ufeat name="Case">Ade</ufeat>
           </ufeats>
         </match>
       </context>
