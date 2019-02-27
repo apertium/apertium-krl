@@ -327,6 +327,7 @@ LEXICON ADV
 
 
 
+vain%<adv%>:vain #  ;
 ahkerašti%<adv%>:ahkerašti  # ;
 aikasemmin%<adv%>:aikasemmin  # ;
 aina%<adv%>:aina # ;
@@ -3874,7 +3875,7 @@ LEXICON AUX_PAST_PASSIVE_H
 LEXICON AUX_COND
 
 %<cni%>%<p1%>%<sg%>:isin # ;
-%<cni%>%<p2%>%<sg%>:isin # ;
+%<cni%>%<p2%>%<sg%>:isit # ;
 %<cni%>%<p3%>%<sg%>:is # ;
 %<cni%>%<p3%>%<sg%>%<qst%>:isko # ;
 
@@ -4198,16 +4199,16 @@ LEXICON ADJ_SGNOM_0
 
 LEXICON ADJ_PLPAR_JA
 
-%<sg%>%<par%>:ja  # ;
+%<pl%>%<par%>:ja  # ;
 
 
 LEXICON ADJ_PLPAR_IE
 
-%<sg%>%<par%>:ie  # ;
+%<pl%>%<par%>:ie  # ;
 
 LEXICON ADJ_PLGEN_IEN
 
-%<sg%>%<gen%>:ien  # ;
+%<pl%>%<gen%>:ien  # ;
 
 LEXICON ADJ_SGPAR_A
 

@@ -111,6 +111,7 @@
         <location>any</location>
         <match>
           <upos>VERB</upos>
+          <upos>AUX</upos>
           <ufeats>
             <ufeat name="Number">Sing</ufeat>
             <ufeat name="Person">1</ufeat>
@@ -143,6 +144,7 @@
         <location>any</location>
         <match>
           <upos>VERB</upos>
+          <upos>AUX</upos>
           <ufeats>
             <ufeat name="Number">Sing</ufeat>
             <ufeat name="Person">2</ufeat>
@@ -166,6 +168,12 @@
             <ufeat name="Case">Nom</ufeat>
             <ufeat name="Number">Sing</ufeat>
           </ufeats>
+          <ufeats>
+            <ufeat name="PronType">Prs</ufeat>
+            <ufeat name="Case">Nom</ufeat>
+            <ufeat name="Number">Sing</ufeat>
+            <ufeat name="Person">3</ufeat>
+          </ufeats>
         </match>
       </target>
       <likelihood>possibly</likelihood>
@@ -174,6 +182,7 @@
         <location>right</location>
         <match>
           <upos>VERB</upos>
+          <upos>AUX</upos>
           <ufeats>
             <ufeat name="Number">Sing</ufeat>
             <ufeat name="Person">3</ufeat>
@@ -205,6 +214,7 @@
         <location>right</location>
         <match>
           <upos>VERB</upos>
+          <upos>AUX</upos>
           <ufeats>
             <ufeat name="Number">Sing</ufeat>
             <ufeat name="Person">3</ufeat>
@@ -237,6 +247,7 @@
         <location>any</location>
         <match>
           <upos>VERB</upos>
+          <upos>AUX</upos>
           <ufeats>
             <ufeat name="Number">Plur</ufeat>
             <ufeat name="Person">1</ufeat>
@@ -269,6 +280,7 @@
         <location>any</location>
         <match>
           <upos>VERB</upos>
+          <upos>AUX</upos>
           <ufeats>
             <ufeat name="Number">Plur</ufeat>
             <ufeat name="Person">2</ufeat>
@@ -299,6 +311,7 @@
       <context>
         <location>right</location>
         <match>
+          <upos>AUX</upos>
           <upos>VERB</upos>
           <ufeats>
             <ufeat name="Number">Plur</ufeat>
