@@ -2430,36 +2430,36 @@ LEXICON VERB_OM/MELLA
 LEXICON ADJ_ERI
 !! maybe like fin: eri, no infl.
 
-0 ADJ_SGNOM_0 ;
+%<pos%>:0 ADJ_SGNOM_0 ;
 
 LEXICON ADJ_MAINIJO
 
-0  ADJ_SGNOM_0 ;
-0  ADJ_CASES_SG_BACK ;
-0  ADJ_CASES_PL_BACK ;
-0  ADJ_PLPAR_JA ;
+%<pos%>:0  ADJ_SGNOM_0 ;
+%<pos%>:0  ADJ_CASES_SG_BACK ;
+%<pos%>:0  ADJ_CASES_PL_BACK ;
+%<pos%>:0  ADJ_PLPAR_JA ;
 
 LEXICON ADJ_OIKIE
 
-0  ADJ_SGNOM_0 ;
-0  ADJ_CASES_SG_BACK ;
-0  ADJ_CASES_PL_BACK ;
+%<pos%>:0  ADJ_SGNOM_0 ;
+%<pos%>:0  ADJ_CASES_SG_BACK ;
+%<pos%>:0  ADJ_CASES_PL_BACK ;
 
 LEXICON ADJ_PIEN/I
 
-0:i ADJ_SGNOM_0 ;
-0:e ADJ_CASES_SG_FRONT ;
+%<pos%>:i ADJ_SGNOM_0 ;
+%<pos%>:e ADJ_CASES_SG_FRONT ;
 %<comp%>:empi ADJ_SGNOM_0 ;
 %<comp%>:emmä ADJ_CASES_SG_FRONT ;
 %<sup%>:in ADJ_SGNOM_0 ;
 
 LEXICON ADJ_NUOR/I
 
-0:i  ADJ_SGNOM_0 ;
-0:e  ADJ_CASES_SG_BACK ;
-0    ADJ_CASES_PL_BACK ;
-0    ADJ_PLPAR_IE ;
-0    ADJ_PLGEN_IEN ;
+%<pos%>:i  ADJ_SGNOM_0 ;
+%<pos%>:e  ADJ_CASES_SG_BACK ;
+%<pos%>:0    ADJ_CASES_PL_BACK ;
+%<pos%>:0    ADJ_PLPAR_IE ;
+%<pos%>:0    ADJ_PLGEN_IEN ;
 %<comp%>:empi ADJ_SGNOM_0 ;
 %<comp%>:emma ADJ_CASES_SG_BACK ;
 %<sup%>:in ADJ_SGNOM_0 ;
@@ -2469,9 +2469,9 @@ LEXICON ADJ_NUOR/I
 
 LEXICON ADJ_HYV/Ä
 
-0:ä ADJ_SGNOM_0 ;
-0:y ADJ_SGPAR_Ä ;
-0:ä ADJ_CASES_SG_FRONT ;
+%<pos%>:ä ADJ_SGNOM_0 ;
+%<pos%>:y ADJ_SGPAR_Ä ;
+%<pos%>:ä ADJ_CASES_SG_FRONT ;
 
 LEXICON ADJ_PAR/EMPI
 
@@ -2487,21 +2487,21 @@ LEXICON ADJ_PAR/EMPI
 
 LEXICON ADJ_LÄM/MIN
 
-0:min ADJ_SGNOM_0 ;
-0:min ADJ_SGPAR_TÄ ;
+%<pos%>:min ADJ_SGNOM_0 ;
+%<pos%>:min ADJ_SGPAR_TÄ ;
 
 LEXICON ADJ_KAUNIS
 
-0  ADJ_SGNOM_0 ;
-0  ADJ_SGPAR_TA ;
+%<pos%>:0  ADJ_SGNOM_0 ;
+%<pos%>:0  ADJ_SGPAR_TA ;
 
 LEXICON ADJ_OM/A
 
-0:a ADJ_SGNOM_0 ;
-0:a ADJ_CASES_SG_BACK ;
-0   ADJ_CASES_PL_BACK ;
-0:u  ADJ_SGPAR_A ;
-0    ADJ_PLPAR_IE ;
+%<pos%>:a ADJ_SGNOM_0 ;
+%<pos%>:a ADJ_CASES_SG_BACK ;
+%<pos%>:0   ADJ_CASES_PL_BACK ;
+%<pos%>:u  ADJ_SGPAR_A ;
+%<pos%>:0    ADJ_PLPAR_IE ;
 %<comp%>:ampi ADJ_SGNOM_0 ;
 %<comp%>:amma  ADJ_CASES_SG_BACK ;
 %<comp%>%<sg%>%<ill%>:ampah # ;
@@ -2511,76 +2511,76 @@ LEXICON ADJ_OM/A
 
 LEXICON ADJ_KYPŠ/Ä
 
-0:ä  ADJ_SGNOM_0 ;
-0:y  ADJ_SGPAR_Ä ;
-0:ä  ADJ_CASES_SG_FRONT ;
-0    ADJ_CASES_PL_FRONT ;
-0    ADJ_PLPAR_IE ;
+%<pos%>:ä  ADJ_SGNOM_0 ;
+%<pos%>:y  ADJ_SGPAR_Ä ;
+%<pos%>:ä  ADJ_CASES_SG_FRONT ;
+%<pos%>:0    ADJ_CASES_PL_FRONT ;
+%<pos%>:0    ADJ_PLPAR_IE ;
 
 LEXICON ADJ_YŠTÄVÄLLI/NI
 
-0:ni ADJ_SGNOM_0 ;
-0:se ADJ_CASES_SG_BACK ;
-0:s  ADJ_CASES_PL_BACK ;
-0:s  ADJ_SGPAR_TU ;
-0:s  ADJ_PLPAR_IE ;
+%<pos%>:ni ADJ_SGNOM_0 ;
+%<pos%>:se ADJ_CASES_SG_BACK ;
+%<pos%>:s  ADJ_CASES_PL_BACK ;
+%<pos%>:s  ADJ_SGPAR_TU ;
+%<pos%>:s  ADJ_PLPAR_IE ;
 
 LEXICON ADJ_KARJALAI/NI
 
-0:ni ADJ_SGNOM_0 ;
-0:se ADJ_CASES_SG_BACK ;
-0:s  ADJ_CASES_PL_BACK ;
-0:s  ADJ_SGPAR_TA ;
-0:s  ADJ_PLPAR_IE ;
+%<pos%>:ni ADJ_SGNOM_0 ;
+%<pos%>:se ADJ_CASES_SG_BACK ;
+%<pos%>:s  ADJ_CASES_PL_BACK ;
+%<pos%>:s  ADJ_SGPAR_TA ;
+%<pos%>:s  ADJ_PLPAR_IE ;
 
 LEXICON ADJ_EEPPI/NI
 
-0:ni ADJ_SGNOM_0 ;
-0:se ADJ_CASES_SG_FRONT ;
-0:s  ADJ_CASES_PL_FRONT ;
-0:s  ADJ_SGPAR_TÄ ;
-0:s  ADJ_PLPAR_IE ;
+%<pos%>:ni ADJ_SGNOM_0 ;
+%<pos%>:se ADJ_CASES_SG_FRONT ;
+%<pos%>:s  ADJ_CASES_PL_FRONT ;
+%<pos%>:s  ADJ_SGPAR_TÄ ;
+%<pos%>:s  ADJ_PLPAR_IE ;
 
 LEXICON ADJ_KIELI/NE
 
-0:ne ADJ_SGNOM_0 ;
-0:se ADJ_CASES_SG_FRONT ;
-0:s  ADJ_CASES_PL_FRONT ;
-0:s  ADJ_SGPAR_TY ;
-0:s  ADJ_PLPAR_IE ;
+%<pos%>:ne ADJ_SGNOM_0 ;
+%<pos%>:se ADJ_CASES_SG_FRONT ;
+%<pos%>:s  ADJ_CASES_PL_FRONT ;
+%<pos%>:s  ADJ_SGPAR_TY ;
+%<pos%>:s  ADJ_PLPAR_IE ;
 
 LEXICON ADJ_TUNNET/TU
 
-0:tu ADJ_SGNOM_0 ;
-0:tu ADJ_PLPAR_JA ;
-0:u ADJ_CASES_SG_WEAK_BACK ;
+%<pos%>:tu ADJ_SGNOM_0 ;
+%<pos%>:tu ADJ_PLPAR_JA ;
+%<pos%>:u ADJ_CASES_SG_WEAK_BACK ;
 
 LEXICON ADJ_AI/TO
 
-0:to ADJ_SGNOM_0 ;
-0:to ADJ_CASES_SG_BACK ;
+%<pos%>:to ADJ_SGNOM_0 ;
+%<pos%>:to ADJ_CASES_SG_BACK ;
 
 LEXICON ADJ_UU/ŠI
 
-0:ši  ADJ_SGNOM_0 ;
-0:vve ADJ_CASES_SG_BACK ;
+%<pos%>:ši  ADJ_SGNOM_0 ;
+%<pos%>:vve ADJ_CASES_SG_BACK ;
 
 LEXICON ADJ_TÄY/ŠI
 
-0:ši  ADJ_SGNOM_0 ;
-0:ve ADJ_CASES_SG_FRONT ;
+%<pos%>:ši  ADJ_SGNOM_0 ;
+%<pos%>:ve ADJ_CASES_SG_FRONT ;
 
 LEXICON ADJ_KIRK/AŠ
 
-0:aš    ADJ_SGNOM_0 ;
-0:kaha  ADJ_CASES_SG_BACK ;
-0:kah   ADJ_CASES_PL_BACK ;
-0:kah   ADJ_PLPAR_IE ;
+%<pos%>:aš    ADJ_SGNOM_0 ;
+%<pos%>:kaha  ADJ_CASES_SG_BACK ;
+%<pos%>:kah   ADJ_CASES_PL_BACK ;
+%<pos%>:kah   ADJ_PLPAR_IE ;
 
 LEXICON ADJ_ERÄ/S
 
-0:s  ADJ_SGNOM_0 ;
-0:hä ADJ_CASES_SG_FRONT ;
+%<pos%>:s  ADJ_SGNOM_0 ;
+%<pos%>:hä ADJ_CASES_SG_FRONT ;
 
 
 LEXICON PROPN_PETROSKOI
