@@ -445,7 +445,7 @@ ylen%<adv%>:ylen # ;
 LEXICON AUX
 
 olla%<vaux%>:o AUX_O/LLA ;
-ei%<vaux%>:e AUX_E/I ;
+ei%<vaux%>%<neg%>:e AUX_E/I ;
 voija%<vaux%>:vo  AUX_VO/IJA ;
 piteä%<vblex%>:pi  AUX_PI/TEÄ ;
 
@@ -1005,31 +1005,31 @@ yštävä%<n%>:yštäv NOUN_PEŠ/Ä ;
 
 LEXICON NUM
 
-yksi%<num%>:y NUM_Y/KSI ;
-kakši%<num%>:ka NUM_KA/KŠI ;
-kolme%<num%>:kolm NUM_KOLM/E ;
-n’el’l’ä%<num%>:n’el’ NUM_NEL/LÄ ;
-viisi%<num%>:vii  NUM_VII/SI ;
-kuuši%<num%>:kuu  NUM_KUU/ŠI ;
-seiččemen%<num%>:seičče  NUM_SEIČČE/MEN ;
-kahekšan%<num%>:kahekša  NUM_KAHEKŠA/N ;
-yhekšän%<num%>:yhekšä    NUM_YHEKŠÄ/N ;
-kymmenen%<num%>:kymmene  NUM_KYMMENE/N ;
-šata%<num%>:š       NUM_Š/ATA ;
-miljon%<num%>:miljon NUM_MILJON/A ;
-miljardi%<num%>:miljard NUM_MILJARD/I ;
+yksi%<num%>%<card%>:y NUM_Y/KSI ;
+kakši%<num%>%<card%>:ka NUM_KA/KŠI ;
+kolme%<num%>%<card%>:kolm NUM_KOLM/E ;
+n’el’l’ä%<num%>%<card%>:n’el’ NUM_NEL/LÄ ;
+viisi%<num%>%<card%>:vii  NUM_VII/SI ;
+kuuši%<num%>%<card%>:kuu  NUM_KUU/ŠI ;
+seiččemen%<num%>%<card%>:seičče  NUM_SEIČČE/MEN ;
+kahekšan%<num%>%<card%>:kahekša  NUM_KAHEKŠA/N ;
+yhekšän%<num%>%<card%>:yhekšä    NUM_YHEKŠÄ/N ;
+kymmenen%<num%>%<card%>:kymmene  NUM_KYMMENE/N ;
+šata%<num%>%<card%>:š       NUM_Š/ATA ;
+miljon%<num%>%<card%>:miljon NUM_MILJON/A ;
+miljardi%<num%>%<card%>:miljard NUM_MILJARD/I ;
 
-enšimäini%<adj%>:enšimäi  NUM_ENŠIMMÄI/NI ;
-enšimmäini%<adj%>:enšimmäi  NUM_ENŠIMMÄI/NI ;
-toini%<adj%>:toi  NUM_TOI/NI ;
-kolmaš%<adj%>:kolma NUM_KOLMA/Š ;
-nelläš%<adj%>:nellä NUM_NELLÄ/Š ;
-viiješ%<adj%>:viije NUM_NELLÄ/Š ;
-kuuvveš%<adj%>:kuuvve NUM_KOLMA/Š ;
-seiččemeš%<adj%>:seiččeme NUM_NELLÄ/Š ;
-kahekšaš%<adj%>:kahekša NUM_KOLMA/Š ;
-yhekšäš%<adj%>:yhekšä NUM_NELLÄ/Š ;
-kymmeneš%<adj%>:kymmene NUM_NELLÄ/Š ;
+enšimäini%<adj%>%<ord%>:enšimäi  NUM_ENŠIMMÄI/NI ;
+enšimmäini%<adj%>%<ord%>:enšimmäi  NUM_ENŠIMMÄI/NI ;
+toini%<adj%>%<ord%>:toi  NUM_TOI/NI ;
+kolmaš%<adj%>%<ord%>:kolma NUM_KOLMA/Š ;
+nelläš%<adj%>%<ord%>:nellä NUM_NELLÄ/Š ;
+viiješ%<adj%>%<ord%>:viije NUM_NELLÄ/Š ;
+kuuvveš%<adj%>%<ord%>:kuuvve NUM_KOLMA/Š ;
+seiččemeš%<adj%>%<ord%>:seiččeme NUM_NELLÄ/Š ;
+kahekšaš%<adj%>%<ord%>:kahekša NUM_KOLMA/Š ;
+yhekšäš%<adj%>%<ord%>:yhekšä NUM_NELLÄ/Š ;
+kymmeneš%<adj%>%<ord%>:kymmene NUM_NELLÄ/Š ;
 
 pari%<num%>:pari NUM_PARI ;
 puolitoista%<num%>:puolitoista  # ;
@@ -1052,26 +1052,26 @@ nuo%<prn%>%<dem%>:n  PRON_N/UO ;
 ne%<prn%>%<dem%>:n  PRON_N/E ;
 
 iče%<prn%>%<refl%>:ič   PRON_IČ/E ;
-kaikki%<prn%>%<indef%>:kai  PRON_KAI/KKI ;
+kaikki%<prn%>%<ind%>:kai  PRON_KAI/KKI ;
 kumpaine%<prn%>%<itg%>:kumpa  PRON_KUMPA/INE ;
 kumpaine%<prn%>%<rel%>:kumpa  PRON_KUMPA/INE ;
-kumpaine%<prn%>%<indef%>:kumpa  PRON_KUMPA/INE ;
-jokahini%<prn%>%<indef%>:jokahi  PRON_JOKAHI/NI ;
-moni%<prn%>%<indef%>:mon  PRON_MON/I ;
-muu%<prn%>%<indef%>:mu  PRON_MU/U ;
+kumpaine%<prn%>%<ind%>:kumpa  PRON_KUMPA/INE ;
+jokahini%<prn%>%<ind%>:jokahi  PRON_JOKAHI/NI ;
+moni%<prn%>%<ind%>:mon  PRON_MON/I ;
+muu%<prn%>%<ind%>:mu  PRON_MU/U ;
 
-joka%<prn%>%<indef%>:joka   PRON_JOKA ;
-koko%<prn%>%<indef%>:koko  PRON_JOKA ;
+joka%<prn%>%<ind%>:joka   PRON_JOKA ;
+koko%<prn%>%<ind%>:koko  PRON_JOKA ;
 
-kudai%<prn%>%<interr%>:ku PRON_KU/DAI ;
-ken%<prn%>%<interr%>:ke PRON_KE/N ;
-mi%<prn%>%<interr%>:mi PRON_MI ;
-ku%<prn%>%<interr%>:ku PRON_KU ;
+kudai%<prn%>%<itg%>:ku PRON_KU/DAI ;
+ken%<prn%>%<itg%>:ke PRON_KE/N ;
+mi%<prn%>%<itg%>:mi PRON_MI ;
+ku%<prn%>%<itg%>:ku PRON_KU ;
 molompi%<prn%>:molom PRON_MOLOM/PI ;
 
 toini%<prn%>:toi PRON_TOI/NI ;
 
-mitänä%<prn%>%<indef%>%<sg%>%<nom%>:mitänä #  ;
+mitänä%<prn%>%<ind%>%<sg%>%<nom%>:mitänä #  ;
 
 LEXICON PROPN
 
@@ -1621,11 +1621,13 @@ LEXICON AUX_O/LLA
 
 LEXICON AUX_E/I
 
-%<actv%>%<neg%>%<p3%>%<sg%>+ja%<cnjcoo%>:ikä    # ;
-
-0:i    AUX_3SG_0 ;
-0  AUX_PRES_FRONT ;
-0:lä   AUX_IMPV ;
+%<actv%>%<p3%>%<sg%>+ja%<cnjcoo%>:ikä    # ;
+%<actv%>%<p1%>%<sg%>:n    # ;
+%<actv%>%<p2%>%<sg%>:t    # ;
+%<actv%>%<p3%>%<sg%>:i    # ;
+%<actv%>%<p1%>%<pl%>:mmä    # ;
+%<actv%>%<p2%>%<pl%>:ttä    # ;
+%<actv%>%<imp%>%<p2%>%<sg%>:lä   # ;
 
 LEXICON AUX_VO/IJA
 
@@ -3815,15 +3817,15 @@ LEXICON AUX_PCP
 
 LEXICON AUX_3SG_PI
 
-%<act%>%<pri%>%<p3%>%<sg%>:pi # ;
+%<actv%>%<pri%>%<p3%>%<sg%>:pi # ;
 
 LEXICON AUX_3SG_0
 
-%<act%>%<pri%>%<p3%>%<sg%>:0 # ;
+%<actv%>%<pri%>%<p3%>%<sg%>:0 # ;
 
 LEXICON AUX_3SG_Y
 
-%<act%>%<pri%>%<p3%>%<sg%>:y # ;
+%<actv%>%<pri%>%<p3%>%<sg%>:y # ;
 
 
 LEXICON AUX_CONNEG_0
@@ -3905,10 +3907,10 @@ LEXICON AUX_INF_MÄ
 %<inf%>%<ine%>:maššä # ;
 %<inf%>%<abe%>:mättä # ;
 
-LEXICON AUX_IMPV
-
-%<act%>%<impv%>%<p2%>%<sg%>:0 # ;
-%<act%>%<pri%>%<conneg%>:0 # ;
+!LEXICON AUX_IMPV
+!
+!%<actv%>%<imp%>%<p2%>%<sg%>:0 # ;
+!%<actv%>%<pri%>%<conneg%>:0 # ;
 
 LEXICON AUX_PCP_TY
 
@@ -3918,7 +3920,7 @@ LEXICON AUX_PCP_TY
 LEXICON AUX_PCP_N
 
 %<actv%>%<pp%>:n # ;
-%<actv%>%<past%>%<conneg%>:n # ;
+%<actv%>%<past%>%<sg%>%<conneg%>:n # ;
 
 LEXICON VERB_CONNEG_0
 
@@ -3951,12 +3953,12 @@ LEXICON VERB_PAST_PASSIVE_H
 
 LEXICON VERB_IMPVPL_BACK
 
-%<act%>%<impv%>%<p2%>%<pl%>:kkua # ;
+%<actv%>%<imp%>%<p2%>%<pl%>:kkua # ;
 
 LEXICON VERB_IMPV
 
-%<act%>%<impv%>%<p2%>%<sg%>:0 # ;
-%<act%>%<pri%>%<conneg%>:0 # ;
+%<actv%>%<imp%>%<p2%>%<sg%>:0 # ;
+%<actv%>%<pri%>%<conneg%>:0 # ;
 
 LEXICON VERB_INF_MÄ
 
@@ -4013,24 +4015,24 @@ LEXICON VERB_INF_E
 
 LEXICON VERB_PCP_TU
 
-%<pasv%>%<pp%>%<sg%>%<nom%>:tu # ;
-%<pasv%>%<pp%>%<sg%>%<par%>%<px3sp%>:tuoh # ;
+%<pasv%>%<pp%>%<pos%>%<sg%>%<nom%>:tu # ;
+%<pasv%>%<pp%>%<pos%>%<sg%>%<par%>%<px3sp%>:tuoh # ;
 
 LEXICON VERB_PCP_TY
 
-%<pasv%>%<pp%>%<sg%>%<nom%>:ty # ;
-%<pasv%>%<pp%>%<sg%>%<par%>%<px3sp%>:työh # ;
+%<pasv%>%<pp%>%<pos%>%<sg%>%<nom%>:ty # ;
+%<pasv%>%<pp%>%<pos%>%<sg%>%<par%>%<px3sp%>:työh # ;
 
 LEXICON VERB_PCP_TAVA
 
-%<pasv%>%<pp%>%<sg%>%<nom%>:tava # ;
-%<pasv%>%<pp%>%<sg%>%<tra%>:tavakši # ;
-%<pasv%>%<pp%>%<sg%>%<par%>%<px3sp%>:tuoh # ;
+%<pasv%>%<pp%>%<pos%>%<sg%>%<nom%>:tava # ;
+%<pasv%>%<pp%>%<pos%>%<sg%>%<tra%>:tavakši # ;
+%<pasv%>%<pp%>%<pos%>%<sg%>%<par%>%<px3sp%>:tuoh # ;
 
 LEXICON VERB_PCP_N
 
 %<actv%>%<pp%>:n # ;
-%<actv%>%<past%>%<conneg%>:n # ;
+%<actv%>%<past%>%<sg%>%<conneg%>:n # ;
 
 LEXICON VERB_PRES_BACK
 
@@ -4074,11 +4076,11 @@ LEXICON VERB_COND
 
 LEXICON VERB_COND_PASSIVE_TAIS
 
-%<pasv%>%<cni%>:tais # ;
+%<pasv%>%<cni%>%<impers%>:tais # ;
 
 LEXICON VERB_COND_PASSIVE_TÄIS
 
-%<pasv%>%<cni%>:täis # ;
+%<pasv%>%<cni%>%<impers%>:täis # ;
 
 LEXICON PROPN_SGNOM_0
 
