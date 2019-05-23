@@ -1580,9 +1580,9 @@ wwf.ru%<n%>%<abbr%>:wwf.ru # ;
 
 LEXICON ACRONYM
 
-KT%<np%>%<acr%>:KT  ACRO_T ;
+KT%<np%>%<al%>%<acr%>:KT  ACRO_T ;
 TV%<n%>%<acr%>:TV  ACRO_T ;
-WWF%<np%>%<acr%>:WWF  ACRO_T ;
+WWF%<np%>%<al%>%<acr%>:WWF  ACRO_T ;
 
 !! Puncts etc.
 
@@ -3760,29 +3760,29 @@ LEXICON NUM_MILJARD/I
 
 LEXICON NUM_ENŠIMMÄI/NI
 
-0:ni  NUM_SGNOM_0 ;
-0:se  NUM_CASES_SG_FRONT ;
-0:s  NUM_CASES_PL_FRONT ;
+%<pos%>:ni  NUM_SGNOM_0 ;
+%<pos%>:se  NUM_CASES_SG_FRONT ;
+%<pos%>:s  NUM_CASES_PL_FRONT ;
 
 LEXICON NUM_TOI/NI
 
-0:ni NUM_SGNOM_0 ;
-0:se NUM_CASES_SG_BACK ;
-0:s NUM_PLPAR_IE ;
-0:s NUM_SGPAR_TA ;
-0:s NUM_CASES_PL_BACK ;
+%<pos%>:ni NUM_SGNOM_0 ;
+%<pos%>:se NUM_CASES_SG_BACK ;
+%<pos%>:s NUM_PLPAR_IE ;
+%<pos%>:s NUM_SGPAR_TA ;
+%<pos%>:s NUM_CASES_PL_BACK ;
 
 LEXICON NUM_KOLMA/Š
 
-0:š  NUM_SGNOM_0 ;
-0:nne NUM_CASES_SG_BACK ;
+%<pos%>:š  NUM_SGNOM_0 ;
+%<pos%>:nne NUM_CASES_SG_BACK ;
 
 LEXICON NUM_NELLÄ/Š
 
-0:š  NUM_SGNOM_0 ;
-0:nne NUM_CASES_SG_WEAK_FRONT ;
-0:nte NUM_CASES_SG_STRONG_FRONT ;
-0:n NUM_SGPAR_TÄ ;
+%<pos%>:š  NUM_SGNOM_0 ;
+%<pos%>:nne NUM_CASES_SG_WEAK_FRONT ;
+%<pos%>:nte NUM_CASES_SG_STRONG_FRONT ;
+%<pos%>:n NUM_SGPAR_TÄ ;
 
 LEXICON NUM_PARI
 
