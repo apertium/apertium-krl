@@ -403,7 +403,6 @@ rutompah%<adv%>:rutompah  # ;
 ruttoh%<adv%>:ruttoh  # ;
 šamoin%<adv%>:šamoin # ;
 šejašša%<adv%>:šejašša # ;
-šeki%<adv%>:šeki  # ;
 sentäh%<adv%>:sentäh # ;
 šielä%<adv%>:šielä # ;
 šilmin%<adv%>:šilmin  # ;
@@ -1031,8 +1030,8 @@ kahekšaš%<adj%>%<ord%>:kahekša NUM_KOLMA/Š ;
 yhekšäš%<adj%>%<ord%>:yhekšä NUM_NELLÄ/Š ;
 kymmeneš%<adj%>%<ord%>:kymmene NUM_NELLÄ/Š ;
 
-pari%<num%>:pari NUM_PARI ;
-puolitoista%<num%>:puolitoista  # ;
+pari%<num%>%<card%>:pari NUM_PARI ;
+puolitoista%<num%>%<card%>:puolitoista  # ;
 
 LEXICON PRON
 
@@ -3877,10 +3876,10 @@ LEXICON AUX_PAST_PASSIVE_H
 
 LEXICON AUX_COND
 
-%<cni%>%<p1%>%<sg%>:isin # ;
-%<cni%>%<p2%>%<sg%>:isit # ;
-%<cni%>%<p3%>%<sg%>:is # ;
-%<cni%>%<p3%>%<sg%>%<qst%>:isko # ;
+%<actv%>%<cni%>%<p1%>%<sg%>:isin # ;
+%<actv%>%<cni%>%<p2%>%<sg%>:isit # ;
+%<actv%>%<cni%>%<p3%>%<sg%>:is # ;
+%<actv%>%<cni%>%<p3%>%<sg%>%<qst%>:isko # ;
 
 LEXICON AUX_INF_A
 
@@ -4069,10 +4068,10 @@ LEXICON VERB_PAST_FRONT
 
 LEXICON VERB_COND
 
-%<cni%>%<p1%>%<sg%>:isin # ;
-%<cni%>%<p2%>%<sg%>:isin # ;
-%<cni%>%<p3%>%<sg%>:is # ;
-%<cni%>%<p3%>%<sg%>%<qst%>:isko # ;
+%<actv%>%<cni%>%<p1%>%<sg%>:isin # ;
+%<actv%>%<cni%>%<p2%>%<sg%>:isin # ;
+%<actv%>%<cni%>%<p3%>%<sg%>:is # ;
+%<actv%>%<cni%>%<p3%>%<sg%>%<qst%>:isko # ;
 
 LEXICON VERB_COND_PASSIVE_TAIS
 
@@ -4366,7 +4365,7 @@ LEXICON NOUN_CASES_PL_WEAK_FRONT
 %<pl%>%<all%>:ile # ;
 %<pl%>%<abe%>:ittä # ;
 %<pl%>%<ade%>:illä # ;
-%<pl%>%<ade%>%<px3sg%>:illäh # ;
+%<pl%>%<ade%>%<px3sp%>:illäh # ;
 %<pl%>%<abl%>:iltä # ;
 %<pl%>%<ela%>:istä # ;
 %<pl%>%<ine%>:issä # ;
@@ -4588,7 +4587,7 @@ LEXICON PRON_SGGEN_N
 
 LEXICON PRON_SGNOM_0
 
-%<sg%>%<nom%>:0 # ;
+%<sg%>%<nom%>:0 CLITS_KI_OPT ;
 
 LEXICON PRON_PLNOM_0
 
