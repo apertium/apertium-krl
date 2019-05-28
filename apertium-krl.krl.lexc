@@ -3829,7 +3829,7 @@ LEXICON AUX_3SG_Y
 
 LEXICON AUX_CONNEG_0
 
-%<conneg%>%<sg%>:0 # ;
+%<actv%>%<pri%>%<conneg%>:0 # ;
 
 LEXICON AUX_PRES_FRONT
 
@@ -3923,7 +3923,7 @@ LEXICON AUX_PCP_N
 
 LEXICON VERB_CONNEG_0
 
-%<conneg%>%<sg%>:0 # ;
+%<actv%>%<pri%>%<conneg%>:0 # ;
 
 
 LEXICON VERB_PAST_3SG_0
