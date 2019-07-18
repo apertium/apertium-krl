@@ -327,6 +327,8 @@ LEXICON ADV
 
 
 
+šilti%<adv%>:šilti  #  ;
+välin%<adv%>:välin #  ;
 vain%<adv%>:vain #  ;
 ahkerašti%<adv%>:ahkerašti  # ;
 aikasemmin%<adv%>:aikasemmin  # ;
@@ -518,6 +520,8 @@ aikakauš#lehti%<n%>:aikakaus0leh NOUN_LEH/TI ;
 aika%<n%>:ai  NOUN_AI/KA ;
 aikuhini%<n%>:aikuhi NOUN_ŠIJAHI/NI ;
 ainehisto%<n%>:ainehisto NOUN_NUMERO ;
+ruoho%<n%>:ruoh  NOUN_HILL/O ;
+rikka#ruoho%<n%>:rikka0ruoh  NOUN_HILL/O ;
 ajatuš%<n%>:ajatu NOUN_MIELIKUVITU/Š ;
 ajelomini%<n%>:ajelomi NOUN_ŠIJAHI/NI ;
 aktijo%<n%>:aktij  NOUN_HILL/O ;
@@ -530,12 +534,15 @@ apu%<n%>:a NOUN_A/PU ;
 arki#elämä%<n%>:arki0eläm NOUN_PEŠ/Ä ;
 artišta%<n%>:artišt NOUN_KAŠVATTAJ/A ;
 artista%<n%>:artist NOUN_PAKIN/A ;
+koti#tarha%<n%>:koti0tarh NOUN_PAKIN/A ;
+tarha%<n%> NOUN_PAKIN/A ;
 artteli%<n%>:arttel NOUN_PIIR/I ;
 aštie%<n%>:ašti  NOUN_ISTORI/E ;
 ativo%<n%>:ativo NOUN_NUMERO ;
 atressi%<n%>:atress NOUN_FOLKLORIST/I ;
 biologini%<n%>:biologi NOUN_ŠIJAHI/NI ;
 čikana%<n%>:čikan NOUN_PAKIN/A ;
+porkkana%<n%>:porkkan NOUN_PAKIN/A ;
 eepossa%<n%>:eeposs NOUN_PAKIN/A ;
 ehokaš%<n%>:ehoka  NOUN_RAHVA/Š ;
 ehotuš%<n%>:ehotu NOUN_MIELIKUVITU/Š ;
@@ -599,7 +606,8 @@ johtaja%<n%>:johtaj NOUN_KAŠVATTAJ/A ;
 johto%<n%>:joh NOUN_VOIT/TO ;
 joukko%<n%>:jouk NOUN_JOUK/KO ;
 juoni%<n%>:juon NOUN_LAPŠ/I ;
-juuri%<n%>:juur NOUN_LAPŠ/I ;
+juuri%<n%>:juur NOUN_JUUR/I ;
+puna#juuri%<n%>:puna0juur NOUN_JUUR/I ;
 järještäjä%<n%>:järještäj NOUN_JÄRJEŠTÄJ/Ä ;
 järještö%<n%>:järještö NOUN_ÄMMÖ ;
 jäšen%<n%>:jäsen NOUN_JÄŠEN ;
@@ -741,6 +749,7 @@ mečästäjä%<n%>:mečästäj NOUN_JÄRJEŠTÄJ/Ä ;
 meininki%<n%>:meinink NOUN_PIIR/I ;
 melličä%<n%>:mellič NOUN_JÄRJEŠTÄJ/Ä ;
 merkki%<n%>:merk  NOUN_MERK/KI ;
+penkki%<n%>:penk  NOUN_MERK/KI ;
 miehol’a%<n%>:miehol’  NOUN_KAL/A ;
 mielikuvituš%<n%>:mielikuvitu NOUN_MIELIKUVITU/Š ;
 mieli%<n%>:miel NOUN_KIEL/I ;
@@ -899,6 +908,7 @@ sualeš%<n%>:suale NOUN_SUALE/Š ;
 šuhtautumini%<n%>:šuhtautumi NOUN_ŠIJAHI/NI ;
 šuhteh%<n%>:šuhteh NOUN_ALOVEH ;
 sukši%<n%>:sukš NOUN_PIIR/I ;
+siäkši%<n%>:siäkš NOUN_LAPŠ/I ;
 šuku%<n%>:šu NOUN_ŠU/KU ;
 šula#kuu%<n%>:šula0ku  NOUN_KU/U ;
 sul’č'cina%<n%>:sul’ččin  NOUN_SULČČIN/A ;
@@ -1360,12 +1370,14 @@ LEXICON VERB
 ajatella%<vblex%>:ajat    VERB_AJAT/ELLA ;
 alkoa%<vblex%>:al  VERB_AL/KOA ;
 antoa%<vblex%>:an  VERB_AN/TOA ;
-antua%<vblex%>:ant  VERB_KANT/UA ;
+antua%<vblex%>:an  VERB_KAN/TUA ;
+tuntua%<vblex%>:tun  VERB_KAN/TUA ;
 aštuo%<vblex%>:ašt VERB_KUUL/UO ;
 ativoija%<vblex%>:ativoi  VERB_STARINOI/JA ;
 auttoa%<vblex%>:aut  VERB_SOIT/TOA ;
-auttua%<vblex%>:autt VERB_KANT/UA ;
+auttua%<vblex%>:aut VERB_VOIT/TUA ;
 avata%<vblex%>:av  VERB_AV/ATA ;
+kiušata%<vblex%>:kiuš  VERB_AV/ATA ;
 eččie%<vblex%>:eč  VERB_EČ/ČIE ;
 eleä%<vblex%>:el   VERB_EL/EÄ ;
 erottoa%<vblex%>:erot  VERB_SOIT/TOA ;
@@ -1385,7 +1397,7 @@ hyrähteä%<vblex%>:hyräh  VERB_PIÄT/TEÄ ;
 ikävöijä%<vblex%>:ikävöi  VERB_IKÄVÖI/JÄ ;
 ilmeštyö%<vblex%>:ilmeš  VERB_ILMEŠ/TYÖ ;
 ilmottoa%<vblex%>:ilmot  VERB_SOIT/TOA ;
-innoššuttua%<vblex%>:innoššutt VERB_KANT/UA ;
+innoššuttua%<vblex%>:innoššut VERB_VOIT/TUA ;
 istuo%<vblex%>:is  VERB_IS/TUO ;
 jiähä%<vblex%>:j VERB_J/IÄHÄ ;
 joutuo%<vblex%>:jout VERB_KUUL/UO ;
@@ -1396,9 +1408,9 @@ kaččuo%<vblex%>:kač  VERB_KAČ/ČUO ;
 kaimata%<vblex%>:kaim  VERB_AV/ATA ;
 kaimata%<vblex%>:kaim  VERB_AV/ATA ;
 kannattoa%<vblex%>:kannat  VERB_SOIT/TOA ;
-kannattua%<vblex%>:kannatt  VERB_KANT/UA ;
+kannattua%<vblex%>:kannat  VERB_VOIT/TUA ;
 kantoa%<vblex%>:kan  VERB_AN/TOA ;
-kantua%<vblex%>:kant VERB_KANT/UA ;
+kantua%<vblex%>:kant VERB_KAN/TUA ;
 kašvoa%<vblex%>:kašv  VERB_KAŠV/OA ;
 kehitteä%<vblex%>:kehit VERB_PIÄT/TEÄ ;
 kehitttyä%<vblex%>:kehitty VERB_HYREYTY/Ä ;
@@ -1409,7 +1421,7 @@ kertuo%<vblex%>:ker  VERB_KER/TUO ;
 kerätä%<vblex%>:ker VERB_KER/ÄTÄ ;
 kerätä%<vblex%>:kerä VERB_KERÄ/TÄ ;
 kielteä%<vblex%>:kiel VERB_PIÄT/TEÄ ;
-kiinnoššuttua%<vblex%>:kiinnoššutt VERB_KANT/UA ;
+kiinnoššuttua%<vblex%>:kiinnoššut VERB_VOIT/TUA ;
 kiinnoštoa%<vblex%>:kiinnoš VERB_KOROŠ/TOA ;
 kiinnostuo%<vblex%>:kiinnost VERB_KUUL/UO ;
 kiitteä%<vblex%>:kiit VERB_PIÄT/TEÄ ;
@@ -1430,6 +1442,8 @@ kuuluo%<vblex%>:kuul  VERB_KUUL/UO ;
 kuvitella%<vblex%>:kuvit    VERB_AJAT/ELLA ;
 kyšyä%<vblex%>:kyšy  VERB_HYREYTY/Ä ;
 käyttäytyö%<vblex%>:käyttäy  VERB_RYH/TYÖ ;
+kitkie%<vblex%>:kitk  VERB_KITK/IE ;
+itkie%<vblex%>:it  VERB_IT/KIE ;
 käyvä%<vblex%>:kä  VERB_KÄ/YVÄ ;
 laškie%<vblex%>:laš VERB_LAŠ/KIE ;
 lauloa%<vblex%>:laul  VERB_KAŠV/OA ;
@@ -1472,7 +1486,7 @@ opaštuo%<vblex%>:opaš  VERB_OPAŠ/TUO ;
 oppie%<vblex%>:op VERB_OP/PIE ;
 ošallistuo%<vblex%>:ošallis  VERB_IS/TUO ;
 ottoa%<vblex%>:ot  VERB_OT/TOA ;
-ottua%<vblex%>:ott  VERB_KANT/UA ;
+ottua%<vblex%>:ott  VERB_VOIT/TUA ;
 ottuo%<vblex%>:ot  VERB_IS/TUO ;
 painoa%<vblex%>:pain  VERB_KAŠV/OA ;
 painuo%<vblex%>:pain  VERB_TOIV/UO ;
@@ -1497,7 +1511,7 @@ ruveta%<vblex%>:ru  VERB_RU/VETA ;
 ryhtyö%<vblex%>:ryh  VERB_RYH/TYÖ ;
 šalvata%<vblex%>:šal  VERB_ŠAL/VATA ;
 šammuttoa%<vblex%>:šammut  VERB_SOIT/TOA ;
-šammuttua%<vblex%>:šammutt VERB_KANT/UA ;
+šammuttua%<vblex%>:šammut VERB_VOIT/TUA ;
 šanoa%<vblex%>:šan  VERB_ŠAN/OA ;
 šanuo%<vblex%>:šan  VERB_TOIV/UO ;
 šanuo%<vblex%>:šan  VERB_TOIV/UO ;
@@ -1514,7 +1528,7 @@ starinoija%<vblex%>:starinoi  VERB_STARINOI/JA ;
 suaha%<vblex%>:s VERB_S/UAHA ;
 šuaha%<vblex%>:š VERB_S/UAHA ;
 šuojella%<vblex%>:šuojel  VERB_PUREŠKEL/LA ;
-šuorittua%<vblex%>:šuoritt VERB_KANT/UA ;
+šuorittua%<vblex%>:šuorit VERB_VOIT/TUA ;
 šuovata%<vblex%>:šuov  VERB_AV/ATA ;
 šuvaija%<vblex%>:šuvai  VERB_STARINOI/JA ;
 šyntyö%<vblex%>:šyn  VERB_RYH/TYÖ ;
@@ -1527,7 +1541,7 @@ tarvita%<vblex%>:tarvi VERB_TARVI/TA ;
 tieteä%<vblex%>:ti VERB_TI/ETEÄ ;
 tietyä%<vblex%>:tie VERB_PI/TYÄ ;
 tiijuššella%<vblex%>:tiijušše  VERB_TU/LLA ;
-tiijuštua%<vblex%>:tiijušt VERB_KANT/UA ;
+tiijuštua%<vblex%>:tiijuš VERB_KAN/TUA ;
 toimie%<vblex%>:toimi VERB_TANŠŠI/E ;
 toivuo%<vblex%>:toiv  VERB_TOIV/UO ;
 toteuttoa%<vblex%>:toteut  VERB_SOIT/TOA ;
@@ -1542,7 +1556,7 @@ täyttyä%<vblex%>:täyt VERB_TÄYT/TYÄ ;
 uškuo%<vblex%>:usk  VERB_KUUL/UO ;
 uškuo%<vblex%>:uš  VERB_RIK/KUO ;
 vaihella%<vblex%>:vaihel  VERB_PUREŠKEL/LA ;
-vaihtua%<vblex%>:vaiht VERB_KANT/UA ;
+vaihtua%<vblex%>:vaih VERB_VOIT/TUA ;
 vaikuttoa%<vblex%>:vaikut  VERB_SOIT/TOA ;
 vaipuo%<vblex%>:vai  VERB_VAI/PUO ;
 valita%<vblex%>:vali VERB_TARVI/TA ;
@@ -1556,7 +1570,7 @@ vičerteä%<vblex%>:vičer VERB_VIČER/TEÄ ;
 vietteä%<vblex%>:viet VERB_PIÄT/TEÄ ;
 viijä%<vblex%>:v VERB_V/IIJÄ ;
 virkkoa%<vblex%>:virk  VERB_AL/KOA ;
-voittua%<vblex%>:voitt VERB_KANT/UA ;
+voittua%<vblex%>:voit VERB_VOIT/TUA ;
 vuolla%<vblex%>:vuo VERB_TU/LLA ;
 yhistyä%<vblex%>:yhis VERB_NÄYT/TYÄ ;
 yhistäytyö%<vblex%>:yhistäy  VERB_ILMEŠ/TYÖ ;
@@ -2022,6 +2036,25 @@ LEXICON VERB_POIMI/E
 0  VERB_PRES_BACK ;
 0:tti  VERB_PAST_PASSIVE_H ;
 
+LEXICON VERB_IT/KIE
+
+0:ki  VERB_INF_E ;
+0:ke  VERB_PRES_BACK ;
+0:e  VERB_CONNEG_0 ;
+0:ki  VERB_PAST_BACK ;
+0:ketti  VERB_PAST_PASSIVE_H ;
+0:ö   VERB_3SG_Y ;
+0:ket  VERB_PCP_TY ;
+
+LEXICON VERB_KITK/IE
+
+0:i  VERB_INF_E ;
+0:e  VERB_PRES_BACK ;
+0:i  VERB_PAST_BACK ;
+0:itti  VERB_PAST_PASSIVE_H ;
+0:ö   VERB_3SG_Y ;
+0:et  VERB_PCP_TY ;
+
 LEXICON VERB_LAŠ/KIE
 
 0:ki  VERB_INF_E ;
@@ -2166,13 +2199,23 @@ LEXICON VERB_TOIV/UO
 0:utti  VERB_PAST_PASSIVE_H ;
 0:o  VERB_PRES_BACK ;
 
-LEXICON VERB_KANT/UA
+LEXICON VERB_VOIT/TUA
 
-0:u  VERB_INF_A ;
-0:u  VERB_INF_AS ; 
-0:u  VERB_PAST_3SG_0 ;
-0:u  VERB_3SG_U ;
-0:u  VERB_PRES_BACK ;
+0:tu  VERB_INF_A ;
+0:tu  VERB_INF_AS ; 
+0:tu  VERB_PAST_3SG_0 ;
+0:tu  VERB_3SG_U ;
+0:tu  VERB_PRES_BACK ;
+0:a  VERB_CONNEG_0 ;
+
+LEXICON VERB_KAN/TUA
+
+0:tu  VERB_INF_A ;
+0:tu  VERB_INF_AS ; 
+0:tu  VERB_PAST_3SG_0 ;
+0:tu  VERB_3SG_U ;
+0:tu  VERB_PRES_BACK ;
+0:na  VERB_CONNEG_0 ;
 
 LEXICON VERB_RUA/TUO
 
@@ -3098,6 +3141,14 @@ LEXICON NOUN_TUOH/I
 0:e NOUN_CASES_SG_BACK ;
 0   NOUN_CASES_PL_BACK ;
 0   NOUN_SGPAR_TA ;
+
+LEXICON NOUN_JUUR/I
+
+0:i NOUN_SGNOM_0 ;
+0:e NOUN_CASES_SG_FRONT ;
+0   NOUN_CASES_PL_FRONT ;
+0   NOUN_SGPAR_TA ;
+0   NOUN_PLPAR_IE ;
 
 LEXICON NOUN_KIEL/I
 
@@ -4325,6 +4376,7 @@ LEXICON NOUN_CASES_SG_WEAK_BACK
 
 %<sg%>%<ine%>:šša NOUN_CLITS_BACK_OPT ;
 %<sg%>%<ine%>:šta NOUN_CLITS_BACK_OPT ;
+%<sg%>%<ine%>%<px3sp%>:štah NOUN_CLITS_BACK_OPT ;
 %<sg%>%<gen%>:n NOUN_CLITS_BACK_OPT ;
 %<sg%>%<abe%>:tta NOUN_CLITS_BACK_OPT ;
 %<sg%>%<ade%>:lla NOUN_CLITS_BACK_OPT ;
