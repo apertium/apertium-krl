@@ -238,7 +238,7 @@ tunnettu%<adj%>:tunnet  ADJ_TUNNET/TU ;
 tuohini%<adj%>:tuohi ADJ_KARJALAI/NI ;
 tuttu%<adj%>:tut  ADJ_TUNNET/TU ;
 tyhjä%<adj%>:tyhj ADJ_HYV/Ä ;
-tärkie%<adj%>:tärkie ADJ_OIKIE ;
+tärkie%<adj%>:tärk ADJ_TÄRK/IE ;
 täyši%<adj%>:täy  ADJ_TÄY/ŠI ;
 ugrilane%<adj%>:ugrila ADJ_KARJALAI/NI ;
 ukrainalaini%<adj%>:ukrainalai ADJ_KARJALAI/NI ;
@@ -2662,10 +2662,20 @@ LEXICON ADJ_MAINIJO
 %<pos%>:0  ADJ_CASES_PL_BACK ;
 %<pos%>:0  ADJ_PLPAR_JA ;
 
+LEXICON ADJ_TÄRK/IE
+
+%<pos%>:ie  ADJ_SGNOM_0 ;
+%<pos%>:ie ADJ_CASES_SG_FRONT ;
+%<pos%>:ie  ADJ_SGPAR_TÄ ;
+%<pos%>:ie  ADJ_CASES_PL_FRONT ;
+%<comp%>:iemm  ADJ_CASES_PL_FRONT ;
+%<sup%>:eimm  ADJ_CASES_PL_FRONT ;
+
 LEXICON ADJ_OIKIE
 
 %<pos%>:0  ADJ_SGNOM_0 ;
 %<pos%>:0  ADJ_CASES_SG_BACK ;
+%<pos%>:0  ADJ_SGPAR_TA ;
 %<pos%>:0  ADJ_CASES_PL_BACK ;
 
 LEXICON ADJ_PIEN/I
