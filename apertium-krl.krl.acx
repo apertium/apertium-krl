@@ -9,5 +9,8 @@
     <equiv-char value="&#8217;"/>
     <equiv-char value="&#39;"/>
   </char>
+  <char value="c">
+    <equiv-char value="č"/>
+  </char>
 </analysis-chars>
 
