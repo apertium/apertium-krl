@@ -3876,10 +3876,10 @@ LEXICON AUX_PAST_PASSIVE_H
 
 LEXICON AUX_COND
 
-%<cni%>%<p1%>%<sg%>:isin # ;
-%<cni%>%<p2%>%<sg%>:isit # ;
-%<cni%>%<p3%>%<sg%>:is # ;
-%<cni%>%<p3%>%<sg%>%<qst%>:isko # ;
+%<actv%>%<cni%>%<p1%>%<sg%>:isin # ;
+%<actv%>%<cni%>%<p2%>%<sg%>:isit # ;
+%<actv%>%<cni%>%<p3%>%<sg%>:is # ;
+%<actv%>%<cni%>%<p3%>%<sg%>%<qst%>:isko # ;
 
 LEXICON AUX_INF_A
 
@@ -4068,10 +4068,10 @@ LEXICON VERB_PAST_FRONT
 
 LEXICON VERB_COND
 
-%<cni%>%<p1%>%<sg%>:isin # ;
-%<cni%>%<p2%>%<sg%>:isin # ;
-%<cni%>%<p3%>%<sg%>:is # ;
-%<cni%>%<p3%>%<sg%>%<qst%>:isko # ;
+%<actv%>%<cni%>%<p1%>%<sg%>:isin # ;
+%<actv%>%<cni%>%<p2%>%<sg%>:isin # ;
+%<actv%>%<cni%>%<p3%>%<sg%>:is # ;
+%<actv%>%<cni%>%<p3%>%<sg%>%<qst%>:isko # ;
 
 LEXICON VERB_COND_PASSIVE_TAIS
 
