@@ -3834,83 +3834,83 @@
 5	tiloja	tila	NOUN	NOUN	Case=Par|Number=Plur	3	obj	_	Weight=0.005
 6	šekä	šekä	CCONJ	CCONJ	_	7	cc	_	Weight=0.01
 7	piti	piteä	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	Weight=0.04
-8	neuvottelun	neuvottelu	NOUN	NOUN	Case=Gen|Number=Sing	9	nmod:poss	_	Weight=0.01
+8	neuvottelun	neuvottelu	NOUN	NOUN	Case=Gen|Number=Sing	7	obj	_	Weight=0.01
 9	tehtahan	tehaš	NOUN	NOUN	Case=Gen|Number=Sing	10	nmod:poss	_	Weight=0.01
-10	johtokunnan	johto#kunta	NOUN	NOUN	Case=Gen|Number=Sing	7	obj	_	Weight=1.0075
+10	johtokunnan	johto#kunta	NOUN	NOUN	Case=Gen|Number=Sing	7	obl	_	Weight=1.0075
 11	ta	ta	CCONJ	CCONJ	_	12	cc	_	Weight=0.01
-12	ruatajien	ruataja	NOUN	NOUN	Case=Gen|Number=Plur	_	_	_	Weight=500.0
-13	kera	kera	ADP	ADP	_	12	case	_	SpaceAfter=No|Weight=0.005
+12	ruatajien	ruataja	NOUN	NOUN	Case=Gen|Number=Plur	10	conj	_	Weight=500.0
+13	kera	kera	ADP	ADP	_	10	case	_	SpaceAfter=No|Weight=0.005
 14	.	.	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.035
 
 # sent_id = vepkar-1708.5
 # text = Maitotehaš, kumpani oli enšimmäisillä šijoilla tällä alalla, nyt on šeisatukšissa.
-1	Maitotehaš	maitotehaš	NOUN	NOUN	Case=Nom|Number=Sing	4	nsubj	_	SpaceAfter=No|SpaceBefore=No|Weight=0.01
-2	,	,	PUNCT	PUNCT	_	_	_	_	SpaceBefore=No|Weight=500.0
-3	kumpani	kumpaine	PRON	PRON	Case=Nom|Number=Sing|PronType=Ind	_	_	_	Weight=500.0
-4	oli	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	_	_	_	Weight=500.0
-5	enšimmäisillä	enšimmäini	ADJ	ADJ	Case=Ade|Number=Plur|NumType=Ord|Degree=Pos	6	amod	_	Weight=0.01
-6	šijoilla	šija	NOUN	NOUN	Case=Ade|Number=Plur	_	_	_	Weight=500.0
+1	Maitotehaš	maitotehaš	NOUN	NOUN	Case=Nom|Number=Sing	11	nsubj	_	SpaceAfter=No|SpaceBefore=No|Weight=0.01
+2	,	,	PUNCT	PUNCT	_	4	punct	_	SpaceBefore=No|Weight=500.0
+3	kumpani	kumpaine	PRON	PRON	Case=Nom|Number=Sing|PronType=Ind	4	nsubj	_	Weight=500.0
+4	oli	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	acl:relcl	_	Weight=500.0
+5	enšimmäisillä	enšimmäini	ADJ	ADJ	Case=Ade|Degree=Pos|Number=Plur|NumType=Ord	6	amod	_	Weight=0.01
+6	šijoilla	šija	NOUN	NOUN	Case=Ade|Number=Plur	4	obl	_	Weight=500.0
 7	tällä	tämä	PRON	PRON	Case=Ade|Number=Sing|PronType=Dem	8	det	_	Weight=0.01
-8	alalla	ala	NOUN	NOUN	Case=Ade|Number=Sing	_	_	_	SpaceAfter=No|Weight=500.0
-9	,	,	PUNCT	PUNCT	_	_	_	_	SpaceBefore=No|Weight=500.0
-10	nyt	nyt	ADV	ADV	_	_	_	_	Weight=500.0
-11	on	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	_	Weight=500.0
-12	šeisatukšissa	šeisatuš	NOUN	NOUN	Case=Ine|Number=Plur	_	_	_	SpaceAfter=No|Weight=500.0
-13	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No|SpaceBefore=No|Weight=500.0
+8	alalla	ala	NOUN	NOUN	Case=Ade|Number=Sing	4	obl	_	SpaceAfter=No|Weight=500.0
+9	,	,	PUNCT	PUNCT	_	4	punct	_	SpaceBefore=No|Weight=500.0
+10	nyt	nyt	ADV	ADV	_	11	advmod	_	Weight=500.0
+11	on	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Weight=500.0
+12	šeisatukšissa	šeisatuš	NOUN	NOUN	Case=Ine|Number=Plur	11	obl	_	SpaceAfter=No|Weight=500.0
+13	.	.	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=500.0
 
 # sent_id = vepkar-1708.6
 # text = Proplemat alottih vuotena 2014, konša tehtahalla tuli uuši omistaja..
 1	Proplemat	proplema	NOUN	NOUN	Case=Nom|Number=Plur	2	nsubj	_	SpaceBefore=No|Weight=0.0033333333333333335
 2	alottih	alottoa	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.0112
 3	vuotena	vuoši	NOUN	NOUN	Case=Ess|Number=Sing	2	obl	_	Weight=0.0033333333333333335
-4	2014	2014	NUM	NUM	Case=Nom|Number=Sing|NumType=Card	_	_	_	SpaceAfter=No|Weight=500.0
+4	2014	2014	NUM	NUM	Case=Nom|Number=Sing|NumType=Card	3	nummod	_	SpaceAfter=No|Weight=500.0
 5	,	,	PUNCT	PUNCT	_	2	punct	_	SpaceBefore=No|Weight=0.01
-6	konša	konša	ADV	ADV	_	8	advmod	_	Weight=0.02
+6	konša	konša	SCONJ	SCONJ	_	8	mark	_	Weight=0.02
 7	tehtahalla	tehaš	NOUN	NOUN	Case=Ade|Number=Sing	8	obl	_	Weight=0.0025
-8	tuli	tulla	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	Weight=0.06
-9	uuši	uuši	ADJ	ADJ	Case=Nom|Number=Sing|Degree=Pos	10	amod	_	Weight=0.01
-10	omistaja	omistaja	NOUN	NOUN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No|Weight=500.0
+8	tuli	tulla	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	Weight=0.06
+9	uuši	uuši	ADJ	ADJ	Case=Nom|Degree=Pos|Number=Sing	10	amod	_	Weight=0.01
+10	omistaja	omistaja	NOUN	NOUN	Case=Nom|Number=Sing	8	nsubj	_	SpaceAfter=No|Weight=500.0
 11	..	..	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.0075
 
 # sent_id = vepkar-1708.7
 # text = – Meilä šemmosie omistajie Karjalašša ei tarviče, korošti Karjalan piämieš.
 1	–	–	PUNCT	PUNCT	_	7	punct	_	SpaceBefore=No|Weight=0.015
-2	Meilä	myö	PRON	PRON	Case=Ade|Number=Plur|Person=1|PronType=Prs	_	_	_	Weight=500.0
-3	šemmosie	semmoni	ADJ	ADJ	Case=Par|Number=Plur|Degree=Pos	4	amod	_	Weight=0.01
-4	omistajie	omistaja	NOUN	NOUN	Case=Par|Number=Plur	_	_	_	Weight=500.0
+2	Meilä	myö	PRON	PRON	Case=Ade|Number=Plur|Person=1|PronType=Prs	7	obl	_	Weight=500.0
+3	šemmosie	semmoni	ADJ	ADJ	Case=Par|Degree=Pos|Number=Plur	4	amod	_	Weight=0.01
+4	omistajie	omistaja	NOUN	NOUN	Case=Par|Number=Plur	7	obj	_	Weight=500.0
 5	Karjalašša	Karjala	PROPN	PROPN	Case=Ine|Number=Sing	7	obl	_	PropnType=Top|Weight=0.004
 6	ei	ei	AUX	AUX	Number=Sing|Person=3|Polarity=Neg|Voice=Act	7	aux	_	Weight=0.002
 7	tarviče	tarvita	VERB	VERB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|Weight=0.010400000000000001
 8	,	,	PUNCT	PUNCT	_	7	punct	_	SpaceBefore=No|Weight=0.002
-9	korošti	koroštoa	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	Weight=0.02
+9	korošti	koroštoa	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	parataxis	_	Weight=0.02
 10	Karjalan	Karjala	PROPN	PROPN	Case=Gen|Number=Sing	11	nmod:poss	_	PropnType=Top|Weight=0.6766666666666667
-11	piämieš	piä#mieš	NOUN	NOUN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No|Weight=501.0
+11	piämieš	piä#mieš	NOUN	NOUN	Case=Nom|Number=Sing	9	nsubj	_	SpaceAfter=No|Weight=501.0
 12	.	.	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.005
 
 # sent_id = vepkar-1708.8
 # text = – Pitäy löytyä uuvven investorin, kumpani rakentau uušie ošaštoja ta rupieu käyttämäh nykyaikaista konehistuo..
 1	–	–	PUNCT	PUNCT	_	2	punct	_	SpaceBefore=No|Weight=0.0025
-2	Pitäy	piteä	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.0116
-3	löytyä	löytyä	VERB	VERB	VerbForm=Inf	_	_	_	Weight=500.0
-4	uuvven	uuši	ADJ	ADJ	Case=Gen|Number=Sing|Degree=Pos	5	amod	_	Weight=0.01
-5	investorin	investori	NOUN	NOUN	Case=Gen|Number=Sing	2	obj	_	SpaceAfter=No|Weight=0.003333333333333333
+2	Pitäy	piteä	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	Weight=0.0116
+3	löytyä	löytyä	VERB	VERB	VerbForm=Inf	0	root	_	Weight=500.0
+4	uuvven	uuši	ADJ	ADJ	Case=Gen|Degree=Pos|Number=Sing	5	amod	_	Weight=0.01
+5	investorin	investori	NOUN	NOUN	Case=Gen|Number=Sing	3	obj	_	SpaceAfter=No|Weight=0.003333333333333333
 6	,	,	PUNCT	PUNCT	_	8	punct	_	SpaceBefore=No|Weight=0.0025
-7	kumpani	kumpaine	PRON	PRON	Case=Nom|Number=Sing|PronType=Ind	_	_	_	Weight=500.0
-8	rakentau	rakentoa	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	Weight=0.04
-9	uušie	uuši	ADJ	ADJ	Case=Par|Number=Plur|Degree=Pos	10	amod	_	Weight=0.01
+7	kumpani	kumpaine	SCONJ	SCONJ	Case=Nom|Number=Sing|PronType=Ind	8	nsubj	_	Weight=500.0
+8	rakentau	rakentoa	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	Weight=0.04
+9	uušie	uuši	ADJ	ADJ	Case=Par|Degree=Pos|Number=Plur	10	amod	_	Weight=0.01
 10	ošaštoja	ošašto	NOUN	NOUN	Case=Par|Number=Plur	8	obj	_	Weight=0.0015384615384615385
 11	ta	ta	CCONJ	CCONJ	_	12	cc	_	Weight=0.01
 12	rupieu	ruveta	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	Weight=0.04
-13	käyttämäh	käytteä	VERB	VERB	Case=Ill|VerbForm=Inf	_	_	_	Weight=500.0
-14	nykyaikaista	nykyaikaini	ADJ	ADJ	Case=Par|Number=Sing|Degree=Pos	15	amod	_	Weight=0.01
+13	käyttämäh	käytteä	VERB	VERB	Case=Ill|VerbForm=Inf	12	xcomp	_	Weight=500.0
+14	nykyaikaista	nykyaikaini	ADJ	ADJ	Case=Par|Degree=Pos|Number=Sing	15	amod	_	Weight=0.01
 15	konehistuo	konehisto	NOUN	NOUN	Case=Par|Number=Sing	12	obj	_	SpaceAfter=No|Weight=0.0023076923076923075
-16	..	..	PUNCT	PUNCT	_	13	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.0025
+16	..	..	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.0025
 
 # sent_id = vepkar-1708.9
 # text = MATKA KOŠTAMUKŠEH.
-1	MATKA	matka	NOUN	NOUN	Case=Nom|Number=Sing	_	_	_	SpaceBefore=No|Weight=500.0
-2	KOŠTAMUKŠEH	Kostamuš	PROPN	PROPN	Case=Ill|Number=Sing	_	_	_	SpaceAfter=No|PropnType=Top|Weight=500.0
-3	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No|SpaceBefore=No|Weight=500.0
+1	MATKA	matka	NOUN	NOUN	Case=Nom|Number=Sing	0	root	_	SpaceBefore=No|Weight=500.0
+2	KOŠTAMUKŠEH	Kostamuš	PROPN	PROPN	Case=Ill|Number=Sing	1	obl	_	SpaceAfter=No|PropnType=Top|Weight=500.0
+3	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=500.0
 
 # sent_id = vepkar-1708.10
 # text = Koštamukšešša työmatan aikana Artur Parfenčikov kävi kaupunkin tärkeimmillä tuotantolaitokšilla:
@@ -3920,120 +3920,122 @@
 4	Artur	Artur	PROPN	PROPN	Case=Nom|Number=Sing	6	nsubj	_	PropnType=Ant|Gender=Male|Weight=0.01
 5	Parfenčikov	Parfenčikov	PROPN	PROPN	Case=Nom|Number=Sing	4	flat:name	_	PropnType=Cog|Weight=0.01
 6	kävi	käyvä	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
-7	kaupunkin	kaupunki	NOUN	NOUN	Case=Gen|Number=Sing	6	obj	_	Weight=0.005
+7	kaupunkin	kaupunki	NOUN	NOUN	Case=Gen|Number=Sing	9	nmod:poss	_	Weight=0.005
 8	tärkeimmillä	tärkie	ADJ	ADJ	Case=Ade|Degree=Sup|Number=Plur	9	amod	_	Weight=0.01
 9	tuotantolaitokšilla	tuotantolaitoš	NOUN	NOUN	Case=Ade|Number=Plur	6	obl	_	SpaceAfter=No|Weight=0.015
 10	:	:	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.02
 
 # sent_id = vepkar-1708.11
 # text = Koštamukšen Karel’ski okatiš -vuorikombinatissa ta AEK-yhtijöššä..
-1	Koštamukšen	Kostamuš	PROPN	PROPN	Case=Gen|Number=Sing	_	_	_	SpaceBefore=No|PropnType=Top|Weight=500.0
-2	Karel’ski okatiš	Karel’ski okatiš	PROPN	PROPN	Case=Nom|Number=Sing	1	flat:name	_	PropnType=Al|Weight=0.01
-3	-vuorikombinatissa	-vuorikombinatti	NOUN	NOUN	Case=Ine|Number=Sing	_	_	_	Weight=500.0
-4	ta	ta	CCONJ	CCONJ	_	5	cc	_	Weight=0.01
-5	AEK	AEK	PROPN	PROPN	Abbr=Yes|Case=Nom|Number=Sing	_	_	_	SpaceAfter=No|PropnType=Al|Weight=500.0
-6	-yhtijöššä	-yhtijö	NOUN	NOUN	Case=Ine|Number=Sing	_	_	_	SpaceAfter=No|SpaceBefore=No|Weight=500.0
-7	..	..	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No|SpaceBefore=No|Weight=500.0
+1	Koštamukšen	Kostamuš	PROPN	PROPN	Case=Gen|Number=Sing	2	nmod:poss	_	SpaceBefore=No|PropnType=Top|Weight=500.0
+2	Karel’ski	Karel’ski	PROPN	PROPN	Case=Nom|Number=Sing	0	root	_	PropnType=Al|Weight=0.01
+3	okatiš	okatiš	PROPN	PROPN	Case=Nom|Number=Sing	2	flat:name	_	PropnType=Al|Weight=0.01
+4	-vuorikombinatissa	-vuorikombinatti	NOUN	NOUN	Case=Ine|Number=Sing	2	compound	_	Weight=500.0
+5	ta	ta	CCONJ	CCONJ	_	6	cc	_	Weight=0.01
+6	AEK	AEK	PROPN	PROPN	Abbr=Yes|Case=Nom|Number=Sing	2	conj	_	SpaceAfter=No|PropnType=Al|Weight=500.0
+7	-yhtijöššä	-yhtijö	NOUN	NOUN	Case=Ine|Number=Sing	6	compound	_	SpaceAfter=No|SpaceBefore=No|Weight=500.0
+8	..	..	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=500.0
 
 # sent_id = vepkar-1708.12
 # text = Karel’ski okatiš -kombinatti on Venäjän šuurimpie rautamalmituottajie.
-1	Karel’ski okatiš	Karel’ski okatiš	PROPN	PROPN	Case=Nom|Number=Sing	3	nsubj	_	SpaceBefore=No|PropnType=Al|Weight=0.01
-2	-kombinatti	-kombinatti	NOUN	NOUN	Case=Nom|Number=Sing	3	nsubj	_	Weight=0.005
-3	on	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	_	Weight=500.0
-4	Venäjän	Venäjä	PROPN	PROPN	Case=Gen|Number=Sing	_	_	_	PropnType=Top|Weight=500.0
-5	šuurimpie	šuuri	ADJ	ADJ	Case=Par|Degree=Sup|Number=Plur	6	amod	_	Weight=0.01
-6	rautamalmituottajie	rauta#malmi#tuottaja	NOUN	NOUN	Case=Par|Number=Plur	_	_	_	SpaceAfter=No|Weight=502.0
-7	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No|SpaceBefore=No|Weight=500.0
+1	Karel’ski	Karel’ski	PROPN	PROPN	Case=Nom|Number=Sing	7	nsubj:cop	_	SpaceBefore=No|PropnType=Al|Weight=0.01
+2	okatiš	okatiš	PROPN	PROPN	Case=Nom|Number=Sing	1	flat:name	_	SpaceBefore=No|PropnType=Al|Weight=0.01
+3	-kombinatti	-kombinatti	NOUN	NOUN	Case=Nom|Number=Sing	1	compound	_	Weight=0.005
+4	on	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	Weight=500.0
+5	Venäjän	Venäjä	PROPN	PROPN	Case=Gen|Number=Sing	7	nmod:poss	_	PropnType=Top|Weight=500.0
+6	šuurimpie	šuuri	ADJ	ADJ	Case=Par|Degree=Sup|Number=Plur	7	amod	_	Weight=0.01
+7	rautamalmituottajie	rauta#malmi#tuottaja	NOUN	NOUN	Case=Par|Number=Plur	0	root	_	SpaceAfter=No|Weight=502.0
+8	.	.	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=500.0
 
 # sent_id = vepkar-1708.13
 # text = Rautamalmipellettien tuotantomiärien mukah kombinatti on piäššyn Venäjällä enšimmäisellä šijalla.
 1	Rautamalmipellettien	rauta#malmi#pelletti	NOUN	NOUN	Case=Gen|Number=Plur	2	nmod:poss	_	SpaceBefore=No|Weight=2.01
-2	tuotantomiärien	tuotanto#miärä	NOUN	NOUN	Case=Gen|Number=Plur	_	_	_	Weight=501.0
+2	tuotantomiärien	tuotanto#miärä	NOUN	NOUN	Case=Gen|Number=Plur	6	obl	_	Weight=501.0
 3	mukah	mukah	ADP	ADP	_	2	case	_	Weight=0.005
-4	kombinatti	kombinatti	NOUN	NOUN	Case=Nom|Number=Sing	5	nsubj	_	Weight=0.005
+4	kombinatti	kombinatti	NOUN	NOUN	Case=Nom|Number=Sing	6	nsubj	_	Weight=0.005
 5	on	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	Weight=0.005
-6	piäššyn	piästä	VERB	VERB	Connegative=Yes|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
+6	piäššyn	piästä	VERB	VERB	Mood=Ind|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Weight=0.01
 7	Venäjällä	Venäjä	PROPN	PROPN	Case=Ade|Number=Sing	6	obl	_	PropnType=Top|Weight=0.005
-8	enšimmäisellä	enšimmäini	ADJ	ADJ	Case=Ade|Number=Sing|NumType=Ord|Degree=Pos	9	amod	_	Weight=0.01
+8	enšimmäisellä	enšimmäini	ADJ	ADJ	Case=Ade|Degree=Pos|Number=Sing|NumType=Ord	9	amod	_	Weight=0.01
 9	šijalla	šija	NOUN	NOUN	Case=Ade|Number=Sing	6	obl	_	SpaceAfter=No|Weight=0.015
 10	.	.	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.02
 
 # sent_id = vepkar-1708.14
 # text = Venäjällä tuotetušta pellettimiäräštä noin kolmannen ošan tuottau Koštamukšen kombinatti..
 1	Venäjällä	Venäjä	PROPN	PROPN	Case=Ade|Number=Sing	2	obl	_	SpaceBefore=No|PropnType=Top|Weight=0.005
-2	tuotetušta	tuottoa	VERB	VERB	Case=Ela|Number=Sing|Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	_	_	_	Weight=500.0
-3	pellettimiäräštä	pelletti#miärä	NOUN	NOUN	Case=Ela|Number=Sing	2	obl	_	Weight=1.005
-4	noin	noin	ADV	ADV	_	2	advmod	_	Weight=0.02
-5	kolmannen	kolmaš	ADJ	ADJ	Case=Gen|Number=Sing|NumType=Ord|Degree=Pos	6	amod	_	Weight=0.01
-6	ošan	oša	NOUN	NOUN	Case=Gen|Number=Sing	_	_	_	Weight=500.0
+2	tuotetušta	tuottoa	VERB	VERB	Case=Ela|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	acl	_	Weight=500.0
+3	pellettimiäräštä	pelletti#miärä	NOUN	NOUN	Case=Ela|Number=Sing	7	obl	_	Weight=1.005
+4	noin	noin	ADV	ADV	_	5	advmod	_	Weight=0.02
+5	kolmannen	kolmaš	ADJ	ADJ	Case=Gen|Degree=Pos|Number=Sing|NumType=Ord	6	amod	_	Weight=0.01
+6	ošan	oša	NOUN	NOUN	Case=Gen|Number=Sing	7	obj	_	Weight=500.0
 7	tuottau	tuottoa	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
 8	Koštamukšen	Kostamuš	PROPN	PROPN	Case=Gen|Number=Sing	9	nmod:poss	_	PropnType=Top|Weight=0.11
-9	kombinatti	kombinatti	NOUN	NOUN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No|Weight=500.0
+9	kombinatti	kombinatti	NOUN	NOUN	Case=Nom|Number=Sing	7	nsubj	_	SpaceAfter=No|Weight=500.0
 10	..	..	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.015
 
 # sent_id = vepkar-1708.15
 # text = Koštamukšen rautamalmiesiintymä-alovehella kaivoštöitä on toimitettu jo 1982 vuuvvešta alkuan, ka rautamalmin varoja on nykyjähki vielä äijän.
 1	Koštamukšen	Kostamuš	PROPN	PROPN	Case=Gen|Number=Sing	2	nmod:poss	_	SpaceBefore=No|PropnType=Top|Weight=0.01
-2	rautamalmiesiintymä	rauta#malmi#esiintymä	NOUN	NOUN	Case=Nom|Number=Sing	5	nsubj	_	SpaceAfter=No|Weight=2.0075
-3	-alovehella	-aloveh	NOUN	NOUN	Case=Ade|Number=Sing	6	obl	_	SpaceBefore=No|Weight=0.01
-4	kaivoštöitä	kaivoš#työ	NOUN	NOUN	Case=Par|Number=Plur	_	_	_	Weight=501.0
+2	rautamalmiesiintymä	rauta#malmi#esiintymä	NOUN	NOUN	Case=Nom|Number=Sing	6	nsubj	_	SpaceAfter=No|Weight=2.0075
+3	-alovehella	-aloveh	NOUN	NOUN	Case=Ade|Number=Sing	2	goeswith	_	SpaceBefore=No|Weight=0.01
+4	kaivoštöitä	kaivoš#työ	NOUN	NOUN	Case=Par|Number=Plur	6	obj	_	Weight=501.0
 5	on	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	Weight=0.0033333333333333335
-6	toimitettu	toimittoa	VERB	VERB	Case=Nom|Number=Sing|Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	_	_	_	Weight=500.0
+6	toimitettu	toimittoa	VERB	VERB	Case=Nom|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Weight=500.0
 7	jo	jo	ADV	ADV	_	6	advmod	_	Weight=0.01
-8	1982	1982	NUM	NUM	Case=Nom|Number=Sing|NumType=Card	_	_	_	Weight=500.0
+8	1982	1982	NUM	NUM	Case=Nom|Number=Sing|NumType=Card	9	nummod	_	Weight=500.0
 9	vuuvvešta	vuosi	NOUN	NOUN	Case=Ine|Number=Sing	6	obl	_	Weight=0.01
 10	alkuan	alkuan	ADV	ADV	_	6	advmod	_	SpaceAfter=No|Weight=0.04
 11	,	,	PUNCT	PUNCT	_	6	punct	_	SpaceBefore=No|Weight=0.016666666666666666
 12	ka	ka	CCONJ	CCONJ	_	13	cc	_	Weight=0.01
-13	rautamalmin	rauta#malmi	NOUN	NOUN	Case=Ins|Number=Plur	_	_	_	Weight=501.0
-14	varoja	vara	NOUN	NOUN	Case=Par|Number=Plur	_	_	_	Weight=500.0
-15	on	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	_	Weight=500.0
-16	nykyjähki	nykyjähki	ADV	ADV	_	6	advmod	_	Weight=0.1
-17	vielä	vielä	ADV	ADV	_	6	advmod	_	Weight=0.11
-18	äijän	äijän	ADV	ADV	_	6	advmod	_	SpaceAfter=No|Weight=0.12
+13	rautamalmin	rauta#malmi	NOUN	NOUN	Case=Ins|Number=Plur	14	nmod:poss	_	Weight=501.0
+14	varoja	vara	NOUN	NOUN	Case=Par|Number=Plur	18	nsubj:cop	_	Weight=500.0
+15	on	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	cop	_	Weight=500.0
+16	nykyjähki	nykyjähki	ADV	ADV	_	18	advmod	_	Weight=0.1
+17	vielä	vielä	ADV	ADV	_	18	advmod	_	Weight=0.11
+18	äijän	äijän	ADV	ADV	_	6	conj	_	SpaceAfter=No|Weight=0.12
 19	.	.	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.065
 
 # sent_id = vepkar-1708.16
 # text = Federalisen Karjalan tašavallan kehityš 2020 vuoteh šuaten -tarkotušohjelman mukah kombinatissa on šuoritettu remonttityöt ta ašetettu uuši laittehisto..
-1	Federalisen	federalini	ADJ	ADJ	Case=Gen|Number=Sing|Degree=Pos	2	amod	_	SpaceBefore=No|Weight=0.01
+1	Federalisen	federalini	ADJ	ADJ	Case=Gen|Degree=Pos|Number=Sing	2	amod	_	SpaceBefore=No|Weight=0.01
 2	Karjalan	Karjala	PROPN	PROPN	Case=Gen|Number=Sing	3	nmod:poss	_	PropnType=Top|Weight=0.01
 3	tašavallan	taša#valta	NOUN	NOUN	Case=Gen|Number=Sing	4	nmod:poss	_	Weight=1.01
-4	kehityš	kehityš	NOUN	NOUN	Case=Nom|Number=Sing	11	nsubj	_	Weight=0.023333333333333334
-5	2020	2020	NUM	NUM	Case=Nom|Number=Sing|NumType=Card	_	_	_	Weight=500.0
+4	kehityš	kehityš	NOUN	NOUN	Case=Nom|Number=Sing	12	nsubj	_	Weight=0.023333333333333334
+5	2020	2020	NUM	NUM	Case=Nom|Number=Sing|NumType=Card	6	nummod	_	Weight=500.0
 6	vuoteh	vuoši	NOUN	NOUN	Case=Ill|Number=Sing	12	obl	_	Weight=0.03
-7	šuaten	šuaten	ADP	ADP	_	_	_	_	Weight=500.0
-8	-tarkotušohjelman	-tarkotuš#ohjelma	NOUN	NOUN	Case=Gen|Number=Sing	_	_	_	Weight=501.0
+7	šuaten	šuaten	ADP	ADP	_	6	case	_	Weight=500.0
+8	-tarkotušohjelman	-tarkotuš#ohjelma	NOUN	NOUN	Case=Gen|Number=Sing	12	obl	_	Weight=501.0
 9	mukah	mukah	ADP	ADP	_	8	case	_	Weight=0.005
 10	kombinatissa	kombinatti	NOUN	NOUN	Case=Ine|Number=Sing	12	obl	_	Weight=0.01
 11	on	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	Weight=0.005
-12	šuoritettu	šuorittoa	VERB	VERB	Case=Nom|Number=Sing|Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	_	_	_	Weight=500.0
-13	remonttityöt	remontti#työ	NOUN	NOUN	Case=Nom|Number=Plur	_	_	_	Weight=501.0
+12	šuoritettu	šuorittoa	VERB	VERB	Case=Nom|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Weight=500.0
+13	remonttityöt	remontti#työ	NOUN	NOUN	Case=Nom|Number=Plur	12	obj	_	Weight=501.0
 14	ta	ta	CCONJ	CCONJ	_	15	cc	_	Weight=0.01
-15	ašetettu	ašettoa	VERB	VERB	Case=Nom|Number=Sing|Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	_	_	_	Weight=500.0
-16	uuši	uuši	ADJ	ADJ	Case=Nom|Number=Sing|Degree=Pos	17	amod	_	Weight=0.01
-17	laittehisto	laittehisto	NOUN	NOUN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No|Weight=500.0
+15	ašetettu	ašettoa	VERB	VERB	Case=Nom|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	conj	_	Weight=500.0
+16	uuši	uuši	ADJ	ADJ	Case=Nom|Degree=Pos|Number=Sing	17	amod	_	Weight=0.01
+17	laittehisto	laittehisto	NOUN	NOUN	Case=Nom|Number=Sing	15	obj	_	SpaceAfter=No|Weight=500.0
 18	..	..	PUNCT	PUNCT	_	15	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.015
 
 # sent_id = vepkar-1708.17
 # text = TÄRKIET KYŠYMYKŠET NÄKYVIH.
-1	TÄRKIET	tärkie	ADJ	ADJ	Case=Nom|Number=Plur|Degree=Pos	2	amod	_	SpaceBefore=No|Weight=0.01
-2	KYŠYMYKŠET	kyšymyš	NOUN	NOUN	Case=Nom|Number=Plur	_	_	_	Weight=500.0
-3	NÄKYVIH	näkyvih	ADV	ADV	_	_	_	_	SpaceAfter=No|Weight=500.0
-4	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No|SpaceBefore=No|Weight=500.0
+1	TÄRKIET	tärkie	ADJ	ADJ	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	SpaceBefore=No|Weight=0.01
+2	KYŠYMYKŠET	kyšymyš	NOUN	NOUN	Case=Nom|Number=Plur	0	root	_	Weight=500.0
+3	NÄKYVIH	näkyvih	ADV	ADV	_	2	advmod	_	SpaceAfter=No|Weight=500.0
+4	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=500.0
 
 # sent_id = vepkar-1708.18
 # text = Tapuamisešša kombinatin ruatajien kera käsiteltih šemmosieki kyšymykšie, kumpaset huoleššutetah Koštamukšen kaikkie eläjie.
 1	Tapuamisešša	tapuamini	NOUN	NOUN	Case=Ine|Number=Sing	5	obl	_	SpaceBefore=No|Weight=0.013333333333333334
 2	kombinatin	kombinatti	NOUN	NOUN	Case=Gen|Number=Sing	3	nmod:poss	_	Weight=0.01
-3	ruatajien	ruataja	NOUN	NOUN	Case=Gen|Number=Plur	_	_	_	Weight=500.0
+3	ruatajien	ruataja	NOUN	NOUN	Case=Gen|Number=Plur	5	obl	_	Weight=500.0
 4	kera	kera	ADP	ADP	_	3	case	_	Weight=0.0033333333333333335
 5	käsiteltih	käsitellä	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.014000000000000004
-6	šemmosieki	semmoni	ADJ	ADJ	Case=Par|Clitic=Ki|Number=Plur|Degree=Pos	7	amod	_	Weight=4.01
+6	šemmosieki	semmoni	ADJ	ADJ	Case=Par|Clitic=Ki|Degree=Pos|Number=Plur	7	amod	_	Weight=4.01
 7	kyšymykšie	kyšymyš	NOUN	NOUN	Case=Par|Number=Plur	5	obj	_	SpaceAfter=No|Weight=0.006666666666666667
 8	,	,	PUNCT	PUNCT	_	10	punct	_	SpaceBefore=No|Weight=0.006666666666666667
-9	kumpaset	kumpaine	PRON	PRON	Case=Nom|Number=Plur|PronType=Ind	_	_	_	Weight=500.0
-10	huoleššutetah	huoleššuttua	VERB	VERB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	Weight=0.21800000000000003
-11	Koštamukšen	Kostamuš	PROPN	PROPN	Case=Gen|Number=Sing	10	obj	_	PropnType=Top|Weight=0.0025
+9	kumpaset	kumpaine	SCONJ	SCONJ	Case=Nom|Number=Plur|PronType=Ind	10	nsubj	_	Weight=500.0
+10	huoleššutetah	huoleššuttua	VERB	VERB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	7	acl:relcl	_	Weight=0.21800000000000003
+11	Koštamukšen	Kostamuš	PROPN	PROPN	Case=Gen|Number=Sing	13	nmod:poss	_	PropnType=Top|Weight=0.0025
 12	kaikkie	kaikki	PRON	PRON	Case=Par|Number=Plur|PronType=Ind	13	det	_	Weight=0.01
 13	eläjie	eläjä	NOUN	NOUN	Case=Par|Number=Plur	10	obj	_	SpaceAfter=No|Weight=0.0075
 14	.	.	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.01
@@ -4067,7 +4069,7 @@
 
 # sent_id = vepkar-1708.21
 # text = Koštamukšelaiset toivotah, jotta Koštamukšen ta Petroskoin šekä muijen kaupunkien välillä olis järješšetty šiännöllini lentoyhteyš.
-1	Koštamukšelaiset	koštamukšelaini	ADJ	ADJ	Case=Nom|Number=Plur|Degree=Pos	_	_	_	SpaceBefore=No|Weight=500.0
+1	Koštamukšelaiset	koštamukšelaini	ADJ	ADJ	Case=Nom|Degree=Pos|Number=Plur	_	_	_	SpaceBefore=No|Weight=500.0
 2	toivotah	toivuo	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|Weight=0.01
 3	,	,	PUNCT	PUNCT	_	2	punct	_	SpaceBefore=No|Weight=0.0033333333333333335
 4	jotta	jotta	SCONJ	SCONJ	_	13	mark	_	Weight=0.0225
@@ -4079,21 +4081,21 @@
 10	kaupunkien	kaupunki	NOUN	NOUN	Case=Gen|Number=Plur	_	_	_	Weight=500.0
 11	välillä	välillä	ADP	ADP	_	10	case	_	Weight=0.0025
 12	olis	olla	AUX	AUX	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	aux	_	Weight=0.0025
-13	järješšetty	järješteä	VERB	VERB	Case=Nom|Number=Sing|Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	_	_	_	Weight=500.0
-14	šiännöllini	šiännöllini	ADJ	ADJ	Case=Nom|Number=Sing|Degree=Pos	15	amod	_	Weight=0.01
+13	järješšetty	järješteä	VERB	VERB	Case=Nom|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	_	_	_	Weight=500.0
+14	šiännöllini	šiännöllini	ADJ	ADJ	Case=Nom|Degree=Pos|Number=Sing	15	amod	_	Weight=0.01
 15	lentoyhteyš	lento#yhteyš	NOUN	NOUN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No|Weight=501.0
 16	.	.	PUNCT	PUNCT	_	13	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.0075
 
 # sent_id = vepkar-1708.22
 # text = Šamoin paikallini ta kaunpunkien välini linjaautoyhteyš on parannettava..
 1	Šamoin	šamoin	ADV	ADV	_	8	advmod	_	SpaceBefore=No|Weight=0.07
-2	paikallini	paikallini	ADJ	ADJ	Case=Nom|Number=Sing|Degree=Pos	_	_	_	Weight=500.0
+2	paikallini	paikallini	ADJ	ADJ	Case=Nom|Degree=Pos|Number=Sing	_	_	_	Weight=500.0
 3	ta	ta	CCONJ	CCONJ	_	4	cc	_	Weight=0.01
 4	kaunpunkien	kaunpunkien	X	X	_	_	_	_	_
-5	välini	välini	ADJ	ADJ	Case=Nom|Number=Sing|Degree=Pos	6	amod	_	Weight=0.01
+5	välini	välini	ADJ	ADJ	Case=Nom|Degree=Pos|Number=Sing	6	amod	_	Weight=0.01
 6	linjaautoyhteyš	linjaauto#yhteyš	NOUN	NOUN	Case=Nom|Number=Sing	7	nsubj	_	Weight=1.0033333333333334
 7	on	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	Weight=0.005
-8	parannettava	parantoa	VERB	VERB	Case=Nom|Number=Sing|Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	_	_	_	SpaceAfter=No|Weight=500.0
+8	parannettava	parantoa	VERB	VERB	Case=Nom|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	_	_	_	SpaceAfter=No|Weight=500.0
 9	..	..	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.005
 
 # sent_id = vepkar-1708.23
@@ -4109,7 +4111,7 @@
 9	šuaha	šuaha	VERB	VERB	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	Weight=0.21200000000000002
 10	tašavaltah	taša#valta	NOUN	NOUN	Case=Ill|Number=Sing	9	obl	_	Weight=1.0025
 11	enemmän	enemmän	ADV	ADV	_	9	advmod	_	Weight=0.02
-12	nuorie	nuori	ADJ	ADJ	Case=Par|Number=Plur|Degree=Pos	13	amod	_	Weight=0.01
+12	nuorie	nuori	ADJ	ADJ	Case=Par|Degree=Pos|Number=Plur	13	amod	_	Weight=0.01
 13	ammattimiehie	ammatti#mieš	NOUN	NOUN	Case=Par|Number=Plur	9	obj	_	SpaceAfter=No|Weight=1.01
 14	..	..	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.0125
 
@@ -4118,7 +4120,7 @@
 1	–	–	PUNCT	PUNCT	_	_	_	_	SpaceBefore=No|Weight=500.0
 2	Vaštauš	vaštauš	NOUN	NOUN	Case=Nom|Number=Sing	3	nsubj	_	Weight=0.0033333333333333335
 3	on	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	Weight=0.01
-4	helppo	helppo	ADJ	ADJ	Case=Nom|Number=Sing|Degree=Pos	_	_	_	SpaceAfter=No|Weight=500.0
+4	helppo	helppo	ADJ	ADJ	Case=Nom|Degree=Pos|Number=Sing	_	_	_	SpaceAfter=No|Weight=500.0
 5	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No|SpaceBefore=No|Weight=500.0
 
 # sent_id = vepkar-1708.25
@@ -4126,7 +4128,7 @@
 1	Investoimalla	investoija	VERB	VERB	Case=Ade|VerbForm=Inf	_	_	_	SpaceAfter=No|SpaceBefore=No|Weight=500.0
 2	,	,	PUNCT	PUNCT	_	1	punct	_	SpaceBefore=No|Weight=0.002
 3	peruštamalla	peruštoa	VERB	VERB	Case=Ade|VerbForm=Inf	_	_	_	Weight=500.0
-4	tietointensiivisie	tietointensiivini	ADJ	ADJ	Case=Par|Number=Plur|Degree=Pos	_	_	_	Weight=500.0
+4	tietointensiivisie	tietointensiivini	ADJ	ADJ	Case=Par|Degree=Pos|Number=Plur	_	_	_	Weight=500.0
 5	tuotantolaitokšie	tuotantolaitoš	NOUN	NOUN	Case=Par|Number=Sing	_	_	_	SpaceAfter=No|Weight=500.0
 6	,	,	PUNCT	PUNCT	_	7	punct	_	SpaceBefore=No|Weight=0.00125
 7	kehittämällä	kehitteä	VERB	VERB	Case=Ade|VerbForm=Inf	_	_	_	Weight=500.0
@@ -4141,7 +4143,7 @@
 
 # sent_id = vepkar-1708.26
 # text = UUŠIE TUOTANTOLINTOJA.
-1	UUŠIE	uuši	ADJ	ADJ	Case=Par|Number=Plur|Degree=Pos	_	_	_	SpaceBefore=No|Weight=500.0
+1	UUŠIE	uuši	ADJ	ADJ	Case=Par|Degree=Pos|Number=Plur	_	_	_	SpaceBefore=No|Weight=500.0
 2	TUOTANTOLINTOJA	TUOTANTOLINTOJA	X	X	_	_	_	_	SpaceAfter=No|_
 3	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No|SpaceBefore=No|Weight=500.0
 
@@ -4150,7 +4152,7 @@
 1	AEK	AEK	PROPN	PROPN	Abbr=Yes|Case=Nom|Number=Sing	3	nsubj	_	SpaceAfter=No|SpaceBefore=No|PropnType=Al|Weight=0.01
 2	-yhtijö	-yhtijö	NOUN	NOUN	Case=Nom|Number=Sing	3	nsubj	_	SpaceBefore=No|Weight=0.005
 3	on	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	Weight=0.005
-4	peruššettu	peruštoa	VERB	VERB	Case=Nom|Number=Sing|Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	_	_	_	Weight=500.0
+4	peruššettu	peruštoa	VERB	VERB	Case=Nom|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	_	_	_	Weight=500.0
 5	Koštamukšešša	Kostamuš	PROPN	PROPN	Case=Ine|Number=Sing	4	obl	_	PropnType=Top|Weight=0.005
 6	1993	1993	NUM	NUM	Case=Nom|Number=Sing|NumType=Card	_	_	_	Weight=500.0
 7	vuotena	vuoši	NOUN	NOUN	Case=Ess|Number=Sing	4	obl	_	SpaceAfter=No|Weight=0.015
@@ -4217,14 +4219,14 @@
 6	rupesi	ruveta	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
 7	tuottamah	tuottoa	VERB	VERB	Case=Ill|VerbForm=Inf	_	_	_	Weight=500.0
 8	tuuligenerattorija	tuuli#generattori	NOUN	NOUN	Case=Par|Number=Plur	6	obj	_	Weight=1.01
-9	tanškalaista	tanškalaini	ADJ	ADJ	Case=Par|Number=Sing|Degree=Pos	_	_	_	Weight=500.0
+9	tanškalaista	tanškalaini	ADJ	ADJ	Case=Par|Degree=Pos|Number=Sing	_	_	_	Weight=500.0
 10	Vestaskonsernie	Vestaskonserni	PROPN	PROPN	Case=Par|Number=Plur	6	obj	_	PropnType=Al|Weight=0.02
 11	varoin	vara	NOUN	NOUN	Case=Ins|Number=Plur	_	_	_	SpaceAfter=No|Weight=500.0
 12	.	.	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.025
 
 # sent_id = vepkar-1708.32
 # text = Uuvven tuotantolinjan avuamini anto mahollisuon työllistyä ta opaštua vielä noin 250 henkie..
-1	Uuvven	uuši	ADJ	ADJ	Case=Gen|Number=Sing|Degree=Pos	2	amod	_	SpaceBefore=No|Weight=0.01
+1	Uuvven	uuši	ADJ	ADJ	Case=Gen|Degree=Pos|Number=Sing	2	amod	_	SpaceBefore=No|Weight=0.01
 2	tuotantolinjan	tuotanto#linja	NOUN	NOUN	Case=Gen|Number=Sing	3	nmod:poss	_	Weight=1.01
 3	avuamini	avuamini	NOUN	NOUN	Case=Nom|Number=Sing	4	nsubj	_	Weight=0.0033333333333333335
 4	anto	antoa	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
@@ -4241,7 +4243,7 @@
 # sent_id = vepkar-1708.33
 # text = KOŠTAMUKŠEŠTA SOSIALI-TALOUVELLINI KEHITYŠALOVEH.
 1	KOŠTAMUKŠEŠTA	Kostamuš	PROPN	PROPN	Case=Ela|Number=Sing	_	_	_	SpaceBefore=No|PropnType=Top|Weight=500.0
-2	SOSIALI-TALOUVELLINI	sosiali-talouvellini	ADJ	ADJ	Case=Nom|Number=Sing|Degree=Pos	3	amod	_	Weight=0.01
+2	SOSIALI-TALOUVELLINI	sosiali-talouvellini	ADJ	ADJ	Case=Nom|Degree=Pos|Number=Sing	3	amod	_	Weight=0.01
 3	KEHITYŠALOVEH	kehityš#loveh	NOUN	NOUN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No|Weight=501.0
 4	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No|SpaceBefore=No|Weight=500.0
 
@@ -4254,8 +4256,8 @@
 5	on	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	Weight=0.006666666666666667
 6	oikeuš	oikeuš	NOUN	NOUN	Case=Nom|Number=Sing	14	nsubj	_	Weight=0.02666666666666667
 7	šuaha	šuaha	VERB	VERB	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	Weight=0.21500000000000008
-8	ieštävän	ieštävä	ADJ	ADJ	Case=Gen|Number=Sing|Degree=Pos	_	_	_	Weight=500.0
-9	sosiali-talouvellisen	sosiali-talouvellini	ADJ	ADJ	Case=Gen|Number=Sing|Degree=Pos	10	amod	_	Weight=0.01
+8	ieštävän	ieštävä	ADJ	ADJ	Case=Gen|Degree=Pos|Number=Sing	_	_	_	Weight=500.0
+9	sosiali-talouvellisen	sosiali-talouvellini	ADJ	ADJ	Case=Gen|Degree=Pos|Number=Sing	10	amod	_	Weight=0.01
 10	kehityšalovehen	kehityš#loveh	NOUN	NOUN	Case=Gen|Number=Sing	11	nmod:poss	_	Weight=1.9099999999999995
 11	statussi	statussi	NOUN	NOUN	Case=Nom|Number=Sing	14	nsubj	_	SpaceAfter=No|Weight=0.01
 12	,	,	PUNCT	PUNCT	_	14	punct	_	SpaceBefore=No|Weight=0.006666666666666667
@@ -4263,7 +4265,7 @@
 14	antau	antoa	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.014599999999999998
 15	mahollisuon	mahollisuš	NOUN	NOUN	Case=Gen|Number=Sing	14	obj	_	Weight=0.0016666666666666668
 16	šuaha	suaha	VERB	VERB	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	14	conj	_	Weight=0.22
-17	šuurie	šuuri	ADJ	ADJ	Case=Par|Number=Plur|Degree=Pos	18	amod	_	Weight=0.01
+17	šuurie	šuuri	ADJ	ADJ	Case=Par|Degree=Pos|Number=Plur	18	amod	_	Weight=0.01
 18	investointija	investointi	NOUN	NOUN	Case=Par|Number=Plur	16	obj	_	Weight=0.0033333333333333335
 19	šekä	šekä	CCONJ	CCONJ	_	20	cc	_	Weight=0.01
 20	etuja	etu	NOUN	NOUN	Case=Par|Number=Plur	16	obj	_	Weight=0.008
@@ -4274,7 +4276,7 @@
 # sent_id = vepkar-1708.35
 # text = Šuahakšeh šemmoni statussi, pitäy valmistua anomuš, kumpasešša pitäy täyvellisešti šelittyä, mimmosie talouštoiminnan šuuntoja tämän oikeuven mukah ruvetah kehittämäh.
 1	Šuahakšeh	suaha	VERB	VERB	Case=Tra|Person[psor]=3|VerbForm=Inf	_	_	_	SpaceBefore=No|Weight=500.0
-2	šemmoni	semmoni	ADJ	ADJ	Case=Nom|Number=Sing|Degree=Pos	3	amod	_	Weight=0.01
+2	šemmoni	semmoni	ADJ	ADJ	Case=Nom|Degree=Pos|Number=Sing	3	amod	_	Weight=0.01
 3	statussi	statussi	NOUN	NOUN	Case=Nom|Number=Sing	5	nsubj	_	SpaceAfter=No|Weight=0.005
 4	,	,	PUNCT	PUNCT	_	5	punct	_	SpaceBefore=No|Weight=0.002
 5	pitäy	piteä	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.0135
@@ -4286,7 +4288,7 @@
 11	täyvellisešti	täyvellisešti	ADV	ADV	_	10	advmod	_	Weight=0.01
 12	šelittyä	šelittyä	VERB	VERB	VerbForm=Inf	_	_	_	SpaceAfter=No|Weight=500.0
 13	,	,	PUNCT	PUNCT	_	12	punct	_	SpaceBefore=No|Weight=0.0005882352941176471
-14	mimmosie	mimmoni	ADJ	ADJ	Case=Par|Number=Plur|Degree=Pos	_	_	_	Weight=500.0
+14	mimmosie	mimmoni	ADJ	ADJ	Case=Par|Degree=Pos|Number=Plur	_	_	_	Weight=500.0
 15	talouštoiminnan	talous#toiminta	NOUN	NOUN	Case=Gen|Number=Sing	16	nmod:poss	_	Weight=1.01
 16	šuuntoja	šuunta	NOUN	NOUN	Case=Par|Number=Plur	10	obj	_	Weight=0.00375
 17	tämän	tämä	PRON	PRON	Case=Gen|Number=Sing|PronType=Dem	18	nmod:poss	_	Weight=0.01
@@ -4309,7 +4311,7 @@
 9	nykyjäh	nykyjäh	ADV	ADV	_	11	advmod	_	Weight=0.02
 10	ollah	olla	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	Weight=0.005
 11	valmistamašša	valmistoa	VERB	VERB	Case=Ine|VerbForm=Inf	_	_	_	Weight=500.0
-12	šemmoista	šemmoini	ADJ	ADJ	Case=Par|Number=Sing|Degree=Pos	13	amod	_	Weight=0.01
+12	šemmoista	šemmoini	ADJ	ADJ	Case=Par|Degree=Pos|Number=Sing	13	amod	_	Weight=0.01
 13	anomušta	anomuš	NOUN	NOUN	Case=Par|Number=Sing	_	_	_	SpaceAfter=No|Weight=500.0
 14	..	..	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.015
 
@@ -4317,11 +4319,11 @@
 # text = Koštamukšen kaupunkipiirin ieštävällä sosiali-talouvellisella kehityšalovehella on šuunniteltu kehittyä viisi investointiprojektie: ruokatavara-, tekstiili- ta vuate- šekä minerali-tuotanto, puunjaloššuš ta kauppatoiminta.
 1	Koštamukšen	Kostamuš	PROPN	PROPN	Case=Gen|Number=Sing	2	nmod:poss	_	SpaceBefore=No|PropnType=Top|Weight=0.01
 2	kaupunkipiirin	kaupunki#piiri	NOUN	NOUN	Case=Ins|Number=Plur	_	_	_	Weight=501.0
-3	ieštävällä	ieštävä	ADJ	ADJ	Case=Ade|Number=Sing|Degree=Pos	_	_	_	Weight=500.0
-4	sosiali-talouvellisella	sosiali-talouvellini	ADJ	ADJ	Case=Ade|Number=Sing|Degree=Pos	5	amod	_	Weight=0.01
+3	ieštävällä	ieštävä	ADJ	ADJ	Case=Ade|Degree=Pos|Number=Sing	_	_	_	Weight=500.0
+4	sosiali-talouvellisella	sosiali-talouvellini	ADJ	ADJ	Case=Ade|Degree=Pos|Number=Sing	5	amod	_	Weight=0.01
 5	kehityšalovehella	kehityš#loveh	NOUN	NOUN	Case=Ade|Number=Sing	7	obl	_	Weight=1.0025
 6	on	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	Weight=0.00125
-7	šuunniteltu	šuunnitella	VERB	VERB	Case=Nom|Number=Sing|Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	_	_	_	Weight=500.0
+7	šuunniteltu	šuunnitella	VERB	VERB	Case=Nom|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	_	_	_	Weight=500.0
 8	kehittyä	kehittyä	VERB	VERB	VerbForm=Inf	_	_	_	Weight=500.0
 9	viisi	viisi	NUM	NUM	Case=Nom|Number=Sing|NumType=Card	_	_	_	Weight=500.0
 10	investointiprojektie	investointi#projekti	NOUN	NOUN	Case=Par|Number=Sing	_	_	_	SpaceAfter=No|Weight=501.0
@@ -4385,7 +4387,7 @@
 19	šiitä	še	PRON	PRON	Case=Ela|Number=Sing|PronType=Dem	_	_	_	Weight=500.0
 20	tapasi	tapa	NOUN	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2	_	_	_	Weight=500.0
 21	Kalevalan	Kalevala	PROPN	PROPN	Case=Gen|Number=Sing	6	obj	_	PropnType=Al|Weight=0.075
-22	kanšallisen	kanšallini	ADJ	ADJ	Case=Gen|Number=Sing|Degree=Pos	23	amod	_	Weight=0.01
+22	kanšallisen	kanšallini	ADJ	ADJ	Case=Gen|Degree=Pos|Number=Sing	23	amod	_	Weight=0.01
 23	piirin	piiri	NOUN	NOUN	Case=Gen|Number=Sing	24	nmod:poss	_	Weight=0.01
 24	eläjien	eläjä	NOUN	NOUN	Case=Gen|Number=Plur	_	_	_	Weight=500.0
 25	kera	kera	ADP	ADP	_	24	case	_	SpaceAfter=No|Weight=0.002
@@ -4433,7 +4435,7 @@
 5	etuštajien	etuštaja	NOUN	NOUN	Case=Gen|Number=Plur	_	_	_	Weight=500.0
 6	kera	kera	ADP	ADP	_	5	case	_	Weight=0.005
 7	oli	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	aux	_	Weight=0.005
-8	noššettu	noštoa	VERB	VERB	Case=Nom|Number=Sing|Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	_	_	_	Weight=500.0
+8	noššettu	noštoa	VERB	VERB	Case=Nom|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	_	_	_	Weight=500.0
 9	kyšymyš	kyšymyš	NOUN	NOUN	Case=Nom|Number=Sing	_	_	_	Weight=500.0
 10	etnokulttuurikeškukšien	etnokulttuuri#keškuš	NOUN	NOUN	Case=Gen|Number=Plur	11	nmod:poss	_	Weight=1.01
 11	statussista	statussi	NOUN	NOUN	Case=Ela|Number=Plur	8	obl	_	SpaceAfter=No|Weight=0.015
@@ -4445,8 +4447,8 @@
 2	keškukšet	keškuš	NOUN	NOUN	Case=Nom|Number=Plur	_	_	_	Weight=500.0
 3	ei	ei	AUX	AUX	Number=Sing|Person=3|Polarity=Neg|Voice=Act	5	aux	_	Weight=0.01
 4	olla	olla	AUX	AUX	VerbForm=Inf	5	aux	_	Weight=0.005
-5	kiinitetty	kiinitteä	VERB	VERB	Case=Nom|Number=Sing|Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	_	_	_	Weight=500.0
-6	konkrettiseh	konkrettini	ADJ	ADJ	Case=Ill|Number=Sing|Degree=Pos	_	_	_	Weight=500.0
+5	kiinitetty	kiinitteä	VERB	VERB	Case=Nom|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	_	_	_	Weight=500.0
+6	konkrettiseh	konkrettini	ADJ	ADJ	Case=Ill|Degree=Pos|Number=Sing	_	_	_	Weight=500.0
 7	kulttuurilaitokšen	kulttuuri#laitoš	NOUN	NOUN	Case=Gen|Number=Sing	8	nmod:poss	_	Weight=1.01
 8	muotoh	muoto	NOUN	NOUN	Case=Ill|Number=Sing	5	obl	_	SpaceAfter=No|Weight=0.015
 9	.	.	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.02
@@ -4459,7 +4461,7 @@
 4	Julija	Julija	PROPN	PROPN	Case=Nom|Number=Sing	3	appos	_	PropnType=Ant|Gender=Female|Weight=0.01
 5	Kononova	Kononova	PROPN	PROPN	Case=Nom|Number=Sing	4	flat:name	_	PropnType=Ant|Gender=Female|Weight=0.01
 6	on	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	Weight=0.012499999999999997
-7	varma	varma	ADJ	ADJ	Case=Nom|Number=Sing|Degree=Pos	_	_	_	SpaceAfter=No|Weight=500.0
+7	varma	varma	ADJ	ADJ	Case=Nom|Degree=Pos|Number=Sing	_	_	_	SpaceAfter=No|Weight=500.0
 8	,	,	PUNCT	PUNCT	_	12	punct	_	SpaceBefore=No|Weight=0.013333333333333334
 9	jotta	jotta	SCONJ	SCONJ	_	12	mark	_	Weight=0.0075
 10	še	še	PRON	PRON	Case=Nom|Number=Sing|PronType=Dem	11	nsubj	_	Weight=0.0016666666666666668
@@ -4480,18 +4482,18 @@
 5	jotta	jotta	SCONJ	SCONJ	_	10	mark	_	Weight=0.0125
 6	on	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	_	Weight=0.01
 7	hyvin	hyvin	ADV	ADV	_	10	advmod	_	Weight=0.03
-8	tärkietä	tärkie	ADJ	ADJ	Case=Par|Number=Sing|Degree=Pos	_	_	_	Weight=500.0
+8	tärkietä	tärkie	ADJ	ADJ	Case=Par|Degree=Pos|Number=Sing	_	_	_	Weight=500.0
 9	rutompah	rutompah	ADV	ADV	_	10	advmod	_	Weight=0.01
 10	šuaha	šuaha	VERB	VERB	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	Weight=0.22120000000000012
-11	valmehekši	valmeš	ADJ	ADJ	Case=Tra|Number=Sing|Degree=Pos	_	_	_	Weight=500.0
-12	tarvittava	tarvittava	ADJ	ADJ	Case=Nom|Number=Sing|Degree=Pos	13	amod	_	Weight=0.01
+11	valmehekši	valmeš	ADJ	ADJ	Case=Tra|Degree=Pos|Number=Sing	_	_	_	Weight=500.0
+12	tarvittava	tarvittava	ADJ	ADJ	Case=Nom|Degree=Pos|Number=Sing	13	amod	_	Weight=0.01
 13	lakiprojekti	laki#projekti	NOUN	NOUN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No|Weight=501.0
 14	..	..	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.01
 
 # sent_id = vepkar-1708.47
 # text = Tapuamisešša kalevalalaisien kera Karjalan piämieš käsitteli kyšymykšie, kumpaset košettih uušien talojen rakentamista šekä teijen pahua kuntuo.
 1	Tapuamisešša	tapuamini	NOUN	NOUN	Case=Ine|Number=Sing	6	obl	_	SpaceBefore=No|Weight=0.016666666666666666
-2	kalevalalaisien	kalevalalaini	ADJ	ADJ	Case=Gen|Number=Plur|Degree=Pos	_	_	_	Weight=500.0
+2	kalevalalaisien	kalevalalaini	ADJ	ADJ	Case=Gen|Degree=Pos|Number=Plur	_	_	_	Weight=500.0
 3	kera	kera	ADP	ADP	_	2	case	_	Weight=0.0033333333333333335
 4	Karjalan	Karjala	PROPN	PROPN	Case=Gen|Number=Sing	5	nmod:poss	_	PropnType=Top|Weight=0.01
 5	piämieš	piä#mieš	NOUN	NOUN	Case=Nom|Number=Sing	6	nsubj	_	Weight=1.0025
@@ -4500,12 +4502,12 @@
 8	,	,	PUNCT	PUNCT	_	6	punct	_	SpaceBefore=No|Weight=0.006666666666666667
 9	kumpaset	kumpaine	PRON	PRON	Case=Nom|Number=Plur|PronType=Ind	_	_	_	Weight=500.0
 10	košettih	košettoa	VERB	VERB	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	Weight=0.2132000000000001
-11	uušien	uuši	ADJ	ADJ	Case=Gen|Number=Plur|Degree=Pos	12	amod	_	Weight=0.01
+11	uušien	uuši	ADJ	ADJ	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	Weight=0.01
 12	talojen	talo	NOUN	NOUN	Case=Gen|Number=Plur	13	nmod:poss	_	Weight=0.01
 13	rakentamista	rakentoa	NOUN	NOUN	Case=Par|Number=Sing	10	obj	_	Weight=0.006
 14	šekä	šekä	CCONJ	CCONJ	_	15	cc	_	Weight=0.01
 15	teijen	tie	NOUN	NOUN	Case=Gen|Number=Plur	_	_	_	Weight=500.0
-16	pahua	paha	ADJ	ADJ	Case=Par|Number=Sing|Degree=Pos	17	amod	_	Weight=0.01
+16	pahua	paha	ADJ	ADJ	Case=Par|Degree=Pos|Number=Sing	17	amod	_	Weight=0.01
 17	kuntuo	kunto	NOUN	NOUN	Case=Par|Number=Sing	10	obj	_	SpaceAfter=No|Weight=0.0175
 18	.	.	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.02
 
@@ -4519,6 +4521,6 @@
 6	šiltua	šilta	NOUN	NOUN	Case=Par|Number=Sing	4	obj	_	Weight=0.006666666666666667
 7	ta	ta	CCONJ	CCONJ	_	8	cc	_	Weight=0.01
 8	erittäin	erittäin	ADV	ADV	_	4	advmod	_	Weight=0.04
-9	pahoja	paha	ADJ	ADJ	Case=Par|Number=Plur|Degree=Pos	10	amod	_	Weight=0.01
+9	pahoja	paha	ADJ	ADJ	Case=Par|Degree=Pos|Number=Plur	10	amod	_	Weight=0.01
 10	tiepätköjä	tie#pätkä	NOUN	NOUN	Case=Par|Number=Plur	4	obj	_	SpaceAfter=No|Weight=1.03
 11	..	..	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.035
