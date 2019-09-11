@@ -67,3 +67,26 @@ test: all
 	@diff .test-ref .test-mt
 	@rm .test-ref .test-mt
 
+
+docs/statistics.md: apertium-krl.krl.lexc
+	echo "# Apertium-fin statistics" > $@
+	echo >> $@
+	echo "## Alphabets" >> $@
+	echo >> $@
+	$(AWK) '/Multichar_Symbols/,/LEXICON/ {print;}' $< |\
+		egrep -v '^!.*' |\
+		egrep -v '^$$' |\
+		fgrep -v LEXICON |\
+		fgrep -v Multichar_Symbols |\
+		wc -l >> $@
+	echo " symbols for tags." >> $@
+	echo >> $@
+	echo "## Lexemes" >> $@
+	echo "Approximately " >> $@
+	awk '/^LEXICON ADJ/,/^LEXICON ADJ_/ {print;}' $< |\
+		egrep -v '^!.*' |\
+		egrep -v '^$$' |\
+		fgrep -v LEXICON |\
+		wc -l >> $@
+	echo " lexemes in there." >> $@
+
