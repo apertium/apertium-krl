@@ -3976,24 +3976,23 @@
 # sent_id = vepkar-1708.15
 # text = Koštamukšen rautamalmiesiintymä-alovehella kaivoštöitä on toimitettu jo 1982 vuuvvešta alkuan, ka rautamalmin varoja on nykyjähki vielä äijän.
 1	Koštamukšen	Kostamuš	PROPN	PROPN	Case=Gen|Number=Sing	2	nmod:poss	_	SpaceBefore=No|PropnType=Top|Weight=0.01
-2	rautamalmiesiintymä	rauta#malmi#esiintymä	NOUN	NOUN	Case=Nom|Number=Sing	6	nsubj	_	SpaceAfter=No|Weight=2.0075
-3	-alovehella	-aloveh	NOUN	NOUN	Case=Ade|Number=Sing	2	goeswith	_	SpaceBefore=No|Weight=0.01
-4	kaivoštöitä	kaivoš#työ	NOUN	NOUN	Case=Par|Number=Plur	6	obj	_	Weight=501.0
-5	on	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	Weight=0.0033333333333333335
-6	toimitettu	toimittoa	VERB	VERB	Case=Nom|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Weight=500.0
-7	jo	jo	ADV	ADV	_	6	advmod	_	Weight=0.01
-8	1982	1982	NUM	NUM	Case=Nom|Number=Sing|NumType=Card	9	nummod	_	Weight=500.0
-9	vuuvvešta	vuosi	NOUN	NOUN	Case=Ine|Number=Sing	6	obl	_	Weight=0.01
-10	alkuan	alkuan	ADV	ADV	_	6	advmod	_	SpaceAfter=No|Weight=0.04
-11	,	,	PUNCT	PUNCT	_	6	punct	_	SpaceBefore=No|Weight=0.016666666666666666
-12	ka	ka	CCONJ	CCONJ	_	13	cc	_	Weight=0.01
-13	rautamalmin	rauta#malmi	NOUN	NOUN	Case=Ins|Number=Plur	14	nmod:poss	_	Weight=501.0
-14	varoja	vara	NOUN	NOUN	Case=Par|Number=Plur	18	nsubj:cop	_	Weight=500.0
-15	on	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	cop	_	Weight=500.0
-16	nykyjähki	nykyjähki	ADV	ADV	_	18	advmod	_	Weight=0.1
-17	vielä	vielä	ADV	ADV	_	18	advmod	_	Weight=0.11
-18	äijän	äijän	ADV	ADV	_	6	conj	_	SpaceAfter=No|Weight=0.12
-19	.	.	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.065
+2	rautamalmiesiintymä-alovehella	rauta#malmi#esiintymä-aloveh	NOUN	NOUN	Case=Ade|Number=Sing	5	obl	_	Weight=2.0075
+3	kaivoštöitä	kaivoš#työ	NOUN	NOUN	Case=Par|Number=Plur	5	obj	_	Weight=501.0
+4	on	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	Weight=0.0033333333333333335
+5	toimitettu	toimittoa	VERB	VERB	Case=Nom|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Weight=500.0
+6	jo	jo	ADV	ADV	_	5	advmod	_	Weight=0.01
+7	1982	1982	NUM	NUM	Case=Nom|Number=Sing|NumType=Card	8	nummod	_	Weight=500.0
+8	vuuvvešta	vuosi	NOUN	NOUN	Case=Ine|Number=Sing	5	obl	_	Weight=0.01
+9	alkuan	alkuan	ADV	ADV	_	5	advmod	_	SpaceAfter=No|Weight=0.04
+10	,	,	PUNCT	PUNCT	_	5	punct	_	SpaceBefore=No|Weight=0.016666666666666666
+11	ka	ka	CCONJ	CCONJ	_	12	cc	_	Weight=0.01
+12	rautamalmin	rauta#malmi	NOUN	NOUN	Case=Ins|Number=Plur	13	nmod:poss	_	Weight=501.0
+13	varoja	vara	NOUN	NOUN	Case=Par|Number=Plur	17	nsubj:cop	_	Weight=500.0
+14	on	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	cop	_	Weight=500.0
+15	nykyjähki	nykyjähki	ADV	ADV	_	17	advmod	_	Weight=0.1
+16	vielä	vielä	ADV	ADV	_	17	advmod	_	Weight=0.11
+17	äijän	äijän	ADV	ADV	_	5	conj	_	SpaceAfter=No|Weight=0.12
+18	.	.	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.065
 
 # sent_id = vepkar-1708.16
 # text = Federalisen Karjalan tašavallan kehityš 2020 vuoteh šuaten -tarkotušohjelman mukah kombinatissa on šuoritettu remonttityöt ta ašetettu uuši laittehisto..
@@ -4149,14 +4148,13 @@
 
 # sent_id = vepkar-1708.27
 # text = AEK-yhtijö on peruššettu Koštamukšešša 1993 vuotena.
-1	AEK	AEK	PROPN	PROPN	Abbr=Yes|Case=Nom|Number=Sing	4	nsubj	_	SpaceAfter=No|SpaceBefore=No|PropnType=Al|Weight=0.01
-2	-yhtijö	-yhtijö	NOUN	NOUN	Case=Nom|Number=Sing	1	goeswith	_	SpaceBefore=No|Weight=0.005
-3	on	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	Weight=0.005
-4	peruššettu	peruštoa	VERB	VERB	Case=Nom|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Weight=500.0
-5	Koštamukšešša	Kostamuš	PROPN	PROPN	Case=Ine|Number=Sing	4	obl	_	PropnType=Top|Weight=0.005
-6	1993	1993	NUM	NUM	Case=Nom|Number=Sing|NumType=Card	7	nummod	_	Weight=500.0
-7	vuotena	vuoši	NOUN	NOUN	Case=Ess|Number=Sing	4	obl	_	SpaceAfter=No|Weight=0.015
-8	.	.	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.02
+1	AEK-yhtijö	AEK-yhtijö	PROPN	N	Case=Nom|Number=Sing	3	nsubj	_	SpaceBefore=No|PropnType=Al|Weight=0.01
+2	on	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	Weight=0.005
+3	peruššettu	peruštoa	VERB	VERB	Case=Nom|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Weight=500.0
+4	Koštamukšešša	Kostamuš	PROPN	PROPN	Case=Ine|Number=Sing	3	obl	_	PropnType=Top|Weight=0.005
+5	1993	1993	NUM	NUM	Case=Nom|Number=Sing|NumType=Card	6	nummod	_	Weight=500.0
+6	vuotena	vuoši	NOUN	NOUN	Case=Ess|Number=Sing	3	obl	_	SpaceAfter=No|Weight=0.015
+7	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.02
 
 # sent_id = vepkar-1708.28
 # text = Vuuvvešta 2003 laitoš kuuluu Šuomen PKC Group OY -konsernih, kumpani on šuurimpie elektronikan tuottajie.
@@ -4181,17 +4179,16 @@
 # text = Tehtahalla tuotetah autojen (varšinki Volvo- ta Scania -mallien) šähköjohtoja.
 1	Tehtahalla	tehaš	NOUN	NOUN	Case=Ade|Number=Sing	2	obl	_	SpaceBefore=No|Weight=0.002
 2	tuotetah	tuottoa	VERB	VERB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	Weight=0.01
-3	autojen	auto	NOUN	NOUN	Case=Gen|Number=Plur	12	nmod:poss	_	Weight=500.0
+3	autojen	auto	NOUN	NOUN	Case=Gen|Number=Plur	11	nmod:poss	_	Weight=500.0
 4	(	(	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No|Weight=0.004
 5	varšinki	varšinki	ADV	ADV	_	6	advmod	_	SpaceBefore=No|Weight=0.03
-6	Volvo	Volvo	PROPN	PROPN	Case=Nom|Number=Sing	3	parataxis	_	SpaceAfter=No|PropnType=Al|Weight=500.0
-7	-	-	PUNCT	PUNCT	_	6	goeswith	_	SpaceBefore=No|Weight=0.0125
-8	ta	ta	CCONJ	CCONJ	_	9	cc	_	Weight=0.01
-9	Scania	Scania	PROPN	PROPN	Case=Nom|Number=Sing	6	conj	_	PropnType=Al|Weight=500.0
-10	-mallien	-malli	NOUN	NOUN	Case=Gen|Number=Plur	6	compound	_	SpaceAfter=No|Weight=500.0
-11	)	)	PUNCT	PUNCT	_	6	punct	_	SpaceBefore=No|Weight=0.03
-12	šähköjohtoja	šähkö#johto	NOUN	NOUN	Case=Par|Number=Plur	2	obj	_	SpaceAfter=No|Weight=1.05
-13	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.055
+6	Volvo-	Volvo-	PROPN	PROPN	Case=Nom|Number=Sing	3	parataxis	_	PropnType=Al|Weight=500.0
+7	ta	ta	CCONJ	CCONJ	_	8	cc	_	Weight=0.01
+8	Scania	Scania	PROPN	PROPN	Case=Nom|Number=Sing	6	conj	_	PropnType=Al|Weight=500.0
+9	-mallien	-malli	NOUN	NOUN	Case=Gen|Number=Plur	6	compound	_	SpaceAfter=No|Weight=500.0
+10	)	)	PUNCT	PUNCT	_	6	punct	_	SpaceBefore=No|Weight=0.03
+11	šähköjohtoja	šähkö#johto	NOUN	NOUN	Case=Par|Number=Plur	2	obj	_	SpaceAfter=No|Weight=1.05
+12	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.055
 
 # sent_id = vepkar-1708.30
 # text = Nykyjäh tehtahalla ruatau yli 800 henkie, 90% ruatajista ollah naiset..
@@ -4328,21 +4325,18 @@
 9	viisi	viisi	NUM	NUM	Case=Nom|Number=Sing|NumType=Card	10	nummod	_	Weight=500.0
 10	investointiprojektie	investointi#projekti	NOUN	NOUN	Case=Par|Number=Sing	8	obj	_	SpaceAfter=No|Weight=501.0
 11	:	:	PUNCT	PUNCT	_	12	punct	_	SpaceBefore=No|Weight=0.00375
-12	ruokatavara	ruoka#tavara	NOUN	NOUN	Case=Nom|Number=Sing	10	parataxis	_	SpaceAfter=No|Weight=501.0
-13	-	-	PUNCT	PUNCT	_	12	goeswith	_	SpaceAfter=No|SpaceBefore=No|Weight=0.0071428571428571435
-14	,	,	PUNCT	PUNCT	_	15	punct	_	SpaceBefore=No|Weight=0.01
-15	tekstiili	tekstiili	NOUN	NOUN	Case=Nom|Number=Sing	12	conj	_	SpaceAfter=No|Weight=500.0
-16	-	-	PUNCT	PUNCT	_	15	goeswith	_	SpaceBefore=No|Weight=0.016
-17	ta	ta	CCONJ	CCONJ	_	18	cc	_	Weight=0.01
-18	vuate	vuate	NOUN	NOUN	Case=Nom|Number=Sing	12	conj	_	SpaceAfter=No|Weight=500.0
-19	-	-	PUNCT	PUNCT	_	18	goeswith	_	SpaceBefore=No|Weight=0.0275
-20	šekä	šekä	CCONJ	CCONJ	_	21	cc	_	Weight=0.01
-21	minerali-tuotanto	minerali#tuotanto	NOUN	NOUN	Case=Nom|Number=Sing	12	conj	_	SpaceAfter=No|Weight=501.0
-22	,	,	PUNCT	PUNCT	_	23	punct	_	SpaceBefore=No|Weight=0.04666666666666667
-23	puunjaloššuš	puunjaloššuš	NOUN	NOUN	Case=Nom|Number=Sing	12	conj	_	Weight=500.0
-24	ta	ta	CCONJ	CCONJ	_	25	cc	_	Weight=0.01
-25	kauppatoiminta	kauppa#toiminta	NOUN	NOUN	Case=Nom|Number=Sing	12	conj	_	SpaceAfter=No|Weight=501.0
-26	.	.	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.09
+12	ruokatavara-	ruoka#tavara-	NOUN	NOUN	Case=Nom|Number=Sing	10	parataxis	_	SpaceAfter=No|Weight=501.0
+13	,	,	PUNCT	PUNCT	_	14	punct	_	SpaceBefore=No|Weight=0.01
+14	tekstiili-	tekstiili-	NOUN	NOUN	Case=Nom|Number=Sing	12	conj	_	Weight=500.0
+15	ta	ta	CCONJ	CCONJ	_	16	cc	_	Weight=0.01
+16	vuate-	vuate-	NOUN	NOUN	Case=Nom|Number=Sing	12	conj	_	Weight=500.0
+17	šekä	šekä	CCONJ	CCONJ	_	18	cc	_	Weight=0.01
+18	minerali-tuotanto	minerali#tuotanto	NOUN	NOUN	Case=Nom|Number=Sing	12	conj	_	SpaceAfter=No|Weight=501.0
+19	,	,	PUNCT	PUNCT	_	20	punct	_	SpaceBefore=No|Weight=0.04666666666666667
+20	puunjaloššuš	puunjaloššuš	NOUN	NOUN	Case=Nom|Number=Sing	12	conj	_	Weight=500.0
+21	ta	ta	CCONJ	CCONJ	_	22	cc	_	Weight=0.01
+22	kauppatoiminta	kauppa#toiminta	NOUN	NOUN	Case=Nom|Number=Sing	12	conj	_	SpaceAfter=No|Weight=501.0
+23	.	.	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.09
 
 # sent_id = vepkar-1708.38
 # text = Näijen projektien toteuttamini antau mahollisuon työllistyä vielä yli 150 ihmistä..
@@ -4378,20 +4372,19 @@
 10	,	,	PUNCT	PUNCT	_	12	punct	_	SpaceBefore=No|Weight=0.008
 11	missä	mi	PRON	PRON	Case=Ine|Number=Sing	12	obl	_	PronType=Interr|Weight=500.0
 12	tarkašti	tarkaštoa	VERB	VERB	_	9	acl:relcl	_	Weight=0.06
-13	remontti	remontti	NOUN	NOUN	Case=Nom|Number=Sing	12	obj	_	SpaceAfter=No|Weight=500.0
-14	-	-	PUNCT	PUNCT	_	13	goeswith	_	SpaceBefore=No|Weight=0.02
-15	ta	ta	CCONJ	CCONJ	_	16	cc	_	Weight=0.01
-16	restaurointitöitä	restaurointi#työ	NOUN	NOUN	Case=Par|Number=Plur	13	conj	_	SpaceAfter=No|Weight=1.025
-17	,	,	PUNCT	PUNCT	_	20	punct	_	SpaceBefore=No|Weight=0.03666666666666667
-18	ta	ta	CCONJ	CCONJ	_	19	cc	_	Weight=0.01
-19	šiitä	še	PRON	PRON	Case=Ela|Number=Sing|PronType=Dem	20	obl	_	Weight=500.0
-20	tapasi	tavata	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	conj	_	Weight=500.0
-21	Kalevalan	Kalevala	PROPN	PROPN	Case=Gen|Number=Sing	22	nmod:poss	_	PropnType=Al|Weight=0.075
-22	kanšallisen	kanšallini	ADJ	ADJ	Case=Gen|Degree=Pos|Number=Sing	23	amod	_	Weight=0.01
-23	piirin	piiri	NOUN	NOUN	Case=Gen|Number=Sing	24	nmod:poss	_	Weight=0.01
-24	eläjien	eläjä	NOUN	NOUN	Case=Gen|Number=Plur	20	obl	_	Weight=500.0
-25	kera	kera	ADP	ADP	_	24	case	_	SpaceAfter=No|Weight=0.002
-26	..	..	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.1
+13	remontti-	remontti-	NOUN	NOUN	Case=Nom|Number=Sing	12	obj	_	Weight=500.0
+14	ta	ta	CCONJ	CCONJ	_	15	cc	_	Weight=0.01
+15	restaurointitöitä	restaurointi#työ	NOUN	NOUN	Case=Par|Number=Plur	13	conj	_	SpaceAfter=No|Weight=1.025
+16	,	,	PUNCT	PUNCT	_	19	punct	_	SpaceBefore=No|Weight=0.03666666666666667
+17	ta	ta	CCONJ	CCONJ	_	18	cc	_	Weight=0.01
+18	šiitä	še	PRON	PRON	Case=Ela|Number=Sing|PronType=Dem	19	obl	_	Weight=500.0
+19	tapasi	tavata	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	conj	_	Weight=500.0
+20	Kalevalan	Kalevala	PROPN	PROPN	Case=Gen|Number=Sing	21	nmod:poss	_	PropnType=Al|Weight=0.075
+21	kanšallisen	kanšallini	ADJ	ADJ	Case=Gen|Degree=Pos|Number=Sing	22	amod	_	Weight=0.01
+22	piirin	piiri	NOUN	NOUN	Case=Gen|Number=Sing	23	nmod:poss	_	Weight=0.01
+23	eläjien	eläjä	NOUN	NOUN	Case=Gen|Number=Plur	19	obl	_	Weight=500.0
+24	kera	kera	ADP	ADP	_	23	case	_	SpaceAfter=No|Weight=0.002
+25	..	..	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.1
 
 # sent_id = vepkar-1708.41
 # text = Mobergin talošša Parfenčikovilla esitettih arhitektuurin muistomerkin tiloja ta kerrottih, jotta remontin lopettamiseh tarviččou vielä kuuši miljonua rupl’ua.
@@ -4455,23 +4448,22 @@
 
 # sent_id = vepkar-1708.45
 # text = Kalevalatalo-keškukšen varajohtaja Julija Kononova on varma, jotta še ei anna mahollisutta šuaha tukie valtijolta..
-1	Kalevalatalo	Kalevalatalo	PROPN	PROPN	Case=Nom|Number=Sing	3	nmod:poss	_	SpaceAfter=No|SpaceBefore=No|PropnType=Al|Weight=0.0125
-2	-keškukšen	-keškuš	NOUN	NOUN	Case=Gen|Number=Sing	1	goeswith	_	SpaceBefore=No|Weight=0.01
-3	varajohtaja	varajohtaja	NOUN	NOUN	Case=Nom|Number=Sing	7	nsubj:cop	_	Weight=0.0075
-4	Julija	Julija	PROPN	PROPN	Case=Nom|Number=Sing	3	appos	_	PropnType=Ant|Gender=Female|Weight=0.01
-5	Kononova	Kononova	PROPN	PROPN	Case=Nom|Number=Sing	4	flat:name	_	PropnType=Ant|Gender=Female|Weight=0.01
-6	on	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	Weight=0.012499999999999997
-7	varma	varma	ADJ	ADJ	Case=Nom|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No|Weight=500.0
-8	,	,	PUNCT	PUNCT	_	12	punct	_	SpaceBefore=No|Weight=0.013333333333333334
-9	jotta	jotta	SCONJ	SCONJ	_	12	mark	_	Weight=0.0075
-10	še	še	PRON	PRON	Case=Nom|Number=Sing|PronType=Dem	12	nsubj	_	Weight=0.0016666666666666668
-11	ei	ei	AUX	AUX	Number=Sing|Person=3|Polarity=Neg|Voice=Act	12	aux	_	Weight=0.0025
-12	anna	antoa	VERB	VERB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	7	acl:relcl	_	Weight=0.011200000000000003
-13	mahollisutta	mahollisuš	NOUN	NOUN	Case=Par|Number=Sing	12	obj	_	Weight=0.0016666666666666668
-14	šuaha	šuaha	VERB	VERB	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	13	ccomp	_	Weight=0.2124000000000001
-15	tukie	tuki	NOUN	NOUN	Case=Par|Number=Plur	14	obj	_	Weight=0.0016666666666666668
-16	valtijolta	valtijo	NOUN	NOUN	Case=Abl|Number=Sing	14	obl	_	SpaceAfter=No|Weight=500.0
-17	..	..	PUNCT	PUNCT	_	14	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.0075
+1	Kalevalatalo-keškukšen	Kalevalatalo-keškuš	PROPN	PROPN	Case=Gen|Number=Sing	2	nmod:poss	_	SpaceBefore=No|PropnType=Al|Weight=0.0125
+2	varajohtaja	varajohtaja	NOUN	NOUN	Case=Nom|Number=Sing	6	nsubj:cop	_	Weight=0.0075
+3	Julija	Julija	PROPN	PROPN	Case=Nom|Number=Sing	2	appos	_	PropnType=Ant|Gender=Female|Weight=0.01
+4	Kononova	Kononova	PROPN	PROPN	Case=Nom|Number=Sing	3	flat:name	_	PropnType=Ant|Gender=Female|Weight=0.01
+5	on	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	Weight=0.012499999999999997
+6	varma	varma	ADJ	ADJ	Case=Nom|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No|Weight=500.0
+7	,	,	PUNCT	PUNCT	_	11	punct	_	SpaceBefore=No|Weight=0.013333333333333334
+8	jotta	jotta	SCONJ	SCONJ	_	11	mark	_	Weight=0.0075
+9	še	še	PRON	PRON	Case=Nom|Number=Sing|PronType=Dem	11	nsubj	_	Weight=0.0016666666666666668
+10	ei	ei	AUX	AUX	Number=Sing|Person=3|Polarity=Neg|Voice=Act	11	aux	_	Weight=0.0025
+11	anna	antoa	VERB	VERB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	6	acl:relcl	_	Weight=0.011200000000000003
+12	mahollisutta	mahollisuš	NOUN	NOUN	Case=Par|Number=Sing	11	obj	_	Weight=0.0016666666666666668
+13	šuaha	šuaha	VERB	VERB	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	12	ccomp	_	Weight=0.2124000000000001
+14	tukie	tuki	NOUN	NOUN	Case=Par|Number=Plur	13	obj	_	Weight=0.0016666666666666668
+15	valtijolta	valtijo	NOUN	NOUN	Case=Abl|Number=Sing	13	obl	_	SpaceAfter=No|Weight=500.0
+16	..	..	PUNCT	PUNCT	_	13	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.0075
 
 # sent_id = vepkar-1708.46
 # text = Artur Parfenčikov šano, jotta on hyvin tärkietä rutompah šuaha valmehekši tarvittava lakiprojekti..
