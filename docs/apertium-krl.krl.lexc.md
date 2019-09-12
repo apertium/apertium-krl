@@ -1,48 +1,120 @@
-# apertium-krl.krl.lexc dictionary
+# apertium-krl: Karelian dictionary
 
-This is automatically generated dictionary visualisation
+This is an automatically generated visualisation 
+of an apertium dictionary, based on apertium-krl.krl.lexc
+*Note that due to the special nature of the lexc format, there can be
+some inaccuracies and non-words in the list.*
+
+## Alphabets
+
+| *Symbol* | Comment |
+|:---------|:--------|
+| `<abbr>` |
+| `<abe>` |
+| `<abl>` |
+| `<acc>` |
+| `<acr>` |
+| `<actv>` |
+| `<ade>` |
+| `<adj>` |
+| `<adv>` |
+| `<agent>` |
+| `<al>` |
+| `<all>` |
+| `<ant>` |
+| `<card>` |
+| `<cmp>` |
+| `<cmp-split>` |
+| `<cnjadv>` |
+| `<cnjcoo>` |
+| `<cnjsub>` |
+| `<cog>` |
+| `<com>` |
+| `<compound-R>` |
+| `<compound-only-L>` |
+| `<cni>` |
+| `<conneg>` |
+| `<def>` |
+| `<dem>` |
+| `<det>` |
+| `<ela>` |
+| `<enc>` |
+| `<ess>` |
+| `<f>` |
+| `<gen>` |
+| `<ij>` |
+| `<ill>` |
+| `<imp>` |
+| `<impers>` |
+| `<ind>` |
+| `<ine>` |
+| `<inf>` |
+| `<infe>` |
+| `<infma>` |
+| `<infminen>` |
+| `<ins>` |
+| `<itg>` |
+| `<lat>` |
+| `<loc>` |
+| `<m>` |
+| `<mf>` |
+| `<n>` |
+| `<neg>` |
+| `<nom>` |
+| `<np>` |
+| `<num>` |
+| `<ord>` |
+| `<p1>` |
+| `<p2>` |
+| `<p3>` |
+| `<par>` |
+| `<part>` |
+| `<past>` |
+| `<pasv>` |
+| `<pers>` |
+| `<pl>` |
+| `<pneg>` |
+| `<pst>` |
+| `<post>` |
+| `<pot>` |
+| `<pp>` |
+| `<pprs>` |
+| `<pri>` |
+| `<prn>` |
+| `<punct>` |
+| `<pxpl1>` |
+| `<pxpl2>` |
+| `<px1sg>` |
+| `<px2sg>` |
+| `<px3sp>` |
+| `<qst>` |
+| `<qu>` |
+| `<rec>` |
+| `<reflex>` |
+| `<rel>` |
+| `<sg>` |
+| `<sp>` |
+| `<sup>` |
+| `<sym>` |
+| `<top>` |
+| `<tra>` |
+| `<use_archaic>` |
+| `<use_blacklist>` |
+| `<use_dialect>` |
+| `<use_foreign>` |
+| `<use_nonstd>` |
+| `<vaux>` |
+| `<vblex>` |
+| {-} |
+
+## Dictionary
+
+ [a A](#a) | [b B](#b) | [c C](#c) | [č č](#č) | [d D](#d) | [e E](#e) | [f F](#f) | [g G](#g) | [h H](#h) | [i I](#i) | [j J](#j) | [k K](#k) | [l L](#l) | [m M](#m) | [n N](#n) | [o O](#o) | [p P](#p) | [r R](#r) | [s S](#s) | [š š](#š) | [Š Š](#Š) | [t T](#t) | [u U](#u) | [v V](#v) | [w W](#w) | [x X](#x) | [y Y](#y) | [z Z](#z) | [ä ä](#ä) | [µ µ](#µ) |
+### a
 
 | *word* |
 |:-------|
-| ¤ (sym) |
-| ¢ (sym) |
-| $ (sym) |
-| $ (sym) |
-| £ (sym) |
-| ¥ (sym) |
-| ¥ (sym) |
-| ₤ (sym) |
-| € (sym) |
-| € (sym) |
-|  0 |
-|  0. (adj) (ord ) (sg ) (nom ) |
-|  0 (num) (card ) (sg ) (nom ) |
-| ½ (sym) (n ) |
-| ¼ (sym) (n ) |
-| 1. (adj) (ord ) (sg ) (nom ) |
-| 1 (num) (card ) (sg ) (nom ) |
-| ¹ (sym) (n ) |
-| 2. (adj) (ord ) (sg ) (nom ) |
-| 2 (num) (card ) (sg ) (nom ) |
-| ² (sym) (n ) |
-| 3. (adj) (ord ) (sg ) (nom ) |
-| 3 (num) (card ) (sg ) (nom ) |
-|  (3 (sym) |
-| ³ (sym) (n ) |
-| 4. (adj) (ord ) (sg ) (nom ) |
-| 4 (num) (card ) (sg ) (nom ) |
-| 5. (adj) (ord ) (sg ) (nom ) |
-| 5 (num) (card ) (sg ) (nom ) |
-| 6. (adj) (ord ) (sg ) (nom ) |
-| 6 (num) (card ) (sg ) (nom ) |
-| 7. (adj) (ord ) (sg ) (nom ) |
-| 7 (num) (card ) (sg ) (nom ) |
-| 8. (adj) (ord ) (sg ) (nom ) |
-| 8 (num) (card ) (sg ) (nom ) |
-| 9. (adj) (ord ) (sg ) (nom ) |
-| 9 (num) (card ) (sg ) (nom ) |
 | a (cnjcoo) |
-| AEK (np) (al ) (acr ) |
 | afrikkalaine (n) |
 | ahkerašti (adv) |
 | aihe (n) |
@@ -53,18 +125,13 @@ This is automatically generated dictionary visualisation
 | aikuhini (n) |
 | aina (adv) |
 | ainehisto (n) |
-| Aino (np) (ant ) (f ) |
 | aito (adj) |
 | aivan (adv) |
 | ajatella (vblex) |
 | ajatuš (n) |
 | ajelomini (n) |
-| Akropolis (np) (top ) |
 | aktijo (n) |
 | ala (n) |
-| Aleksandr (np) (ant ) (m ) |
-| Aleksandrovna (np) (cog ) |
-| Aleksejeva (np) (cog ) |
 | aličči (post) |
 | alkoa (vblex) |
 | alkoholi (n) |
@@ -78,33 +145,23 @@ This is automatically generated dictionary visualisation
 | alta (post) |
 | alta (post) |
 | ammatti#mieš (n) |
-| Anna (np) (ant ) (f ) |
 | anomuš (n) |
 | antoa (vblex) |
 | antua (vblex) |
-| Anuš (np) (top ) |
 | applikatijo (n) |
 | apu (n) |
-| Arbat (np) (top ) |
-| Arhankeli (np) (top ) |
 | arhitektuuri (n) |
 | arki#elämä (n) |
 | armenijalaini (adj) |
 | artišta (n) |
 | artista (n) |
-| Art-šat’or (np) (al ) |
 | artteli (n) |
-| Art-teltta (np) (al ) |
-| Artur (np) (ant ) (m ) |
 | ašettoa (vblex) |
 | aštie (n) |
 | aštuo (vblex) |
-| Ateena (np) (top ) |
 | ativoija (vblex) |
 | ativo (n) |
 | atressi (n) |
-| Aunuš (np) (top ) |
-| Australija (np) (top ) |
 | auto (n) |
 | auttoa (vblex) |
 | auttua (vblex) |
@@ -113,31 +170,46 @@ This is automatically generated dictionary visualisation
 | avomielisešti (adv) |
 | avuamini (n) |
 | azerbaidžanilaini (adj) |
+
+### b
+
+| *word* |
+|:-------|
 | biologini (n) |
-| Bol’šoi (np) (top ) |
-| Building (np) (al ) |
+
+### c
+
+| *word* |
+|:-------|
+
+### č
+
+| *word* |
+|:-------|
 | čikana (n) |
-| Colosseus (np) (top ) |
-| Cookin#šuari (np) (top ) |
+
+### d
+
+| *word* |
+|:-------|
 | da (cnjcoo) |
-| Danil (np) (ant ) (m ) |
 | diplomi (n) |
-|   |
-|   |
+
+### e
+
+| *word* |
+|:-------|
 | eččie (vblex) |
 | eepossa (n) |
 | eeppini (adj) |
 | ehokaš (n) |
 | ehottoa (vblex) |
 | ehotuš (n) |
-| Eiffel (np) (top ) |
 | ei (vaux) (neg ) |
 | elavuttamine (n) |
 | elektronikka (n) |
 | eleä (vblex) |
-| Elias (np) (ant ) (m ) |
 | eli (cnjcoo) |
-| Eli (np) (top ) |
 | elvyttämini (n) |
 | eläjä (n) |
 | eläkehfondi (n) |
@@ -146,7 +218,6 @@ This is automatically generated dictionary visualisation
 | eläkkeläis#liitto (n) |
 | elämä (n) |
 | elävyttämini (n) |
-| Empire (np) (top ) |
 | emäntä (n) |
 | enemmäh (adv) |
 | enemmän (adv) |
@@ -159,7 +230,6 @@ This is automatically generated dictionary visualisation
 | enämmän (adv) |
 | enämpi (adv) |
 | epä#virallini (adj) |
-| Eremitaaši (np) (top ) |
 | eri (adj) |
 | eri (adv) |
 | eri-ikäne (adj) |
@@ -187,20 +257,30 @@ This is automatically generated dictionary visualisation
 | etu (n) |
 | etuštaja (n) |
 | eväš (n) |
+
+### f
+
+| *word* |
+|:-------|
 | federalini (adj) |
-| Fedosova (np) (cog ) |
 | festivali (n) |
-| Fevronija (np) (cog ) |
 | flashmob (n) |
 | folkloristi (n) |
 | folklori#teatteri (n) |
 | fondi (n) |
 | forumi (n) |
-| Galina (np) (ant ) (f ) |
+
+### g
+
+| *word* |
+|:-------|
 | generattori (n) |
-| Glazkov (np) (cog ) |
-| Group (np) (al ) |
 | guslin#šoittaja (n) |
+
+### h
+
+| *word* |
+|:-------|
 | hahmo (n) |
 | halličuš (n) |
 | hallinto (n) |
@@ -212,7 +292,6 @@ This is automatically generated dictionary visualisation
 | harraštaja (n) |
 | harvoin (adv) |
 | heitteä (vblex) |
-| Helena (np) (ant ) (f ) |
 | helppo (adj) |
 | henkellini (adj) |
 | henkilö#kilpailu (n) |
@@ -222,12 +301,10 @@ This is automatically generated dictionary visualisation
 | herätteä (vblex) |
 | herättyä (vblex) |
 | heti (adv) |
-| Hiekkaveššoš (np) (top ) |
 | hieno (adj) |
 | hiihto (n) |
 | hiihtourheilu (n) |
 | hiiren#poika (n) |
-| Hiisi (np) (ant ) (m ) |
 | hiitourheiluliitto (n) |
 | hil’l’ah (adv) |
 | hillo (n) |
@@ -236,8 +313,6 @@ This is automatically generated dictionary visualisation
 | hiä#laulu (n) |
 | hiän (prn) (pers ) (p3 ) (sg ) |
 | hokšata (vblex) |
-| Hotejeva (np) (cog ) |
-| Hristo (np) (al ) |
 | huaveilla (vblex) |
 | hukkuo (vblex) |
 | huoleššuttua (vblex) |
@@ -255,7 +330,11 @@ This is automatically generated dictionary visualisation
 | hyvä (adj) |
 | hyö (prn) (pers ) (p3 ) (pl ) |
 | hävijä (n) |
-| I (adj) (ord ) (sg ) (nom ) |
+
+### i
+
+| *word* |
+|:-------|
 | iče#hallinto (n) |
 | iče (prn) (refl ) |
 | i (cnjcoo) |
@@ -267,8 +346,6 @@ This is automatically generated dictionary visualisation
 | ihmeh#muajilma (n) |
 | ihmini (n) |
 | ihmis#joukko (n) |
-| II (adj) (ord ) (sg ) (nom ) |
-| III (adj) (ord ) (sg ) (nom ) |
 | iisahuš (n) |
 | ijäkäš (adj) |
 | ikäh (adv) |
@@ -278,9 +355,7 @@ This is automatically generated dictionary visualisation
 | ilma (n) |
 | ilman (post) |
 | ilma#piiri (n) |
-| Ilmarini (np) (ant ) (m ) |
 | ilmašto (n) |
-| Ilmatar (np) (ant ) (f ) |
 | ilmeštyö (vblex) |
 | ilmi (adv) |
 | ilmottoa (vblex) |
@@ -292,23 +367,20 @@ This is automatically generated dictionary visualisation
 | investoija (vblex) |
 | investointi (n) |
 | investori (n) |
-| Irina (np) (ant ) (f ) |
-| Iro (np) (ant ) (f ) |
 | istorie (n) |
 | istorija (n) |
 | istuo (vblex) |
 | isäntä (n) |
 | itkie (vblex) |
-| IV (adj) (ord ) (sg ) (nom ) |
-| IX (adj) (ord ) (sg ) (nom ) |
 | iäni (n) |
+| I (adj) (ord ) (sg ) (nom ) |
+
+### j
+
+| *word* |
+|:-------|
 | jakšo (n) |
-| Jakutija (np) (top ) |
-| Jakutija (np) (top ) |
 | jalka (n) |
-| Jegor (np) (ant ) (m ) |
-| Jekaterina (np) (ant ) (f ) |
-| Jelagina (np) (cog ) |
 | jiähä (vblex) |
 | jo (adv) |
 | johtaja (n) |
@@ -319,16 +391,12 @@ This is automatically generated dictionary visualisation
 | još (cnjsub) |
 | jošpa (cnjsub) |
 | jotta (cnjsub) |
-| Joukahaine (np) (ant ) (m ) |
 | joukko (n) |
 | joutuo (vblex) |
-| Julija (np) (ant ) (f ) |
 | juoni (n) |
-| Juri (np) (ant ) (m ) |
 | juštih (adv) |
 | juuri (adv) |
 | juuri (n) |
-| Jyškyjärvi (np) (top ) |
 | jälelläh (adv) |
 | jälkeh (post) |
 | järješteä (vblex) |
@@ -337,6 +405,11 @@ This is automatically generated dictionary visualisation
 | järještö (n) |
 | jäšen (n) |
 | jätteä (vblex) |
+
+### k
+
+| *word* |
+|:-------|
 | kačahtoa (vblex) |
 | kaččoa (vblex) |
 | kaččoja (n) |
@@ -356,11 +429,7 @@ This is automatically generated dictionary visualisation
 | kala (n) |
 | kalaonni (n) |
 | kalaštaja (n) |
-| Kalevala#eepossa (n) |
 | kalevalalaini (adj) |
-| Kalevala (np) (al ) |
-| Kalevalatalo (np) (al ) |
-| Kaliningrad (np) (top ) |
 | kallis (adj) |
 | kannalta (post) |
 | kannattoa (vblex) |
@@ -379,12 +448,9 @@ This is automatically generated dictionary visualisation
 | kanta#rahvaš (n) |
 | kantoa (vblex) |
 | kantua (vblex) |
-| Karel’ski  okatiš (np) (al ) |
-| Karhumäki (np) (top ) |
 | karjalaine (n) |
 | karjalaini (adj) |
 | karjala (n) |
-| Karjala (np) (top ) |
 | kartta (n) |
 | kašvatti (n) |
 | kašvoa (vblex) |
@@ -438,7 +504,6 @@ This is automatically generated dictionary visualisation
 | kieli (n) |
 | kieli#pešä (n) |
 | kielteä (vblex) |
-| Kiestinki (np) (top ) |
 | kiinitteä (vblex) |
 | kiinitämini (n) |
 | kiinitämini (n) |
@@ -457,9 +522,7 @@ This is automatically generated dictionary visualisation
 | kinnaš (n) |
 | kippura#nokkani (adj) |
 | kippura#nokkani (adj) |
-| Kira (np) (ant ) (f ) |
 | kirikkö (n) |
-| Kirilä (np) (cog ) |
 | kirjallisuš (n) |
 | kirja (n) |
 | kirjašto (n) |
@@ -474,7 +537,6 @@ This is automatically generated dictionary visualisation
 | kiukoa (n) |
 | kiukua (n) |
 | kiušata (vblex) |
-| Kiži (np) (top ) |
 | kiänteä (vblex) |
 | kiäntäjä (n) |
 | kiäntämis#työ (n) |
@@ -488,20 +550,14 @@ This is automatically generated dictionary visualisation
 | kollektiivi (n) |
 | kolmaš (adj) (ord ) |
 | kolme (num) (card ) |
-| Koloskova (np) (cog ) |
 | kombinatti (n) |
-| Komi (np) (top ) |
-| Kondratjev (np) (cog ) |
 | konehisto (n) |
 | konkrettini (adj) |
-| Kononova (np) (ant ) (f ) |
 | konša (adv) |
 | konserni (n) |
 | konsertti (n) |
-| Konstantin (np) (al ) |
 | kontie (n) |
 | kontien#poikane (n) |
-| Kontupohja (np) (top ) |
 | koprallini (adj) |
 | kopra (n) |
 | koris#sukši (n) |
@@ -516,8 +572,6 @@ This is automatically generated dictionary visualisation
 | koškie (vblex) |
 | kos’s’onta (n) |
 | koštamukšelaini (adj) |
-| Kostamuš (np) (top ) |
-| Koštamuš (np) (top ) |
 | koti (n) |
 | koti#tarha (n) |
 | koukku (n) |
@@ -525,9 +579,6 @@ This is automatically generated dictionary visualisation
 | koulu (n) |
 | koulutuš (n) |
 | kova (adj) |
-| Koval’ova (np) (cog ) |
-| Krasnodar (np) (top ) |
-| KT (np) (al ) (acr ) |
 | kučču (n) |
 | kuččuo (vblex) |
 | kudai (prn) (itg ) |
@@ -552,7 +603,6 @@ This is automatically generated dictionary visualisation
 | kuorittoa (vblex) |
 | kuotella (vblex) |
 | ku (prn) (itg ) |
-| Kurgan (np) (top ) |
 | kuulla (vblex) |
 | kuuluo (vblex) |
 | kuulusa (adj) |
@@ -562,7 +612,6 @@ This is automatically generated dictionary visualisation
 | kuva (n) |
 | kuvitella (vblex) |
 | kuvittaja (n) |
-| Kyllikki (np) (ant ) |
 | kyllä (ij) |
 | kylä#kirjašto (n) |
 | kylä (n) |
@@ -587,7 +636,11 @@ This is automatically generated dictionary visualisation
 | käytteä (vblex) |
 | käyttäytyö (vblex) |
 | käyvä (vblex) |
-| Lahenpohja (np) (top ) |
+
+### l
+
+| *word* |
+|:-------|
 | lahja (n) |
 | lahja (n) |
 | laita (n) |
@@ -596,11 +649,9 @@ This is automatically generated dictionary visualisation
 | laitoš (n) |
 | laittehisto (n) |
 | laki (n) |
-| L’angin (np) (cog ) |
 | lapsien#kazvattaja (n) |
 | lapšienpruasiekka (n) |
 | lapši (n) |
-| Larisa (np) (ant ) (f ) |
 | laškie (vblex) |
 | laulaja (n) |
 | lauloa (vblex) |
@@ -609,15 +660,10 @@ This is automatically generated dictionary visualisation
 | laulu (n) |
 | laušeh (n) |
 | lava (n) |
-| Ledn’ova (np) (ant ) (f ) |
 | lehti (n) |
 | leikata (vblex) |
-| Lemminkäini (np) (ant ) (m ) |
-| Lenin (np) (cog ) |
-| Lenta (np) (al ) |
 | lenteä (vblex) |
 | lento#yhteyš (n) |
-| Levin (np) (top ) |
 | levähellä (vblex) |
 | libo (adv) |
 | libo (cnjcoo) |
@@ -638,8 +684,6 @@ This is automatically generated dictionary visualisation
 | lišäytyö (vblex) |
 | livvin#karjala (n) |
 | livvin#kieline (adj) |
-| Lobačov (np) (cog ) |
-| Loginova (np) (cog ) |
 | loitommakši (adv) |
 | loma (n) |
 | lopettamini (n) |
@@ -648,17 +692,13 @@ This is automatically generated dictionary visualisation
 | loppuni (adj) |
 | loppu (n) |
 | loppuo (vblex) |
-| Lotos (np) (al ) |
-| Louhi (np) (ant ) |
 | luajittu (adj) |
 | luatie (vblex) |
-| L’udmila (np) (ant ) (f ) |
 | luiskahtoa (vblex) |
 | lujah (adv) |
 | lujentamini (n) |
 | lukie (vblex) |
 | lukija (n) |
-| Lumikello (np) (al ) |
 | luokka (n) |
 | luokše (post) |
 | luomis#kilpailu (n) |
@@ -681,40 +721,35 @@ This is automatically generated dictionary visualisation
 | läpičči (post) |
 | läššä (adv) |
 | läššä#olija (n) |
-| Lönnrot (np) (cog ) |
 | löyteä (vblex) |
 | löyteä (vblex) |
 | löytyä (vblex) |
+
+### m
+
+| *word* |
+|:-------|
 | m€ (sym) |
-| M€ (sym) |
 | maa (n) |
 | mahollini (adj) |
 | mahollisuš (n) |
 | mahtava (adj) |
-| Maikki (np) (ant ) (f ) |
 | mainijo (adj) |
 | maitotehaš (n) |
 | makie (adj) |
-| Maksim (np) (ant ) (m ) |
 | malli (n) |
 | malli (n) |
 | malmi (n) |
 | malttoa (vblex) |
 | mamma (n) |
-| Manala (np) (top ) |
-| Manilova (np) (cog ) |
-| Mari (np) (ant ) (f ) |
-| Mari (np) (top ) |
 | marju (n) |
 | matka (n) |
 | matka (n) |
-| Matvei (np) (ant ) (m ) |
 | meččä#tie (n) |
 | mečän#haltija (n) |
 | mečästäjä (n) |
 | mehövä (adj) |
 | meininki (n) |
-| Melentjeva (np) (cog ) |
 | melkein (adv) |
 | melko (adv) |
 | melličä (n) |
@@ -743,26 +778,20 @@ This is automatically generated dictionary visualisation
 | mintäh (adv) |
 | minä (prn) (use _dialect ) (pers ) (p1 ) |
 | mi (prn) (itg ) |
-| Mirja (np) (ant ) (f ) |
-| Mišin (np) (cog ) |
 | mitailla (vblex) |
 | mitali (n) |
 | mitein (adv) |
 | mitänä (prn) (ind ) (sg ) (nom ) |
 | miärä (n) |
-| Moberg (np) (cog ) |
 | moldavijalaini (adj) |
 | molompi (prn) |
 | moni (prn) (ind ) |
 | monipuolisešti (adv) |
 | monipuolisus (n) |
 | mono#kaupunki (n) |
-| Mordouvia (np) (top ) |
-| Moškova (np) (top ) |
 | muajilma (n) |
 | muamo (n) |
 | mua (n) |
-| Mugačeva (np) (cog ) |
 | muhie (vblex) |
 | muistelehtoa (vblex) |
 | muisto#merkki (n) |
@@ -770,7 +799,6 @@ This is automatically generated dictionary visualisation
 | mukah (post) |
 | mukava (adj) |
 | muoto (n) |
-| Murmanšk (np) (top ) |
 | murre (n) |
 | musiikki#kollektiivi (n) |
 | musiikki (n) |
@@ -785,7 +813,11 @@ This is automatically generated dictionary visualisation
 | myöten (post) |
 | männä (vblex) |
 | mätäš (n) |
-| Nadežda (np) (ant ) |
+
+### n
+
+| *word* |
+|:-------|
 | naine (n) |
 | naine (n) |
 | nakru (n) |
@@ -796,7 +828,6 @@ This is automatically generated dictionary visualisation
 | ne (prn) (dem ) |
 | nerokaš (adj) |
 | nero (n) |
-| Nesterenko (np) (cog ) |
 | netti#šivu (n) |
 | neuvottelu (n) |
 | ni (cnjsub) |
@@ -804,15 +835,11 @@ This is automatically generated dictionary visualisation
 | niemi#mua (n) |
 | niin (adv) |
 | niise (adv) |
-| Nikiforov (np) (cog ) |
-| Nikolai (np) (ant ) (m ) |
 | nikonša (adv) |
 | nimeltäh (post) |
 | nimetä (vblex) |
 | nimi (n) |
-| Nina (np) (ant ) (f ) |
 | noin (adv) |
-| № (n) (abbr ) |
 | noššattoa (vblex) |
 | noštoa (vblex) |
 | noštoa (vblex) |
@@ -842,12 +869,16 @@ This is automatically generated dictionary visualisation
 | näytteä (vblex) |
 | näyttyä (vblex) |
 | näyttyä (vblex) |
+
+### o
+
+| *word* |
+|:-------|
 | ohjelma (n) |
 | oikein (adv) |
 | oikeuš (n) |
 | oikie (adj) |
 | okša (n) |
-| Olga (np) (ant ) (f ) |
 | olka#piä (n) |
 | olka-piä (n) |
 | olla (vaux) |
@@ -869,17 +900,19 @@ This is automatically generated dictionary visualisation
 | oppie (vblex) |
 | oppi#kirja (n) |
 | oraš#kuu (n) |
-| Orlov (np) (top ) |
 | ošallistuja (n) |
 | ošallistuo (vblex) |
 | oša (n) |
 | ošanottaja (n) |
 | ošašto (n) |
-| Ostankin (np) (top ) |
 | ottoa (vblex) |
 | ottua (vblex) |
 | ottuo (vblex) |
-| OY (n) (acr ) |
+
+### p
+
+| *word* |
+|:-------|
 | paha (adj) |
 | pahoin (adv) |
 | paikallini (adj) |
@@ -897,14 +930,10 @@ This is automatically generated dictionary visualisation
 | pakkaispäivä (n) |
 | palačči (n) |
 | palačči#ranta#katu (n) |
-| Palmgren (np) (cog ) |
 | pankka (n) |
 | panna (vblex) |
 | parantoa (vblex) |
 | paremmin (adv) |
-| Parfenčikov (np) (cog ) |
-| Pariisi (np) (ant ) |
-| Pariisi (np) (top ) |
 | pari (num) (card ) |
 | partn’ori (n) |
 | passipo (ij) |
@@ -929,11 +958,7 @@ This is automatically generated dictionary visualisation
 | persona (n) |
 | peruštoa (vblex) |
 | petoš (n) |
-| Petri (np) (ant ) (m ) |
-| PetropavlovskKamčatski (np) (top ) |
 | petroskoilaini (adj) |
-| Petroskoi (np) (top ) |
-| Petru (np) (ant ) |
 | piekšu (n) |
 | pieni (adj) |
 | piiplija (n) |
@@ -941,8 +966,6 @@ This is automatically generated dictionary visualisation
 | piirua (n) |
 | piiruššuš#kilpailu (n) |
 | piiruššuš (n) |
-| Piiteri (np) (top ) |
-| Piiteri (np) (top ) |
 | pikkaraini (adj) |
 | pimie#kuu (n) |
 | pisteh (n) |
@@ -951,7 +974,6 @@ This is automatically generated dictionary visualisation
 | piteä (vblex) |
 | piteä (vblex) |
 | pitin (post) |
-| Pitkäranta (np) (cog ) |
 | pito (n) |
 | pito (n) |
 | pituni (adj) |
@@ -967,12 +989,9 @@ This is automatically generated dictionary visualisation
 | piäštä (vblex) |
 | piätteä (vblex) |
 | piätöš (n) |
-| PKC (np) (al ) (acr ) |
 | planetta (n) |
 | pohjalla (post) |
-| Pohjoiskello (np) (al ) |
 | pohjois#piiri (n) |
-| Pohjola (np) (top ) |
 | pohjone (adj) |
 | pohjone (n) |
 | poika (n) |
@@ -980,73 +999,16 @@ This is automatically generated dictionary visualisation
 | poikkoseh (adv) |
 | poimenta (n) |
 | poimie (vblex) |
-| Polenov (np) (cog ) |
 | polvi (n) |
 | popularisointi (n) |
 | porkkana (n) |
-| Potapovo (np) (top ) |
 | projekta (n) |
 | projekti (n) |
 | projektu (n) |
 | proplema (n) |
-| Prošenko (np) (cog ) |
 | pruas#niekka (n) |
-|   |
-|   |
-| Puavali (np) (ant ) (m ) |
 | puittehis (post) |
 | puna#juuri (n) |
-| / (punct) (n ) |
-| - (punct) |
-|  ! (punct) |
-| ? (punct) |
-|  ! (punct) |
-|  " (punct) |
-|  " (punct) |
-|   |
-|  ; (punct) |
-|  ( (punct) |
-| ) (punct ) |
-| ' (punct) |
-| ' (punct) |
-| ( !) (punct) |
-| ( (punct) |
-| (?) (punct) |
-| ) (punct) |
-| * (punct) |
-| , (punct) |
-| - (punct) |
-| -- (punct) |
-| . (punct) |
-| .. (punct) |
-| ... (punct) |
-| .... (punct) |
-| ? (punct) |
-| [ (punct) |
-| ] (punct) |
-| ` (punct) |
-| { (punct) |
-| } (punct) |
-| ¡ (punct) |
-| « (punct) |
-| « (punct) |
-| ´ (punct) |
-| » (punct) |
-| » (punct) |
-| ¿ (punct) |
-| ˗ (punct) |
-| – (punct) |
-| — (punct) |
-| ― (punct) |
-| ’ (punct) |
-| ’ (punct) |
-| “ (punct) |
-| ” (punct) |
-| ” (punct) |
-| ‥ (punct) |
-| … (punct) |
-| ‹ (punct) |
-| › (punct) |
 | puolalaini (adj) |
 | puoleheš (adv) |
 | puolella (post) |
@@ -1054,7 +1016,6 @@ This is automatically generated dictionary visualisation
 | puoli (n) |
 | puolitoista (num) (card ) |
 | pureškella (vblex) |
-| Puudož (np) (top ) |
 | puukko (n) |
 | puunjaloššuš (n) |
 | päih (adv) |
@@ -1063,10 +1024,14 @@ This is automatically generated dictionary visualisation
 | päivä#koti (n) |
 | päivän#kakkara#ryhmä (n) |
 | päivä (n) |
+
+### r
+
+| *word* |
+|:-------|
 | rahvahan#luomis#työ (n) |
 | rahvahan#tapa (n) |
 | rahvaš (n) |
-| Raisa (np) (ant ) (f ) |
 | raja (n) |
 | rakennuš (n) |
 | rakentamini (n) |
@@ -1079,16 +1044,13 @@ This is automatically generated dictionary visualisation
 | rehellini (adj) |
 | rekonstruointi (n) |
 | remontti (n) |
-| Remšujeva (np) (top ) |
 | restaurointi#työ (n) |
 | rikka#ruoho (n) |
 | rikkuo (vblex) |
-| Rinkevič (np) (cog ) |
 | rinnalla (post) |
 | rinnalta (post) |
 | roikkuo (vblex) |
 | rooli (n) |
-| Rooma (np) (top ) |
 | ropehelline (n) |
 | roveh (n) |
 | ruado (n) |
@@ -1110,8 +1072,49 @@ This is automatically generated dictionary visualisation
 | ruveta (vblex) |
 | ryhmä (n) |
 | ryhtyö (vblex) |
-| Saha (np) (top ) |
+
+### s
+
+| *word* |
+|:-------|
 | saitti (n) |
+| sattuo (vblex) |
+| seiččemen (num) (card ) |
+| seiččemeš (adj) (ord ) |
+| seikkailu (n) |
+| semmoni (adj) |
+| sentäh (adv) |
+| sie (prn) (pers ) (p2 ) (sg ) |
+| siti#keškuš (n) |
+| siäkši (n) |
+| sointi (n) |
+| solo#esityš (n) |
+| sosiali-talouvellini (adj) |
+| spartakiadi (n) |
+| spasibo (ij) |
+| spektakli (n) |
+| sponsori (n) |
+| sponssori (n) |
+| staraija (vblex) |
+| starina#kirja (n) |
+| starina#muajilma (n) |
+| starinan#kertoja (n) |
+| starina (n) |
+| starinoija (vblex) |
+| statussi (n) |
+| studentti (n) |
+| suaha (vblex) |
+| sualeš (n) |
+| sukši (n) |
+| sul’č'cina (n) |
+| suomelane (adj) |
+| suorah (adv) |
+| syvästi (adv) |
+
+### š
+
+| *word* |
+|:-------|
 | šakšalaine (n) |
 | šalvata (vblex) |
 | šama (adj) |
@@ -1119,24 +1122,15 @@ This is automatically generated dictionary visualisation
 | šamanmoini (adj) |
 | šammuttoa (vblex) |
 | šammuttua (vblex) |
-| Samoa (np) (top ) |
 | šamoin (adv) |
-| Šampo (np) (ant ) (m ) |
 | šana (n) |
 | šanoa (vblex) |
-| Santra (np) (ant ) (f ) |
 | šanuo (vblex) |
 | šanuo (vblex) |
 | šata (num) (card ) |
 | šattuma (n) |
-| sattuo (vblex) |
-| Scania (np) (al ) |
-| seiččemen (num) (card ) |
-| seiččemeš (adj) (ord ) |
-| seikkailu (n) |
 | šeikkailu#peli (n) |
 | šeikka (n) |
-| Šeina (np) (cog ) |
 | šeisatuš (n) |
 | šeisuo (vblex) |
 | šejašša (adv) |
@@ -1146,20 +1140,14 @@ This is automatically generated dictionary visualisation
 | šelittyä (vblex) |
 | šelvä (adj) |
 | šemmoini (adj) |
-| semmoni (adj) |
 | šemmoni (adj) |
-| Sem’onova (np) (cog ) |
-| sentäh (adv) |
 | še (prn) (dem ) |
-| Sergei (np) (ant ) (m ) |
 | šeura (n) |
 | šeurašša (post) |
 | šeuruava (adj) |
 | šeutu (n) |
-| Sidnei (np) (top ) |
 | šielu (n) |
 | šielä (adv) |
-| sie (prn) (pers ) (p2 ) (sg ) |
 | šiipi (n) |
 | šiirtyä (vblex) |
 | šijahini (n) |
@@ -1170,11 +1158,9 @@ This is automatically generated dictionary visualisation
 | šilmä (n) |
 | šilta (n) |
 | šilti (adv) |
-| siti#keškuš (n) |
 | šituo (vblex) |
 | šituo (vblex) |
 | šivu (n) |
-| siäkši (n) |
 | šiämeh (post) |
 | šiämeššä (post) |
 | šiämeštä (post) |
@@ -1184,36 +1170,13 @@ This is automatically generated dictionary visualisation
 | šiätijö (n) |
 | škola (n) |
 | škuappi (n) |
-| Slavmo (np) (al ) |
-| sointi (n) |
 | šointu (n) |
 | šoitin (n) |
 | šoittaja (n) |
 | šoittoa (vblex) |
 | šoittu (n) |
-| Sokolov (np) (cog ) |
-| solo#esityš (n) |
 | šopie (vblex) |
-| sosiali-talouvellini (adj) |
-| spartakiadi (n) |
-| spasibo (ij) |
-| spektakli (n) |
-| Spitsina (np) (cog ) |
-| sponsori (n) |
-| sponssori (n) |
-| Stankevičus (np) (cog ) |
-| staraija (vblex) |
-| starina#kirja (n) |
-| starina#muajilma (n) |
-| starinan#kertoja (n) |
-| starina (n) |
-| starinoija (vblex) |
-| State (np) (top ) |
-| statussi (n) |
-| studentti (n) |
-| suaha (vblex) |
 | šuaha (vblex) |
-| sualeš (n) |
 | šuari (n) |
 | šuarna (n) |
 | šuaten (post) |
@@ -1221,16 +1184,10 @@ This is automatically generated dictionary visualisation
 | šuhtautumini (n) |
 | šuhteh (n) |
 | šujuvašti (adv) |
-| sukši (n) |
 | šuku (n) |
 | šula#kuu (n) |
-| sul’č'cina (n) |
 | šuojella (vblex) |
-| suomelane (adj) |
-| Suomi (np) (top ) |
-| Šuomi (np) (top ) |
 | šuo (n) |
-| suorah (adv) |
 | šuorittoa (vblex) |
 | šuorittua (vblex) |
 | šuosittu (adj) |
@@ -1242,53 +1199,8 @@ This is automatically generated dictionary visualisation
 | šuunta (n) |
 | šuuri (adj) |
 | šuvaija (vblex) |
-| # (sym) (n ) |
-| # (sym) (n ) |
-|    (sym) (n ) |
-| = (sym) (n ) |
-| ≥ (sym) (n ) |
-|    (sym) |
-|   |
-|   |
-|   |
-|   |
-|  ;) (sym) |
-|  ;-) (sym) |
-| * (sym) |
-| + (sym) |
-| , (sym) |
-| @ (sym) |
-| \ (sym) |
-| ^ (sym) |
-| _ (sym) |
-| ` (sym) |
-| | (sym) |
-| ~ (sym) |
-|   (sym) |
-| § (sym) |
-| §§ (sym) |
-| © (sym) |
-| ® (sym) |
-| ° (sym) |
-| ± (sym) |
-| ´ (sym) |
-| ¶ (sym) |
-| · (sym) |
-| × (sym) |
-| ‘ (sym) |
-| ‰ (sym) |
-| ′ (sym) |
-| → (sym) |
-| − (sym) |
-| ≤ (sym) |
-| ☹ (sym) |
-| ☺ (sym) |
-| ☻ (sym) |
-| ♥ (sym) |
-| ♪ (sym) |
 | šyntyö (vblex) |
 | šyrjäh (adv) |
-| syvästi (adv) |
 | šyy (n) |
 | šyyvä (vblex) |
 | šyönti (n) |
@@ -1296,12 +1208,24 @@ This is automatically generated dictionary visualisation
 | šähkö (n) |
 | šähköpošti (n) |
 | šäilyttämini (n) |
+
+### Š
+
+| *word* |
+|:-------|
+| Šampo (np) (ant ) (m ) |
+| Šeina (np) (cog ) |
+| Šuomi (np) (top ) |
+
+### t
+
+| *word* |
+|:-------|
 | ta (cnjcoo) |
 | tahi (cnjcoo) |
 | tahtoa (vblex) |
 | tai (cnjcoo) |
 | taimen (n) |
-| Taimira (np) (top ) |
 | taiteh (n) |
 | taiteilija (n) |
 | takaperin (adv) |
@@ -1334,8 +1258,6 @@ This is automatically generated dictionary visualisation
 | taša#valta (n) |
 | tašo (n) |
 | tatari (n) |
-| Tatjana (np) (ant ) (f ) |
-| Tat’t’ana (np) (ant ) (f ) |
 | tavara (n) |
 | tavoin (adv) |
 | teatteri (n) |
@@ -1346,7 +1268,6 @@ This is automatically generated dictionary visualisation
 | tehtävä (n) |
 | tekstiili (n) |
 | tekstii (n) |
-| Terentjev (np) (cog ) |
 | terväni (adj) |
 | tie (n) |
 | tie#pätkä (n) |
@@ -1359,11 +1280,9 @@ This is automatically generated dictionary visualisation
 | tietäjä (n) |
 | tiijuššella (vblex) |
 | tiijuštua (vblex) |
-| Tikkanen (np) (cog ) |
 | tila (n) |
 | tila (n) |
 | tiälä (adv) |
-| ™ (sym) |
 | toičči (adv) |
 | toimeh#pito (n) |
 | toimie (vblex) |
@@ -1375,7 +1294,6 @@ This is automatically generated dictionary visualisation
 | toisihis (adv) |
 | toivuo (vblex) |
 | torni (n) |
-| Torvinen (np) (cog ) |
 | toteuttamini (n) |
 | toteuttoa (vblex) |
 | totini (adj) |
@@ -1384,7 +1302,6 @@ This is automatically generated dictionary visualisation
 | tuatto (n) |
 | tuisku#kuu (n) |
 | tuki (n) |
-| Tula (np) (top ) |
 | tulija (n) |
 | tulla (vblex) |
 | tuloš (n) |
@@ -1416,8 +1333,6 @@ This is automatically generated dictionary visualisation
 | tuuli#generattori (n) |
 | tuuvva (vblex) |
 | tuuvvittamini (n) |
-| Tver (np) (top ) |
-| TV (n) (acr ) |
 | tyhjä (adj) |
 | tykytä (vblex) |
 | työllistyä (vblex) |
@@ -1432,13 +1347,15 @@ This is automatically generated dictionary visualisation
 | täyšin (adv) |
 | täyttyä (vblex) |
 | täyvellisešti (adv) |
-| Udmurtia (np) (top ) |
-| Udmurtija (np) (top ) |
+
+### u
+
+| *word* |
+|:-------|
 | ugrilane (adj) |
 | ukkoineh (adv) |
 | ukko (n) |
 | ukrainalaini (adj) |
-| Uljana (np) (cog ) |
 | ulko#maa (n) |
 | ulko#puoli (n) |
 | ulko#vaihe (n) |
@@ -1448,11 +1365,13 @@ This is automatically generated dictionary visualisation
 | urheilu (n) |
 | uškuo (vblex) |
 | uškuo (vblex) |
-| Ust’-Avam (np) (top ) (use_nonstandard ) |
-| Ust’-Avam (np) (top ) |
 | uuši (adj) |
 | uusi#vuosi (n) |
-| V (adj) (ord ) (sg ) (nom ) |
+
+### v
+
+| *word* |
+|:-------|
 | vahva (adj) |
 | vai (cnjcoo) |
 | vaihella (vblex) |
@@ -1471,7 +1390,6 @@ This is automatically generated dictionary visualisation
 | vakumi (n) |
 | valehuš (n) |
 | valehuš (n) |
-| Valentina (np) (ant ) (f ) |
 | valettu (adj) |
 | valita (vblex) |
 | valkie (adj) |
@@ -1496,7 +1414,6 @@ This is automatically generated dictionary visualisation
 | varma (adj) |
 | varoin (post) |
 | varšinki (adv) |
-| Vasiljeva (np) (cog ) |
 | vaššata (vblex) |
 | vaššen (post) |
 | vašta (adv) |
@@ -1510,75 +1427,70 @@ This is automatically generated dictionary visualisation
 | vejen#haltija (n) |
 | ven’ankieline (adj) |
 | ven. (n) (abbr ) |
-| Venäjä (np) (top ) |
 | venäjä (n) |
 | venäläini (adj) |
 | verotuš (n) |
 | verran (adv) |
 | vesi (n) |
-| Vestaskonserni (np) (al ) |
 | vet (adv) |
 | vetäjä (n) |
-| VI (adj) (ord ) (sg ) (nom ) |
 | vičča (n) |
 | vičerteä (vblex) |
 | video (n) |
 | vielä (adv) |
 | vienan#karjala (n) |
-| Viena (np) (top ) |
 | viereh (post) |
 | viereššä (post) |
 | viereštä (post) |
 | viestihiihto (n) |
 | vietteä (vblex) |
-| VII (adj) (ord ) (sg ) (nom ) |
-| VIII (adj) (ord ) (sg ) (nom ) |
 | viiješ (adj) (ord ) |
 | viijä (vblex) |
 | viime (adv) |
 | viimeni (adj) |
 | viimeni (adj) |
-| Viipuni (np) (ant ) (m ) |
 | viisi (num) (card ) |
 | virallini (adj) |
 | virallisešti (adv) |
 | virka (n) |
 | virkkoa (vblex) |
 | viršša (n) |
-| Vladimir (np) (ant ) (f ) |
-| Vlasova (np) (cog ) |
-| Vlasova (np) (cog ) |
 | voija (vaux) |
 | voima (n) |
 | voittaja (n) |
 | voitto (n) |
 | voittua (vblex) |
-| Voločanka (np) (top ) |
-| Vologda (np) (top ) |
-| Volvo (np) (al ) |
 | vuate (n) |
-| Vuokkiniemi (np) (top ) |
 | vuolla (vblex) |
 | vuorikombinatti (n) |
 | vuosi (n) |
 | vuoši (n) |
-| -vuotini (adj) |
 | vuotis#päivä (n) |
 | vähembistö#kieli (n) |
 | vähän (adv) |
 | vähäšen (adv) |
-| Väinämöini (np) (ant ) (m ) |
 | väliaikani (adj) |
 | välillä (post) |
 | välin (adv) |
 | välini (adj) |
-| WWF (np) (al ) (acr ) |
+| V (adj) (ord ) (sg ) (nom ) |
+
+### w
+
+| *word* |
+|:-------|
 | wwf.ru (n) (abbr ) |
+
+### x
+
+| *word* |
+|:-------|
 | X (adj) (ord ) (sg ) (nom ) |
-|   |
-|   |
-|   |
-|   |
+
+### y
+
+| *word* |
+|:-------|
 | yandex (np) (al ) |
 | yhekšän (num) (card ) |
 | yhekšäš (adj) (ord ) |
@@ -1609,11 +1521,31 @@ This is automatically generated dictionary visualisation
 | yritteä (vblex) |
 | yštävällini (adj) |
 | yštävä (n) |
-| Zubanov (np) (cog ) |
+
+### z
+
+| *word* |
+|:-------|
+
+### ä
+
+| *word* |
+|:-------|
 | äijä (adv) |
 | äijän (adv) |
 | ämmöineh (adv) |
 | ämmölä (n) |
 | ämmö (n) |
 | äšen (adv) |
+
+### µ
+
+| *word* |
+|:-------|
 | µ (sym) (n ) |
+| µ (sym) (n ) |
+
+
+-----------------
+<small>Generated with [ApeVis](https://github.com/flammie/apevis-xslt)
+lexc2md 0.1</small>
