@@ -69,7 +69,7 @@ test: all
 
 
 docs/statistics.md: apertium-krl.krl.lexc
-	echo "# Apertium-fin statistics" > $@
+	echo "# $< statistics" > $@
 	echo >> $@
 	echo "## Alphabets" >> $@
 	echo >> $@
@@ -83,10 +83,29 @@ docs/statistics.md: apertium-krl.krl.lexc
 	echo >> $@
 	echo "## Lexemes" >> $@
 	echo "Approximately " >> $@
-	awk '/^LEXICON ADJ/,/^LEXICON ADJ_/ {print;}' $< |\
+	awk '/^LEXICON [A-Z][A-Z][^_]*$$/,/^LEXICON [A-Z]*_/ {print;}' $< |\
 		egrep -v '^!.*' |\
 		egrep -v '^$$' |\
 		fgrep -v LEXICON |\
 		wc -l >> $@
 	echo " lexemes in there." >> $@
 
+docs/apertium-krl.krl.lexc.md: apertium-krl.krl.lexc
+	echo "# $< dictionary" > $@
+	echo >> $@
+	echo "This is automatically generated dictionary visualisation" >> $@
+	echo >> $@
+	echo '| *word* |' >> $@
+	echo '|:-------|' >> $@
+	awk '/^LEXICON [A-Z][A-Z][^_]*$$/,/^LEXICON [A-Z]*_/ {print;}' $< |\
+		fgrep -v LEXICON |\
+		egrep -v '^!.*' |\
+		egrep -v '^$$' |\
+		fgrep : |\
+		sort |\
+		cut -d: -f 1 |\
+		tr '%' ' ' |\
+		tr '<>' '()' |\
+		sed -e 's/ )/)/' |\
+		sed -e 's/^/| /' -e 's/$$/ |/' >> $@
+	
