@@ -67,3 +67,45 @@ test: all
 	@diff .test-ref .test-mt
 	@rm .test-ref .test-mt
 
+
+docs/statistics.md: apertium-krl.krl.lexc
+	echo "# $< statistics" > $@
+	echo >> $@
+	echo "## Alphabets" >> $@
+	echo >> $@
+	$(AWK) '/Multichar_Symbols/,/LEXICON/ {print;}' $< |\
+		egrep -v '^!.*' |\
+		egrep -v '^$$' |\
+		fgrep -v LEXICON |\
+		fgrep -v Multichar_Symbols |\
+		wc -l >> $@
+	echo " symbols for tags." >> $@
+	echo >> $@
+	echo "## Lexemes" >> $@
+	echo "Approximately " >> $@
+	awk '/^LEXICON [A-Z][A-Z][^_]*$$/,/^LEXICON [A-Z]*_/ {print;}' $< |\
+		egrep -v '^!.*' |\
+		egrep -v '^$$' |\
+		fgrep -v LEXICON |\
+		wc -l >> $@
+	echo " lexemes in there." >> $@
+
+docs/apertium-krl.krl.lexc.md: apertium-krl.krl.lexc
+	echo "# $< dictionary" > $@
+	echo >> $@
+	echo "This is automatically generated dictionary visualisation" >> $@
+	echo >> $@
+	echo '| *word* |' >> $@
+	echo '|:-------|' >> $@
+	awk '/^LEXICON [A-Z][A-Z][^_]*$$/,/^LEXICON [A-Z]*_/ {print;}' $< |\
+		fgrep -v LEXICON |\
+		egrep -v '^!.*' |\
+		egrep -v '^$$' |\
+		fgrep : |\
+		sort |\
+		cut -d: -f 1 |\
+		tr '%' ' ' |\
+		tr '<>' '()' |\
+		sed -e 's/ )/)/' |\
+		sed -e 's/^/| /' -e 's/$$/ |/' >> $@
+	
