@@ -1,6 +1,6 @@
 AC_PREREQ(2.52)
 
-AC_INIT([Apertium Karelian], [0.0.0], [flammie@iki.fi], [apertium-krl], [http://wiki.apertium.org/wiki/Apertium-krl])
+AC_INIT([Apertium Karelian], [0.0.0], [flammie@iki.fi], [apertium-krl], [https://wiki.apertium.org/wiki/Apertium-krl])
 AM_INIT_AUTOMAKE
 
 AC_PROG_LN_S
