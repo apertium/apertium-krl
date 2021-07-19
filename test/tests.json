@@ -1,0 +1,6 @@
+{
+    "krl": {
+        "input": "krl-input.txt",
+        "mode": "krl-morph"
+    }
+}

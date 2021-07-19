@@ -27,7 +27,7 @@ $(LANG1).autogen.hfst: .deps/$(LANG1).lexc.hfst
 $(LANG1).automorf.hfst: .deps/$(LANG1).lexc.hfst .deps/$(LANG1).morf.twol.hfst
 	hfst-compose-intersect .deps/$(LANG1).lexc.hfst .deps/$(LANG1).morf.twol.hfst  |\
 		hfst-invert |\
- 		hfst-fst2fst -f olw -o $@
+		hfst-fst2fst -f olw -o $@
 
 $(LANG1).rlx.bin: $(BASENAME).$(LANG1).rlx $(CGCOMP)
 	$(CGCOMP) $< $@
@@ -62,10 +62,7 @@ clean-local:
 ###############################################################################
 
 test: all
-	echo "TODO test sentence" | apertium -d krl-morph | tee .test-mt
-	@echo "TODO test analysis results" > .test-ref
-	@diff .test-ref .test-mt
-	@rm .test-ref .test-mt
+	apertium-regtest test
 
 
 docs/statistics.md: apertium-krl.krl.lexc
@@ -108,4 +105,4 @@ docs/apertium-krl.krl.lexc.md: apertium-krl.krl.lexc
 		tr '<>' '()' |\
 		sed -e 's/ )/)/' |\
 		sed -e 's/^/| /' -e 's/$$/ |/' >> $@
-	
+
